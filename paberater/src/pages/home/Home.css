@@ -1,23 +1,54 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-.Asesoramos{
-  text-align: right;
-  width: 50vh;
+svg{
+  padding: 0;
+}
+
+.first-arrow{
+  margin-left: 10vh;
+}
+
+
+.container-home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+}
+
+.Asesoramos {
+  color: white;
+  display: grid;
+  font-size: 0.9rem;
 
 }
+
 
 .Acompañamos {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    text-align: left;
-    width: 40vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  font-size: 0.9rem;
+}
+.empty{
+  grid-column:1;
 }
 
 .Gestionamos {
-  text-align: right;
-  width: 50vh;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 0.9rem;
+}
+
+.empty-column {
+  grid-column: 2;
+}
+
+h1, h2{
+  color: chocolate;
 }
