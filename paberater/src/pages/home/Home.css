@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Asesoramos{
+  text-align: right;
+  width: 50vh;
+
+}
+
+.Acompañamos {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    width: 40vh;
+}
+
+.Gestionamos {
+  text-align: right;
+  width: 50vh;
+}
