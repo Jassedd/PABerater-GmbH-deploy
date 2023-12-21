@@ -3,6 +3,7 @@ import "./Home.css";
 import Jorge2 from "../../assets/icons/Jorge/Jorge2.svg";
 import BtnAdvisory from "../../components/btn-advisory/BtnAdvisory";
 import Jorge5 from "../../assets/icons/Jorge/jorge-5.svg"
+import Services from "../../components/services/Services";
 const Home = () => {
   return (
     <main>
@@ -101,6 +102,7 @@ const Home = () => {
           </div>
         </article>
       </section>
+      <Services />
     </main>
   );
 };

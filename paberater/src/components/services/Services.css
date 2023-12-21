@@ -1,0 +1,10 @@
+.img-service{
+    border-radius: 0 10vh 0 0;
+    width: 40vh;
+}
+.section-services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
