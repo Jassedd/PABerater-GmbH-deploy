@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Jorge2 from "../../assets/icons/Jorge/Jorge2.svg";
 import BtnAdvisory from "../../components/btn-advisory/BtnAdvisory";
+import Jorge5 from "../../assets/icons/Jorge/jorge-5.svg"
 const Home = () => {
   return (
     <main>
@@ -87,6 +88,18 @@ const Home = () => {
             </p>
           </div>
         </section>
+        <article className="talent">
+          <div className="figure">
+          <img src={Jorge5} alt="jorge" className="jorge5" />
+          <div className="talent-text">
+            <p>Tu pones el talento, 
+              <br />
+              nosotros nos encargamos de lo demás.
+            </p>
+          </div>
+          <BtnAdvisory />
+          </div>
+        </article>
       </section>
     </main>
   );

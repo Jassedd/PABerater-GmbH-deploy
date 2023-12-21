@@ -86,3 +86,34 @@ h1, h2{
 .jorge-img2{
   width: 40vh;
 }
+
+.jorge5{
+  width: 45vh;
+}
+.talent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.figure{
+  background-color: #E9EAF1;
+  margin-top: 5vh;
+  border-radius: 0 15vh 0 5vh;
+  width: 55vh;
+  height: 74vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.talent-text{
+  background-color:#25357a;
+  color: #FEEC8A;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 5vh;
+}
