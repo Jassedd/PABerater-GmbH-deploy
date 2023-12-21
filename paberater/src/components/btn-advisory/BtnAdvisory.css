@@ -1,0 +1,17 @@
+.btn-advisory{
+    background-color: #C8A75A;
+    border: 0;
+    width: 28vh;
+    height: 7vh;
+    border-radius: 10px;
+    color: #25357a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-btn{
+    width: 2vh;
+    margin-left: 2vh;
+}
+

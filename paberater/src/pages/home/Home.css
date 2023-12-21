@@ -5,6 +5,7 @@
 
 svg{
   padding: 0;
+  margin: 0;
 }
 
 .first-arrow{
@@ -50,5 +51,38 @@ svg{
 }
 
 h1, h2{
-  color: chocolate;
+  color: #C8A75A;
+}
+
+
+.what-do-we-do{
+  background-color: #25357a;
+}
+
+.resaltar {
+  color: #25357a;
+}
+
+.pequena {
+  font-size: 1.14rem;
+}
+
+.init-section{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  text-align:right;
+  justify-content: center;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
+.title-init{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+}
+
+.jorge-img2{
+  width: 40vh;
 }
