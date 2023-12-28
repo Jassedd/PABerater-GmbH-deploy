@@ -69,6 +69,7 @@
     background-color: #E9EAF1;
     width: 100%;
     display: flex;
+    margin-bottom: 5vh;
 }
 .Jorge-4{
     width: 27vh;
@@ -84,6 +85,5 @@
     border: 0;
     width: 26vh;
     height: 5vh;
-    border-radius: 10px;
-    margin-top: 5vh;    
+    border-radius: 10px;    
 }

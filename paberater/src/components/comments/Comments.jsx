@@ -6,32 +6,28 @@ import "./Comments.css"
 function Comments() {
     return (
       <>
-        <section>
+        <section className="sectionComments">
           <h1>Ellos confiaron en nosotros:</h1>
   
           <Carousel className="custom-carousel">
-            <Carousel.Item>
+            <Carousel.Item className="commentItems">
               <img src={ExampleCarouselImage} alt="" />
-              <Carousel.Caption>
                 <h3>First slide label</h3>
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-              </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+
+            <Carousel.Item className="commentItems">
               <img src={ExampleCarouselImage} alt="" />
-              <Carousel.Caption>
                 <h3>Second slide label</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+
+            <Carousel.Item className="commentItems">
               <img src={ExampleCarouselImage} alt="" />
-              <Carousel.Caption>
                 <h3>Third slide label</h3>
                 <p>
                   Praesent commodo cursus magna, vel scelerisque nisl consectetur.
                 </p>
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </section>

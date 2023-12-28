@@ -1,9 +1,21 @@
-.custom-carousel {
-    height: 50vh;
-    border: 2px solid blue;
+.sectionComments{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    color: black;
-  }
+}
+
+.custom-carousel {
+    border: 1px solid blue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    width: 50vh;
+    padding: 3vh
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
