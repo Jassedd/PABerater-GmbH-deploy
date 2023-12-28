@@ -91,14 +91,7 @@ const Home = () => {
         </section>
         <article className="talent">
           <div className="figure">
-          <img src={Jorge5} alt="jorge" className="jorge5" />
-          <div className="talent-text">
-            <p>Tu pones el talento, 
-              <br />
-              nosotros nos encargamos de lo demás.
-            </p>
-          </div>
-          <BtnAdvisory />
+            <img src={Jorge5} alt="jorge" className="jorge5" />
           </div>
         </article>
       </section>

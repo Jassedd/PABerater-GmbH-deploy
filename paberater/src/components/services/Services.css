@@ -1,10 +1,66 @@
 .img-service{
     border-radius: 0 10vh 0 0;
     width: 40vh;
+    margin-bottom: 2vh;
 }
 .section-services{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.titleService{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vh;
+}
+
+.arrow-btn{
+    
+    margin: 0;
+}
+
+.btn-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 10vh 10vh 10vh 10vh;
+    border: 0;
+}
+
+.servicesArticle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6vh;
+}
+
+.figure-BtnAdbisory{
+    background-color: #E9EAF1;
+    border-radius: 0 0 0 5vh;
+    display: flex;
+    height: 27vh;
+    flex-direction: column;
+    align-items: center;
+    width: 50vh;
+}
+.talent-text{
+    background-color:#25357a;
+    color: #FEEC8A;
+    height: 11vh;
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 4vh;
+}
+
+.title-services{
+    padding: 5vh;
 }
