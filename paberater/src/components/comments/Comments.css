@@ -1,0 +1,9 @@
+.custom-carousel {
+    height: 50vh;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
