@@ -6,6 +6,7 @@ import Service4 from "../../assets/img/service4.jpg";
 import ArrowBtn from "../../assets/icons/btn-arrow.svg";
 import "./Services.css";
 import BtnAdvisory from "../btn-advisory/BtnAdvisory";
+import Jorge4 from "../../assets/img/jorge-4.png"
 
 function Services() {
   return (
@@ -62,6 +63,17 @@ function Services() {
           </section>
         </article>
       </section>
+
+        <article>
+            <div className="JorgeSection">
+                <img src={Jorge4} alt="Jorge" className="Jorge-4"/>
+                <div className="JorgeArt">
+                    <h1>En PABerater</h1>
+                    <p>tenemos una maleta de posibilidades para tu crecimientp profesional.</p>
+                    <button className="btn-adviser">Hablar con un asesor</button>
+                </div>
+            </div>
+        </article>
     </>
   );
 }
