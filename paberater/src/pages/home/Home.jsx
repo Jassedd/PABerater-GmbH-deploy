@@ -5,6 +5,7 @@ import BtnAdvisory from "../../components/btn-advisory/BtnAdvisory";
 import Jorge5 from "../../assets/icons/Jorge/jorge-5.svg"
 import Services from "../../components/services/Services";
 import Comments from "../../components/comments/Comments";
+import JoinUp from "../../components/join-up/JoinUp";
 const Home = () => {
   return (
     <main>
@@ -98,6 +99,7 @@ const Home = () => {
       </section>
       <Services />
       <Comments />
+      <JoinUp />
     </main>
   );
 };

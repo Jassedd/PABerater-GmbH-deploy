@@ -70,6 +70,8 @@
     width: 100%;
     display: flex;
     margin-bottom: 5vh;
+    align-items: center;
+    justify-content: center;
 }
 .Jorge-4{
     width: 27vh;

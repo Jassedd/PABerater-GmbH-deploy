@@ -11,7 +11,8 @@
     align-items: center;
     height: 40vh;
     width: 50vh;
-    padding: 3vh
+    padding: 3vh;
+    text-align: center;
 }
 .carousel-item-next, .carousel-item-prev, .carousel-item.active{
     display: flex;

@@ -1,0 +1,48 @@
+.articleJoinUp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 18vh;
+    background-color: #E9EAF1;
+    padding: 5vh;
+}
+
+.HighlightedText {
+    color: #25357a;
+    font-size: 1.2em; 
+    font-weight: bold; 
+}
+
+.NumbersJoinUp{
+    font-size: 3.4rem;
+    color: #25357a;
+    margin-top: 4vh;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #C8A75A;
+    margin: 20px 0;
+}
+
+.textJoinUp{
+    color: #C8A75A;
+}
+
+.JorgeJoinUp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btnJoinUp{
+    background-color: #25357a;
+    color:#FEEC8A;
+    border: 0;
+    width: 26vh;
+    height: 6vh;
+    border-radius: 10px;
+}
