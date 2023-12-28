@@ -5,7 +5,7 @@
     text-align: center;
     margin-top: 18vh;
     background-color: #E9EAF1;
-    padding: 5vh;
+    padding-top: 5vh;
 }
 
 .HighlightedText {
@@ -45,4 +45,8 @@
     width: 26vh;
     height: 6vh;
     border-radius: 10px;
+}
+
+.jorge7{
+    width: 30vh;
 }

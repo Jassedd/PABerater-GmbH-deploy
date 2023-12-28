@@ -37,7 +37,7 @@ function JoinUp() {
         </section>
 
         <section className="JorgeJoinUp">
-          <img src={Jorge7} alt="" />
+          <img src={Jorge7} alt="" className="jorge7" />
           <div className="joinUp">
             <h3>¿Empezamos a planificar tu futuro en Alemania?</h3>
             <button className="btnJoinUp">¿Comenzamos?</button>

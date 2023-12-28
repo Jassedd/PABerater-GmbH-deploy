@@ -6,6 +6,7 @@ import Jorge5 from "../../assets/icons/Jorge/jorge-5.svg"
 import Services from "../../components/services/Services";
 import Comments from "../../components/comments/Comments";
 import JoinUp from "../../components/join-up/JoinUp";
+import SuccessStories from "../../components/success-stories/SuccessStories";
 const Home = () => {
   return (
     <main>
@@ -100,6 +101,7 @@ const Home = () => {
       <Services />
       <Comments />
       <JoinUp />
+      <SuccessStories />
     </main>
   );
 };
