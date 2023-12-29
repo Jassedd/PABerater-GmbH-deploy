@@ -1,0 +1,20 @@
+.mediaLogo{
+    display: flex;
+}
+.socialMediaLogo{
+    padding: 4vh;
+}
+
+.LogoPaberater{
+    width: 20vh;
+}
+
+.navbarHome{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.NavContainer{
+    background-color: #25357a;
+    border-radius: 20px;
+}
