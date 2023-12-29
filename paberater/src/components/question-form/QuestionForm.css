@@ -1,0 +1,36 @@
+.questionsTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5vh;
+}
+
+.questionForm{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+}
+
+.inputInfo{
+    padding: 3vh;
+    background-color: #E9EAF1;
+
+}
+
+.inputInfo input {
+    border: 1px solid #25357a;
+  }
+
+.titleQuestion{
+    color: #25357a;
+}
+
+#controlProfession, #controlEmails, #controlEmailConfirmation, #controlProfession{
+    height: 9vh;
+}
+
+#controlQuestion{
+    height: 20vh;
+}

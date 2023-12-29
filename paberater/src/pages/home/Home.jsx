@@ -7,6 +7,7 @@ import Services from "../../components/services/Services";
 import Comments from "../../components/comments/Comments";
 import JoinUp from "../../components/join-up/JoinUp";
 import SuccessStories from "../../components/success-stories/SuccessStories";
+import QuestionForm from "../../components/question-form/QuestionForm";
 const Home = () => {
   return (
     <main>
@@ -102,6 +103,7 @@ const Home = () => {
       <Comments />
       <JoinUp />
       <SuccessStories />
+      <QuestionForm />
     </main>
   );
 };
