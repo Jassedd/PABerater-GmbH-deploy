@@ -14,7 +14,7 @@ function NavbarHome() {
         <img src={Logo} alt="" className='LogoPaberater'/>
       <Container className='NavContainer'>
         <Navbar.Brand className='mediaLogo'>
-        <button className='btn-advisory'>Quiero saber más</button>
+        <button className='btn-nav'>Quiero saber más</button>
         <img src={IntagramLogo} alt="instagram logo" className='socialMediaLogo' />
         <img src={YoutubeLogo} alt="youtube logo" className='socialMediaLogo' />
         <img src={FacebookLogo} alt="facebook logo" className='socialMediaLogo' />

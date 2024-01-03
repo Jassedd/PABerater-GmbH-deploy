@@ -2,7 +2,13 @@
     display: flex;
 }
 .socialMediaLogo{
-    padding: 4vh;
+
+}
+
+.btn-nav{
+    font-size: 1rem;
+    border-radius: 10px;
+    width: 30vh
 }
 
 .LogoPaberater{
@@ -10,8 +16,7 @@
 }
 
 .navbarHome{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
 }
 
 .NavContainer{
