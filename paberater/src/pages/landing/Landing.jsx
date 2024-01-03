@@ -12,7 +12,7 @@ function Landing() {
         <iframe
         width="90%"
         height="315"
-        src={`https://www.youtube.com/embed/BUNz04l4dHg`}
+        src={`https://www.youtube.com/embed/xoQ3T-FoM`}
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
