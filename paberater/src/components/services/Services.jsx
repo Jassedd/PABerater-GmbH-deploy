@@ -7,6 +7,7 @@ import ArrowBtn from "../../assets/icons/btn-arrow.svg";
 import "./Services.css";
 import BtnAdvisory from "../btn-advisory/BtnAdvisory";
 import Jorge4 from "../../assets/img/jorge-4.png"
+import { Link } from "react-router-dom";
 
 function Services() {
   return (
@@ -27,9 +28,12 @@ function Services() {
           <img src={Service1} alt="" className="img-service" />
           <section className="titleService">
             <h3>Homologación de títulos</h3>
+            <Link to="/homologaciones">
             <button className="btn-arrow">
               <img className="arrow-btn" src={ArrowBtn} alt="button arrow" />
             </button>
+
+            </Link>
           </section>
         </article>
 

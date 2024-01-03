@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+svg{
+    padding: 0;
+    margin: 0;
+}
+
+.img_homologate {
+width: 40vh;
+border-radius: 0 15vh 0 15vh;
+margin-bottom: 2vh;
+margin-top: 10%;
+
+}
+
+.title_img1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.title_img2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.figure_title {
+    background-color: #25357a9c;
+    color: #C8A75A;
+    width: 86%;
+    height: 12%;
+    border-radius: 4vh 0 4vh 0;
+    position:absolute;
+    margin-top: 6rem;
+
+}
+
+.homologate_services1 {
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+/* -------homologación image style end--------------*/
+
+.title{
+    font-size: 5vh;
+    margin: 1rem;
+}
+.title_text{
+margin: 1rem;
+margin-bottom: 4rem;
+color: #25357a;
+}
+
+.name_video{
+    margin: 1em;
+    font-weight:bold;
+    font-size: medium;
+    margin-right: 2rem;
+    color: #25357a;
+}
+
+.text_name_video{
+    margin-left: 1.5em;
+}
+
+.text_background_Blue{
+background-color: #25357a;
+}
+
+.text_blueContainer{
+    margin: 0.5em;
+    padding: 2em;
+    color: white;
+}
+
+.jorge_img{
+    width: 20vh;
+}
+
+.callToAction_container{
+
+    display: flex;
+    flex-direction: row;
+}
