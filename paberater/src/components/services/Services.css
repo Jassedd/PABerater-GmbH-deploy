@@ -61,7 +61,7 @@
 }
 
 .title-services{
-    padding: 5vh;
+    margin-top: 5vh;
 }
 
 
@@ -85,7 +85,7 @@
     background-color: #25357a;
     color:#FEEC8A;
     border: 0;
-    width:19vh;
+    width: 25vh;
     height: 5vh;
     border-radius: 10px;   
     font-size: 0.9rem; 

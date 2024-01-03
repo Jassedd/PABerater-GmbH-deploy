@@ -5,7 +5,7 @@ import "./SuccessStories.css";
 function SuccessStories() {
   return (
     <section className="successStories">
-      <h1>Ellos han confiado en PABerater</h1>
+      <h1 className="successTitle">Ellos han confiado en PABerater</h1>
       <iframe
         width="90%"
         height="315"
@@ -16,7 +16,7 @@ function SuccessStories() {
         allowfullscreen
       ></iframe>
 
-      <Carousel className="custom-carousel">
+      <Carousel className="carousel-stories">
         <Carousel.Item className="commentItems">
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>

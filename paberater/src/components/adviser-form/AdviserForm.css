@@ -1,0 +1,19 @@
+
+.inputInfoAdviser{
+    padding: 3vh;
+    background-color: #E9EAF1;
+
+}
+
+.inputInfoAdviser input {
+    border: 1px solid #25357a;
+  }
+
+
+#controlProfessionAdviser, #controlEmailsAdviser, #controlEmailConfirmationAdviser, #controlProfessionAdviser, #controlNationalityAdviser, #controlCountryAdviser{
+    height: 9vh;
+}
+
+#controlQuestion{
+    height: 20vh;
+}

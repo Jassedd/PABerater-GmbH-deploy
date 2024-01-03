@@ -2,5 +2,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #25357a;
+}
+.successTitle{
+    margin: 5vh 0;
+    color: white;
+    text-align: center;
+}
+
+.carousel-stories {
+    border: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    width: 70%;
+    padding: 3vh;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
