@@ -5,14 +5,17 @@ import Arrow2 from "../../assets/icons/Arrow-landing5.svg"
 import Time from "../../assets/img/ahorra-tiempo-dinero.svg"
 import JorgePaberater from "../../assets/img/jorge-Paberater.svg"
 import AdviserForm from "../../components/adviser-form/AdviserForm"
+import EmailIcon from "../../assets/icons/Icon_email.svg"
+import PhoneIcon from "../../assets/icons/Icon_phone.svg"
+
 
 function Landing() {
   return (
     <>
         <iframe
         width="90%"
-        height="315"
-        src={`https://www.youtube.com/embed/xoQ3T-FoM`}
+        height="520vh"
+        src={`https://www.youtube.com/embed/I_xoQ3T-FoM`}
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -20,26 +23,26 @@ function Landing() {
       ></iframe>
 
       <section className='first-stape'>
-        <h1>El primer paso hacia</h1>
-        <h6>tu crecimiento profesional</h6>
-        <h2>en Alemania</h2>
-        <h5>está solo a 30min</h5>
+        <h1 className="first-title-landing"> <span className="article-span">El</span>  primer paso hacia</h1>
+        <h4 className="first-text-landing">tu crecimiento profesional</h4>
+        <h2 className="second-title-landing"><span className="article-span">en</span> Alemania</h2>
+        <h5 className="second-text-landing">está solo a 30min</h5>
       </section>
 
-      <section>
+      <section className="section-assignment">
         <p>¡Te asignaremos un asesor personalizado!</p>
       </section>
 
         <AdviserForm />
-
-        <article>
-            <img src="" alt="" />
-            <p>info@paberater.de</p>
+        
+        <article className="landing-contact">
+            <img src={EmailIcon} alt="Email icon" />
+            <p className="text-contact-landing">info@paberater.de</p>
         </article>
 
-        <article>
-            <img src="" alt="" />
-            <p>+49 157 806 33091</p>
+        <article className="landing-contact">
+            <img src={PhoneIcon} alt="phone icon" />
+            <p className="text-contact-landing">+49 157 806 33091</p>
         </article>
         <img src={Jorge5} alt="" className='Jorge-5-landing'/>
         <div className='Figure-text-landing'>

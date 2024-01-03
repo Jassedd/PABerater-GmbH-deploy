@@ -17,3 +17,25 @@
 #controlQuestion{
     height: 20vh;
 }
+
+.btn-added{
+    background-color: #25357a ;
+    border: 0;
+    width: 20vh;
+    height: 7.5vh;
+    border-radius: 10px;
+    color: #FEEC8A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.adviserBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
-import "./QuestionForm.css";
+import "./AdviserForm.css";
+
 
 function AdviserForm() {
   const [email, setEmail] = useState("");
@@ -24,7 +24,7 @@ function AdviserForm() {
     <>
       <Form className="adviserForm">
 
-      <Form.Group className="inputInfoAdviser" controlId="controlProfessionAdviser">
+       <Form.Group className="inputInfoAdviser" controlId="controlProfessionAdviser">
           <Form.Control type="text" placeholder="Nombre completo *" required />
         </Form.Group>
 
@@ -81,13 +81,16 @@ function AdviserForm() {
             required
           />
         </Form.Group>
+        <div className="adviserBtn">
         <button
           type="submit"
+          className="btn-added"
           onClick={handleSubmit}
           disabled={email !== confirmEmail}
         >
           Agendar
         </button>
+        </div>
       </Form>
     </>
   );

@@ -1,0 +1,40 @@
+.first-stape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #C8A75A;
+}
+
+.first-title-landing, .second-title-landing, .second-text-landing{
+    color: #25357a;
+}
+
+.first-text-landing, .article-span{
+    color: white;
+}
+
+.section-assignment{
+    background-color: #25357a;
+    color: white;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.landing-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.text-contact-landing{
+    margin-left: 3vh;
+    color: #25357a;
+}
+
+.Jorge-5-landing{
+    width: 40vh;
+}
