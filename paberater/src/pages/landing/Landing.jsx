@@ -4,6 +4,7 @@ import Arrow1 from "../../assets/icons/Arrow-landing1.svg"
 import Arrow2 from "../../assets/icons/Arrow-landing5.svg"
 import Time from "../../assets/img/ahorra-tiempo-dinero.svg"
 import JorgePaberater from "../../assets/img/jorge-Paberater.svg"
+import AdviserForm from "../../components/adviser-form/AdviserForm"
 
 function Landing() {
   return (
@@ -28,7 +29,8 @@ function Landing() {
       <section>
         <p>¡Te asignaremos un asesor personalizado!</p>
       </section>
-    
+
+        <AdviserForm />
 
         <article>
             <img src="" alt="" />

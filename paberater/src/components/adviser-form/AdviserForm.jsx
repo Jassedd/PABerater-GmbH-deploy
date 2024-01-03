@@ -3,7 +3,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import "./QuestionForm.css";
 
-function QuestionForm() {
+function AdviserForm() {
   const [email, setEmail] = useState("");
   const [confirmEmail, setConfirmEmail] = useState("");
   function handleSubmit(event) {
@@ -93,4 +93,4 @@ function QuestionForm() {
   );
 }
 
-export default QuestionForm;
+export default AdviserForm;
