@@ -7,7 +7,7 @@ function SuccessStories() {
     <section className="successStories">
       <h1>Ellos han confiado en PABerater</h1>
       <iframe
-        width="100%"
+        width="90%"
         height="315"
         src={`https://www.youtube.com/embed/BUNz04l4dHg`}
         title="YouTube video player"

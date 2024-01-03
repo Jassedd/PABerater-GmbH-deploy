@@ -1,25 +1,26 @@
 .mediaLogo{
     display: flex;
 }
-.socialMediaLogo{
-
-}
 
 .btn-nav{
-    font-size: 1rem;
+    font-size: 0.8rem;
     border-radius: 10px;
-    width: 30vh
+    width: 23vh;
+    margin-right: 2vh;
 }
 
 .LogoPaberater{
-    width: 20vh;
+    width: 14vh;
 }
 
 .navbarHome{
     display: flex;
+    
 }
 
 .NavContainer{
     background-color: #25357a;
     border-radius: 20px;
+    width: 50%;
+    justify-content: space-between;
 }

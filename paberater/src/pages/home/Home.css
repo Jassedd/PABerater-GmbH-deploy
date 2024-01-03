@@ -9,7 +9,7 @@ svg{
 }
 
 .first-arrow{
-  margin-left: 10vh;
+  margin-left: 1vh;
 }
 
 
@@ -69,12 +69,10 @@ h1, h2{
 
 .init-section{
   display: flex;
-  flex-direction: row-reverse;
   align-items: flex-start;
   text-align:right;
   justify-content: center;
-  margin-left: 2vh;
-  margin-right: 2vh;
+
 }
 
 .title-init{
@@ -83,8 +81,23 @@ h1, h2{
   font-size: 1.6rem;
 }
 
+.div-init{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15vh;
+}
+
+.container-img{
+  display: flex;
+  margin-top: -20vh;
+}
+
 .jorge-img2{
-  width: 40vh;
+  width: 25vh;
+  display: flex;
+  margin: 0;
 }
 
 .jorge5{
@@ -99,7 +112,6 @@ h1, h2{
   background-color: #E9EAF1;
   margin-top: 5vh;
   border-radius: 0 15vh 0 0;
-  width: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;

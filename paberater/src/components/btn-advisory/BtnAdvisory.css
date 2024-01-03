@@ -1,7 +1,7 @@
 .btn-advisory{
     background-color: #C8A75A;
     border: 0;
-    width: 36vh;
+    width: 20vh;
     height: 7.5vh;
     border-radius: 10px;
     color: #25357a;
@@ -9,11 +9,10 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
+    font-size: 0.8rem;
+    margin: 0;
 }
 
-.arrow-btn{
-    width: 2vh;
-    margin-left: 2vh;
-}
+
 
 

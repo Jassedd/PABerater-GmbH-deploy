@@ -11,23 +11,27 @@ import QuestionForm from "../../components/question-form/QuestionForm";
 const Home = () => {
   return (
     <main>
-      <section className="init-section">
-        <h1>
-          Asesoramos 
-          <br />
-          a <span className="resaltar">profesionales
-          </span>
-          <br />
-          <span className="pequena">que</span>{" "}
-          <span className="pequena resaltar">desean</span>{" "}
-          <span className="resaltar">emigrar</span>
-          <br />
-          <span className="pequena">a </span>
-          <span className="resaltar">Alemania</span>
-          <BtnAdvisory />
-        </h1>
-        <img src={Jorge2} alt="Jorge" className="jorge-img2" />
+<section className="init-section">
+        <div className="div-init">
+          <h1>
+            Asesoramos 
+            <br />
+            a <span className="resaltar">profesionales
+            </span>
+            <br />
+            <span className="pequena">que</span>{" "}
+            <span className="pequena resaltar">desean</span>{" "}
+            <span className="resaltar">emigrar</span>
+            <br />
+            <span className="pequena">a </span>
+            <span className="resaltar">Alemania</span>
+          </h1>
+            <BtnAdvisory />
+        </div>
       </section>
+      <div className="container-img">
+        <img src={Jorge2} alt="Jorge" className="jorge-img2" />
+      </div>
       <section className="what-do-we-do">
         <div className="container-home">
           <div className="question-home">
