@@ -2,7 +2,6 @@ import React from "react";
 import Service1 from "../../assets/img/service1.jpg";
 import Service2 from "../../assets/img/service2.jpg";
 import Service3 from "../../assets/img/service3.jpg";
-import Service4 from "../../assets/img/service4.jpg";
 import ArrowBtn from "../../assets/icons/btn-arrow.svg";
 import "./Services.css";
 import BtnAdvisory from "../btn-advisory/BtnAdvisory";
@@ -22,7 +21,7 @@ function Services() {
         </div>
         <BtnAdvisory />
       </div>
-        <h1 className="title-services">¿Qué Servicios Ofrecemos?</h1>
+        <h3 className="title-services">¿Qué Servicios Ofrecemos?</h3>
         <article className="servicesArticle">
           <img src={Service1} alt="" className="img-service" />
           <section className="titleService">
@@ -53,15 +52,6 @@ function Services() {
           </section>
         </article>
 
-        <article className="servicesArticle">
-          <img src={Service4} alt="" className="img-service" />
-          <section className="titleService">
-            <h3>Escuela de idioma</h3>
-            <button className="btn-arrow">
-              <img className="arrow-btn" src={ArrowBtn} alt="button arrow" />
-            </button>
-          </section>
-        </article>
       </section>
 
         <article>
