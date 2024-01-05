@@ -44,43 +44,49 @@ function Landing() {
             <img src={PhoneIcon} alt="phone icon" />
             <p className="text-contact-landing">+49 157 806 33091</p>
         </article>
-        <img src={Jorge5} alt="" className='Jorge-5-landing'/>
-        <div className='Figure-text-landing'>
-            <p className='text-landing'>Tu pones el talento, nosotros nos encargamos de lo demás</p>
-        </div>
+        <section className="road-map">
+            <article className="talent">
+                <div className="figure">
+                    <img src={Jorge5} alt="jorge" className="jorge5" />
+                    <div className='Figure-text-landing'>
+                        <p className='text-landing'>Tu pones el talento, <br/> nosotros nos encargamos de lo demás</p>
+                    </div>
+                </div>        
+            </article>
 
-        <section>
-            <p>Responderemos todas tus dudas</p>
-        </section>
-            <img src={Arrow1} alt="flecha" />
-            <section>
-            <p>Poceso ágil, transparente y confiable</p>
-        </section>
-        <img src={Arrow2} alt="flecha" />
-            <section>
-            <p>Oportunidades acorde a tu perfil profesional</p>
+            <section className="landing-map">
+                <p>Responderemos todas tus dudas</p>
+                <img src={Arrow1} alt="arrow1" className="arrow1" />
+            </section>
+                <section className="landing-map2">
+                <img src={Arrow2} alt="flecha" className="arrow2" />
+                <p className="text-landing-map2">Poceso ágil, transparente y confiable</p>
+            </section>
+                <section className="landing-map3">
+                <p>Oportunidades acorde a tu perfil profesional</p>
+            </section>
+
+            <section className="time-landing">
+                <img src={Time} alt="" />
+                <button className="btn-start">
+                    ¿Comenzamos?
+                </button>
+            </section>
         </section>
 
-        <section>
-            <img src={Time} alt="" />
-            <button>
-                ¿Comenzamos?
-            </button>
-        </section>
-
-        <section>
-            <h1>Medios de pago</h1>
+        <section className="pay-landing">
+            <h1 className="pay-title">Medios de pago</h1>
             <h4>Comienza tu proceso y paga en cómodas facilidades</h4>
             <p>
-                Elige el plan ideal para ti.
-                <br />
+            <br /> Elige el plan ideal para ti.<br /> <br />
+
                 <span className="span-landing">A.</span>  Inicia tu proceso y paga el 50% a los quince
                 días. Liquida 2 meses después.
-                <br />
+                <br /> <br />
                 <span className="span-landing">B.</span>  Pronto pago. Pago en una exhibición 
-                y te descontamos 100 €.
+                y te descontamos <span className="span-landing">100 €.</span>
             </p>
-            <button>
+            <button className="btn-start">
                 ¡Quiero saber más!
             </button>
             <img src={JorgePaberater} alt="" />

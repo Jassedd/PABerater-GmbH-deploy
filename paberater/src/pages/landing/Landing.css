@@ -38,3 +38,94 @@
 .Jorge-5-landing{
     width: 40vh;
 }
+
+.Figure-text-landing{
+    background-color: #25357a;
+    color: white;
+    width: 45vh;
+    text-align: center;
+}
+
+.landing-map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vh;
+    color: #25357a;
+}
+
+.arrow1, .arrow2{
+    margin-top: 6vh;
+    
+}
+
+.landing-map2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vh;
+    margin-left: 20vh;
+    color: #25357a;
+}
+
+.text-landing-map2{
+    margin-left: 4vh;
+}
+
+.landing-map3{
+    display: flex;
+    align-items: center;
+    width: 30vh;
+    margin-top: 3vh;
+    margin-left: -20vh;
+    color: #25357a;
+}
+
+.road-map{
+    background-color: #C8A75A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.time-landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-start{
+    background-color: #25357a ;
+    border: 0;
+    width: 50%;
+    height: 7.5vh;
+    border-radius: 10px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin: 10vh;
+}
+
+.pay-landing{
+    background-color: #E9EAF1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #25357a;
+    padding: 5vh 5vh 0 ;
+}
+
+.span-landing{
+    font-weight: bolder;
+}
+
+.pay-title{
+    color: #C8A75A;
+    padding: 5vh;
+}
