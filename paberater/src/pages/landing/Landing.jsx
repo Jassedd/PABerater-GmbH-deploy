@@ -12,15 +12,18 @@ import PhoneIcon from "../../assets/icons/Icon_phone.svg"
 function Landing() {
   return (
     <>
-        <iframe
-        width="90%"
-        height="520vh"
-        src={`https://www.youtube.com/embed/I_xoQ3T-FoM`}
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+        <div className="frame-youtube">
+            <iframe
+            width="90%"
+            height="600vh"
+            src={`https://www.youtube.com/embed/I_xoQ3T-FoM`}
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+
+        ></iframe>
+        </div>
 
       <section className='first-stape'>
         <h1 className="first-title-landing"> <span className="article-span">El</span>  primer paso hacia</h1>
