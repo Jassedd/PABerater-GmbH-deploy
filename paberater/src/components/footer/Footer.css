@@ -1,0 +1,50 @@
+.pinedaFooter{
+    background-color: #25357a;
+    color: #bebec5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoPaberater{
+    width: 40vh;
+    padding: 5vh;
+}
+
+.socialMediaFooter{
+    padding-bottom: 5vh;
+}
+
+.infoFooter{
+    display: flex;
+    padding: 2vh;
+    align-items: center;
+    justify-content: center;
+}
+.IconsFooter{
+    width: 5vh;
+    margin-right: 3vh;
+}
+
+.IconsFooterYT{
+    height: 4vh;
+    padding-left: 3vh;
+    padding-right: 4vh;
+}
+
+.contactFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    
+}
+
+.cookiesFooter{
+    background-color: #16204D;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh;
+}
