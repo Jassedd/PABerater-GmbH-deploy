@@ -4,6 +4,7 @@ import Home from "../pages/home/Home";
 import Homologate from "../pages/homologate/homologate";
 import Root from "./Root";
 import Landing from "../pages/landing/Landing";
+import WhoWeAre from "../pages/whoWeAre/WhoWeAre";
 
 const router = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
         {
           path:"/landing",
           element: <Landing />
+        },
+        {
+          path:"/somos",
+          element: <WhoWeAre />
         },
 
       ],
