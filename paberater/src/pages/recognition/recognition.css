@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'DM Serif Display', serif;
+}
+
+p, h3 {
+    font-family: 'Jost', sans-serif;
+}
+
+svg{
+    padding: 0;
+    margin: 0;
+}
+
+.video_recognition {
+width: 45vh;
+border-radius: 0 15vh 0 15vh;
+margin-bottom: 2vh;
+margin-top: 10%;
+}
+
+.title2_img_recognition {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+.figure_title2 {
+    background-color: #25357a9c;
+    color: #C8A75A;
+    width: 45vh;
+    height: 15vh;
+    border-radius: 4vh 0 4vh 0;
+    position:absolute;
+    margin-top: 6rem;
+
+}
+
+.recognition_services2 {
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+/* -------homologación image style end--------------*/
+
+.title_section_recognition{
+    font-size: 5vh;
+    margin: 2rem 0 0 2rem;
+    color: #C8A75A;
+}
+.title_text_recognition{
+margin: 0 2rem 0 2rem;
+text-align: left;
+font-size: 1.2em;
+line-height: 1.7em;
+color: #25357a;
+}
+
+.name_video2{
+    margin: 4% 0 0 5%;
+    font-weight:bold;
+    font-size: 1.2em;
+    margin-right: 2rem;
+    color: #25357a;
+}
+
+.text_name_video2{
+    margin: 0 2rem  2rem;
+    font-size: 1.2em;
+    line-height: 1.7em;
+}
+
+.text_background_Blue2{
+background-color: #25357a;
+}
+
+.subtitle1_text_background_blue2{
+    font-size: 1.7em;
+    color:#C8A75A;
+    margin: 0 1rem 0 2rem;
+    padding-top: 2rem;
+}
+
+.text1_subtitle{
+    margin: 0 1rem 0 1rem;
+    font-size: 1.2em;
+    line-height: 1.7em;
+    padding: 1em;
+    color: white;
+}
+
+.subtitle2_text_background_blue2{
+    font-size: 1.7em;
+    color:#C8A75A;
+    margin: 0 1rem 0 2rem;
+}
+
+.text2_subtitle{
+    margin: 0 1rem 0 1rem;
+    font-size: 1.2em;
+    line-height: 1.7em;
+    padding: 1em;
+    color: white;
+}
+
+.jorge2_img{
+    width:30vh;
+    margin-top: 1.5rem;
+    margin-left: -6vh;
+}
+
+
+.callToAction_recognition_container{
+    display: flex;
+    flex-direction: row;
+    background-color: #c0c0c066;
+    width: 100%;
+    display: flex;
+    margin-bottom: 9vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.calltoaction_recognition_title{
+    margin-top: -5em;
+    margin-left: -2em;
+    font-size: 1.6em;
+    color: #C8A75A;
+    text-align: left;
+}
+
+.text_container {
+    align-content: center;
+}
+
+
+.resaltar_text{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #25357a;
+
+}
+
+.btn-comenzamos2{
+    background-color:#C8A75A;
+    color:#25357a;
+    font-weight: 600;
+    border: 0;
+    width: 23vh;
+    height: 5vh;
+    border-radius: 10px;   
+    font-size: 0.9rem; 
+}
+
+.Title_ourServicesText{
+    font-size: 5vh;
+    margin: 4rem 0 4rem 2rem;
+    color: #25357a;
+}
+
+
+.li_ourServicesText{
+    margin: 0 3rem 1rem 1rem;
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.7em;
+}
+
+.resaltar_text2{
+    margin: 0 0 0 1rem;
+    font-size: 1.5rem;
+    color: #25357a;
+    font-weight: 600;
+}
+
+.callToAction_recognition_container2{
+    background-color:#C8A75A;
+    padding: 2rem;
+}
+
+.text_callToAction_recognition_container2{
+    color:#25357a;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+.btn-contact2{
+    margin: 2rem 0 2rem 5rem;
+    background-color:#25357a;
+    color:white;
+    border: 0;
+    width: 23vh;
+    height: 7vh;
+    border-radius: 10px;   
+    font-size: 1.2rem;
+    font-weight: 600; 
+}
+
+
+.questions_recognition_container{
+    background-color:#25357a;
+    padding: 1.5rem;
+}
+
+.title_questions_recognition_container{
+    margin: 1.5rem;
+    font-size: 4.3vh;
+    font-weight: 600;
+    color:#C8A75A;
+}
