@@ -55,7 +55,7 @@ function Homologate() {
 
         <iframe
           width="100%"
-          height="315"
+          height="200"
           src={`https://www.youtube.com/embed/UGLXVXbxNXY`}
           title="YouTube video player"
           frameborder="0"
@@ -84,13 +84,13 @@ function Homologate() {
           familia, y la posibilidad de un constante crecimiento profesional.
           Los/as médicos/as, los/as especialistas y las instalaciones con
           tecnología de punta convierten el sistema de salud alemán en uno de
-          los mejores sistemas sanitarios del mundo y tú puedes formar parte de
-          él.
+          los mejores sistemas sanitarios del mundo y tú puedes formar <br /> 
+          parte de él.
           <br />
           <br />
           Al ser la medicina una profesión regulada por el Estado alemán es
           necesario tener el reconocimiento de tu carrera para poder ejercerla
-          dentro del país. Nosotros te orientamos en cada paso y hacemos las
+          dentro del país. <br /> Nosotros te orientamos en cada paso y hacemos las
           gestiones para que obtengas la autorización estatal para que puedas
           ejercer tu profesión y lograr tu meta de obtener un puesto de trabajo
           en Alemania.
