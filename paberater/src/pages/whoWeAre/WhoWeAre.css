@@ -1,0 +1,50 @@
+.we-section, .history{
+    background-color: #E9EAF1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7vh;
+    text-align: justify;
+}
+
+.Jorge-we{
+    width: 40vh;
+    border-radius: 0 15vh 0 13vh;
+}
+
+.section-figure{
+    background-color: #25357a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.figure-we{
+    background-color: #E9EAF1;
+    border-radius: 0 20vh 0 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vh;
+}
+
+.span-we{
+    color: #25357a;
+    font-weight: bold;
+}
+
+.section-new-life{
+    background-color: #C8A75A;
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h6{
+    margin: 0;
+}
