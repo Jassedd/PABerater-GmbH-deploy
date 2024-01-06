@@ -3,13 +3,21 @@
     padding: 0;
 }
 
+h1, h2 {
+    font-family: 'DM Serif Display', serif;
+}
+
+p, h3 {
+    font-family: 'Jost', sans-serif;
+}
+
 svg{
     padding: 0;
     margin: 0;
 }
 
 .video_homologate {
-width: 40vh;
+width: 45vh;
 border-radius: 0 15vh 0 15vh;
 margin-bottom: 2vh;
 margin-top: 10%;
@@ -17,21 +25,22 @@ margin-top: 10%;
 }
 
 .title_img1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     margin-top: 5px;
 }
 
 .title_img2 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-align: center;
+    line-height: 0.6rem;
 }
 
 .figure_title {
     background-color: #25357a9c;
     color: #C8A75A;
-    width: 71%;
-    height: 12%;
+    width: 45vh;
+    height: 15vh;
     border-radius: 4vh 0 4vh 0;
     position:absolute;
     margin-top: 6rem;
@@ -55,7 +64,7 @@ align-items: center;
 .title_text{
 margin: 0 2rem 0 2rem;
 text-align: left;
-font-size: 1.5em;
+font-size: 1.2em;
 line-height: 1.7em;
 color: #25357a;
 }
@@ -63,7 +72,7 @@ color: #25357a;
 .name_video{
     margin: 4% 0 0 5%;
     font-weight:bold;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-right: 2rem;
     color: #25357a;
 }
@@ -80,15 +89,16 @@ background-color: #25357a;
 }
 
 .text_blueContainer{
-    margin: 0 2rem  2rem;
+    margin: 0 1rem  1rem;
     font-size: 1.2em;
     line-height: 1.7em;
-    padding: 1.5em;
+    padding: 1em;
     color: white;
 }
 
 .jorge_img{
     width:34vh;
+    margin-top: 1.5rem;
     margin-left: -10vh;
 }
 
@@ -112,13 +122,13 @@ background-color: #25357a;
 .calltoaction_title{
     margin-top: -2em;
     margin-left: -2em;
-    font-size: 2em;
+    font-size: 1.7em;
     color: #C8A75A;
     text-align: left;
 }
 
 .resaltar_text{
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 600;
 
 }
@@ -135,7 +145,7 @@ background-color: #25357a;
 }
 
 .Title_ourServicesText{
-    font-size: 4.5vh;
+    font-size: 5vh;
     margin: 4rem 0 4rem 2rem;
     color: #25357a;
 }
@@ -148,8 +158,8 @@ background-color: #25357a;
 }
 
 .resaltar_text2{
-    margin: 0 3rem 0 3rem;
-    font-size: 1.7rem;
+    margin: 0 0 0 1rem;
+    font-size: 1.5rem;
     color: #25357a;
     font-weight: 600;
 }
@@ -161,19 +171,19 @@ background-color: #25357a;
 
 .text_callToAction_container2{
     color:#C8A75A;
-    font-size: 2.5rem;
-    line-height: 3.5rem;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
 }
 
 .btn-contact{
-    margin: 3rem 0 2rem 7rem;
+    margin: 3rem 0 2rem 5rem;
     background-color:#C8A75A;
     color:#25357a;
     border: 0;
     width: 23vh;
     height: 7vh;
     border-radius: 10px;   
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600; 
 }
 

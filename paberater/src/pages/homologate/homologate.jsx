@@ -34,7 +34,7 @@ function Homologate() {
         </video>
         <div className="figure_title">
           <h1 className="title_img1">Homologación</h1>
-          <h3 className="title_img2">de títulos profesionales</h3>
+          <h2 className="title_img2">de títulos profesionales</h2>
         </div>
       </section>
 
@@ -126,13 +126,12 @@ function Homologate() {
 
       <section className="ourServicesText_ container">
         <h2 className="Title_ourServicesText">
-          Nuestro Servicio de asesoría incluye
+          Nuestro Servicio <br />de asesoría incluye
         </h2>
         <ul className="li_ourServicesText">
           <li>
             Valoración de la situación del profesional en entrevista
-            inicial.Tomaremos en cuenta su enfoque profesional para realizar su
-            homologación y le aclararemos sus dudas sobre el proceso y
+            inicial. Tomaremos en cuenta su enfoque profesional para realizar su homologación y le aclararemos sus dudas sobre el proceso y
             oportunidades laborales y le enviaremos una lista de todos los
             documentos necesarios.
           </li>
@@ -156,7 +155,7 @@ function Homologate() {
           </li>
         </ul>
 
-        <p className="resaltar_text2">Cuente con nuestra asesoría durante todo el proceso</p>
+        <p className="resaltar_text2">Cuente con nuestra asesoría durante todo el proceso.</p>
         <br />
       </section>
 
@@ -165,7 +164,7 @@ function Homologate() {
         ¡Vivir y trabajar como profesional en Alemania es posible 
         de la mano de PABerater!
         </h3>
-        <button className="btn-contact">CONTACTAR</button>
+        <button className="btn-contact"><p>CONTACTAR</p></button>
 
       </section>
 
