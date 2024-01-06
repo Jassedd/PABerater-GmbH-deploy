@@ -23,14 +23,14 @@ margin-top: 10%;
 }
 
 .title_img2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: center;
 }
 
 .figure_title {
     background-color: #25357a9c;
     color: #C8A75A;
-    width: 86%;
+    width: 71%;
     height: 12%;
     border-radius: 4vh 0 4vh 0;
     position:absolute;
@@ -49,24 +49,30 @@ align-items: center;
 
 .title{
     font-size: 5vh;
-    margin: 1rem;
+    margin: 2rem 0 0 2rem;
+    color: #C8A75A;
 }
 .title_text{
-margin: 1rem;
-margin-bottom: 4rem;
+margin: 0 2rem 0 2rem;
+text-align: left;
+font-size: 1.5em;
+line-height: 1.7em;
 color: #25357a;
 }
 
 .name_video{
-    margin: 1em;
+    margin: 4% 0 0 5%;
     font-weight:bold;
-    font-size: medium;
+    font-size: 1.5em;
     margin-right: 2rem;
     color: #25357a;
 }
 
 .text_name_video{
-    margin-left: 1.5em;
+    margin: 0 2rem  2rem;
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.7em;
 }
 
 .text_background_Blue{
@@ -74,17 +80,112 @@ background-color: #25357a;
 }
 
 .text_blueContainer{
-    margin: 0.5em;
-    padding: 2em;
+    margin: 0 2rem  2rem;
+    font-size: 1.2em;
+    line-height: 1.7em;
+    padding: 1.5em;
     color: white;
 }
 
 .jorge_img{
-    width: 20vh;
+    width:34vh;
+    margin-left: -10vh;
 }
+
 
 .callToAction_container{
 
     display: flex;
     flex-direction: row;
+    background-color: #E9EAF1;
+    width: 100%;
+    display: flex;
+    margin-bottom: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_container {
+    align-content: center;
+}
+
+.calltoaction_title{
+    margin-top: -2em;
+    margin-left: -2em;
+    font-size: 2em;
+    color: #C8A75A;
+    text-align: left;
+}
+
+.resaltar_text{
+    font-size: 2em;
+    font-weight: 600;
+
+}
+
+.btn-comenzamos{
+    margin-top: ;
+    background-color: #25357a;
+    color:#FEEC8A;
+    border: 0;
+    width: 23vh;
+    height: 5vh;
+    border-radius: 10px;   
+    font-size: 0.9rem; 
+}
+
+.Title_ourServicesText{
+    font-size: 4.5vh;
+    margin: 4rem 0 4rem 2rem;
+    color: #25357a;
+}
+
+.li_ourServicesText{
+    margin: 0 3rem 1rem 1rem;
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.7em;
+}
+
+.resaltar_text2{
+    margin: 0 3rem 0 3rem;
+    font-size: 1.7rem;
+    color: #25357a;
+    font-weight: 600;
+}
+
+.callToAction_container2{
+    background-color:#25357a;
+    padding: 2rem;
+}
+
+.text_callToAction_container2{
+    color:#C8A75A;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+
+.btn-contact{
+    margin: 3rem 0 2rem 7rem;
+    background-color:#C8A75A;
+    color:#25357a;
+    border: 0;
+    width: 23vh;
+    height: 7vh;
+    border-radius: 10px;   
+    font-size: 1.5rem;
+    font-weight: 600; 
+}
+
+
+.questions_container{
+    background-color: #C8A75A;
+    padding: 1.5rem;
+}
+
+.title_questions_container{
+    margin: 1.5rem;
+    font-size: 4.3vh;
+    font-weight: 600;
+    color: #25357a;
 }

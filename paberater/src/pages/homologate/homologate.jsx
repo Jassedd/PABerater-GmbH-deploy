@@ -1,9 +1,7 @@
 import React from "react";
 import "./homologate.css";
 import video1 from "../../assets/video/production_id_4873106 (1080p).mp4";
-import ArrowBtn from "../../assets/icons/btn-arrow.svg";
 import Jorge4 from "../../assets/img/jorge-4.png";
-import BtnStart from "../../components/btn-start/BtnStart";
 import QAaccordion from "../../components/q&a-accordion/Q&A-accordion";
 
 function Homologate() {
@@ -53,9 +51,10 @@ function Homologate() {
           6,500 euros para médicos/as generales y hasta 12,000 euros dependiendo
           de la especialidad.
         </p>
+        <br />
 
         <iframe
-          width="90%"
+          width="100%"
           height="315"
           src={`https://www.youtube.com/embed/UGLXVXbxNXY`}
           title="YouTube video player"
@@ -75,6 +74,7 @@ function Homologate() {
           Inició el trámite de reconocimiento de su título universitario con
           PABerater y está a punto de finalizarlo.
         </p>
+        <br />
       </section>
 
       <section className="text_background_Blue">
@@ -111,12 +111,16 @@ function Homologate() {
         <img src={Jorge4} alt="Jorge" className="jorge_img" />
 
         <div className="text_container">
-          <h2>
-            Homologar tu título en Alemania
+          <h2 className="calltoaction_title">
+            Homologar tu título <br /> 
+            en Alemania
+            </h2>
             <br />
-            <span className="resaltar">¡ES POSIBLE!</span>
-          </h2>
-          <BtnStart />
+            <h3 className="resaltar_text">
+            ¡ES POSIBLE!
+            </h3>
+            <button className="btn-comenzamos">¿COMENZAMOS?</button>
+
         </div>
       </section>
 
@@ -124,7 +128,7 @@ function Homologate() {
         <h2 className="Title_ourServicesText">
           Nuestro Servicio de asesoría incluye
         </h2>
-        <ul>
+        <ul className="li_ourServicesText">
           <li>
             Valoración de la situación del profesional en entrevista
             inicial.Tomaremos en cuenta su enfoque profesional para realizar su
@@ -132,18 +136,18 @@ function Homologate() {
             oportunidades laborales y le enviaremos una lista de todos los
             documentos necesarios.
           </li>
-
+        <br />
           <li>
             Recolectamos y revisamos sus documentos antes de ser interpuestos
             ante la autoridad alemana encargada de su proceso de reconocimiento.
           </li>
-
+          <br />
           <li>
             Traducciones Juradas: contamos con traductores jurados para traducir
             los documentos que así lo requieran.Los costes para las traducciones
             juradas dependen de la cantidad de documentos a traducir.
           </li>
-
+          <br />
           <li>
             Traducción de su currículo vitae, adaptación a un formato alemán y
             creación de su carpeta de solicitud completa. Con su perfil
@@ -152,11 +156,21 @@ function Homologate() {
           </li>
         </ul>
 
-        <p>Cuente con nuestra asesoría durante todo el proceso</p>
+        <p className="resaltar_text2">Cuente con nuestra asesoría durante todo el proceso</p>
+        <br />
       </section>
 
       <section className="callToAction_container2">
-        <h2 className="TitleConTainer2">Preguntas Frecuentes</h2>
+        <h3 className="text_callToAction_container2">
+        ¡Vivir y trabajar como profesional en Alemania es posible 
+        de la mano de PABerater!
+        </h3>
+        <button className="btn-contact">CONTACTAR</button>
+
+      </section>
+
+      <section className="questions_container">
+        <h2 className="title_questions_container">Preguntas Frecuentes</h2>
         <QAaccordion items={homologateQuestions} />
       </section>
     </main>
