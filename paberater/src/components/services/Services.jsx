@@ -22,7 +22,7 @@ function Services() {
         </div>
         <BtnAdvisory />
       </div>
-        <h3 className="title-services">¿Qué Servicios Ofrecemos?</h3>
+        <h3 className="title-services" style={{color: "#C8A75A", fontWeight: "bold"}}>¿Qué Servicios Ofrecemos?</h3>
         <article className="servicesArticle">
           <img src={Service1} alt="" className="img-service" />
           <section className="titleService">
@@ -31,7 +31,6 @@ function Services() {
             <button className="btn-arrow">
               <img className="arrow-btn" src={ArrowBtn} alt="button arrow" />
             </button>
-
             </Link>
           </section>
         </article>
@@ -40,9 +39,11 @@ function Services() {
           <img src={Service2} alt="" className="img-service" />
           <section className="titleService">
             <h3>Reconocimiento profesional</h3>
+            <Link to= "/reconocimiento">
             <button className="btn-arrow">
               <img className="arrow-btn" src={ArrowBtn} alt="button arrow" />
             </button>
+            </Link>
           </section>
         </article>
 
@@ -50,9 +51,11 @@ function Services() {
           <img src={Service3} alt="" className="img-service" />
           <section className="titleService">
             <h3>Traducciones juradas</h3>
+            <Link to="/traduccionesjuradas">
             <button className="btn-arrow">
               <img className="arrow-btn" src={ArrowBtn} alt="button arrow" />
             </button>
+            </Link>
           </section>
         </article>
 
@@ -62,7 +65,7 @@ function Services() {
             <div className="JorgeSection">
                 <img src={Jorge4} alt="Jorge" className="Jorge-4"/>
                 <div className="JorgeArt">
-                    <h1>En PABerater</h1>
+                    <h1 style={{color: "#25357a"}}>En PABerater</h1>
                     <p>tenemos una maleta de posibilidades para tu crecimiento profesional.</p>
                     <button className="btn-adviser">Hablar con un asesor</button>
                 </div>

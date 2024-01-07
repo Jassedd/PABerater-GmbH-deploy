@@ -56,18 +56,21 @@ function Landing() {
                     </div>
                 </div>        
             </article>
+            
+            <article className="steps-landing">
+                <section className="landing-map">
+                    <p>Responderemos todas tus dudas</p>
+                    <img src={Arrow1} alt="arrow1" className="arrow1" />
+                </section>
+                    <section className="landing-map2">
+                    <img src={Arrow2} alt="flecha" className="arrow2" />
+                    <p className="text-landing-map2">Poceso ágil, transparente y confiable</p>
+                </section>
+                    <section className="landing-map3">
+                    <p>Oportunidades acorde a tu perfil profesional</p>
+                </section>  
+            </article>
 
-            <section className="landing-map">
-                <p>Responderemos todas tus dudas</p>
-                <img src={Arrow1} alt="arrow1" className="arrow1" />
-            </section>
-                <section className="landing-map2">
-                <img src={Arrow2} alt="flecha" className="arrow2" />
-                <p className="text-landing-map2">Poceso ágil, transparente y confiable</p>
-            </section>
-                <section className="landing-map3">
-                <p>Oportunidades acorde a tu perfil profesional</p>
-            </section>
 
             <section className="time-landing">
                 <img src={Time} alt="" />

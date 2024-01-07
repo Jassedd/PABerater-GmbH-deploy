@@ -36,7 +36,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 6vh;
+    margin: 6vh 0 6vh 0;
 }
 
 .figure-BtnAdbisory{
@@ -74,7 +74,7 @@
     justify-content: center;
 }
 .Jorge-4{
-    width: 27vh;
+    width: 23vh;
 }
 
 .JorgeArt{
@@ -85,8 +85,8 @@
     background-color: #25357a;
     color:#FEEC8A;
     border: 0;
-    width: 25vh;
-    height: 5vh;
+    width: 22vh;
+    height: 6vh;
     border-radius: 10px;   
     font-size: 0.9rem; 
 }

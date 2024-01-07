@@ -1,7 +1,7 @@
 import React from "react";
 import "./recognition.css";
 import video2 from "../../assets/video/pexels-los-muertos-crew-8853514 (1080p).mp4";
-import Jorge2 from "../../assets/img/jorge2.png";
+import Jorge2 from "../../assets/img/Jorge2.png";
 import QAaccordion from "../../components/q&a-accordion/Q&A-accordion";
 
 function Recognition() {

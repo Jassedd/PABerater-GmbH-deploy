@@ -20,6 +20,8 @@
     color: white;
 }
 
+
+
 .section-assignment{
     background-color: #25357a;
     color: white;
@@ -53,16 +55,27 @@
     text-align: center;
 }
 
+.steps-landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+
 .landing-map{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40vh;
+    width: 30vh;
     color: #25357a;
 }
 
 .arrow1, .arrow2{
-    margin-top: 6vh;
+    margin-top: 5vh;
     
 }
 
@@ -70,9 +83,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-    margin-left: 20vh;
+    margin-left: 10vh;
     color: #25357a;
+    width: 25vh;
 }
 
 .text-landing-map2{
@@ -82,9 +95,9 @@
 .landing-map3{
     display: flex;
     align-items: center;
-    width: 30vh;
+    width: 25vh;
     margin-top: 3vh;
-    margin-left: -20vh;
+    margin-left: -10vh;
     color: #25357a;
 }
 

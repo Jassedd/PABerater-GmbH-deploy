@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
 import "./QuestionForm.css";
 
 function QuestionForm() {
@@ -79,15 +78,17 @@ function QuestionForm() {
             label="He leído y acepto los términos y condiciones"
             required
           />
-        </Form.Group>
-        <Button
-          variant="primary"
+        <div className="adviserBtn">
+        <button
           type="submit"
+          className="btn-added"
           onClick={handleSubmit}
           disabled={email !== confirmEmail}
         >
-          Enviar
-        </Button>
+          Agendar
+        </button>
+        </div>
+        </Form.Group>
       </Form>
     </>
   );

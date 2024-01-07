@@ -7,7 +7,7 @@ function Comments() {
     return (
       <>
         <section className="sectionComments">
-          <h2>Ellos confiaron en nosotros:</h2>
+          <h2 style={{color: "#25357a"}}>Ellos confiaron en nosotros:</h2>
   
           <Carousel className="custom-carousel">
             <Carousel.Item className="commentItems">
