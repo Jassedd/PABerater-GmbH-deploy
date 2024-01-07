@@ -30,6 +30,7 @@ a, .nav-link{
     height: 4vh;
     min-width: 20vh;
     border: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.281);
   }
 
   .arrow-btn{
