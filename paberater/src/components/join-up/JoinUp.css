@@ -8,6 +8,10 @@
     padding-top: 5vh;
 }
 
+.JoinUp_text{
+    padding: 2rem;
+}
+
 .HighlightedText {
     color: #25357a;
     font-size: 1.2em; 
@@ -45,10 +49,14 @@
     width: 20vh;
     height: 6vh;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.281);
+    margin: 2rem 0 0 -1rem ;
 }
 
 .jorge7{
-    width: 25vh;
-    margin-right: -3vh;
+    width: 40vh;
+    margin-right: -5vh;
+}
+
+.JoinUp_callToAction{
+    margin: -6rem 2rem 0 -6rem;
 }

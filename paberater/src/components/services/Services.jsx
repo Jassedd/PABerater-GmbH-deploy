@@ -66,7 +66,7 @@ function Services() {
                 <img src={Jorge4} alt="Jorge" className="Jorge-4"/>
                 <div className="JorgeArt">
                     <h1 style={{color: "#25357a"}}>En PABerater</h1>
-                    <p>tenemos una maleta de posibilidades para tu crecimiento profesional.</p>
+                    <p style={{fontSize:"1rem"}}>tenemos una maleta de posibilidades para tu crecimiento profesional.</p>
                     <button className="btn-adviser">Hablar con un asesor</button>
                 </div>
             </div>

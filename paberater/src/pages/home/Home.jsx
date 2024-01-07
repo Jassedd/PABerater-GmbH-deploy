@@ -3,11 +3,15 @@ import "./Home.css";
 import Jorge2 from "../../assets/icons/Jorge/Jorge2.svg";
 import BtnAdvisory from "../../components/btn-advisory/BtnAdvisory";
 import Jorge5 from "../../assets/icons/Jorge/jorge-5.svg"
+import Berlin from "../../assets/img/berlin2.svg"
 import Services from "../../components/services/Services";
 import Comments from "../../components/comments/Comments";
 import JoinUp from "../../components/join-up/JoinUp";
-import SuccessStories from "../../components/success-stories/SuccessStories";
 import QuestionForm from "../../components/question-form/QuestionForm";
+import FeedInstagram from "../../components/instagram/feed-instagram";
+
+
+
 const Home = () => {
   return (
     <main>
@@ -31,6 +35,9 @@ const Home = () => {
       </section>
       <div className="container-img">
         <img src={Jorge2} alt="Jorge" className="jorge-img2" />
+      </div>
+      <div className="container_background_img">
+      <img src={Berlin} alt="fondo" className="home_background" />
       </div>
       <section className="what-do-we-do">
         <div className="container-home">
@@ -106,7 +113,7 @@ const Home = () => {
       <Services />
       <Comments />
       <JoinUp />
-      <SuccessStories />
+      <FeedInstagram />
       <QuestionForm />
     </main>
   );

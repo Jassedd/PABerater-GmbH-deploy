@@ -9,10 +9,9 @@
     border-radius: 10px;
     display: flex;
     align-items: center;
-    height: 40vh;
+    height: 60vh;
     width: 70%;
     padding: 3vh;
-    text-align: center;
     margin-top: 5vh;
 }
 .carousel-item-next, .carousel-item-prev, .carousel-item.active{

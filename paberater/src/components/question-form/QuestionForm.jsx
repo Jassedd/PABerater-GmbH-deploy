@@ -26,7 +26,7 @@ function QuestionForm() {
           De seguro tienes mucha dudas y nosotros estamos dispuestos a
           responderlas todas
         </h2>
-        <p>respuesta en 24 horas</p>
+        <p className="question_subtitle">respuesta en 24 horas</p>
       </section>
       <Form className="questionForm">
 

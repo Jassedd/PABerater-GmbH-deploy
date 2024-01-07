@@ -6,6 +6,7 @@ function SuccessStories() {
   return (
     <section className="successStories">
       <h1 className="successTitle">Ellos han confiado en PABerater</h1>
+
       <iframe
         width="90%"
         height="315"
@@ -15,6 +16,8 @@ function SuccessStories() {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
+      
+
 
       <Carousel className="carousel-stories">
         <Carousel.Item className="commentItems">
@@ -34,6 +37,7 @@ function SuccessStories() {
           </p>
         </Carousel.Item>
       </Carousel>
+     
     </section>
   );
 }

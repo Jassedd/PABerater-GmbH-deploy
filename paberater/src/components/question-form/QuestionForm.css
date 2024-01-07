@@ -5,6 +5,7 @@
     justify-content: center;
     text-align: center;
     padding: 5vh;
+    background-color:#25357a;
 }
 
 .questionForm{
@@ -24,7 +25,11 @@
   }
 
 .titleQuestion{
-    color: #25357a;
+    color:#C8A75A;
+}
+
+.question_subtitle {
+    color:white;
 }
 
 #controlProfession, #controlEmails, #controlEmailConfirmation, #controlProfession{

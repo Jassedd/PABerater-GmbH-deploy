@@ -6,10 +6,11 @@ function JoinUp() {
   return (
     <>
       <article className="articleJoinUp">
-        <h3>
+        <h3 className="JoinUp_text">
           Únete a <span className="HighlightedText">+100 latinos</span> que{" "}
           <span className="HighlightedText">han crecido</span>{" "}
-          <span className="HighlightedText">profesionalmente</span> a través de
+          <span className="HighlightedText">profesionalmente</span> 
+          <br /> a través de
           PABerater
         </h3>
         <section>
@@ -39,8 +40,8 @@ function JoinUp() {
         <section className="JorgeJoinUp">
           <img src={Jorge7} alt="" className="jorge7" />
           <div className="joinUp">
-            <h3>¿Empezamos a planificar tu futuro en Alemania?</h3>
-            <button className="btnJoinUp">¿Comenzamos?</button>
+            <h3 className="JoinUp_callToAction">¿Empezamos a planificar tu futuro en Alemania?</h3>
+            <button className="btnJoinUp" >¿Comenzamos?</button>
           </div>
         </section>
       </article>

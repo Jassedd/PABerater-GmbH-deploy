@@ -7,7 +7,7 @@ function BtnAdvisory() {
   return (
     <Link to="/landing">
     <button className='btn-advisory'>
-        Quiero una asesoría <img src={Arrow} alt="btn-arrow" className='arrow-btn' />
+        Solicitar asesoría <img src={Arrow} alt="btn-arrow" className='arrow-btn' />
     </button>
     </Link>
 
