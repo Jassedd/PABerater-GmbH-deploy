@@ -6,6 +6,19 @@
     
 }
 
+.figure_title4{
+    background-color: #25357ad0;
+    color: #C8A75A;
+    width: 45vh;
+    height: 15vh;
+    border-radius: 4vh 0 4vh 0;
+    position:absolute;
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .contact-div{
     display: flex;
     padding-left: 3vh;

@@ -7,6 +7,10 @@ a, .nav-link{
   background-color: #25357a;
 }
 
+.dropdown-item:hover {
+  background-color: #C8A75A!important;
+}
+
 .mediaLogo.navbar-brand {
     display: none;
     justify-content: space-around;

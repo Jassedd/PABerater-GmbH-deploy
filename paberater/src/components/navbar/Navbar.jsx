@@ -46,6 +46,12 @@ function NavbarHome() {
                 Blog 
               </Link>
             </Nav.Link>
+
+            <Nav.Link>
+              <Link to="/contacto">
+                Contacto 
+              </Link>
+            </Nav.Link>
             
             <NavDropdown title="Servicios" id="basic-nav-dropdown">
               <NavDropdown.Item className='dropdown-item'> <Link to="/homologaciones">Homologación de títulos</Link></NavDropdown.Item>
