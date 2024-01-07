@@ -1,0 +1,15 @@
+.Errorpage{
+    display: flex;
+}
+
+.imgError{
+    width: 24vh;
+}
+
+.Errormsg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

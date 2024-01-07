@@ -8,6 +8,10 @@ import Landing from "../pages/landing/Landing";
 import WhoWeAre from "../pages/whoWeAre/WhoWeAre";
 import Contact from "../pages/contact/Contact";
 import Translate from "../pages/officialTranslate/officialTranslate";
+import AdminHome from "../admin/AdminHome";
+import { ProtectedRoute } from "../components/protectedRoute/ProtectedRoutes";
+import Login from "../components/login/Login";
+
 
 const router = createBrowserRouter([
     {
@@ -43,6 +47,18 @@ const router = createBrowserRouter([
         {
           path:"/contacto",
           element: <Contact />
+        },
+        {
+          path:"/login",
+          element: <Login />
+        },
+        {
+          path: "/admin",
+          element:(
+            <ProtectedRoute>
+              <AdminHome />
+            </ProtectedRoute>
+          ),
         },
 
       ],
