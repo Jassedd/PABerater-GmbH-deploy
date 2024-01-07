@@ -41,6 +41,8 @@ const Login = () => {
             padding: "20px",
             borderRadius: "10px",
             color: "#25357a",
+            marginBottom: "10vh",
+            marginTop: "10vh"
           }}
         >
           <Form.Group className="mb-3" controlId="formBasicEmail">
