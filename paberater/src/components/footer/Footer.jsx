@@ -20,20 +20,19 @@ function Footer() {
         <section className="contactFooter">
           <div className="infoFooter">
             <img src={EmailIcon} alt="" className="IconsFooter"/>
-            <p>info@paberater.de</p>
+            <a href="/contacto">info@paberater.de</a>
           </div>
           <div className="infoFooter">
             <img src={PhoneIcon} alt="" className="IconsFooter"/>
-            <p>+49 157 806 33091</p>
+            <a href="tel:+4915780633091">+49 157 806 33091</a>
           </div>
           <div className="infoFooter">
             <img src={LocalIcon} alt="" className="IconsFooter"/>
-            <p>
-              Waltersdorfer Ch 20312355 <br /> Berlin, Alemania
-            </p>
+            <a href="https://www.google.com/maps/dir/40.3800498,-3.7739879/paberater-de/@45.9383877,-5.6762452,5z/
+            ">PABerater GmbH, <br />Waltersdorfer Ch 203,<br />12355 Berlin, Alemania </a>
           </div>
         </section>
-          <p>© 2023 PABerater GmbH. All Rights Reserved.</p>
+          <p style={{margin:"0.7rem"}}>© 2023 PABerater GmbH. All Rights Reserved.</p>
       </section>
 
       <section className="cookiesFooter">

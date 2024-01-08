@@ -1,6 +1,7 @@
 import React from "react";
 import "./JoinUp.css";
 import Jorge7 from "../../assets/img/jorge-7.png"
+import BtnJoinUp from "../btn-joinUp/BtnJoinUp";
 
 function JoinUp() {
   return (
@@ -40,8 +41,12 @@ function JoinUp() {
         <section className="JorgeJoinUp">
           <img src={Jorge7} alt="" className="jorge7" />
           <div className="joinUp">
-            <h3 className="JoinUp_callToAction">¿Empezamos a planificar tu futuro en Alemania?</h3>
-            <button className="btnJoinUp" >¿Comenzamos?</button>
+            <h3 className="JoinUp_callToAction">
+              ¿Empezamos a planificar tu futuro en Alemania?
+            </h3>
+            <div className="btn_JU">            
+              <BtnJoinUp />
+            </div>
           </div>
         </section>
       </article>

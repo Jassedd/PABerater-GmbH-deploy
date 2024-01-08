@@ -13,6 +13,16 @@
     margin: 0;
 }
 
+.btn-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 10vh 10vh 10vh 10vh;
+    border: 0;
+    color: #C8A75A;
+}
 
 
 

@@ -3,6 +3,7 @@ import Service1 from "../../assets/img/service1.jpg";
 import Service2 from "../../assets/img/service2.jpg";
 import Service3 from "../../assets/img/service3.jpg";
 import ArrowBtn from "../../assets/icons/btn-arrow.svg";
+import Arrow from "../../assets/icons/arrow.svg"
 import "./Services.css";
 import BtnAdvisory from "../btn-advisory/BtnAdvisory";
 import Jorge4 from "../../assets/img/jorge-4.png"
@@ -66,8 +67,14 @@ function Services() {
                 <img src={Jorge4} alt="Jorge" className="Jorge-4"/>
                 <div className="JorgeArt">
                     <h1 style={{color: "#25357a"}}>En PABerater</h1>
-                    <p style={{fontSize:"1rem"}}>tenemos una maleta de posibilidades para tu crecimiento profesional.</p>
-                    <button className="btn-adviser">Hablar con un asesor</button>
+                    <p style={{fontSize:"1rem"}}>tenemos una maleta de posibilidades 
+                    para tu crecimiento profesional.
+                    </p>
+                    <Link to="/contacto">
+                    <button className="btn-adviser">
+                      Agendar cita <img src={Arrow} alt="arrow" className='arrow'/>
+                      </button>
+                    </Link>
                 </div>
             </div>
         </article>

@@ -1,13 +1,13 @@
 import React from 'react'
 import Arrow from "../../assets/icons/arrow.svg"
-import "./BtnStart.css"
+import "./BtnJoinUp.css"
 import { Link } from 'react-router-dom'
 
 
-function BtnStart() {
+function BtnJoinUp() {
   return (
     <Link to="/contacto">
-      <button className='btn-start'>
+      <button className='btn-joinUp'>
           ¿COMENZAMOS? <img src={Arrow} alt="btn-arrow"/>
       </button>
     </Link>
@@ -15,4 +15,4 @@ function BtnStart() {
   )
 }
 
-export default BtnStart
+export default BtnJoinUp

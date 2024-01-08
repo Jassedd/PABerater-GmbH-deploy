@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 function BtnAdvisory() {
   return (
-    <Link to="/landing">
+    <Link to="/contacto">
     <button className='btn-advisory'>
         Solicitar asesoría <img src={Arrow} alt="btn-arrow" className='arrow-btn' />
     </button>

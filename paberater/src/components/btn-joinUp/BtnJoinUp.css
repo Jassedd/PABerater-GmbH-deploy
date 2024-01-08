@@ -1,0 +1,18 @@
+.btn-joinUp{
+    background-color:#25357a;
+    border: 0;
+    width: 17vh;
+    height: 5vh;
+    border-radius: 10px;
+    color:#C8A75A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+
+
+

@@ -28,12 +28,26 @@ svg{
   font-size: 0.9rem;
 }
 
+.container-img{
+  display: flex;
+  position: relative;
+  margin-top: -15vh;
+}
+
+.jorge-img2{
+  width: 25vh;
+  position: absolute;
+  display: flex;
+}
+
+.container_background_img{
+  height: 47.8vh;
+}
 
 .home_background{
   display: flex;
-  margin-top: -30vh;
   width: 98%;
-  height: 15.8rem;
+  height: 40rem;
 }
 
 .question-home{
@@ -115,16 +129,6 @@ svg{
   margin-top: 5vh;
 }
 
-.container-img{
-  display: flex;
-  margin-top: -15vh;
-}
-
-.jorge-img2{
-  width: 25vh;
-  display: flex;
-  margin: 0;
-}
 
 .jorge5{
   width: 46vh;
