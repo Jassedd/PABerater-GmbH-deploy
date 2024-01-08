@@ -33,6 +33,11 @@ a, .nav-link{
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.281);
   }
 
+  .btn-nav:hover {
+    background-color:white;
+    color:#25357a;
+  }
+
   .arrow-btn{
     width: 2vh;
   }

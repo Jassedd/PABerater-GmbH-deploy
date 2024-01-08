@@ -33,19 +33,18 @@ function Landing() {
       </section>
 
       <section className="section-assignment">
-        <p>¡Te asignaremos un asesor personalizado!</p>
+        <p style={{fontSize:"1.2rem"}}>¡Te asignaremos un asesor personalizado!</p>
       </section>
 
         <AdviserForm />
         
         <article className="landing-contact">
-            <img src={EmailIcon} alt="Email icon" />
-            <p className="text-contact-landing">info@paberater.de</p>
-        </article>
-
-        <article className="landing-contact">
+            <h2 style={{fontSize:"2rem", marginTop:"1.5rem"}}>¿HABLAMOS?</h2>
+            <div>
             <img src={PhoneIcon} alt="phone icon" />
-            <p className="text-contact-landing">+49 157 806 33091</p>
+            <a className="phoneNumber" href="tel:+4915780633091">+49 157 806 33091</a>
+
+            </div>
         </article>
         <section className="road-map">
             <article className="talent">
@@ -82,7 +81,7 @@ function Landing() {
 
         <section className="pay-landing">
             <h1 className="pay-title">Medios de pago</h1>
-            <h4>Comienza tu proceso y paga en cómodas facilidades</h4>
+            <h4>Comienza tu proceso <br />y paga en cómodas facilidades</h4>
             <p>
             <br /> Elige el plan ideal para ti.<br /> <br />
 

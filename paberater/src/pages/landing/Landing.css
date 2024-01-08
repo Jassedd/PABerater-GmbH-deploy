@@ -3,6 +3,8 @@
     flex-direction: column;
     align-items: center;
     background-color: #C8A75A;
+    padding: 3%;
+
 }
 
 .frame-youtube{
@@ -14,13 +16,15 @@
 
 .first-title-landing, .second-title-landing, .second-text-landing{
     color: #25357a;
+    font-size: 4vh;
+    line-height: 3vh;
 }
 
 .first-text-landing, .article-span{
     color: white;
+    font-size: 3vh;
+
 }
-
-
 
 .section-assignment{
     background-color: #25357a;
@@ -34,25 +38,34 @@
 
 .landing-contact{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 5vh;
-}
-
-.text-contact-landing{
-    margin-left: 3vh;
+    padding: 4%;
+    font-size: 1.5rem;
     color: #25357a;
+    background-color: #C8A75A;
 }
 
-.Jorge-5-landing{
-    width: 40vh;
+.phoneNumber{
+    font-size: 2rem;
+
+}
+
+.jorge5{
+    width: 37vh;
+
 }
 
 .Figure-text-landing{
     background-color: #25357a;
     color: white;
-    width: 45vh;
+    width: 40vh;
+    height: 9vh;
     text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 2%
 }
 
 .steps-landing{
@@ -119,7 +132,7 @@
 .btn-start{
     background-color: #25357a ;
     border: 0;
-    width: 50%;
+    width: 70%;
     height: 7.5vh;
     border-radius: 10px;
     color: #ffffff;
@@ -127,8 +140,8 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    font-size: 0.8rem;
-    margin: 10vh;
+    font-size: 1.2rem;
+    margin: 5vh;
 }
 
 .pay-landing{
@@ -147,5 +160,6 @@
 
 .pay-title{
     color: #C8A75A;
-    padding: 5vh;
+    font-size: 2.5rem;
+    padding: 2vh;
 }

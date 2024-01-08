@@ -86,9 +86,7 @@ function AdviserForm() {
           type="submit"
           className="btn-added"
           onClick={handleSubmit}
-          disabled={email !== confirmEmail}
-        >
-          Agendar
+          disabled={email !== confirmEmail}>AGENDAR CITA 
         </button>
         </div>
       </Form>
