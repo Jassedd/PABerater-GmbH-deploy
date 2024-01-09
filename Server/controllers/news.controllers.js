@@ -121,6 +121,55 @@ export const getNews = async (_req, res) => {
     }
 };
 
+export const getNewsById = async (req, res) => {
+    let sftp;
+
+    try {
+        const remoteDirectory = '/TRY/';
+        const { id } = req.params;
+
+        
+        const noticia = await News.findByPk(id);
+
+        
+        if (!noticia) {
+            return res.status(404).json({
+                message: 'Noticia no encontrada',
+            });
+        }
+
+        sftp = await connectSftp(sftpConfig);
+
+        
+        const combinedFileName = `${noticia.img}_${noticia.id}`;
+
+        
+        const imageData = await getImageByName(sftp, remoteDirectory, combinedFileName);
+
+        
+        const noticiaConImagen = {
+            id: noticia.id,
+            img: imageData ? imageData.base64Content : null,
+            title: noticia.title,
+            description: noticia.description,
+            Date: noticia.Date,
+            createdAt: noticia.createdAt,
+            updatedAt: noticia.updatedAt,
+        };
+
+        res.json(noticiaConImagen);
+    } catch (error) {
+        res.status(500).json({
+            message: error.message,
+        });
+    } finally {
+        if (sftp) {
+            sftp.end();
+        }
+    }
+};
+
+
 
 export const updateNews = async (req, res) => {
     const { id } = req.params; 
