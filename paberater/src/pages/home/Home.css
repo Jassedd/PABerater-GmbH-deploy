@@ -30,6 +30,8 @@ svg{
 
 .container-img{
   display: flex;
+  justify-content: center;
+  margin-left: -18vh;
   position: relative;
   margin-top: -15vh;
 }

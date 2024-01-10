@@ -78,6 +78,7 @@ a, .nav-link{
     border-radius: 10px;
     display: flex;
     align-items: end;
+    z-index: 15;
   }
 
   @media (min-width: 750px) {
