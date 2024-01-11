@@ -1,0 +1,28 @@
+.btn-start-blue{
+    background-color:#25357a;
+    border: 0;
+    width: 20vh;
+    height: 6vh;
+    border-radius: 10px;
+    color:#C8A75A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.btn-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 9%;
+    width: 6vh;
+    height: 4vh;
+    border-radius: 10vh 10vh 10vh 10vh;
+    border: 0;
+    color: #C8A75A;
+}
+
+
+

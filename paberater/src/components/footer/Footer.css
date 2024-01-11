@@ -48,3 +48,18 @@
     justify-content: center;
     padding: 5vh;
 }
+
+.contact_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center ;
+    background-color: #C8A75A;
+    width: 100%;
+    padding: 3%;
+}
+
+.icons_action{
+    width: 6vh;
+    color:#25357a
+}

@@ -48,8 +48,11 @@
 }
 
 .phoneNumber{
-    font-size: 2rem;
-
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.phoneNumber :hover{
+    color: #25357a;
 }
 
 .jorge5{
@@ -129,20 +132,37 @@
     justify-content: center;
 }
 
+.btn_time{
+    padding: 6%;
+}
+
 .btn-start{
-    background-color: #25357a ;
+    background-color:#25357a;
     border: 0;
-    width: 70%;
-    height: 7.5vh;
+    width: 25vh;
+    height: 6vh;
     border-radius: 10px;
-    color: #ffffff;
+    color:#C8A75A;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    font-size: 1.2rem;
-    margin: 5vh;
-}
+    font-size: 0.9rem;
+    margin: 10%;
+    }
+    
+    .btn-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 9%;
+    width: 6vh;
+    height: 4vh;
+    border-radius: 10vh 10vh 10vh 10vh;
+    border: 0;
+    color: #C8A75A;
+    }
+
 
 .pay-landing{
     background-color: #E9EAF1;

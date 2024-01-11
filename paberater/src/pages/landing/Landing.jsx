@@ -2,11 +2,12 @@ import "./Landing.css"
 import Jorge5 from "../../assets/icons/Jorge/jorge-5.svg"
 import Arrow1 from "../../assets/icons/Arrow-landing1.svg"
 import Arrow2 from "../../assets/icons/Arrow-landing5.svg"
+import Arrow from "../../assets/icons/arrow.svg"
 import Time from "../../assets/img/ahorra-tiempo-dinero.svg"
 import JorgePaberater from "../../assets/img/jorge-Paberater.svg"
 import AdviserForm from "../../components/adviser-form/AdviserForm"
-import EmailIcon from "../../assets/icons/Icon_email.svg"
 import PhoneIcon from "../../assets/icons/Icon_phone.svg"
+import BtnStartBlue from "../../components/btn-start-Blue/BtnStartBlue"
 
 
 function Landing() {
@@ -73,9 +74,9 @@ function Landing() {
 
             <section className="time-landing">
                 <img src={Time} alt="" />
-                <button className="btn-start">
-                    ¿Comenzamos?
-                </button>
+                <div className="btn_time">
+                <BtnStartBlue />
+                </div>
             </section>
         </section>
 
@@ -92,7 +93,7 @@ function Landing() {
                 y te descontamos <span className="span-landing">100 €.</span>
             </p>
             <button className="btn-start">
-                ¡Quiero saber más!
+                ¡Quiero saber más! <img src={Arrow} alt="btn-arrow"/>
             </button>
             <img src={JorgePaberater} alt="" />
         </section>

@@ -6,6 +6,12 @@ import FacebookLogo from "../../assets/icons/logo_facebook.svg";
 import EmailIcon from "../../assets/icons/IconsmsIcon.svg";
 import PhoneIcon from "../../assets/icons/IconPhone.svg";
 import LocalIcon from "../../assets/icons/localitation.svg";
+import WhatsAppIcon from "../../assets/icons/whatsapp_blue.svg";
+import PhoneBlue from "../../assets/icons/phone_blue.svg";
+import Mailblue from "../../assets/icons/mail_blue.svg";
+
+
+
 
 function Footer() {
   return (
@@ -59,6 +65,26 @@ function Footer() {
           autorizado. Estaremos encantados de ponerle en contacto con un
           abogado.
         </p>
+      </section>
+
+      <section className="contact_footer">
+      <div>
+        <a href="tel:+4915780633091">
+        <img src={PhoneBlue} alt="" className="icons_action" />
+        </a> 
+        </div>
+
+        <div>
+        <a href="mailto:info@paberater.de">
+        <img src={Mailblue} alt="" className="icons_action"  />
+        </a> 
+        </div>
+
+        <div>
+        <a href="https://wa.me/491778014367">
+        <img src={WhatsAppIcon} alt="" className="icons_action" />
+        </a>   
+        </div>
       </section>
     </>
   );
