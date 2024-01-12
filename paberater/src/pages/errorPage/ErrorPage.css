@@ -1,5 +1,6 @@
 .Errorpage{
     display: flex;
+    justify-content: center;
 }
 
 .imgError{
