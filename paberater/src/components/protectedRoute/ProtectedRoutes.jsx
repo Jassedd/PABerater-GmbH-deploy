@@ -1,4 +1,4 @@
-import { useAuth } from "../../admin/AuthContext";
+import { useAuth } from "../../authContext/AuthContext";
 import { Navigate } from "react-router-dom";
 import Spinner from "react-bootstrap/esm/Spinner";
 export function ProtectedRoute({ children }) {

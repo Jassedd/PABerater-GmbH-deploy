@@ -8,7 +8,7 @@ import Landing from "../pages/landing/Landing";
 import WhoWeAre from "../pages/whoWeAre/WhoWeAre";
 import Contact from "../pages/contact/Contact";
 import Translate from "../pages/officialTranslate/officialTranslate";
-import AdminHome from "../admin/AdminHome";
+import AdminHome from "../admin/adminHome/AdminHome";
 import { ProtectedRoute } from "../components/protectedRoute/ProtectedRoutes";
 import Login from "../components/login/Login";
 
