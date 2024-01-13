@@ -34,13 +34,13 @@ function Landing() {
       </section>
 
       <section className="section-assignment">
-        <p style={{fontSize:"1.2rem"}}>¡Te asignaremos un asesor personalizado!</p>
+        <p style={{fontSize:"1.3rem"}}>¡Te asignaremos un asesor personalizado!</p>
       </section>
 
         <AdviserForm />
         
         <article className="landing-contact">
-            <h2 style={{fontSize:"2rem", marginTop:"1.5rem"}}>¿HABLAMOS?</h2>
+            <h2 style={{fontSize:"2.5rem", marginTop:"1.5rem"}}>¿HABLAMOS?</h2>
             <div>
             <img src={PhoneIcon} alt="phone icon" />
             <a className="phoneNumber" href="tel:+4915780633091">+49 157 806 33091</a>
@@ -82,20 +82,20 @@ function Landing() {
 
         <section className="pay-landing">
             <h1 className="pay-title">Medios de pago</h1>
-            <h4>Comienza tu proceso <br />y paga en cómodas facilidades</h4>
-            <p>
+            <h4 style={{fontSize: "1.5rem"}}>Comienza tu proceso <br />y paga en cómodas facilidades</h4>
+            <p style={{fontSize: "1.5rem"}}>
             <br /> Elige el plan ideal para ti.<br /> <br />
 
                 <span className="span-landing">A.</span>  Inicia tu proceso y paga el 50% a los quince
                 días. Liquida 2 meses después.
                 <br /> <br />
                 <span className="span-landing">B.</span>  Pronto pago. Pago en una exhibición 
-                y te descontamos <span className="span-landing">100 €.</span>
+                y te descontamos <span className="span-landing">100€.</span>
             </p>
             <button className="btn-start">
                 ¡Quiero saber más! <img src={Arrow} alt="btn-arrow"/>
             </button>
-            <img src={JorgePaberater} alt="" />
+            <img style={{width:"48vh"}} src={JorgePaberater} alt="" />
         </section>
     </>
   )

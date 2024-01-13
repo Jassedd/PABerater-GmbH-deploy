@@ -5,7 +5,7 @@ import Service3 from "../../assets/img/service3.jpg";
 import ArrowBtn from "../../assets/icons/btn-arrow.svg";
 import Arrow from "../../assets/icons/arrow.svg"
 import "./Services.css";
-import BtnAdvisory from "../btn-advisory/BtnAdvisory";
+import BtnBigAdvisory from "../btn-BigAdvisory/BtnBigAdvisory";
 import Jorge4 from "../../assets/img/jorge-4.png"
 import { Link } from "react-router-dom";
 
@@ -13,7 +13,7 @@ function Services() {
   return (
     <>
       <section className="section-services">
-      <div className="figure-BtnAdbisory">
+      <div className="figure-BtnBigAdbisory">
         <div className="talent-text">
           <p>
             Tu pones el talento,
@@ -21,7 +21,7 @@ function Services() {
             nosotros nos encargamos de lo demás.
           </p>
         </div>
-        <BtnAdvisory />
+        <BtnBigAdvisory />
       </div>
         <h3 className="title-services" style={{color: "#C8A75A", fontWeight: "bold"}}>¿Qué Servicios Ofrecemos?</h3>
         <article className="servicesArticle">

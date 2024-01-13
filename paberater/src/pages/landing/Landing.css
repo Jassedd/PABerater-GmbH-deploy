@@ -1,3 +1,18 @@
+
+  h1, h2 {
+    font-family: 'DM Serif Display', serif;
+  }
+  
+  p, h3 {
+    font-family: 'Jost', sans-serif;
+  }
+
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (-webkit-min-device-pixel-ratio: 3)
+{
+
 .first-stape{
     display: flex;
     flex-direction: column;
@@ -17,12 +32,12 @@
 .first-title-landing, .second-title-landing, .second-text-landing{
     color: #25357a;
     font-size: 4vh;
-    line-height: 3vh;
+    line-height: 4vh;
 }
 
 .first-text-landing, .article-span{
     color: white;
-    font-size: 3vh;
+    font-size: 4vh;
 
 }
 
@@ -42,7 +57,7 @@
     align-items: center;
     justify-content: center;
     padding: 4%;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #25357a;
     background-color: #C8A75A;
 }
@@ -56,18 +71,18 @@
 }
 
 .jorge5{
-    width: 37vh;
+    width: 43vh;
 
 }
 
 .Figure-text-landing{
     background-color: #25357a;
     color: white;
-    width: 40vh;
+    width: 43vh;
     height: 9vh;
     text-align: center;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding: 2%
 }
 
@@ -76,7 +91,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: bold;
     margin-top: 7vh;
     margin-bottom: 7vh;
@@ -139,15 +154,15 @@
 .btn-start{
     background-color:#25357a;
     border: 0;
-    width: 25vh;
-    height: 6vh;
+    width: 30vh;
+    height: 7vh;
     border-radius: 10px;
     color:#C8A75A;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     margin: 10%;
     }
     
@@ -182,4 +197,6 @@
     color: #C8A75A;
     font-size: 2.5rem;
     padding: 2vh;
+}
+
 }
