@@ -3,6 +3,7 @@ import "./homologate.css";
 import video1 from "../../assets/video/production_id_4873106 (1080p).mp4";
 import Jorge4 from "../../assets/img/jorge-4.png";
 import QAaccordion from "../../components/q&a-accordion/Q&A-accordion";
+import ScrollToTop from "../../components/scrollToTop/ScrollToTop";
 
 
 function Homologate() {
@@ -28,6 +29,7 @@ function Homologate() {
 
   return (
     <main>
+      <ScrollToTop />
       <section className="homologate_services1">
         <video className="video_homologate" autoPlay loop>
           <source src={video1} type="video/mp4" />

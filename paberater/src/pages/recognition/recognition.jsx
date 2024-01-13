@@ -3,6 +3,7 @@ import "./recognition.css";
 import video2 from "../../assets/video/pexels-los-muertos-crew-8853514 (1080p).mp4";
 import Jorge2 from "../../assets/img/Jorge2.png";
 import QAaccordion from "../../components/q&a-accordion/Q&A-accordion";
+import ScrollToTop from "../../components/scrollToTop/ScrollToTop";
 
 function Recognition() {
   const RecognitionQuestions = [
@@ -27,6 +28,7 @@ function Recognition() {
 
   return (
     <main>
+      <ScrollToTop />
       <section className="recognition_services2">
         <video className="video_recognition" autoPlay loop>
           <source src={video2} type="video/mp4" />

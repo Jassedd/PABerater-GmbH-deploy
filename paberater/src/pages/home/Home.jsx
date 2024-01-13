@@ -9,13 +9,15 @@ import Comments from "../../components/comments/Comments";
 import JoinUp from "../../components/join-up/JoinUp";
 import QuestionForm from "../../components/question-form/QuestionForm";
 import FeedInstagram from "../../components/instagram/feed-instagram";
+import ScrollToTop from "../../components/scrollToTop/ScrollToTop";
 
 
 
 const Home = () => {
   return (
     <main>
-<section className="init-section">
+      <ScrollToTop />
+      <section className="init-section">
         <div className="div-init">
           <h1>
             Asesoramos 

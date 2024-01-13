@@ -4,12 +4,14 @@ import EmailIcon from "../../assets/icons/Icon_email.svg"
 import PhoneIcon from "../../assets/icons/Icon_phone.svg"
 import LocalIcon from "../../assets/icons/Group-local.svg"
 import video3 from "../../assets/video/video (2160p).mp4";
+import ScrollToTop from "../../components/scrollToTop/ScrollToTop"
 
 
 
 function Contact() {
   return (
     <>
+    <ScrollToTop />
             <section className="recognition_services2">
         <video className="video_recognition" autoPlay loop muted>
           <source src={video3} type="video/mp4" />

@@ -1,9 +1,11 @@
 import "./WhoWeAre.css"
 import JorgeWe from "../../assets/img/jorge-pineda-web2.png"
+import ScrollToTop from "../../components/scrollToTop/ScrollToTop";
 
 function WhoWeAre() {
   return (
     <>
+    <ScrollToTop />
       <section className="we-section">
         <h1 style={{color: "#C8A75A"}}>Somos</h1>
         <p>

@@ -8,11 +8,13 @@ import JorgePaberater from "../../assets/img/jorge-Paberater.svg"
 import AdviserForm from "../../components/adviser-form/AdviserForm"
 import PhoneIcon from "../../assets/icons/Icon_phone.svg"
 import BtnStartBlue from "../../components/btn-start-Blue/BtnStartBlue"
+import ScrollToTop from "../../components/scrollToTop/ScrollToTop"
 
 
 function Landing() {
   return (
     <>
+    <ScrollToTop />
         <div className="frame-youtube">
             <iframe
             width="90%"

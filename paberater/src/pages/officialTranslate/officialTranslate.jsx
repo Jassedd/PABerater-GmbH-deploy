@@ -3,6 +3,7 @@ import "./officialTranslate.css";
 import video3 from "../../assets/video/production_id_4872898 (1080p).mp4";
 import Jorge3 from "../../assets/img/jorge-5.png";
 import QAaccordion from "../../components/q&a-accordion/Q&A-accordion";
+import ScrollToTop from "../../components/scrollToTop/ScrollToTop";
 
 function Translate() {
   const TranslateQuestions = [
@@ -27,6 +28,7 @@ function Translate() {
 
   return (
     <main>
+      <ScrollToTop />
       <section className="translate_services3">
         <video className="video_translater" autoPlay loop>
           <source src={video3} type="video/mp4" />
