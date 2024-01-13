@@ -4,6 +4,7 @@ import video1 from "../../assets/video/production_id_4873106 (1080p).mp4";
 import Jorge4 from "../../assets/img/jorge-4.png";
 import QAaccordion from "../../components/q&a-accordion/Q&A-accordion";
 
+
 function Homologate() {
   const homologateQuestions = [
     {
@@ -84,7 +85,7 @@ function Homologate() {
           familia, y la posibilidad de un constante crecimiento profesional.
           Los/as médicos/as, los/as especialistas y las instalaciones con
           tecnología de punta convierten el sistema de salud alemán en uno de
-          los mejores sistemas sanitarios del mundo y tú puedes formar <br /> 
+          los mejores sistemas sanitarios del mundo y tú puedes formar 
           parte de él.
           <br />
           <br />
@@ -119,6 +120,9 @@ function Homologate() {
             <h3 className="resaltar_text">
             ¡ES POSIBLE!
             </h3>
+            <div>
+              
+            </div>
             <button className="btn-comenzamos">¿COMENZAMOS?</button>
 
         </div>

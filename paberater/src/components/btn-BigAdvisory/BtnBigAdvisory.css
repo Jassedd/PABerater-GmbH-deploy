@@ -1,19 +1,21 @@
 .btn-advisory{
     background-color: #C8A75A;
     border: 0;
-    width: 20vh;
-    height: 5vh;
+    width: 30vh;
+    height: 7vh;
     border-radius: 10px;
     color: #25357a;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     margin: 0;
     margin-left: 1.5rem;
 }
 
-
+.arrow-btn2{
+    margin-left: 2vh;
+}
 
 
