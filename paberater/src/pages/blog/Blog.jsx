@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "./Blog.css"
+import video3 from "../../assets/video/production_id_4872898 (1080p).mp4";
 import New1 from "../../assets/img/jorge-4.png"
 import New2 from "../../assets/img/service1.jpg"
 import New3 from "../../assets/img/service2.jpg"
@@ -54,16 +55,32 @@ const Blog = () => {
 
   return (
     <section className='blogSection'>
-      <h1>Nuestro Blog PABerater</h1>
+        <section className="translate_services3">
+        <video className="video_translater" autoPlay loop>
+          <source src={video3} type="video/mp4" />
+          Tu navegador no soporta el elemento de video.
+        </video>
+        <div className="figure_title3">
+          <h1 className="title3_img_translate">NOTICIAS e información de interés</h1>
+        </div>
+      </section>
+      <h1 className="title">Ultimas Noticias</h1>
       <br />
       {blogData.map((post) => (
         <div key={post.id} className='container-new'>
-          <h2 className='blogTitle'>{post.title}</h2>
+          <br /> <br />
           <img src={post.image} alt={post.title} className='blogImg'/>
-          <p className='blogDescription'>
-            {post.description.length > 100 ? `${post.description.substring(0, 100)}...` : post.description}
-            <a href={`/blogPABerater/${post.id}`}> Ver más</a>
-          </p>        </div>
+          <div className='content-new'>
+            <h2 className='blogTitle'>{post.title}</h2>
+            <p className='blogDescription'>
+                {post.description.length > 100 ? `${post.description.substring(0, 100)}...` : post.description}
+                <a href={`/blogPABerater/${post.id}`} className='see-more'> Leer más</a>
+            <hr className="lineBlog" />
+            <p>{post.date}</p>
+            
+            </p>
+          </div>
+        </div>
       ))}
     </section>
   );

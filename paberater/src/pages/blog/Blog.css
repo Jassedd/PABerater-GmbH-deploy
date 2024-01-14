@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #E9EAF1;
 }
 
 .container-new{
@@ -10,14 +11,33 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 5vh;
-    background-color: #E9EAF1;
     border-radius: 10px;
     margin-bottom: 5vh;
+    width: 50vh;
 }
 
 
 
 .blogImg{
-    width: 40vh;
+    width: 45vh;
+    height: 50vh;
+    object-fit: cover; 
+    object-position: center;
+}
+
+.content-new{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 1vh;
+    width: 45vh;
+    height: 30vh;
+    background-color: white;
+    color: #25357a;
+    padding: 1vh;
+}
+
+.see-more{
+    color: #C8A75A !important;
 }
