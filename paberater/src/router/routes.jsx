@@ -14,6 +14,8 @@ import Login from "../components/login/Login";
 import BlogAdmPaberater from "../admin/blogPaberater/BlogAdmPaberater";
 import Blog from "../pages/blog/Blog";
 import BlogDetails from "../pages/blogDetails/BlogDetails";
+import NewsList from "../admin/adminNews/AdminNews";
+import addOrEditNews from "../admin/AddOrEditNews";
 
 
 const router = createBrowserRouter([
@@ -73,6 +75,12 @@ const router = createBrowserRouter([
           path: "/blogadm",
           element:(
               <BlogAdmPaberater />
+          ),
+        },
+        {
+          path: "/admnews",
+          element:(
+              <NewsList  addOrEditNews={addOrEditNews} />
           ),
         },
 

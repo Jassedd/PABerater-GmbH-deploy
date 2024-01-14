@@ -13,7 +13,7 @@ function AdminHome() {
       <div className="admin-dashboard">
       <h2>Bienvenid@</h2>
       <br />
-      <Link>  
+      <Link to="/admnews">  
         <button className='btn-advisory'>Ver Noticias</button>
       </Link>
       <br />

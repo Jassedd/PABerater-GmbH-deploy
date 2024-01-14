@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import "./Blog.css"
 import New1 from "../../assets/img/jorge-4.png"
 import New2 from "../../assets/img/service1.jpg"
-import New3 from "../../assets/img/service1.jpg"
+import New3 from "../../assets/img/service2.jpg"
 
 
 const Blog = () => {

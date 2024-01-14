@@ -1,59 +1,56 @@
 import React, { useState, useEffect } from "react";
-import { toast } from "react-toastify";
 import addOrEditNews from "../AddOrEditNews"; 
+import New1 from "../../assets/img/jorge-4.png"
+import New2 from "../../assets/img/service1.jpg"
+import New3 from "../../assets/img/service2.jpg"
 
-const apiUrl = "/api/news";
+const apiUrl = [
+  {
+    "id": 1,
+    "title": "Nueva funcionalidad añadida a nuestra aplicación",
+    "image": `${New2}`,
+    "description": "Hemos añadido una emocionante nueva funcionalidad a nuestra aplicación que facilitará la vida de nuestros usuarios. ¡Descúbrelo ahora!",
+    "date": "2024-01-15"
+  },
+  {
+    "id": 2,
+    "title": "Actualización de seguridad importante",
+    "image": `${New1}`,
+    "description": "Para garantizar la seguridad de nuestros usuarios, hemos implementado una actualización crítica. Por favor, asegúrate de mantener tu aplicación actualizada.",
+    "date": "2024-01-16"
+  },
+  {
+    "id": 3,
+    "title": "Evento especial: Conferencia en línea",
+    "image": `${New3}`,
+    "description": "No te pierdas nuestra conferencia en línea exclusiva donde discutiremos las últimas tendencias en tecnología. ¡Regístrate ahora para obtener acceso gratuito!",
+    "date": "2024-01-20"
+  },
+];
 
 const NewsList = () => {
   const [newsList, setNewsList] = useState([]);
 
   useEffect(() => {
-    const fetchNews = async () => {
-      try {
-        const response = await fetch(apiUrl);
-
-        if (!response.ok) {
-          throw new Error("Error al obtener la lista de noticias");
-        }
-
-        const data = await response.json();
-        setNewsList(data);
-      } catch (error) {
-        console.error("Error al obtener la lista de noticias: ", error);
-        toast.error("Error al cargar la lista de noticias. Por favor, inténtalo de nuevo.", {
-          autoClose: 2000,
-        });
-      }
-    };
-
-    fetchNews();
+    setNewsList(apiUrl);
   }, []);
 
   const handleEditClick = (id) => {
     const editedNews = newsList.find((news) => news.id === id);
-
     addOrEditNews(editedNews, true);
   };
 
   const handleDeleteClick = async (id) => {
     try {
-      const response = await fetch(`${apiUrl}/${id}`, {
-        method: "DELETE",
-      });
-
-      if (!response.ok) {
-        throw new Error("Error al eliminar la noticia");
-      }
-
+      // Simula la eliminación de una noticia (puedes ajustarlo según tu lógica)
       const updatedNewsList = newsList.filter((news) => news.id !== id);
       setNewsList(updatedNewsList);
-
-      toast.success("Noticia eliminada correctamente", {
+      alert.success("Noticia eliminada correctamente", {
         autoClose: 2000,
       });
     } catch (error) {
       console.error("Error al eliminar la noticia: ", error);
-      toast.error("Error al eliminar la noticia. Por favor, inténtalo de nuevo.", {
+      alert.error("Error al eliminar la noticia. Por favor, inténtalo de nuevo.", {
         autoClose: 2000,
       });
     }
