@@ -4,6 +4,7 @@ import video3 from "../../assets/video/production_id_4872898 (1080p).mp4";
 import New1 from "../../assets/img/jorge-4.png"
 import New2 from "../../assets/img/service1.jpg"
 import New3 from "../../assets/img/service2.jpg"
+import ScrollToTop from '../../components/scrollToTop/ScrollToTop';
 
 
 const Blog = () => {
@@ -44,28 +45,16 @@ const Blog = () => {
           "description": "No te pierdas nuestra conferencia en línea exclusiva donde discutiremos las últimas tendencias en tecnología. ¡Regístrate ahora para obtener acceso gratuito!",
           "date": "2024-01-20"
         },
-        {
-          "id": 6,
-          "title": "Evento especial: Conferencia en línea",
-          "image": `${New3}`,
-          "description": "No te pierdas nuestra conferencia en línea exclusiva donde discutiremos las últimas tendencias en tecnología. ¡Regístrate ahora para obtener acceso gratuito!",
-          "date": "2024-01-20"
-        },
-        {
-          "id": 7,
-          "title": "Evento especial: Conferencia en línea",
-          "image": `${New3}`,
-          "description": "No te pierdas nuestra conferencia en línea exclusiva donde discutiremos las últimas tendencias en tecnología. ¡Regístrate ahora para obtener acceso gratuito!",
-          "date": "2024-01-20"
-        },
       ];
 
+
+      <ScrollToTop />
 
   const [blogData, setBlogData] = useState([]);
   const [loading, setLoading] = useState(true);
 
   const [currentPage, setCurrentPage] = useState(1);
-  const pageSize = 1; 
+  const pageSize = 4; 
 
   const getCurrentPageData = () => {
     const startIndex = (currentPage - 1) * pageSize;
@@ -115,11 +104,13 @@ const getPageNumbers = () => {
 
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
+    window.scrollTo(0, 0);
   };
 
   const handlePrevPage = () => {
     if (currentPage > 1) {
       setCurrentPage((prevPage) => prevPage - 1);
+      window.scrollTo(0, 0);
     }
   };
   
@@ -127,6 +118,7 @@ const getPageNumbers = () => {
     const totalPages = Math.ceil(simulatedNews.length / pageSize);
     if (currentPage < totalPages) {
       setCurrentPage((prevPage) => prevPage + 1);
+      window.scrollTo(0, 0);
     }
   };
   

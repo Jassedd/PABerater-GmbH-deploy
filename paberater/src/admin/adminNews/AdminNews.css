@@ -1,0 +1,62 @@
+.containerList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.listNews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.NewsInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NewsItems{
+    background-color: #E9EAF1;
+    color: #25357a;
+    width: 90%;
+    height: 30vh;
+    padding: 3vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.titleNewslist{
+    margin-left: 3vh;
+}
+
+.Btns-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3vh;
+    width: 90%;
+}
+
+.Btn-delete{
+    background-color: #7a2525;
+    color: #FEEC8A;
+    width: 10vh;
+    height: 5vh;
+    border: 0;
+    border-radius: 10px;
+}
+
+.Btn-edit{
+    background-color: #25357a;
+    color: #FEEC8A;
+    width: 10vh;
+    height: 5vh;
+    border: 0;
+    border-radius: 10px;
+}

@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    margin: 3vh 3vh 3vh 3vh;
 }
 
 .titleBlogDetails{
@@ -12,4 +12,5 @@
 
 .blogDetailsImg{
     width: 30vh;
+    margin-bottom: 3vh;
 }

@@ -12,9 +12,8 @@ const BlogDetails = () => {
       "id": 1,
       "title": "Nueva funcionalidad añadida a nuestra aplicación",
       "image": `${New2}`,
-      "description": "Hemos añadido una emocionante nueva funcionalidad a nuestra aplicación que facilitará la vida de nuestros usuarios. ¡Descúbrelo ahora!",
+      "description": "Hemos añadido una emocionante nueva funcionalidad a nuestra aplicación que facilitará la vida de nuestros usuarios. ¡Descúbrelo ahora! Hemos añadido una emocionante nueva funcionalidad a nuestra aplicación que facilitará la vida de nuestros usuarios. ¡Descúbrelo ahora  Hemos añadido una emocionante nueva funcionalidad a nuestra aplicación que facilitará la vida de nuestros usuarios. ¡Descúbrelo ahora   Hemos añadido una emocionante nueva funcionalidad a nuestra aplicación que facilitará la vida de nuestros usuarios. ¡Descúbrelo ahora   Hemos añadido una emocionante nueva funcionalidad a nuestra aplicación que facilitará la vida de nuestros usuarios. ¡Descúbrelo ahora   Hemos añadido una emocionante nueva funcionalidad a nuestra aplicación que facilitará la vida de nuestros usuarios. ¡Descúbrelo ahora",
       "date": "2024-01-15",
-      "content": "Detalles completos sobre la nueva funcionalidad. Esto es más información sobre la noticia. Lorem Ipsum"
     },
   ];
 
@@ -31,7 +30,7 @@ const BlogDetails = () => {
       <p className='blogDetailsDate'>{selectedNews.date}</p>
       </section>
       <img src={selectedNews.image} alt={selectedNews.title} className='blogDetailsImg'/>
-      <p className='blogDetailsContent'>{selectedNews.content}</p>
+      <p className='blogDetailsContent'>{selectedNews.description}</p>
     </div>
   );
 };

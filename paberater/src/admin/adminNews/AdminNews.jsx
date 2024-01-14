@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import addOrEditNews from "../AddOrEditNews"; 
+import "./AdminNews.css"
 import New1 from "../../assets/img/jorge-4.png"
 import New2 from "../../assets/img/service1.jpg"
 import New3 from "../../assets/img/service2.jpg"
@@ -45,7 +46,7 @@ const NewsList = () => {
       // Simula la eliminación de una noticia (puedes ajustarlo según tu lógica)
       const updatedNewsList = newsList.filter((news) => news.id !== id);
       setNewsList(updatedNewsList);
-      alert.success("Noticia eliminada correctamente", {
+      alert("Noticia eliminada correctamente", {
         autoClose: 2000,
       });
     } catch (error) {
@@ -57,18 +58,18 @@ const NewsList = () => {
   };
 
   return (
-    <div>
+    <div className="containerList">
       <h2>Lista de Noticias</h2>
-      <ul>
+      <ul className="listNews">
         {newsList.map((news) => (
-          <li key={news.id}>
-            <div>
+          <li key={news.id} className="NewsItems">
+            <div className="NewsInfo">
               <img src={news.image} alt={`Imagen de ${news.title}`} style={{ maxWidth: "100px" }} />
+              <h3 className="titleNewslist">{news.title}</h3>
             </div>
-            <div>
-              <h3>{news.title}</h3>
-              <button onClick={() => handleEditClick(news.id)}>Editar</button>
-              <button onClick={() => handleDeleteClick(news.id)}>Eliminar</button>
+            <div className="Btns-list">
+              <button onClick={() => handleEditClick(news.id)} className="Btn-edit">Editar</button>
+              <button onClick={() => handleDeleteClick(news.id)} className="Btn-delete">Eliminar</button>
             </div>
           </li>
         ))}
