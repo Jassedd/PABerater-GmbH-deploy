@@ -26,9 +26,11 @@ const BlogDetails = () => {
 
   return (
     <div className="blogDetails">
-      <h1>{selectedNews.title}</h1>
-      <img src={selectedNews.image} alt={selectedNews.title} className='blogDetailsImg'/>
+      <section>
+      <h1 className='titleBlogDetails'>{selectedNews.title}</h1>
       <p className='blogDetailsDate'>{selectedNews.date}</p>
+      </section>
+      <img src={selectedNews.image} alt={selectedNews.title} className='blogDetailsImg'/>
       <p className='blogDetailsContent'>{selectedNews.content}</p>
     </div>
   );

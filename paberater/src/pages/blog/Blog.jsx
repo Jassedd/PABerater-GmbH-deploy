@@ -30,24 +30,107 @@ const Blog = () => {
           "description": "No te pierdas nuestra conferencia en línea exclusiva donde discutiremos las últimas tendencias en tecnología. ¡Regístrate ahora para obtener acceso gratuito!",
           "date": "2024-01-20"
         },
+        {
+          "id": 4,
+          "title": "Evento especial: Conferencia en línea",
+          "image": `${New3}`,
+          "description": "No te pierdas nuestra conferencia en línea exclusiva donde discutiremos las últimas tendencias en tecnología. ¡Regístrate ahora para obtener acceso gratuito!",
+          "date": "2024-01-20"
+        },
+        {
+          "id": 5,
+          "title": "Evento especial: Conferencia en línea",
+          "image": `${New3}`,
+          "description": "No te pierdas nuestra conferencia en línea exclusiva donde discutiremos las últimas tendencias en tecnología. ¡Regístrate ahora para obtener acceso gratuito!",
+          "date": "2024-01-20"
+        },
+        {
+          "id": 6,
+          "title": "Evento especial: Conferencia en línea",
+          "image": `${New3}`,
+          "description": "No te pierdas nuestra conferencia en línea exclusiva donde discutiremos las últimas tendencias en tecnología. ¡Regístrate ahora para obtener acceso gratuito!",
+          "date": "2024-01-20"
+        },
+        {
+          "id": 7,
+          "title": "Evento especial: Conferencia en línea",
+          "image": `${New3}`,
+          "description": "No te pierdas nuestra conferencia en línea exclusiva donde discutiremos las últimas tendencias en tecnología. ¡Regístrate ahora para obtener acceso gratuito!",
+          "date": "2024-01-20"
+        },
       ];
 
 
   const [blogData, setBlogData] = useState([]);
   const [loading, setLoading] = useState(true);
 
+  const [currentPage, setCurrentPage] = useState(1);
+  const pageSize = 1; 
+
+  const getCurrentPageData = () => {
+    const startIndex = (currentPage - 1) * pageSize;
+    const endIndex = startIndex + pageSize;
+    return simulatedNews.slice(startIndex, endIndex);
+  };
+  
   const fetchData = async () => {
-    setBlogData(simulatedNews);
+    setBlogData(getCurrentPageData());
     setLoading(false);
   };
+  
+
 
   useEffect(() => {
     fetchData();
-  }, []);
+  }, [currentPage]);
 
 
+const getPageNumbers = () => {
+  const totalPages = Math.ceil(simulatedNews.length / pageSize);
 
+  if (totalPages <= 5) {
+    return Array.from({ length: totalPages }, (_, index) => index + 1);
+  }
 
+  const pagesToShow = [];
+
+  // Mostrar las 3 primeras páginas
+  pagesToShow.push(1, 2, 3);
+
+  // Mostrar las páginas intermedias y la última página
+  const startPage = Math.max(currentPage - 1, 4);
+  const endPage = Math.min(currentPage + 1, totalPages - 1);
+
+  for (let i = startPage; i <= endPage; i++) {
+    pagesToShow.push(i);
+  }
+
+  // Mostrar la última página
+  pagesToShow.push(totalPages);
+
+  return pagesToShow;
+};
+  
+ 
+
+  const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
+
+  const handlePrevPage = () => {
+    if (currentPage > 1) {
+      setCurrentPage((prevPage) => prevPage - 1);
+    }
+  };
+  
+  const handleNextPage = () => {
+    const totalPages = Math.ceil(simulatedNews.length / pageSize);
+    if (currentPage < totalPages) {
+      setCurrentPage((prevPage) => prevPage + 1);
+    }
+  };
+  
+  
 
   if (loading) {
     return <div>Cargando...</div>;
@@ -64,7 +147,7 @@ const Blog = () => {
           <h1 className="title3_img_translate">NOTICIAS e información de interés</h1>
         </div>
       </section>
-      <h1 className="title">Ultimas Noticias</h1>
+      <h1 className="titleBlog">Ultimas Noticias</h1>
       <br />
       {blogData.map((post) => (
         <div key={post.id} className='container-new'>
@@ -82,6 +165,21 @@ const Blog = () => {
           </div>
         </div>
       ))}
+      <div className="pagination">
+        <button onClick={handlePrevPage}>&lt;</button>
+        {getPageNumbers().map((pageNumber, index) => (
+          <React.Fragment key={index}>
+            {index > 0 && pageNumber !== getPageNumbers()[index - 1] + 1 && '...'}
+            <button
+              onClick={() => handlePageChange(pageNumber)}
+              className={pageNumber === currentPage ? 'current-page' : ''}
+            >
+              {pageNumber}
+            </button>
+          </React.Fragment>
+        ))}
+        <button onClick={handleNextPage}>&gt;</button>
+      </div>
     </section>
   );
 };

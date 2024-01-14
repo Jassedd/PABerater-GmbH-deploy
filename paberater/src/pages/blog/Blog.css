@@ -16,7 +16,11 @@
     width: 50vh;
 }
 
-
+.titleBlog{
+    color: #C8A75A;
+    font-size: 2.3rem;
+    margin-top: 3.5vh;
+}
 
 .blogImg{
     width: 45vh;
@@ -32,7 +36,7 @@
     justify-content: space-evenly;
     margin-bottom: 1vh;
     width: 45vh;
-    height: 30vh;
+    height: 40vh;
     background-color: white;
     color: #25357a;
     padding: 1vh;
@@ -41,3 +45,8 @@
 .see-more{
     color: #C8A75A !important;
 }
+
+.current-page {
+    background-color:#25357a;
+    color: #C8A75A;
+  }
