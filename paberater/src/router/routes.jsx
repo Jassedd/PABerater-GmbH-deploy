@@ -12,6 +12,8 @@ import AdminHome from "../admin/adminHome/AdminHome";
 import { ProtectedRoute } from "../components/protectedRoute/ProtectedRoutes";
 import Login from "../components/login/Login";
 import BlogAdmPaberater from "../admin/blogPaberater/BlogAdmPaberater";
+import Blog from "../pages/blog/Blog";
+import BlogDetails from "../pages/blogDetails/BlogDetails";
 
 
 const router = createBrowserRouter([
@@ -48,6 +50,14 @@ const router = createBrowserRouter([
         {
           path:"/contacto",
           element: <Contact />
+        },
+        {
+          path:"/blogPABerater",
+          element: <Blog />
+        },
+        {
+          path:"/blogPABerater/:id",
+          element: <BlogDetails />
         },
         {
           path:"/login",

@@ -1,0 +1,23 @@
+.blogSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-new{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh;
+    background-color: #E9EAF1;
+    border-radius: 10px;
+    margin-bottom: 5vh;
+}
+
+
+
+.blogImg{
+    width: 40vh;
+}

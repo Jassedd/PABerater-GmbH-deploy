@@ -42,7 +42,7 @@ function NavbarHome() {
             </Nav.Link>
 
             <Nav.Link>
-              <Link to="/blog">
+              <Link to="/blogPABerater">
                 Blog 
               </Link>
             </Nav.Link>
