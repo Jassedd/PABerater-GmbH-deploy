@@ -1,33 +1,28 @@
 // AdminHome.js
 import React from 'react';
+import "./AdminHome.css"
 import { redirect } from 'react-router-dom';
 import { useAuth } from '../../authContext/AuthContext';
+import { Link } from 'react-router-dom';
+import Jorge from "../../assets/img/jorge-4.png"
 
 function AdminHome() {
-  const { isAdmin, logout } = useAuth();
-
-  const handleLogout = () => {
-    logout();
-  };
-
-  if (!isAdmin) {
-    return <redirect to="/" />;
-  }
-
   return (
-    <div className="admin-dashboard">
-    <h2>Admin Panel</h2>
-    <nav>
-      <ul>
-        <li><Link to="/admin/posts">Ver Noticias</Link></li>
-        <li><Link to="/admin/posts/add">Agregar Noticia</Link></li>
-      </ul>
-    </nav>
-    <Switch>
-      <Route path="/admin/posts" exact component={PostList} />
-      <Route path="/admin/posts/add" component={AddPost} />
-    </Switch>
-  </div>
+    <section className='Section-adm'>
+      <img src={Jorge} alt="" className='JorgeAdm' />
+      <div className="admin-dashboard">
+      <h2>Bienvenid@</h2>
+      <br />
+      <Link>  
+        <button className='btn-advisory'>Ver Noticias</button>
+      </Link>
+      <br />
+      <Link to="/blogadm">
+        <button className='btn-advisory'>Crear Noticia</button>
+      </Link>
+      <br />
+    </div>
+  </section>
   );
 }
 

@@ -1,0 +1,19 @@
+.admin-dashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.JorgeAdm{
+    width: 25vh;
+    position: relative;
+
+}
+
+.Section-adm{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
