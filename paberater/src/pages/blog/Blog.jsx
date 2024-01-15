@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "./Blog.css"
+import Pagination from "../../components/pagination/Pagination"
 import video3 from "../../assets/video/production_id_4872898 (1080p).mp4";
 import New1 from "../../assets/img/jorge-4.png"
 import New2 from "../../assets/img/service1.jpg"
@@ -45,88 +46,43 @@ const Blog = () => {
           "description": "No te pierdas nuestra conferencia en línea exclusiva donde discutiremos las últimas tendencias en tecnología. ¡Regístrate ahora para obtener acceso gratuito!",
           "date": "2024-01-20"
         },
+        
       ];
 
 
       <ScrollToTop />
 
-  const [blogData, setBlogData] = useState([]);
-  const [loading, setLoading] = useState(true);
-
-  const [currentPage, setCurrentPage] = useState(1);
-  const pageSize = 4; 
-
-  const getCurrentPageData = () => {
-    const startIndex = (currentPage - 1) * pageSize;
-    const endIndex = startIndex + pageSize;
-    return simulatedNews.slice(startIndex, endIndex);
-  };
-  
-  const fetchData = async () => {
-    setBlogData(getCurrentPageData());
-    setLoading(false);
-  };
-  
-
-
-  useEffect(() => {
-    fetchData();
-  }, [currentPage]);
-
-
-const getPageNumbers = () => {
-  const totalPages = Math.ceil(simulatedNews.length / pageSize);
-
-  if (totalPages <= 5) {
-    return Array.from({ length: totalPages }, (_, index) => index + 1);
-  }
-
-  const pagesToShow = [];
-
-  // Mostrar las 3 primeras páginas
-  pagesToShow.push(1, 2, 3);
-
-  // Mostrar las páginas intermedias y la última página
-  const startPage = Math.max(currentPage - 1, 4);
-  const endPage = Math.min(currentPage + 1, totalPages - 1);
-
-  for (let i = startPage; i <= endPage; i++) {
-    pagesToShow.push(i);
-  }
-
-  // Mostrar la última página
-  pagesToShow.push(totalPages);
-
-  return pagesToShow;
-};
-  
- 
-
-  const handlePageChange = (pageNumber) => {
-    setCurrentPage(pageNumber);
-    window.scrollTo(0, 0);
-  };
-
-  const handlePrevPage = () => {
-    if (currentPage > 1) {
-      setCurrentPage((prevPage) => prevPage - 1);
-      window.scrollTo(0, 0);
-    }
-  };
-  
-  const handleNextPage = () => {
-    const totalPages = Math.ceil(simulatedNews.length / pageSize);
-    if (currentPage < totalPages) {
-      setCurrentPage((prevPage) => prevPage + 1);
-      window.scrollTo(0, 0);
-    }
-  };
-  
-  
-
-  if (loading) {
-    return <div>Cargando...</div>;
-  }
+      const [blogData, setBlogData] = useState([]);
+      const [loading, setLoading] = useState(true);
+    
+      const [currentPage, setCurrentPage] = useState(1);
+      const pageSize = 4;
+    
+      const fetchData = async (page) => {
+        setLoading(true);
+        console.log('Fetching data for page', page);
+    
+        const startIndex = (page - 1) * pageSize;
+        const endIndex = startIndex + pageSize;
+        setBlogData(simulatedNews.slice(startIndex, endIndex));
+        setLoading(false);
+      };
+    
+      const onPageChange = (page) => {
+        setCurrentPage(page);
+        setCurrentPage((newPage) => {
+          fetchData(newPage);
+          return newPage;
+        });
+      };
+    
+      useEffect(() => {
+        fetchData(currentPage);
+      }, [currentPage]);
+    
+      if (loading) {
+        return <div>Cargando...</div>;
+      }
 
   return (
     <section className='blogSection'>
@@ -157,21 +113,11 @@ const getPageNumbers = () => {
           </div>
         </div>
       ))}
-      <div className="pagination">
-        <button onClick={handlePrevPage}>&lt;</button>
-        {getPageNumbers().map((pageNumber, index) => (
-          <React.Fragment key={index}>
-            {index > 0 && pageNumber !== getPageNumbers()[index - 1] + 1 && '...'}
-            <button
-              onClick={() => handlePageChange(pageNumber)}
-              className={pageNumber === currentPage ? 'current-page' : ''}
-            >
-              {pageNumber}
-            </button>
-          </React.Fragment>
-        ))}
-        <button onClick={handleNextPage}>&gt;</button>
-      </div>
+      <Pagination
+        totalItems={simulatedNews.length}
+        itemsPerPage={pageSize}
+        onPageChange={onPageChange}
+      />
     </section>
   );
 };
