@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 18vh;
     background-color: #E9EAF1;
     padding-top: 5vh;
 }
@@ -56,6 +55,24 @@
     margin-right: 3rem;
 }
 .btn_JU{
-margin-top: 3rem;
-margin-left: -0.5rem;
+margin-top: 4rem;
+margin-left: -2rem;
+}
+
+@media (width >= 750px){
+.JoinUp_callToAction{
+    font-size: 1.6rem;
+    margin-top: -3rem;
+    margin-left: -7rem;
+    margin-right: 3rem;
+}
+.jorge7{
+    width: 35vh;
+    padding: 0;
+    margin: 0;
+}
+.btn_JU{
+    margin-top: 3rem;
+    margin-left: 5rem;
+    }
 }

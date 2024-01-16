@@ -161,7 +161,7 @@ function Homologate() {
           </li>
         </ul>
 
-        <p className="resaltar_text2">Cuente con nuestra asesoría durante todo el proceso.</p>
+        <h3 className="resaltar_text2">Cuente con nuestra asesoría durante todo el proceso.</h3>
         <br />
       </section>
 
@@ -170,7 +170,9 @@ function Homologate() {
         ¡Vivir y trabajar como profesional en Alemania es posible 
         de la mano de PABerater!
         </h3>
-        <button className="btn-contact"><p>CONTACTAR</p></button>
+        <button className="btn-contact">
+          <p>CONTACTAR</p>
+          </button>
 
       </section>
 

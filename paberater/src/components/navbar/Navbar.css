@@ -43,10 +43,11 @@ a, .nav-link{
   }
   
   .LogoPaberater {
-    width: 12vh;
+    width: 14vh;
     padding: 5%;
     margin: 6%;
   }
+
   
   .navbarHome {
     display: flex;
@@ -57,7 +58,7 @@ a, .nav-link{
   .NavContainer.container {
     background-color: #25357a;
     border-radius: 16px;
-    width: 65%;
+    width: 67%;
     display: flex;
     align-items: center;
     height: 8vh;
@@ -81,11 +82,16 @@ a, .nav-link{
     z-index: 15;
   }
 
-  @media (min-width: 750px) {
+  @media (width >= 750px){
     .mediaLogo.navbar-brand {
       display: flex;
       justify-content: space-around;
       margin: 0;
       width: 34%;
   }
+  .LogoPaberater {
+    margin-left: 6vh;
+  }
+
+
   }

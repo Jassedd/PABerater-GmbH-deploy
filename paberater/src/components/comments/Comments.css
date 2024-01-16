@@ -5,13 +5,12 @@
 }
 
 .custom-carousel {
-    border: 1px solid blue;
-    border-radius: 10px;
+    background-color: #C8A75A;
     display: flex;
     align-items: center;
     height: 70vh;
-    width: 70%;
-    padding: 3vh;
+    width: 100%;
+    padding: 7vh;
     margin-top: 5vh;
 }
 .carousel-item-next, .carousel-item-prev, .carousel-item.active{
@@ -21,3 +20,12 @@
     justify-content: center;
 }
 
+.commentItems{
+    color:#25357a;
+}
+
+@media (width >= 750px){
+    .sectionComments h2 {
+        font-size: 2.5rem;
+    }
+}

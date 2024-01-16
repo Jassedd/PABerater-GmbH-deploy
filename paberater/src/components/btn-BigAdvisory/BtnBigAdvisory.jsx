@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function BtnBigAdvisory() {
   return (
     <Link to="/contacto">
-    <button className='btn-advisory'>
+    <button className='btn-BigAdvisory'>
         Solicitar asesoría <img src={Arrow} alt="btn-arrow" className='arrow-btn2' />
     </button>
     </Link>

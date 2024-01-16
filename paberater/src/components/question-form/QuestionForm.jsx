@@ -84,8 +84,7 @@ function QuestionForm() {
           className="btn-added"
           onClick={handleSubmit}
           disabled={email !== confirmEmail}
-        >
-          Agendar
+        >Agendar
         </button>
         </div>
         </Form.Group>

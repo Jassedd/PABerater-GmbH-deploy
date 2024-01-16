@@ -16,6 +16,9 @@ svg{
   margin: 0;
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (-webkit-min-device-pixel-ratio: 3){
+
 .first-arrow{
   margin-left: 10vh;
 }
@@ -50,7 +53,7 @@ svg{
 .home_background{
   display: flex;
   width: 98%;
-  height: 30rem;
+  height: 78vh;
 }
 
 .question-home{
@@ -69,7 +72,6 @@ svg{
 .titleStep{
   color: #C8A75A;
   font-size: 4vh;
-
 }
 
 .Asesoramos, .Gestionamos{
@@ -83,7 +85,6 @@ svg{
   margin-left: 5vh;
 }
 
-
 .Acompañamos {
   display: flex;
   flex-direction: column;
@@ -95,7 +96,6 @@ svg{
   margin-right: 5vh;
   font-size: 1.2rem;
 }
-
 
 .what-do-we-do{
   background-color: #25357a;
@@ -115,6 +115,7 @@ svg{
   text-align:right;
   justify-content: center;
 
+
 }
 
 .title-init{
@@ -130,8 +131,8 @@ svg{
   align-items: center;
   margin-left: 18vh;
   margin-top: 5vh;
-}
 
+}
 
 .jorge5{
   width: 46vh;
@@ -149,4 +150,28 @@ svg{
   flex-direction: column;
   align-items: center;
 }
+}
 
+@media (width >= 750px) {
+  .div-init{
+    margin-left: 50vh;
+    margin-top: 5vh;
+    align-items:end;
+
+  }
+  .jorge-img2{
+    width: 37vh;
+    margin-top: -20.6vh;
+    margin-right:10vh ;
+  }
+
+  .home_background{
+    display: flex;
+    width: 98%;
+    height: 55vh;
+  }
+  .btnAdvisoryHome{
+    margin-top: 3vh;
+    margin-left: -2vh;
+  }
+}

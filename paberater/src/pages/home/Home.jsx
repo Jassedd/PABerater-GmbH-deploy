@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Jorge2 from "../../assets/icons/Jorge/Jorge2.svg";
 import BtnAdvisory from "../../components/btn-advisory/BtnAdvisory";
+import BtnBigAdvisory from "../../components/btn-BigAdvisory/BtnBigAdvisory";
 import Jorge5 from "../../assets/icons/Jorge/jorge-5.svg"
 import Berlin from "../../assets/img/berlin2.svg"
 import Services from "../../components/services/Services";
@@ -32,7 +33,8 @@ const Home = () => {
             <span className="pequena">a </span>
             <span className="resaltar">Alemania</span>
           </h1>
-            <BtnAdvisory />
+          <div className="btnAdvisoryHome"></div>
+            <BtnBigAdvisory />
         </div>
       </section>
       <div className="container-img">

@@ -39,3 +39,13 @@
 #controlQuestion{
     height: 20vh;
 }
+
+@media (width >= 750px){
+    .questionForm{
+        padding: 8%;
+    }
+    .question_subtitle {
+        color:white;
+        font-size: 2rem;
+    }
+}

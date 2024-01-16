@@ -8,7 +8,7 @@ function BtnJoinUp() {
   return (
     <Link to="/contacto">
       <button className='btn-joinUp'>
-          ¿COMENZAMOS? <img src={Arrow} alt="btn-arrow"/>
+          ¿COMENZAMOS? <img className='btn-arrow3' src={Arrow} alt="btn-arrow"/>
       </button>
     </Link>
 

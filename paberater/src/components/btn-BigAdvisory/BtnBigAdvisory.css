@@ -1,7 +1,7 @@
-.btn-advisory{
+.btn-BigAdvisory{
     background-color: #C8A75A;
     border: 0;
-    width: 30vh;
+    width: 35vh;
     height: 7vh;
     border-radius: 10px;
     color: #25357a;
@@ -18,4 +18,7 @@
     margin-left: 2vh;
 }
 
-
+.btn-BigAdvisory:hover{
+background-color: #25357a;
+color: #C8A75A;
+}

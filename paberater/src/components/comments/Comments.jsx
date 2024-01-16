@@ -3,6 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import ExampleCarouselImage from "../../assets/icons/Avatar_reseñas.svg";
 import "./Comments.css"
 
+
 function Comments() {
     return (
       <>

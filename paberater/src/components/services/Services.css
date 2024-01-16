@@ -1,8 +1,23 @@
+h1, h2 {
+    font-family: 'DM Serif Display', serif;
+}
+
+p, h3 {
+    font-family: 'Jost', sans-serif;
+}
+
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (-webkit-min-device-pixel-ratio: 3)
+{
+
 .img-service{
     border-radius: 0 10vh 0 0;
     width: 40vh;
     margin-bottom: 2vh;
-}
+    }
+
 .section-services{
     display: flex;
     flex-direction: column;
@@ -14,7 +29,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 40vh;
+    width: 60vw;
 }
 
 .arrow-btn{
@@ -25,9 +40,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 6vh;
-    height: 6vh;
-    border-radius: 10vh 10vh 10vh 10vh;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 5vh 5vh 5vh 5vh;
     border: 0;
 }
 
@@ -41,7 +56,6 @@
 
 .figure-BtnBigAdbisory{
     background-color: #E9EAF1;
-    border-radius: 0 0 0 5vh;
     display: flex;
     height: 27vh;
     flex-direction: column;
@@ -93,4 +107,42 @@
     font-size: 1rem; 
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+}
+
+@media (width >= 750px){
+    .img-service{
+        border-radius: 0 20vh 0 0;
+        width: 60vh;
+    }
+    .title-services{
+        font-size: 6vh;
+    }
+    .titleService{
+        width: 55vw;
+    }
+
+    .serviceName{
+        font-size: 2rem;
+    }
+    .JorgeSection{
+        width: 100%;
+        margin-bottom: 5vh;
+        padding-top:3vh;
+    }
+    .Jorge-4{
+        width: 35vh;
+        margin-left: 4%;
+
+    }
+    .JorgeArt{
+        margin-right: 8%;
+        margin-left: 4%;
+    }
+    .btn-adviser{
+        width: 30vh;
+        height: 8vh;
+        font-size: 1.3rem; 
+    }
 }
