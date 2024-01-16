@@ -263,20 +263,60 @@ only screen and (-webkit-min-device-pixel-ratio: 3)
         height: 14vh;
         text-align: center;
         font-weight: 600;
-        font-size: 2rem;
+        font-size: 1.2rem;
         padding: 2%;
     }
     .text-landing{
         margin-top: 2%;
     }
     .steps-landing{
-        width: 85vh;
-        margin: 8%;
+        width: 90vh;
+        justify-content: center;
+        margin: 2%;
+        margin-top: 6%;
+        margin-bottom: 6%;
+        padding: 2%;
     }
+
+    .landing-map{
+        width: 70vw;
+        font-size: 2rem;
+        margin-left:0;
+        margin-bottom: 4%;
+    }
+
     .arrow1{
-        width: 10vw;
+        width: 20vw;
         margin-top: 4vh;
-        margin-right: 2vh;
-        margin-left: 3vh;
+    }
+
+    .landing-map2{
+        width: 70vw;
+        margin-left: 10vh;
+        font-size: 2rem;
+        margin-bottom: 4%;
+
+    }
+
+    .arrow2{
+        width: 20vw;
+        margin-top: 4vh;
+    }
+
+    .landing-map3{
+        width: 70vw;
+        margin-left: 0vw;
+        font-size: 2rem;
+    }
+
+    .img_time{
+        width: 70vh;
+        margin-bottom: 5%;
+    }
+    .btn-time-btn{
+        width: 40vh;
+        height: 8vh;
+        border-radius: 10px;
+        font-size: 1.5rem;
     }
 }

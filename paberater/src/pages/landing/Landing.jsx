@@ -75,11 +75,11 @@ function Landing() {
 
 
             <section className="time-landing">
-                <img src={Time} alt="" />
+                <img className="img_time" src={Time} alt="" />
                 <div className="btn_time">
                 
                     <button className="btn-time-btn">
-                    ¡Comenzámos! <img src={Arrow} alt="btn-arrow"/>
+                    ¡Comenzámos! <img style={{margin:"4%"}} src={Arrow} alt="btn-arrow"/>
                     </button>
                 
                 </div>
@@ -88,7 +88,7 @@ function Landing() {
 
         <section className="pay-landing">
             <h1 className="pay-title">Medios de pago</h1>
-            <h4 style={{fontSize: "1.2rem", fontWeight:"600"}}>Comienza tu proceso <br />y paga en cómodas facilidades</h4>
+            <h4 style={{fontSize: "1.3rem", fontWeight:"600"}}>Comienza tu proceso y paga en cómodas facilidades</h4>
             <p style={{fontSize: "1.5rem"}}>
             <br /> Elige el plan ideal para ti.<br /> <br />
 
