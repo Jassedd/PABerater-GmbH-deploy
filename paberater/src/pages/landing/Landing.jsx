@@ -10,6 +10,7 @@ import PhoneIcon from "../../assets/icons/Icon_phone.svg"
 import BtnStartBlue from "../../components/btn-start-Blue/BtnStartBlue"
 import ScrollToTop from "../../components/scrollToTop/ScrollToTop"
 import { Link } from "react-router-dom"
+import "animate.css"
 
 
 function Landing() {
@@ -77,7 +78,7 @@ function Landing() {
             <section className="time-landing">
                 <img className="img_time" src={Time} alt="" />
                 <div className="btn_time">
-                
+               
                     <button className="btn-time-btn">
                     ¡Comenzámos! <img style={{margin:"4%"}} src={Arrow} alt="btn-arrow"/>
                     </button>

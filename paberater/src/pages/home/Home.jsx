@@ -11,7 +11,7 @@ import JoinUp from "../../components/join-up/JoinUp";
 import QuestionForm from "../../components/question-form/QuestionForm";
 import FeedInstagram from "../../components/instagram/feed-instagram";
 import ScrollToTop from "../../components/scrollToTop/ScrollToTop";
-
+import "animate.css"
 
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
     <main>
       <ScrollToTop />
       <section className="init-section">
-        <div className="div-init">
+        <div className="div-init" >
           <h1>
             Asesoramos 
             <br />
