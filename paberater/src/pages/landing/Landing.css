@@ -19,7 +19,6 @@ only screen and (-webkit-min-device-pixel-ratio: 3)
     align-items: center;
     background-color: #C8A75A;
     padding: 3%;
-
 }
 
 .frame-youtube{
@@ -31,20 +30,20 @@ only screen and (-webkit-min-device-pixel-ratio: 3)
 
 .first-title-landing, .second-title-landing, .second-text-landing{
     color: #25357a;
-    font-size: 4vh;
+    font-size: 2rem;
     line-height: 4vh;
 }
 
 .first-text-landing, .article-span{
     color: white;
-    font-size: 4vh;
-
+    font-size: 1.5rem;
 }
 
 .section-assignment{
     background-color: #25357a;
     color: white;
     height: 15vh;
+    font-size: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,9 +61,17 @@ only screen and (-webkit-min-device-pixel-ratio: 3)
     background-color: #C8A75A;
 }
 
+.phone_landing{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
 .phoneNumber{
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     font-weight: 600;
+    padding: 1%;
 }
 .phoneNumber :hover{
     color: #25357a;
@@ -82,16 +89,14 @@ only screen and (-webkit-min-device-pixel-ratio: 3)
     height: 9vh;
     text-align: center;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 2%
 }
 
 .steps-landing{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: bold;
     margin-top: 7vh;
     margin-bottom: 7vh;
@@ -103,24 +108,29 @@ only screen and (-webkit-min-device-pixel-ratio: 3)
     justify-content: center;
     width: 30vh;
     color: #25357a;
+    margin-left: 13vh;
 }
 
-.arrow1, .arrow2{
+
+.arrow1{
+    margin-top: 4vh;
+    margin-right: 2vh;
+    margin-left: 3vh;
+}
+
+.arrow2{
     margin-top: 5vh;
-    
+    margin-right: 3vh;
+    margin-left: -4vh;
 }
 
 .landing-map2{
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-left: 10vh;
+    justify-content: space-between;
+    margin-left: 16vh;
     color: #25357a;
-    width: 25vh;
-}
-
-.text-landing-map2{
-    margin-left: 4vh;
+    width: 40vh;
 }
 
 .landing-map3{
@@ -128,9 +138,10 @@ only screen and (-webkit-min-device-pixel-ratio: 3)
     align-items: center;
     width: 25vh;
     margin-top: 3vh;
-    margin-left: -10vh;
+    margin-left: 9vh;
     color: #25357a;
 }
+
 
 .road-map{
     background-color: #C8A75A;
@@ -147,8 +158,26 @@ only screen and (-webkit-min-device-pixel-ratio: 3)
     justify-content: center;
 }
 
-.btn_time{
+.btn-time-btn{
     padding: 6%;
+    background-color:#25357a;
+    border: 0;
+    width: 30vh;
+    height: 7vh;
+    border-radius: 10px;
+    color:#C8A75A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.btn-time :hover {
+    background-color: #C8A75A;
+    color: #25357a;
 }
 
 .btn-start{
@@ -195,8 +224,59 @@ only screen and (-webkit-min-device-pixel-ratio: 3)
 
 .pay-title{
     color: #C8A75A;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     padding: 2vh;
 }
+}
 
+@media (width >= 750px){
+
+    .first-stape{
+        display: flex;
+        flex-direction: column;
+        background-color: #C8A75A;
+        padding: 3%;
+    }
+    .section-assignment p{
+        font-size: 2.5rem;
+    }
+    .first-title-landing, .second-title-landing, .second-text-landing{
+        font-size: 3rem;
+        line-height: 3vh;
+    }
+    .first-text-landing, .article-span{
+        font-size: 2rem;
+    }
+    .landing-contact{
+        padding: 3%;
+        font-size: 2rem;
+    }
+    .phoneNumber{
+        font-size: 2rem;
+        padding-left: 2%;
+    }
+    .jorge5{
+        width: 60vh;
+    }
+    .Figure-text-landing{
+        width: 60vh;
+        height: 14vh;
+        text-align: center;
+        font-weight: 600;
+        font-size: 2rem;
+        padding: 2%;
+    }
+    .text-landing{
+        margin-top: 2%;
+    }
+    .steps-landing{
+        width: 85vh;
+        margin: 8%;
+    }
+    .arrow1{
+        width: 10vw;
+        margin-top: 4vh;
+        margin-right: 2vh;
+        margin-left: 3vh;
+    }
 }

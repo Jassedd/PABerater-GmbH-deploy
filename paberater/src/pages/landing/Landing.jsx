@@ -9,6 +9,7 @@ import AdviserForm from "../../components/adviser-form/AdviserForm"
 import PhoneIcon from "../../assets/icons/Icon_phone.svg"
 import BtnStartBlue from "../../components/btn-start-Blue/BtnStartBlue"
 import ScrollToTop from "../../components/scrollToTop/ScrollToTop"
+import { Link } from "react-router-dom"
 
 
 function Landing() {
@@ -36,17 +37,16 @@ function Landing() {
       </section>
 
       <section className="section-assignment">
-        <p style={{fontSize:"1.3rem"}}>¡Te asignaremos un asesor personalizado!</p>
+        <p>¡Te asignaremos un asesor personalizado!</p>
       </section>
 
         <AdviserForm />
         
         <article className="landing-contact">
             <h2 style={{fontSize:"2.5rem", marginTop:"1.5rem"}}>¿HABLAMOS?</h2>
-            <div>
+            <div className="phone_landing">
             <img src={PhoneIcon} alt="phone icon" />
             <a className="phoneNumber" href="tel:+4915780633091">+49 157 806 33091</a>
-
             </div>
         </article>
         <section className="road-map">
@@ -61,15 +61,15 @@ function Landing() {
             
             <article className="steps-landing">
                 <section className="landing-map">
-                    <p>Responderemos todas tus dudas</p>
+                    <p className="text-landing-map1">Responderemos todas tus dudas</p>
                     <img src={Arrow1} alt="arrow1" className="arrow1" />
                 </section>
                     <section className="landing-map2">
                     <img src={Arrow2} alt="flecha" className="arrow2" />
-                    <p className="text-landing-map2">Poceso ágil, transparente y confiable</p>
+                    <p className="text-landing-map2">Proceso ágil, transparente <br />y confiable</p>
                 </section>
                     <section className="landing-map3">
-                    <p>Oportunidades acorde a tu perfil profesional</p>
+                    <p className="text-landing-map3">Oportunidades acorde a tu perfil profesional</p>
                 </section>  
             </article>
 
@@ -77,14 +77,18 @@ function Landing() {
             <section className="time-landing">
                 <img src={Time} alt="" />
                 <div className="btn_time">
-                <BtnStartBlue />
+                
+                    <button className="btn-time-btn">
+                    ¡Comenzámos! <img src={Arrow} alt="btn-arrow"/>
+                    </button>
+                
                 </div>
             </section>
         </section>
 
         <section className="pay-landing">
             <h1 className="pay-title">Medios de pago</h1>
-            <h4 style={{fontSize: "1.5rem"}}>Comienza tu proceso <br />y paga en cómodas facilidades</h4>
+            <h4 style={{fontSize: "1.2rem", fontWeight:"600"}}>Comienza tu proceso <br />y paga en cómodas facilidades</h4>
             <p style={{fontSize: "1.5rem"}}>
             <br /> Elige el plan ideal para ti.<br /> <br />
 

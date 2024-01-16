@@ -50,3 +50,9 @@
     justify-content: center;
     
 }
+
+@media (width >= 750px){
+    .adviserForm{
+        padding: 7%;
+    }
+}
