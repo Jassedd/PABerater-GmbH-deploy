@@ -1,90 +1,107 @@
-import React, { useState } from "react";
-import Button from "react-bootstrap/esm/Button";
-import Form from "react-bootstrap/esm/Form";
+import { useState, useEffect } from "react";
+import { Button, Form } from "react-bootstrap";
+import { ref as dbRef, update, push } from "firebase/database";
+import { ref as storageRef, uploadBytes, getDownloadURL } from "firebase/storage";
+import { createNews } from "../../../firebase/firebaseBack";
 import { useNavigate, useParams } from "react-router-dom";
 import "./AddNews.css";
+import { db, storage } from "../../../firebase/firebase";
 
 const initialStateValues = {
   title: "",
-  image: null,
+  img: "",
   description: "",
 };
 
 const BlogAdmPaberater = () => {
   const { id, newId } = useParams();
-  const [values, setValues] = useState(initialStateValues);
+  const [title, setTitle] = useState("");
+  const [description, setDescription] = useState("");
+  const [image, setImage] = useState(null);
+  const [editing, setEditing] = useState(false);
   const [imagePreview, setImagePreview] = useState(null);
   const navigate = useNavigate();
 
-  const handleImageUpload = async (file) => {
-    try {
-      const formData = new FormData();
-      formData.append("image", file);
-
-      const response = await fetch("/api/upload", {
-        method: "POST",
-        body: formData,
-      });
-
-      if (!response.ok) {
-        throw new Error("Error al subir la imagen");
-      }
-
-      const imageURL = await response.json();
-      return imageURL;
-    } catch (error) {
-      console.error("Error al manejar la carga de la imagen:", error);
-      throw error;
+  useEffect(() => {
+    if (newId) {
+      setEditing(true);
+      const getNew = async () => {
+        const newsRef = dbRef(db, `news/${newId}`);
+        const snapshot = await get(newsRef);
+        const data = snapshot.val();
+        if (data) {
+          setTitle(data.title || "");
+          setDescription(data.description || "");
+        }
+      };
+      getNew();
     }
-  };
+  }, [newId]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
-      alert.info("Subiendo imagen, por favor espera...", {
-      });
+      const imgUrl = image ? await handleImageUpload(image) : null;
+      const newsObject = { title, description, img: imgUrl };
 
-      const imageURL = await handleImageUpload(values.image);
+      if (editing) {
+        await update(dbRef(db, `news/${newId}`), newsObject);
+      } else {
+        createNews(newsObject.title, newsObject.description, newsObject.img);
+      }
 
-      const newsObject = {
-        ...values,
-        image: imageURL,
-      };
-
-
-      alert.success("Noticia creada correctamente", { autoClose: 2000 });
-      setValues({ ...initialStateValues });
+      resetForm();
       navigate(`/adminHome/${id}/news`);
     } catch (error) {
       console.error("Error al manejar el envío del formulario:", error);
-      alert.error(
-        "Error al procesar la solicitud. Por favor, inténtalo de nuevo.",
-        { autoClose: 2000 }
-      );
+    }
+  };
+
+  const handleImageUpload = async (file) => {
+    try {
+      const storageReference = storageRef(storage, `images/${file.name}`);
+      await uploadBytes(storageReference, file);
+      const imgUrl = await getDownloadURL(storageReference);
+      return imgUrl;
+    } catch (error) {
+      console.error("Error al cargar la imagen:", error);
+      throw error;
     }
   };
 
   const handleInputChange = (e) => {
-    const { name, files } = e.target;
-
-    if (name === "image") {
-      const selectedImage = files[0];
-      setValues({ ...values, image: selectedImage });
-
-      const reader = new FileReader();
-      reader.onloadend = () => {
-        setImagePreview(reader.result);
-      };
-      if (selectedImage) {
-        reader.readAsDataURL(selectedImage);
-      } else {
-        setImagePreview(null);
+    const { name, value } = e.target;
+    if (name === "img") {
+      const file = e.target.files[0];
+      if (file) {
+        // Validación de archivo
+        const isImage = file.type.startsWith("image/");
+        if (isImage) {
+          setImage(file);
+          const previewURL = URL.createObjectURL(file);
+          setImagePreview(previewURL);
+        } else {
+          console.error("El archivo seleccionado no es una imagen");
+          setImage(null);
+          setImagePreview(null);
+        }
       }
-    } else {
-      setValues({ ...values, [name]: e.target.value });
+    } else if (name === "title") {
+      setTitle(value);
+    } else if (name === "description") {
+      setDescription(value);
     }
   };
+  
+  const resetForm = () => {
+    setTitle("");
+    setDescription("");
+    setImage(null);
+    setImagePreview(null);
+  };
+
+  const newsColor = "white";
 
   return (
     <div
@@ -94,37 +111,27 @@ const BlogAdmPaberater = () => {
       <Form
         className="newsForm"
         style={{
-          width: "80%",
+          width: "18rem",
           padding: "15px",
           borderRadius: "10px",
           overflowY: "hidden",
-          maxHeight: "180vh",
-          backgroundColor: "white",  
-          color: "#25357a",
+          maxHeight: "150vh",
+          backgroundColor: newsColor,
+          color: "#cd222d",
         }}
         onSubmit={handleSubmit}
       >
-        <Form.Group className="mb-3">
+         <Form.Group className="mb-3">
           <Form.Label>Imagen</Form.Label>
-          <Form.Control
-            type="file"
-            name="image"
-            onChange={handleInputChange}
-          />
-          {imagePreview && (
-            <img
-              src={imagePreview}
-              alt="Vista previa de la imagen"
-              style={{ marginTop: "10px", maxWidth: "100%", maxHeight: "200px" }}
-            />
-          )}
+          <Form.Control type="file" name="img" onChange={handleInputChange} />
+          {imagePreview && <img src={imagePreview} alt="Vista previa" style={{ maxWidth: "100%", marginTop: "10px" }} />}
         </Form.Group>
         <Form.Group className="mb-3">
-          <Form.Label>Título</Form.Label>
+          <Form.Label>Título de la noticia</Form.Label>
           <Form.Control
             type="text"
             name="title"
-            value={values.title}
+            value={title}
             onChange={handleInputChange}
           />
         </Form.Group>
@@ -134,14 +141,13 @@ const BlogAdmPaberater = () => {
             as="textarea"
             rows={3}
             name="description"
-            value={values.description}
+            value={description}
             onChange={handleInputChange}
-            style={{ width: "100%" }}
           />
         </Form.Group>
         <div className="saveNew">
-          <Button variant="primary" type="submit" className="buttonSave">
-            Publicar
+          <Button variant="light" type="submit" className="buttonSave">
+            Guardar
           </Button>
         </div>
       </Form>
