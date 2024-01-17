@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button, Form } from "react-bootstrap";
+import ReactQuill from "react-quill"; 
+import "react-quill/dist/quill.snow.css";
 import { ref as dbRef, update, push } from "firebase/database";
 import { ref as storageRef, uploadBytes, getDownloadURL } from "firebase/storage";
 import { createNews } from "../../../firebase/firebaseBack";
@@ -93,7 +95,7 @@ const BlogAdmPaberater = () => {
       setDescription(value);
     }
   };
-  
+
   const resetForm = () => {
     setTitle("");
     setDescription("");
@@ -121,10 +123,16 @@ const BlogAdmPaberater = () => {
         }}
         onSubmit={handleSubmit}
       >
-         <Form.Group className="mb-3">
+        <Form.Group className="mb-3">
           <Form.Label>Imagen</Form.Label>
           <Form.Control type="file" name="img" onChange={handleInputChange} />
-          {imagePreview && <img src={imagePreview} alt="Vista previa" style={{ maxWidth: "100%", marginTop: "10px" }} />}
+          {imagePreview && (
+            <img
+              src={imagePreview}
+              alt="Vista previa"
+              style={{ maxWidth: "100%", marginTop: "10px" }}
+            />
+          )}
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label>Título de la noticia</Form.Label>
@@ -137,12 +145,10 @@ const BlogAdmPaberater = () => {
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label>Descripción de la noticia</Form.Label>
-          <Form.Control
-            as="textarea"
-            rows={3}
-            name="description"
+          {/* Reemplaza el textarea por ReactQuill */}
+          <ReactQuill
             value={description}
-            onChange={handleInputChange}
+            onChange={(value) => setDescription(value)}
           />
         </Form.Group>
         <div className="saveNew">

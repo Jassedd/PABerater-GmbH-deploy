@@ -16,6 +16,8 @@ import Blog from "../pages/blog/Blog";
 import BlogDetails from "../pages/blogDetails/BlogDetails";
 import NewsList from "../admin/adminNews/AdminNews";
 import addOrEditNews from "../admin/AddOrEditNews";
+import AdminNewsDetails from "../admin/admNewsDetails/AdmNewsDetails";
+import AdminNewsEdit from "../admin/adminNewsEdit/AdminNewsEdit";
 
 
 const router = createBrowserRouter([
@@ -80,7 +82,19 @@ const router = createBrowserRouter([
         {
           path: "/admnews",
           element:(
-              <NewsList  addOrEditNews={addOrEditNews} />
+              <NewsList />
+          ),
+        },
+        {
+          path: "/admnewsdetails/:id",
+          element:(
+              <AdminNewsDetails />
+          ),
+        },
+        {
+          path: "/admedit/:id",
+          element:(
+              <AdminNewsEdit />
           ),
         },
 

@@ -1,41 +1,20 @@
+import { getDatabase, ref, set, push } from "firebase/database";
 
-const apiUrl = "/api/news"; 
+const database = getDatabase();
 
 const addOrEditNews = async (newsObject, editing) => {
-  const requestOptions = {
-    method: editing ? "PUT" : "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(newsObject),
-  };
-
   try {
-    const response = await fetch(apiUrl, requestOptions);
-
-    if (!response.ok) {
-      throw new Error("Error al agregar/editar la noticia");
-    }
-
-    const result = await response.json();
-
     if (editing) {
-      alert("Noticia actualizada exitosamente", {
-        type: "success",
-      });
+      const newsRef = ref(database, `news/${newsObject.id}`);
+      await set(newsRef, newsObject);
+      console.log("Noticia actualizada exitosamente");
     } else {
-      alert("Noticia agregada exitosamente", {
-        type: "success",
-      });
+      const newsRef = ref(database, "news");
+      const newNewsRef = await push(newsRef, newsObject);
+      console.log("Noticia agregada exitosamente con ID: ", newNewsRef.key);
     }
-
-    return result;
-  } catch (error) {
-    console.error("Error al agregar/editar la noticia: ", error);
-    alert.error("Error al procesar la solicitud. Por favor, inténtalo de nuevo.", {
-      autoClose: 2000,
-    });
-    throw error;
+  } catch (e) {
+    console.error("Error al agregar/editar documento: ", e);
   }
 };
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import addOrEditNews from "../AddOrEditNews";
+import { Link, redirect } from "react-router-dom";
 import "./AdminNews.css";
 import Pagination from "../../components/pagination/Pagination";
 import { onValue, ref, remove } from "firebase/database";
@@ -29,11 +29,6 @@ const NewsList = () => {
     fetchNews();
   }, []);
 
-  const handleEditClick = (id) => {
-    const editedNews = newsList.find((news) => news.id === id);
-    addOrEditNews(editedNews, true);
-  };
-
   const handleDeleteClick = async (id) => {
     try {
       await remove(ref(db, `news/${id}`));
@@ -57,6 +52,7 @@ const NewsList = () => {
     }
   };
 
+
   const getCurrentPageData = () => {
     const startIndex = (currentPage - 1) * pageSize;
     const endIndex = startIndex + pageSize;
@@ -68,16 +64,24 @@ const NewsList = () => {
       <h2>Lista de Noticias</h2>
       <ul className="listNews">
         {getCurrentPageData().map((news) => (
+            <Link to={`/admnewsdetails/${news.id}`}>
           <li key={news.id} className="NewsItems">
             <div className="NewsInfo">
               <img src={news.img} alt={`Imagen de ${news.title}`} style={{ maxWidth: "100px" }} />
               <h3 className="titleNewslist">{news.title}</h3>
             </div>
             <div className="Btns-list">
-              <button onClick={() => handleEditClick(news.id)} className="Btn-edit">Editar</button>
-              <button onClick={() => handleDeleteClick(news.id)} className="Btn-delete">Eliminar</button>
+              <Link to={`/admedit/${news.id}`}>
+              <button  className="Btn-edit">
+                Editar
+              </button>
+              </Link>
+              <button onClick={() => handleDeleteClick(news.id)} className="Btn-delete">
+                Eliminar
+              </button>
             </div>
           </li>
+        </Link>
         ))}
       </ul>
       <Pagination
