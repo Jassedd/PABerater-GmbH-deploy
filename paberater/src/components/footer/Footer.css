@@ -63,3 +63,55 @@
     width: 6vh;
     color:#25357a
 }
+
+
+
+@media (width >= 750px){
+
+    .pinedaFooter{
+    display: grid;
+    flex-direction:row;
+    padding: 5%;
+    align-content: center;
+    }
+
+    .logoPaberater{
+    flex-direction: row;
+    width: 30vh;
+    padding: 5vh;
+    }
+
+    .socialMediaFooter{
+        padding-bottom: 2vh;
+    }
+
+    .contactFooter{
+    display: flex;
+    flex-direction: row;
+    margin: 2vh;
+    }
+
+    .paberater-rights {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    }
+
+
+    .infoFooter{
+    display: flex;
+    flex-direction: column;
+    padding: 4vh;
+    }
+
+    .IconsFooter{
+        width: 5vh;
+        margin-bottom: 3vh;
+    }
+
+    .IconsFooterYT{
+        height: 4vh;
+        margin-top: -2vh;
+    }
+}

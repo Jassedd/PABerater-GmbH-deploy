@@ -20,8 +20,11 @@ function Footer() {
         <img src={Logo} alt="logo" className="logoPaberater" />
         <div className="socialMediaFooter">
           <img src={IntagramLogo} alt="" className="IconsFooter" />
+          <a href="https://www.instagram.com/paberater_/?hl=es"></a>
           <img src={YoutubeLogo} alt="" className="IconsFooterYT" />
+          <a href="https://www.youtube.com/channel/UCmUbZw_CJqf-pM0-pHI6meg"></a>
           <img src={FacebookLogo} alt="" className="IconsFooter" />
+          <a href="https://www.facebook.com/PABerater/?locale=de_DE"></a>
         </div>
         <section className="contactFooter">
           <div className="infoFooter">
@@ -38,7 +41,24 @@ function Footer() {
             ">PABerater GmbH, <br />Waltersdorfer Ch 203,<br />12355 Berlin, Alemania </a>
           </div>
         </section>
-          <p style={{margin:"0.7rem"}}>© 2023 PABerater GmbH. All Rights Reserved.</p>
+        <div className= "paberater-rights">
+        <p style={{margin:"0.7rem"}}>© 2023 PABerater GmbH. All Rights Reserved.</p>
+        </div>
+        <section>
+          <div className= "impressum">
+          <a href="">Impresum</a>
+          </div>
+          <div className= "agb">
+          <a href="">AGB</a>
+          </div>
+          <div className= "datenschutz">
+          <a href="">Datenschutz</a>
+          </div>
+          <div className= "políticas_cookies">
+          <a href="">Políticas de cookies(UE)</a>
+        </div>
+        </section>
+
       </section>
 
       <section className="cookiesFooter">

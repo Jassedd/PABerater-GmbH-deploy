@@ -2,7 +2,6 @@
 .inputInfoAdviser{
     padding: 3vh;
     background-color: #E9EAF1;
-
 }
 
 .adviserForm{
@@ -12,7 +11,7 @@
 
 .inputInfoAdviser input {
     border: 1px solid #25357a;
-  }
+}
 
 
 #controlProfessionAdviser, #controlEmailsAdviser, #controlEmailConfirmationAdviser, #controlProfessionAdviser, #controlNationalityAdviser, #controlCountryAdviser{

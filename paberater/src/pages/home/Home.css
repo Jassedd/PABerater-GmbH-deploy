@@ -16,13 +16,9 @@ svg{
   margin: 0;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (-webkit-min-device-pixel-ratio: 3){
-
 .first-arrow{
   margin-left: 10vh;
 }
-
 
 .container-home {
   display: flex;
@@ -114,8 +110,6 @@ only screen and (-webkit-min-device-pixel-ratio: 3){
   align-items: flex-start;
   text-align:right;
   justify-content: center;
-
-
 }
 
 .title-init{
@@ -131,17 +125,18 @@ only screen and (-webkit-min-device-pixel-ratio: 3){
   align-items: center;
   margin-left: 18vh;
   margin-top: 5vh;
-
 }
 
 .jorge5{
   width: 46vh;
 }
+
 .talent{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .figure{
   background-color: #E9EAF1;
   margin-top: 5vh;
@@ -150,7 +145,8 @@ only screen and (-webkit-min-device-pixel-ratio: 3){
   flex-direction: column;
   align-items: center;
 }
-}
+
+
 
 @media (width >= 750px) {
   .div-init{
