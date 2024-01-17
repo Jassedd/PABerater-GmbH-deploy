@@ -1,44 +1,32 @@
 import React, { useState, useEffect } from "react";
-import addOrEditNews from "../AddOrEditNews"; 
-import "./AdminNews.css"
+import addOrEditNews from "../AddOrEditNews";
+import "./AdminNews.css";
 import Pagination from "../../components/pagination/Pagination";
-import New1 from "../../assets/img/jorge-4.png"
-import New2 from "../../assets/img/service1.jpg"
-import New3 from "../../assets/img/service2.jpg"
-
-const apiUrl = [
-  {
-    "id": 1,
-    "title": "Nueva funcionalidad añadida a nuestra aplicación",
-    "image": `${New2}`,
-    "description": "Hemos añadido una emocionante nueva funcionalidad a nuestra aplicación que facilitará la vida de nuestros usuarios. ¡Descúbrelo ahora!",
-    "date": "2024-01-15"
-  },
-  {
-    "id": 2,
-    "title": "Actualización de seguridad importante",
-    "image": `${New1}`,
-    "description": "Para garantizar la seguridad de nuestros usuarios, hemos implementado una actualización crítica. Por favor, asegúrate de mantener tu aplicación actualizada.",
-    "date": "2024-01-16"
-  },
-  {
-    "id": 3,
-    "title": "Evento especial: Conferencia en línea",
-    "image": `${New3}`,
-    "description": "No te pierdas nuestra conferencia en línea exclusiva donde discutiremos las últimas tendencias en tecnología. ¡Regístrate ahora para obtener acceso gratuito!",
-    "date": "2024-01-20"
-  },
-];
+import { onValue, ref, remove } from "firebase/database";
+import { db } from "../../../firebase/firebase";
 
 const NewsList = () => {
   const [newsList, setNewsList] = useState([]);
-
   const [currentPage, setCurrentPage] = useState(1);
   const pageSize = 10;
 
-
   useEffect(() => {
-    setNewsList(apiUrl);
+    const newsRef = ref(db, "news");
+
+    const fetchNews = () => {
+      onValue(newsRef, (snapshot) => {
+        const data = snapshot.val();
+        if (data) {
+          const newsArray = Object.keys(data).map((key) => ({
+            id: key,
+            ...data[key],
+          }));
+          setNewsList(newsArray);
+        }
+      });
+    };
+
+    fetchNews();
   }, []);
 
   const handleEditClick = (id) => {
@@ -48,14 +36,15 @@ const NewsList = () => {
 
   const handleDeleteClick = async (id) => {
     try {
-      // Simula la eliminación de una noticia (puedes ajustarlo según tu lógica)
+      await remove(ref(db, `news/${id}`));
+
       const updatedNewsList = newsList.filter((news) => news.id !== id);
       setNewsList(updatedNewsList);
+
       alert("Noticia eliminada correctamente", {
         autoClose: 2000,
       });
 
-          // Verifica si después de eliminar, la última página queda vacía
       const totalPages = Math.ceil(updatedNewsList.length / pageSize);
       if (currentPage > totalPages) {
         setCurrentPage(totalPages);
@@ -65,7 +54,7 @@ const NewsList = () => {
       alert.error("Error al eliminar la noticia. Por favor, inténtalo de nuevo.", {
         autoClose: 2000,
       });
-    }    
+    }
   };
 
   const getCurrentPageData = () => {
@@ -81,7 +70,7 @@ const NewsList = () => {
         {getCurrentPageData().map((news) => (
           <li key={news.id} className="NewsItems">
             <div className="NewsInfo">
-              <img src={news.image} alt={`Imagen de ${news.title}`} style={{ maxWidth: "100px" }} />
+              <img src={news.img} alt={`Imagen de ${news.title}`} style={{ maxWidth: "100px" }} />
               <h3 className="titleNewslist">{news.title}</h3>
             </div>
             <div className="Btns-list">

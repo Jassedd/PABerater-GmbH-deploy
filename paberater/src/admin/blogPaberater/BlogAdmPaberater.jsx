@@ -52,7 +52,7 @@ const BlogAdmPaberater = () => {
       }
 
       resetForm();
-      navigate(`/adminHome/${id}/news`);
+      navigate(`/admnews`);
     } catch (error) {
       console.error("Error al manejar el envío del formulario:", error);
     }
