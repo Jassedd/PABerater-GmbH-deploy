@@ -1,7 +1,7 @@
 .btn-advisory{
     background-color: #C8A75A;
     border: 0;
-    width: 25vh;
+    width: 24vh;
     height: 6vh;
     border-radius: 10px;
     color: #25357a;
@@ -9,17 +9,28 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    font-size: 1rem;
-    margin: 0;
-    margin-left: 1.5rem;
+    font-size: 0.8rem;
+    margin-left: 2rem;
 }
 .arrow-btn1{
-    margin-left: 1vh;
+    margin-left: 0.2vw;
 }
 
 .btn-advisory:hover{
+    background-color: #25357a;
     color:white;
     }
 
+
+    @media (width >= 750px){
+    .btn-advisory{
+        font-size:1.5rem;
+        height: 6vh;
+    }
+    .arrow-btn1{
+        margin-left: 1vw;
+    }
+
+    }
 
 

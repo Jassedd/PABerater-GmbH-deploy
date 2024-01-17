@@ -7,7 +7,7 @@ function WhoWeAre() {
     <>
     <ScrollToTop />
       <section className="we-section">
-        <h1 style={{color: "#C8A75A"}}>Somos</h1>
+        <h2 style={{color: "#C8A75A"}}>Somos</h2>
         <p>
           una empresa de asesoría privada con sede en Alemania, nos
           especializamos en asesorar a profesionales cualificados para su
@@ -23,7 +23,7 @@ function WhoWeAre() {
         </div>
       </section>
       <section className="history">
-        <h1 style={{color: "#C8A75A"}}>Nuestra Historia</h1>
+        <h2 style={{color: "#C8A75A"}}>Nuestra Historia</h2>
         <p>
           <span className="span-we">Jorge Joel Pineda Arcia,</span> abogado egresado de la Universidad Gran
           Mariscal de Ayacucho en Venezuela, en el año 2015 vivió la experiencia
@@ -40,9 +40,9 @@ function WhoWeAre() {
         </p>
       </section>
       <section className="section-new-life">
-        <h2 style={{color: "#25357a", fontSize:"1.5rem"}}>Si yo pude, tú también puedes.</h2>
-        <h2 style={{color: "#25357a", fontSize:"2rem"}}>PABerater,</h2>
-        <h3 style={{color: "white", fontSize:"1.4rem", textAlign: "center"}}>el compañero ideal para tu nueva vida en Alemania.</h3>
+        <h2>Si yo pude, tú también puedes.</h2>
+        <h1>PABerater,</h1>
+        <h3>El compañero ideal para tu nueva vida en Alemania.</h3>
       </section>
     </>
   );

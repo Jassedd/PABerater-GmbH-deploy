@@ -36,9 +36,9 @@ svg{
 }
 
 .jorge-img2{
-  width: 30vh;
+  width: 29vh;
   position: absolute;
-  margin-top: -7.4vh;
+  margin-top: -5.4vh;
   display: flex;
 }
 
@@ -110,12 +110,13 @@ svg{
   align-items: flex-start;
   text-align:right;
   justify-content: center;
+  position: relative;
 }
 
 .title-init{
   display: flex;
   flex-direction: column;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 
 .div-init{
@@ -149,25 +150,25 @@ svg{
 
 
 @media (width >= 750px) {
+
   .div-init{
-    margin-left: 50vh;
+    margin-left: 40vw;
     margin-top: 5vh;
     align-items:end;
-
   }
+
+
   .jorge-img2{
-    width: 37vh;
-    margin-top: -20.6vh;
+    width: 30vh;
+    margin-top: -7.2vh;
     margin-right:10vh ;
   }
 
   .home_background{
     display: flex;
     width: 98%;
-    height: 55vh;
+    height: 68vh;
+    z-index: -5;
   }
-  .btnAdvisoryHome{
-    margin-top: 3vh;
-    margin-left: -2vh;
-  }
+
 }

@@ -34,7 +34,7 @@ const Home = () => {
             <span className="resaltar">Alemania</span>
           </h1>
           <div className="btnAdvisoryHome"></div>
-            <BtnBigAdvisory />
+            <BtnAdvisory />
         </div>
       </section>
       <div className="container-img">
