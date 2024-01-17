@@ -1,10 +1,11 @@
 
 .inputInfoAdviser{
-    padding: 3vh;
+    padding: 0.5rem 2rem;
     background-color: #E9EAF1;
 }
 
 .adviserForm{
+    padding-top: 2rem;
     background-color: #E9EAF1;
     padding-bottom: 7%;
 }
@@ -15,7 +16,7 @@
 
 
 #controlProfessionAdviser, #controlEmailsAdviser, #controlEmailConfirmationAdviser, #controlProfessionAdviser, #controlNationalityAdviser, #controlCountryAdviser{
-    height: 9vh;
+    height: 3rem;
 }
 
 #controlQuestion{
@@ -52,6 +53,25 @@
 
 @media (width >= 750px){
     .adviserForm{
-        padding: 7%;
+        padding: 5rem 10rem;
     }
+    .inputInfoAdviser{
+        padding: 0.5rem;
+    }
+}
+
+@media (width >= 1000px){
+    .adviserForm{
+        order:2;
+        width: 48vw;
+        padding: 5rem 5rem 1rem 5rem;
+    }
+    .inputInfoAdviser{
+        padding: 0.5rem;
+        background-color: #E9EAF1;
+    }
+    #controlProfessionAdviser, #controlEmailsAdviser, #controlEmailConfirmationAdviser, #controlProfessionAdviser, #controlNationalityAdviser, #controlCountryAdviser{
+        height: 5rem;
+    }
+    
 }

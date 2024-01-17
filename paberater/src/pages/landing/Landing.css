@@ -56,6 +56,8 @@
     background-color: #C8A75A;
 }
 
+
+
 .phone_landing{
     display: flex;
     flex-direction: row;
@@ -73,7 +75,7 @@
 }
 
 .jorge5{
-    width: 43vh;
+    width: 40vh;
 }
 
 .Figure-text-landing{
@@ -88,61 +90,45 @@
 }
 
 .steps-landing{
+    background-color: #C8A75A;
+    width: 100vw;
+    padding: 2rem 0;
     display: flex;
     flex-direction: column;
-    font-size: 1.4rem;
-    font-weight: bold;
-    margin-top: 7vh;
-    margin-bottom: 7vh;
+    align-items: center;
+    font-size: larger;
+    font-weight: 800;
 }
 
 .landing-map{
+    width: 70vw;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30vh;
-    color: #25357a;
-    margin-left: 13vh;
-}
-
-
-.arrow1{
-    margin-top: 4vh;
-    margin-right: 2vh;
-    margin-left: 3vh;
-}
-
-.arrow2{
-    margin-top: 5vh;
-    margin-right: 3vh;
-    margin-left: -4vh;
-}
-
-.landing-map2{
-    display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
-    margin-left: 16vh;
-    color: #25357a;
-    width: 40vh;
-}
-
-.landing-map3{
-    display: flex;
-    align-items: center;
-    width: 25vh;
-    margin-top: 3vh;
-    margin-left: 9vh;
     color: #25357a;
 }
 
+.arrow{
+    width: 5rem;;
+    margin: 1rem;
+}
+
+.text-landing-map1{
+    margin-top: 0.5rem;
+    text-align: start;
+}
+.text-landing-map2{
+    margin-top: 0.5rem;
+    text-align: end;
+}
+.text-landing-map3{
+    margin-top: 0.8rem;
+    text-align: start;
+}
 
 .road-map{
     background-color: #C8A75A;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    
 }
 
 .time-landing{
@@ -150,6 +136,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #C8A75A;
 }
 
 .btn-time-btn{
@@ -263,44 +250,15 @@
         margin-top: 2%;
     }
     .steps-landing{
-        width: 90vh;
-        justify-content: center;
-        margin: 2%;
-        margin-top: 6%;
-        margin-bottom: 6%;
-        padding: 2%;
+       padding:3rem 0;
     }
 
     .landing-map{
-        width: 70vw;
-        font-size: 2rem;
-        margin-left:0;
-        margin-bottom: 4%;
+        max-width: 35rem;
+        font-weight:bolder;
+        font-size: larger;
+        
     }
-
-    .arrow1{
-        width: 20vw;
-        margin-top: 4vh;
-    }
-
-    .landing-map2{
-        width: 70vw;
-        margin-left: 10vh;
-        font-size: 2rem;
-        margin-bottom: 4%;
-        }
-
-    .arrow2{
-        width: 20vw;
-        margin-top: 4vh;
-    }
-
-    .landing-map3{
-        width: 70vw;
-        margin-left: 0vw;
-        font-size: 2rem;
-    }
-
     .img_time{
         width: 70vh;
         margin-bottom: 5%;
@@ -311,4 +269,48 @@
         border-radius: 10px;
         font-size: 1.5rem;
     }
+}
+
+@media (width >= 1000px){
+
+.formView{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.jorge5{
+    width: 60vh;
+}
+.talent{
+    width: 50vw;
+    background-color: #C8A75A;
+}
+.photoSection{
+    background-color: #C8A75A;
+}
+.steps-landing{
+    margin: 0;
+}
+.arowsImg{
+    display: flex;
+    flex-direction: row;
+}
+.steps-landing{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landing-map{
+    padding: 2rem 0;
+    width: 50vw;
+    font-size: 2.5rem;
+}
+.time_landing{
+    width: 50vw;
+}
+.img_time{
+    width: 50vw;
+}
+
 }

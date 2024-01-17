@@ -40,9 +40,11 @@ function Landing() {
       <section className="section-assignment">
         <p>¡Te asignaremos un asesor personalizado!</p>
       </section>
-
-        <AdviserForm />
+    
         
+    <section className="formView">
+        <AdviserForm />
+       <div className="photoSection" >
         <article className="landing-contact">
             <h2 style={{fontSize:"2.5rem", marginTop:"1.5rem"}}>¿HABLAMOS?</h2>
             <div className="phone_landing">
@@ -50,7 +52,7 @@ function Landing() {
             <a className="phoneNumber" href="tel:+4915780633091">+49 157 806 33091</a>
             </div>
         </article>
-        <section className="road-map">
+        
             <article className="talent">
                 <div className="figure">
                     <img src={Jorge5} alt="jorge" className="jorge5" />
@@ -59,17 +61,20 @@ function Landing() {
                     </div>
                 </div>        
             </article>
-            
+            </div>
+    </section>
+
+    <section className="arowsImg">  
             <article className="steps-landing">
                 <section className="landing-map">
                     <p className="text-landing-map1">Responderemos todas tus dudas</p>
-                    <img src={Arrow1} alt="arrow1" className="arrow1" />
+                    <img src={Arrow1} alt="arrow1" className="arrow" />
                 </section>
-                    <section className="landing-map2">
-                    <img src={Arrow2} alt="flecha" className="arrow2" />
-                    <p className="text-landing-map2">Proceso ágil, transparente <br />y confiable</p>
+                    <section className="landing-map">
+                    <img src={Arrow2} alt="flecha" className="arrow" />
+                    <p className="text-landing-map2">Proceso ágil, transparente y confiable</p>
                 </section>
-                    <section className="landing-map3">
+                    <section className="landing-map">
                     <p className="text-landing-map3">Oportunidades acorde a tu perfil profesional</p>
                 </section>  
             </article>
@@ -81,11 +86,12 @@ function Landing() {
                
                     <button className="btn-time-btn">
                     ¡Comenzámos! <img style={{margin:"4%"}} src={Arrow} alt="btn-arrow"/>
-                    </button>
-                
+                    </button>               
                 </div>
+                
             </section>
-        </section>
+            </section>      
+        
 
         <section className="pay-landing">
             <h1 className="pay-title">Medios de pago</h1>
@@ -102,7 +108,7 @@ function Landing() {
             <button className="btn-start">
                 ¡Quiero saber más! <img src={Arrow} alt="btn-arrow"/>
             </button>
-            <img style={{width:"48vh"}} src={JorgePaberater} alt="" />
+            <img style={{width:"45vh"}} src={JorgePaberater} alt="" />
         </section>
     </>
   )
