@@ -86,7 +86,7 @@ const AdminNewsEdit = () => {
         value={newsData.date}
         onChange={handleInputChange}
       />
-      <button onClick={handleSaveClick}>Guardar Cambios</button>
+      <button className='button-edit' onClick={handleSaveClick}>Guardar Cambios</button>
     </div>
   );
 };
