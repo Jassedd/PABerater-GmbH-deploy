@@ -64,7 +64,7 @@ p, h3 {
     color: #FEEC8A;
     height: 11vh;
     width: 100%;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,7 +87,7 @@ p, h3 {
     justify-content: center;
 }
 .Jorge-4{
-    width: 20vh;
+    width: 45vw;
 }
 
 .JorgeArt{
@@ -96,7 +96,7 @@ p, h3 {
 
 .btn-adviser{
     background-color: #25357a;
-    color:#FEEC8A;
+    color:#C8A75A;
     border: 0;
     width: 20vh;
     height: 5vh;
@@ -137,9 +137,23 @@ p, h3 {
         margin-right: 8%;
         margin-left: 4%;
     }
+    .jorgeSection_name{
+        color: #25357a;
+        font-size: 3rem;
+    }
+
+    .jorgeSection_text{
+        color: #25357a;
+        font-size: 1.4rem;
+    }
+
     .btn-adviser{
-        width: 30vh;
+        width: 35vw;
         height: 8vh;
-        font-size: 1.3rem; 
+        font-size: 2rem; 
+    }
+
+    .arrow4{
+        width: 6vw;
     }
 }

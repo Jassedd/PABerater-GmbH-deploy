@@ -32,6 +32,13 @@
     color: #C8A75A;
 }
 
+@media (width >= 750px){
+    .btn-joinUp{
+        width: 30vw;
+        height: 6vh;
+        font-size: 1.3rem;
+    }
 
+}
 
 

@@ -75,4 +75,31 @@ margin-left: -2rem;
     margin-top: 3rem;
     margin-left: 5rem;
     }
+
+    .NumbersJoinUp{
+        font-size: 6rem;
+        margin-top: 4vh;
+    }
+
+    .textJoinUp{
+        color: #C8A75A;
+        font-size: 2rem;
+    }
+
+    .jorge7{
+        width: 50vw;
+    }
+    
+    .JoinUp_callToAction{
+        font-size: 1.8rem;
+        margin-top: -3rem;
+        margin-left: -7rem;
+        margin-right: 3rem;
+    }
+    .btn_JU{
+    margin-top: 4vh;
+    margin-left: 5vw;
+    }
 }
+
+

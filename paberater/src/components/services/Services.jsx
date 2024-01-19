@@ -66,13 +66,13 @@ function Services() {
             <div className="JorgeSection">
                 <img src={Jorge4} alt="Jorge" className="Jorge-4"/>
                 <div className="JorgeArt">
-                    <h1 style={{color: "#25357a"}}>En PABerater</h1>
-                    <p style={{fontSize:"1rem"}}>tenemos una maleta de posibilidades 
+                    <h1 className="jorgeSection_name">En PABerater</h1>
+                    <p className="jorgeSection_text">tenemos una maleta de posibilidades 
                     para tu crecimiento profesional.
                     </p>
                     <Link to="/contacto">
                     <button className="btn-adviser">
-                      Agendar cita <img src={Arrow} alt="arrow" className='arrow'/>
+                      Agendar cita <img src={Arrow} alt="arrow" className='arrow4'/>
                       </button>
                     </Link>
                 </div>

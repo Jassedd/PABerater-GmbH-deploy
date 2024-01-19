@@ -19,14 +19,15 @@ function Footer() {
       <section className="pinedaFooter">
         <img src={Logo} alt="logo" className="logoPaberater" />
         <div className="socialMediaFooter">
-          <img src={IntagramLogo} alt="" className="IconsFooter" />
+          <img src={IntagramLogo} alt="" className="IconSocialFooter" />
           <a href="https://www.instagram.com/paberater_/?hl=es"></a>
-          <img src={YoutubeLogo} alt="" className="IconsFooterYT" />
+          <img src={YoutubeLogo} alt="" className="IconSocialFooterYT" />
           <a href="https://www.youtube.com/channel/UCmUbZw_CJqf-pM0-pHI6meg"></a>
-          <img src={FacebookLogo} alt="" className="IconsFooter" />
+          <img src={FacebookLogo} alt="" className="IconSocialFooter" />
           <a href="https://www.facebook.com/PABerater/?locale=de_DE"></a>
         </div>
-        <section className="contactFooter">
+
+        <div className="contactFooter">
           <div className="infoFooter">
             <img src={EmailIcon} alt="" className="IconsFooter"/>
             <a href="/contacto">info@paberater.de</a>
@@ -40,11 +41,14 @@ function Footer() {
             <a href="https://www.google.com/maps/dir/40.3800498,-3.7739879/paberater-de/@45.9383877,-5.6762452,5z/
             ">PABerater GmbH, <br />Waltersdorfer Ch 203,<br />12355 Berlin, Alemania </a>
           </div>
-        </section>
+        </div>
+      </section>
+
+        <section>
         <div className= "paberater-rights">
         <p style={{margin:"0.7rem"}}>© 2023 PABerater GmbH. All Rights Reserved.</p>
         </div>
-        <section>
+
           <div className= "impressum">
           <a href="">Impresum</a>
           </div>
@@ -59,7 +63,6 @@ function Footer() {
         </div>
         </section>
 
-      </section>
 
       <section className="cookiesFooter">
         <p>

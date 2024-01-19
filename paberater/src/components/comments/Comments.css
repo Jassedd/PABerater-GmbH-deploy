@@ -10,7 +10,7 @@
     align-items: center;
     height: 70vh;
     width: 100%;
-    padding: 7vh;
+    padding: 7vw;
     margin-top: 5vh;
 }
 .carousel-item-next, .carousel-item-prev, .carousel-item.active{
@@ -27,5 +27,15 @@
 @media (width >= 750px){
     .sectionComments h2 {
         font-size: 2.5rem;
+    }
+    .custom-carousel {
+        height: 40vh;
+        width: 100%;
+        padding: 12vw;
+
+        .commentItems{
+        font-size: 1.5rem;
+        }
+
     }
 }
