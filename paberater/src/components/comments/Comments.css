@@ -8,7 +8,7 @@
     background-color: #C8A75A;
     display: flex;
     align-items: center;
-    height: 70vh;
+
     padding: 7%;
     margin-top: 5vh;
 }
@@ -30,13 +30,12 @@
         font-size: 2.5rem;
     }
     .custom-carousel {
-        height: 40vh;
         width: 100%;
         padding: 12vw;
+        height: 80vh;
+    }
 
         .commentItems{
         font-size: 1.5rem;
         }
-
-    }
 }

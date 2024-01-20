@@ -1,3 +1,7 @@
+p{
+    margin: 0 !important;
+}
+
 .pinedaFooter{
     background-color: #25357a;
     color: #bebec5;
@@ -70,12 +74,16 @@
     align-items: center ;
     background-color: #C8A75A;
     width: 100%;
-    padding: 8%;
+    padding: 4vh;
 }
 
 .icons_action{
     width: 6vh;
     color:#25357a
+}
+
+.groupPolitics{
+    background-color: #25357a;
 }
 
 
@@ -92,7 +100,6 @@
     .logoPaberater{
     flex-direction: row;
     width: 35vw;
-    padding: 2";
     }
 
     .socialMediaFooter{

@@ -32,7 +32,7 @@
     color:white;
 }
 
-#controlProfession, #controlEmails, #controlEmailConfirmation, #controlProfession{
+#controlNames, #controlEmails, #controlEmailConfirmation, #controlProfession{
     height: 9vh;
 }
 

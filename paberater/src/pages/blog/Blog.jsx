@@ -80,10 +80,10 @@ const Blog = () => {
                     : post.description,
               }}
             />
-              <a href={`/blogPABerater/${post.id}`} className="see-more">
+              <Link to={`/blogPABerater/${post.id}`} className="see-more">
                 {' '}
                 Leer más
-              </a>
+              </Link>
               <hr className="lineBlog" />
               <p>{post.date}</p>
           </div>

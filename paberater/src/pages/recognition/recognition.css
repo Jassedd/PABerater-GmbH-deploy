@@ -17,7 +17,7 @@ svg{
 }
 
 .video_recognition {
-width: 45vh;
+width: 50vh;
 border-radius: 0 15vh 0 15vh;
 margin-bottom: 2vh;
 margin-top: 10%;
@@ -33,7 +33,7 @@ margin-top: 10%;
 .figure_title2 {
     background-color: #25357a9c;
     color: #C8A75A;
-    width: 45vh;
+    width: 50vh;
     height: 15vh;
     border-radius: 4vh 0 4vh 0;
     position:absolute;

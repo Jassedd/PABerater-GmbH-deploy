@@ -18,7 +18,7 @@ svg{
 
 
 .video_homologate {
-width: 90vw;
+width: 50vh;
 border-radius: 0 15vh 0 15vh;
 margin-bottom: 2vh;
 margin-top: 7vh;
@@ -40,7 +40,7 @@ margin-top: 7vh;
 .figure_title {
     background-color: #25357a9c;
     color: #C8A75A;
-    width: 90vw;
+    width: 50vh;
     height: 15vh;
     border-radius: 4vh 0 4vh 0;
     position:absolute;
@@ -204,4 +204,13 @@ background-color: #25357a;
     font-size: 4.3vh;
     font-weight: 600;
     color: #25357a;
+}
+
+@media (width >= 750px) {
+    .jorge_img{
+        width:50vh;
+    }
+    .yt-service{
+        height: 70vh;
+    }
 }

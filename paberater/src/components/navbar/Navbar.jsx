@@ -21,9 +21,15 @@ function NavbarHome() {
       <Container className='NavContainer'>
         <button className='btn-nav'>Quiero saber más <img src={Arrow} alt="" className='arrow-btn' /></button>
         <Navbar.Brand className='mediaLogo'>
-        <img src={IntagramLogo} alt="instagram logo" className='socialMediaLogo' />
-        <img src={YoutubeLogo} alt="youtube logo" className='socialMediaLogo' />
-        <img src={FacebookLogo} alt="facebook logo" className='socialMediaLogo' />
+          <Link to="https://www.instagram.com/paberater_/?utm_source=ig_embed&ig_rid=331b1bec-9632-4b52-b1b5-18fc290548c9"  target="_blank">
+            <img src={IntagramLogo} alt="instagram logo" className='socialMediaLogo' />
+          </Link>
+          <Link to="https://www.facebook.com/PABerater/" target="_blank">
+            <img src={FacebookLogo} alt="facebook logo" className='socialMediaLogo' />
+          </Link>
+          <Link to="https://www.youtube.com/@paberater3375" target="_blank">
+            <img src={YoutubeLogo} alt="youtube logo" className='socialMediaLogo' />
+          </Link>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>

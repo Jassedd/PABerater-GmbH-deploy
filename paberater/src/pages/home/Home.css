@@ -36,7 +36,7 @@ svg{
 }
 
 .jorge-img2{
-  width: 60vw;
+  width: 29vh;
   position: absolute;
   margin-top: -20%;
   display: flex;
@@ -130,7 +130,7 @@ svg{
   width: 46vh;
 }
 
-.talent{
+.talent-home{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -185,8 +185,8 @@ svg{
   }
 
   .jorge-img2{
-    width: 45vw;
-    margin-top: -23vh;
+    width: 45vh;
+    margin-top: -44vh;
     margin-right:4vh ;
   }
 
@@ -204,5 +204,9 @@ svg{
     font-size: 2.5rem;
     padding-top: 5%;
     padding-bottom: 5%;
+  }
+  .roadMapHome{
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
 }

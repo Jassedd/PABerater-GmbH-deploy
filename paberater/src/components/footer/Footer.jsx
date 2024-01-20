@@ -9,6 +9,7 @@ import LocalIcon from "../../assets/icons/localitation.svg";
 import WhatsAppIcon from "../../assets/icons/whatsapp_blue.svg";
 import PhoneBlue from "../../assets/icons/phone_blue.svg";
 import Mailblue from "../../assets/icons/mail_blue.svg";
+import { Link } from "react-router-dom";
 
 
 
@@ -19,49 +20,52 @@ function Footer() {
       <section className="pinedaFooter">
         <img src={Logo} alt="logo" className="logoPaberater" />
         <div className="socialMediaFooter">
-          <img src={IntagramLogo} alt="" className="IconSocialFooter" />
-          <a href="https://www.instagram.com/paberater_/?hl=es"></a>
-          <img src={YoutubeLogo} alt="" className="IconSocialFooterYT" />
-          <a href="https://www.youtube.com/channel/UCmUbZw_CJqf-pM0-pHI6meg"></a>
-          <img src={FacebookLogo} alt="" className="IconSocialFooter" />
-          <a href="https://www.facebook.com/PABerater/?locale=de_DE"></a>
+          <Link to="https://www.instagram.com/paberater_/?hl=es" target="_blank">
+            <img src={IntagramLogo} alt="" className="IconSocialFooter" />
+          </Link>
+          <Link to="https://www.youtube.com/channel/UCmUbZw_CJqf-pM0-pHI6meg" target="_blank">
+            <img src={YoutubeLogo} alt="" className="IconSocialFooterYT" />
+          </Link>
+          <Link to="https://www.facebook.com/PABerater/?locale=de_DE" target="_blank">
+            <img src={FacebookLogo} alt="" className="IconSocialFooter" />
+          </Link>
         </div>
 
         <div className="contactFooter">
           <div className="infoFooter">
             <img src={EmailIcon} alt="" className="IconsFooter"/>
-            <a href="/contacto">info@paberater.de</a>
+            <Link to="/contacto" target="_blank">info@paberater.de</Link>
           </div>
           <div className="infoFooter">
             <img src={PhoneIcon} alt="" className="IconsFooter"/>
-            <a href="tel:+4915780633091">+49 157 806 33091</a>
+            <Link to="tel:+4915780633091" target="_blank">+49 157 806 33091</Link>
           </div>
           <div className="infoFooter">
             <img src={LocalIcon} alt="" className="IconsFooter"/>
-            <a href="https://www.google.com/maps/dir/40.3800498,-3.7739879/paberater-de/@45.9383877,-5.6762452,5z/
-            ">PABerater GmbH, <br />Waltersdorfer Ch 203,<br />12355 Berlin, Alemania </a>
+            <Link to="https://www.google.com/maps/dir/40.3800498,-3.7739879/paberater-de/@45.9383877,-5.6762452,5z/
+            " target="_blank">PABerater GmbH, <br />Waltersdorfer Ch 203,<br />12355 Berlin, Alemania </Link>
           </div>
         </div>
       </section>
 
         <section className="politics">
-        <div className= "paberater-rights">
-        <p style={{margin:"0.7rem"}}>© 2023 PABerater GmbH. All Rights Reserved.</p>
-        </div>
-<div className="groupPolitics">
-          <div className= "impressum pol">
-          <a href="">Impresum</a>
+          <div className= "paberater-rights">
+          <p style={{margin:"0.7rem"}}>© 2023 PABerater GmbH. All Rights Reserved.</p>
           </div>
-          <div className= "agb pol">
-          <a href="">AGB</a>
+          <div className="groupPolitics">
+            <div className= "impressum pol">
+              <Link to="">Impresum</Link>
+            </div>
+            <div className= "agb pol">
+              <Link to="">AGB</Link>
+            </div>
+            <div className= "datenschutz pol">
+              <Link to="">Datenschutz</Link>
+            </div>
+            <div className= "políticas_cookies pol">
+              <Link to="">Políticas de cookies(UE)</Link>
+            </div>
           </div>
-          <div className= "datenschutz pol">
-          <a href="">Datenschutz</a>
-          </div>
-          <div className= "políticas_cookies pol">
-          <a href="">Políticas de cookies(UE)</a>
-        </div>
-        </div>
         </section>
 
 
@@ -93,21 +97,21 @@ function Footer() {
 
       <section className="contact_footer">
       <div>
-        <a href="tel:+4915780633091">
+        <Link to="tel:+4915780633091">
         <img src={PhoneBlue} alt="" className="icons_action" />
-        </a> 
+        </Link> 
         </div>
 
         <div>
-        <a href="mailto:info@paberater.de">
+        <Link to="mailto:info@paberater.de">
         <img src={Mailblue} alt="" className="icons_action"  />
-        </a> 
+        </Link> 
         </div>
 
         <div>
-        <a href="https://wa.me/491778014367">
+        <Link to="https://wa.me/491778014367">
         <img src={WhatsAppIcon} alt="" className="icons_action" />
-        </a>   
+        </Link>   
         </div>
       </section>
     </>
