@@ -3,7 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 3vh 3vh 3vh 3vh;
+    padding: 5vh;
+    font-size: 1.2rem;
 }
 
 .titleBlogDetails{
@@ -11,6 +12,12 @@
 }
 
 .blogDetailsImg{
-    width: 30vh;
+    width: 50vh;
     margin-bottom: 3vh;
+    object-fit: cover; 
+    object-position: center;
+}
+
+.quill-container{
+    padding: 5vh;
 }
