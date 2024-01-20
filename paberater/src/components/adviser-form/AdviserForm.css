@@ -63,7 +63,7 @@
 @media (width >= 1000px){
     .adviserForm{
         order:2;
-        width: 48vw;
+        width: 100vw;
         padding: 5rem 5rem 1rem 5rem;
     }
     .inputInfoAdviser{

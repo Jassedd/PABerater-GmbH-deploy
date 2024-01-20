@@ -4,7 +4,6 @@ import Arrow1 from "../../assets/icons/Arrow-landing1.svg"
 import Arrow2 from "../../assets/icons/Arrow-landing5.svg"
 import Arrow from "../../assets/icons/arrow.svg"
 import Time from "../../assets/img/ahorra-tiempo-dinero.svg"
-import JorgePaberater from "../../assets/img/jorge-Paberater.svg"
 import AdviserForm from "../../components/adviser-form/AdviserForm"
 import PhoneIcon from "../../assets/icons/Icon_phone.svg"
 import BtnStartBlue from "../../components/btn-start-Blue/BtnStartBlue"
@@ -108,7 +107,6 @@ function Landing() {
             <button className="btn-start">
                 ¡Quiero saber más! <img src={Arrow} alt="btn-arrow"/>
             </button>
-            <img style={{width:"45vh"}} src={JorgePaberater} alt="" />
         </section>
     </>
   )

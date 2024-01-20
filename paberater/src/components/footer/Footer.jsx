@@ -44,22 +44,23 @@ function Footer() {
         </div>
       </section>
 
-        <section>
+        <section className="politics">
         <div className= "paberater-rights">
         <p style={{margin:"0.7rem"}}>© 2023 PABerater GmbH. All Rights Reserved.</p>
         </div>
-
-          <div className= "impressum">
+<div className="groupPolitics">
+          <div className= "impressum pol">
           <a href="">Impresum</a>
           </div>
-          <div className= "agb">
+          <div className= "agb pol">
           <a href="">AGB</a>
           </div>
-          <div className= "datenschutz">
+          <div className= "datenschutz pol">
           <a href="">Datenschutz</a>
           </div>
-          <div className= "políticas_cookies">
+          <div className= "políticas_cookies pol">
           <a href="">Políticas de cookies(UE)</a>
+        </div>
         </div>
         </section>
 

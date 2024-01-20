@@ -209,9 +209,11 @@
     padding: 2vh;
 }
 
+
 @media (width >= 750px){
 
     .first-stape{
+        width: 100vw;
         display: flex;
         flex-direction: column;
         background-color: #C8A75A;
@@ -219,6 +221,9 @@
     }
     .section-assignment p{
         font-size: 2.5rem;
+    }
+    .section-assignment{
+        width: 100vw;
     }
     .first-title-landing, .second-title-landing, .second-text-landing{
         font-size: 3rem;
@@ -286,12 +291,15 @@
     background-color: #C8A75A;
 }
 .photoSection{
+    width: 100vw;
     background-color: #C8A75A;
 }
 .steps-landing{
+    width: 100vw;
     margin: 0;
 }
 .arowsImg{
+    width: 100vw;
     display: flex;
     flex-direction: row;
 }
@@ -307,10 +315,34 @@
     font-size: 2.5rem;
 }
 .time_landing{
-    width: 50vw;
+    width: 100vw;
 }
 .img_time{
     width: 50vw;
+}
+.pay-landing{
+    padding: 0 45px;
+    line-height: 1.5rem;
+    width: 100vw;
+    height: 35rem;
+}
+.pinedaFooter{
+    width: 100vw;
+}
+.cookiesFooter{
+    width: 100vw;
+}
+.contact_footer{
+    width: 100vw;
+}
+.frame-youtube{
+    width: 100vw;
+}
+.navbarHome .navbar .navbar-expand-lg .navbar-light{
+    width: 100vw;
+}
+.btn-start{
+    margin:50px;
 }
 
 }
