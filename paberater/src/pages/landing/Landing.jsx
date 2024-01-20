@@ -74,7 +74,7 @@ function Landing() {
                     <p className="text-landing-map2">Proceso ágil, transparente y confiable</p>
                 </section>
                     <section className="landing-map">
-                    <p className="text-landing-map3">Oportunidades acorde a tu perfil profesional</p>
+                    <p className="text-landing-map3">Oportunidades acorde <br />a tu perfil profesional</p>
                 </section>  
             </article>
 
