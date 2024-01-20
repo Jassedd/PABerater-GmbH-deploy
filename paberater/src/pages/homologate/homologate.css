@@ -134,18 +134,28 @@ background-color: #25357a;
     color:#C8A75A;
     width: 40vw;
     height: 6vh;
-    border-radius: 10px;   
+    border-radius: 10px; 
+    border: 0; 
     font-size: 1rem; 
     font-weight: 600;
 }
 
-.Title_ourServicesText{
+.ourServicesText_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2%;
+    padding: 4%;
+}
+
+.Title_ourServices_Text{
     font-size: 2rem;
     color: #25357a;
+    align-self: center;
+    margin-bottom: 10%;
 }
 
 .li_ourServicesText{
-    margin: 5%;
     font-size: 1.3rem;
     line-height: 1.7rem;
 }
@@ -163,29 +173,29 @@ background-color: #25357a;
 
 .text_callToAction_container2{
     color:#C8A75A;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 2.5rem;
 }
 
 .btn-contact{
-    margin: 3rem 0 2rem 5rem;
     background-color:#C8A75A;
     color:#25357a;
     border: 0;
-    width: 23vh;
-    height: 7vh;
+    width: 45vw;
+    height: 6vh;
+    padding: 4%;
     border-radius: 10px;   
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600; 
 }
 .btn-contactar :hover{
-    background-color:white;
+    background-color: #E9EAF1;
     color:#25357a;
 
 }
 
 .questions_container{
-    background-color: #C8A75A;
+    background-color: #E9EAF1;
     padding: 1.5rem;
 }
 

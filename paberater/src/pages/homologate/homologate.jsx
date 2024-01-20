@@ -130,8 +130,8 @@ function Homologate() {
         </div>
       </section>
 
-      <section className="ourServicesText_ container">
-        <h2 className="Title_ourServicesText">
+      <section className="ourServicesText_container">
+        <h2 className="Title_ourServices_Text">
           Nuestro Servicio <br />de asesoría incluye
         </h2>
         <ul className="li_ourServicesText">
@@ -161,7 +161,8 @@ function Homologate() {
           </li>
         </ul>
 
-        <h3 className="resaltar_text2">Cuente con nuestra asesoría durante todo el proceso.</h3>
+        <h3 className="resaltar_text2">Cuente con nuestra asesoría durante 
+        todo el proceso.</h3>
         <br />
       </section>
 
