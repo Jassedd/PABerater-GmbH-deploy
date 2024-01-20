@@ -97,21 +97,21 @@ function Footer() {
 
       <section className="contact_footer">
       <div>
-        <a href="tel:+4915780633091">
+        <Link to="tel:+4915780633091">
         <img src={PhoneBlue} alt="" className="icons_action" />
-        </a> 
+        </Link> 
         </div>
 
         <div>
-        <a href="mailto:info@paberater.de">
+        <Link to="mailto:info@paberater.de">
         <img src={Mailblue} alt="" className="icons_action"  />
-        </a> 
+        </Link> 
         </div>
 
         <div>
-        <a href="https://wa.me/491778014367">
+        <Link to="https://wa.me/491778014367">
         <img src={WhatsAppIcon} alt="" className="icons_action" />
-        </a>   
+        </Link>   
         </div>
       </section>
     </>
