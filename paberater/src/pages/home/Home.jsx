@@ -20,7 +20,7 @@ const Home = () => {
       <ScrollToTop />
       <section className="init-section">
         <div className="div-init" >
-          <h1>
+          <h1 className="title-init">
             Asesoramos 
             <br />
             a <span className="resaltar">profesionales
@@ -112,6 +112,13 @@ const Home = () => {
           <div className="figure">
             <img src={Jorge5} alt="jorge" className="jorge5" />
           </div>
+          <div className="talent-text">
+            <p className="talent_title">Tu pones el talento,
+            <br />
+            nosotros nos encargamos de lo demás.</p>
+            <BtnBigAdvisory />
+          </div>
+
         </article>
       </section>
       <Services />

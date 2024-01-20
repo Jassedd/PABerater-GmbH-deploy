@@ -14,14 +14,6 @@ function Services() {
     <>
       <section className="section-services">
       <div className="figure-BtnBigAdbisory">
-        <div className="talent-text">
-          <p>
-            Tu pones el talento,
-            <br />
-            nosotros nos encargamos de lo demás.
-          </p>
-        </div>
-        <BtnBigAdvisory />
       </div>
         <h3 className="title-services" style={{color: "#C8A75A", fontWeight: "bold"}}>¿Qué Servicios Ofrecemos?</h3>
         <article className="servicesArticle">
@@ -71,7 +63,7 @@ function Services() {
                     para tu crecimiento profesional.
                     </p>
                     <Link to="/contacto">
-                    <button className="btn-adviser">
+                    <button className="btn-bookApoinment">
                       Agendar cita <img src={Arrow} alt="arrow" className='arrow4'/>
                       </button>
                     </Link>

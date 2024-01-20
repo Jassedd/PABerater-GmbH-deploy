@@ -22,3 +22,15 @@
 background-color: #25357a;
 color: #C8A75A;
 }
+
+@media (width >= 750px) {
+    .btn-BigAdvisory{
+        font-size: 2rem;
+    }
+
+    .arrow-btn2{
+        width: 1.5em;
+        margin-left: 2vh;
+    }
+
+}

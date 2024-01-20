@@ -16,38 +16,35 @@ svg{
     margin: 0;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (-webkit-min-device-pixel-ratio: 3)
-{
 
 .video_homologate {
-width: 45vh;
+width: 90vw;
 border-radius: 0 15vh 0 15vh;
 margin-bottom: 2vh;
-margin-top: 10%;
+margin-top: 7vh;
 
 }
 
 .title_img1 {
     font-size: 2.5rem;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 1rem;
 }
 
 .title_img2 {
     font-size: 1.5rem;
     text-align: center;
-    line-height: 0.6rem;
+    line-height: 0.9rem;
 }
 
 .figure_title {
     background-color: #25357a9c;
     color: #C8A75A;
-    width: 45vh;
+    width: 90vw;
     height: 15vh;
     border-radius: 4vh 0 4vh 0;
     position:absolute;
-    margin-top: 6rem;
+    margin-top: 9rem;
 
 }
 
@@ -61,13 +58,14 @@ align-items: center;
 /* -------homologación image style end--------------*/
 
 .title{
-    font-size: 5vh;
+    font-size: 2.5rem;
     margin: 2rem 0 0 2rem;
     color: #C8A75A;
 }
 .title_text{
 margin: 0 2rem 0 2rem;
-font-size: 1.3em;
+padding: 4%;
+font-size: 1.3rem;
 line-height: 1.7em;
 color: #25357a;
 }
@@ -75,16 +73,15 @@ color: #25357a;
 .name_video{
     margin: 4% 0 0 5%;
     font-weight:bold;
-    font-size: 1.3em;
+    font-size: 1.2rem;
     margin-right: 2rem;
     color: #25357a;
 }
 
 .text_name_video{
     margin: 0 2rem  2rem;
-    text-align: justify;
-    font-size: 1.3em;
-    line-height: 1.7em;
+    font-size: 1.3rem;
+    line-height: 2rem;
 }
 
 .text_background_Blue{
@@ -93,29 +90,25 @@ background-color: #25357a;
 
 .text_blueContainer{
     margin: 0 1rem  1rem;
-    font-size: 1.3em;
-    line-height: 1.7em;
-    padding: 1em;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    padding: 7%;
     color: white;
 }
 
 .jorge_img{
-    width:34vh;
-    margin-top: 1.5rem;
-    margin-left: -10vh;
+    width:50vw;
+    margin-top: 8%;
 }
-
 
 .callToAction_container{
 
     display: flex;
     flex-direction: row;
-    background-color: #E9EAF1;
-    width: 100%;
-    display: flex;
-    margin-bottom: 5vh;
     align-items: center;
     justify-content: center;
+    background-color: #E9EAF1;
+    margin-bottom: 5vh;
 }
 
 .text_container {
@@ -123,44 +116,41 @@ background-color: #25357a;
 }
 
 .calltoaction_title{
-    margin-top: -2em;
-    margin-left: -3em;
-    font-size: 1.9em;
+    margin-top: -3%;
+    margin-left: -20%;
+    font-size: 1.4rem;
     color: #C8A75A;
     text-align: left;
 }
 
 .resaltar_text{
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 600;
 
 }
 
 .btn-comenzamos{
     background-color: #25357a;
-    color:#FEEC8A;
-    border: 0;
-    width: 23vh;
-    height: 5vh;
+    color:#C8A75A;
+    width: 40vw;
+    height: 6vh;
     border-radius: 10px;   
-    font-size: 1.2rem; 
+    font-size: 1rem; 
+    font-weight: 600;
 }
 
 .Title_ourServicesText{
-    font-size: 5vh;
-    margin: 4rem 0 4rem 2rem;
+    font-size: 2rem;
     color: #25357a;
 }
 
 .li_ourServicesText{
-    margin: 0 3rem 1rem 1rem;
-    text-align: left;
-    font-size: 1.3em;
-    line-height: 1.7em;
+    margin: 5%;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
 }
 
 .resaltar_text2{
-    margin: 0 0 0 1rem;
     font-size: 1.5rem;
     color: #25357a;
     font-weight: 600;
@@ -204,5 +194,4 @@ background-color: #25357a;
     font-size: 4.3vh;
     font-weight: 600;
     color: #25357a;
-}
 }

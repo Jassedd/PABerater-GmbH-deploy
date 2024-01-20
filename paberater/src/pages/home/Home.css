@@ -17,7 +17,7 @@ svg{
 }
 
 .first-arrow{
-  margin-left: 10vh;
+  margin-left: 20%;
 }
 
 .container-home {
@@ -30,26 +30,26 @@ svg{
 .container-img{
   display: flex;
   justify-content: center;
-  margin-left: -20vh;
+  margin-left: -45vw;
   position: relative;
-  margin-top: -15vh;
+  margin-top: -12vh;
 }
 
 .jorge-img2{
-  width: 29vh;
+  width: 60vw;
   position: absolute;
-  margin-top: -5.4vh;
+  margin-top: -20%;
   display: flex;
 }
 
 .container_background_img{
-  height: 50vh;
+  height: 42vh;
 }
 
 .home_background{
   display: flex;
-  width: 98%;
-  height: 78vh;
+  width: 98vw;
+  height: 62vh;
 }
 
 .question-home{
@@ -102,7 +102,7 @@ svg{
 }
 
 .pequena {
-  font-size: 1.14rem;
+  font-size: 1.2rem;
 }
 
 .init-section{
@@ -114,8 +114,6 @@ svg{
 }
 
 .title-init{
-  display: flex;
-  flex-direction: column;
   font-size: 1.3rem;
 }
 
@@ -140,6 +138,7 @@ svg{
 
 .figure{
   background-color: #E9EAF1;
+  height: 40vh;
   margin-top: 5vh;
   border-radius: 0 15vh 0 0;
   display: flex;
@@ -147,28 +146,63 @@ svg{
   align-items: center;
 }
 
+.talent-text{
+  display: flex;
+  flex-direction: column;
+  background-color:#25357a;
+  color: #FEEC8A;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 4vh;
+}
+
+.talent_title{
+  font-size: 1.3rem;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
 
 
 @media (width >= 750px) {
 
   .div-init{
-    margin-left: 40vw;
+    margin-left: 35vw;
     margin-top: 5vh;
     align-items:end;
   }
+  .title-init{
+    font-size: 3rem;
+  }
 
+  .pequena {
+    font-size: 2rem;
+  }
+
+  .container-img{
+    margin-top: -2vh;
+  }
 
   .jorge-img2{
-    width: 30vh;
-    margin-top: -7.2vh;
-    margin-right:10vh ;
+    width: 45vw;
+    margin-top: -23vh;
+    margin-right:4vh ;
   }
 
   .home_background{
     display: flex;
-    width: 98%;
-    height: 68vh;
+    height: 52vh;
     z-index: -5;
   }
 
+  .figure{
+    height: 62.5vh;
+  }
+  
+  .talent_title{
+    font-size: 2.5rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
 }

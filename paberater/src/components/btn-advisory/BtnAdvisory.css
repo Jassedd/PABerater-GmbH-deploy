@@ -1,7 +1,7 @@
 .btn-advisory{
     background-color: #C8A75A;
     border: 0;
-    width: 24vh;
+    width: 42vw;
     height: 6vh;
     border-radius: 10px;
     color: #25357a;
@@ -24,8 +24,9 @@
 
     @media (width >= 750px){
     .btn-advisory{
-        font-size:1.5rem;
+        font-size:1.7rem;
         height: 6vh;
+        margin-top: 1vh;
     }
     .arrow-btn1{
         margin-left: 1vw;

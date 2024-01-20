@@ -6,25 +6,25 @@ p, h3 {
     font-family: 'Jost', sans-serif;
 }
 
-
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (-webkit-min-device-pixel-ratio: 3)
-{
+.we-title{
+    font-size: 2rem;
+    color: #C8A75A;
+}
 
 .we-section, .history{
     background-color: #E9EAF1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 6vh;
+    padding: 10%;
     font-size: 1.3rem;
     line-height: 1.7em;
     text-align:left;
 }
 
 .Jorge-we{
-    width: 45vh;
+    height: 57vh;
+    margin-left: 10vw;
     border-radius: 0 15vh 0 13vh;
 }
 
@@ -34,11 +34,11 @@ only screen and (-webkit-min-device-pixel-ratio: 3)
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-
 }
 
 .figure-we{
+    height: 57vh;
+    width: 90vw;
     background-color: #E9EAF1;
     border-radius: 0 20vh 0 20vh;
     margin-top: -1rem;
@@ -46,7 +46,6 @@ only screen and (-webkit-min-device-pixel-ratio: 3)
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 46vh;
 }
 
 .span-we{
@@ -63,7 +62,39 @@ only screen and (-webkit-min-device-pixel-ratio: 3)
     justify-content: center;
 }
 
-h6{
-    margin: 0;
+.new-life_title{
+    color: #25357a;
+    font-size: 1.5rem;
 }
+
+.new-life-text{
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+@media (width >= 750px){
+
+    .we-section, .history{
+        font-size: 1.6rem;
+    }
+
+    .we-title{
+        font-size: 3rem;
+        color: #C8A75A;
+    }
+
+    .figure-we{
+        width: 73vw;
+    }
+
+    .new-life_title{
+        color: #25357a;
+        font-size: 3rem;
+    }
+
+    .new-life-text{
+        color: white;
+        font-size: 2rem;
+    }
 }
