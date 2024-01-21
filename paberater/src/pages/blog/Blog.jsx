@@ -7,6 +7,7 @@ import { ref, onValue } from 'firebase/database';
 import { db } from "../../../firebase/firebase";
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
+import { Link } from 'react-router-dom';
 
 const Blog = () => {
   const [blogData, setBlogData] = useState([]);

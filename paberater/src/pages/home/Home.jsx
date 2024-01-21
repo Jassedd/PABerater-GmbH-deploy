@@ -109,7 +109,7 @@ const Home = () => {
           </div>
         </div>
         <article className="talent-home">
-          <div className="figure">
+          <div className="figure-talent">
             <img src={Jorge5} alt="jorge" className="jorge5" />
           </div>
           <div className="talent-text">
