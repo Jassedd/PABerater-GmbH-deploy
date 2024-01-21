@@ -1,4 +1,3 @@
-// AdminHome.js
 import React from 'react';
 import "./AdminHome.css"
 import { useAuth } from '../../authContext/AuthContext';
