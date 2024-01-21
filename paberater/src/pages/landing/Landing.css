@@ -268,9 +268,12 @@
     .Figure-text-landing{
         width: 85vw;
         height: 14vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         text-align: center;
         font-weight: 600;
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 2%;
     }
     .text-landing{
@@ -379,4 +382,13 @@
     margin:50px;
 }
 
+.figure{
+    width: 60vh;
+}
+.Figure-text-landing{
+    width: 60vh;
+}
+.text-landing{
+    width: 60vh;
+}
 }
