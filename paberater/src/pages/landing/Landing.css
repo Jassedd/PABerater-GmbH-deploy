@@ -218,6 +218,19 @@
     padding: 2vh;
 }
 
+@media (width >= 380px){
+    .jorge5{
+        width: 50vh;
+    }
+    .figure{
+        width: 50vh;
+        margin-top: -4vh;
+    }
+    .Figure-text-landing{
+        width: 50vh;
+    }
+}
+
 
 @media (width >= 750px){
 
@@ -256,17 +269,17 @@
 
 
     .jorge5{
-        width: 75vW;
+        width: 60vh;
     }
 
     .figure{
-        width: 85vw;
+        width: 60vh;
         height: 60vh;
         margin-left: 8%;
     }
 
     .Figure-text-landing{
-        width: 85vw;
+        width: 60vh;
         height: 14vh;
         display: flex;
         align-items: center;
@@ -345,6 +358,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 5vh;
 }
 .landing-map{
     padding: 2rem 0;
@@ -355,7 +369,7 @@
     width: 100vw;
 }
 .img_time{
-    width: 50vw;
+    width: 60vh;
 }
 .pay-landing{
     padding: 0 45px;
