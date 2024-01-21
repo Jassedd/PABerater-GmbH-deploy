@@ -6,19 +6,37 @@ import IntagramLogo from "../../assets/icons/logo_instagram.svg";
 import YoutubeLogo from "../../assets/icons/logo_youtube.svg";
 import FacebookLogo from "../../assets/icons/logo_facebook.svg";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Arrow from "../../assets/icons/arrow.svg";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import { AuthContext } from "../../authContext/AuthContext";
+import { useContext } from "react";
 
 function NavbarHome() {
+  const navigate = useNavigate();
+  const { user } = useContext(AuthContext);
+
+  const handleLogoCLick = () =>{
+    if(user){
+      const userType = user.type;
+      if(userType === "admin"){
+        navigate("/home");
+      } else{
+        navigate("/")
+      }
+    }else{
+      navigate("/")
+    }
+  }
+
   return (
     <>
       {["lg"].map((expand) => (
         <Navbar key={expand} expand={expand} className="navbarHome">
-          <Link to="/">
+          <Navbar.Brand onClick={handleLogoCLick}>
             <img src={Logo} alt="" className="LogoPaberater" />
-          </Link>
+          </Navbar.Brand >
           <Container className="container-navbar" >
             <button className="btn-nav">
               Quiero saber más <img src={Arrow} alt="" className="arrow-btn" />
