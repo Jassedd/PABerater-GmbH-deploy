@@ -3,13 +3,17 @@ a, .nav-link{
   color: white !important;
 }
 
-.dropdown-menu.show{
+.offcanvas-body{
   background-color: #25357a;
 }
 
-.dropdown-item:hover {
-  background-color: #C8A75A!important;
+.container-navbar{
+  background-color: #25357a;
+  height: 8vh;
+  border-radius: 15vh;
+  width: 70vw !important;
 }
+
 
 .mediaLogo.navbar-brand {
     display: none;
@@ -73,14 +77,6 @@ a, .nav-link{
     font-size: 0.6rem !important;
   }
 
-  .navbar-collapse{
-    background-color: #25357ad0;
-    font-size: 1rem;
-    border-radius: 10px;
-    display: flex;
-    align-items: end;
-    z-index: 15;
-  }
 
   @media (width >= 750px){
     .mediaLogo.navbar-brand {
@@ -90,8 +86,7 @@ a, .nav-link{
       width: 34%;
   }
   .LogoPaberater {
-    margin-left: 4vw;
-    width: 27vh;
+    width: 20vh;
   }
   }
 
