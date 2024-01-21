@@ -329,7 +329,7 @@
 
 
 
-@media (width >= 1000px){
+@media (width >= 1100px){
 
 .formView{
     width: 100vw;
@@ -383,11 +383,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
-
-=======
     margin-left: 5vh;
->>>>>>> 2eb03b587c8b0cb697991c915e9e8abc29d4fdf6
 }
 .landing-map{
     padding: 2rem 0;
@@ -398,11 +394,7 @@
     width: 100vw;
 }
 .img_time{
-<<<<<<< HEAD
-    width: 40vw;
-=======
-    width: 60vh;
->>>>>>> 2eb03b587c8b0cb697991c915e9e8abc29d4fdf6
+    width: 45vh;
 }
 
 .btn-time-btn{
@@ -446,4 +438,10 @@
 .text-landing{
     width: 60vh;
 }
+}
+
+@media (width >= 2000px){
+    .img_time{
+        width: 65vh;
+    }
 }

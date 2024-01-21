@@ -82,10 +82,11 @@ function Landing() {
             <section className="time-landing">
                 <img className="img_time" src={Time} alt="" />
                 <div className="btn_time">
-               
+                  <Link to="/contacto">
                     <button className="btn-time-btn">
                     ¡Comenzámos! <img style={{margin:"4%"}} src={Arrow} alt="btn-arrow"/>
                     </button>               
+                  </Link>
                 </div>
                 
             </section>
@@ -104,9 +105,11 @@ function Landing() {
                 <span className="span-landing">B.</span>  Pronto pago. Pago en una exhibición 
                 y te descontamos <span className="span-landing">100€.</span>
             </p>
-            <button className="btn-start">
-                ¡Quiero saber más! <img src={Arrow} alt="btn-arrow"/>
-            </button>
+            <Link to="/contacto">
+                <button className="btn-start">
+                    ¡Quiero saber más! <img src={Arrow} alt="btn-arrow"/>
+                </button>
+            </Link>
         </section>
     </>
   )
