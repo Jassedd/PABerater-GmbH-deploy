@@ -8,13 +8,12 @@ function QuestionForm() {
 
   function sendEmail() {
     window.Email.send({
-      SecureToken : import.meta.envVITE_REACT_APP_EMAILTOKEN,
+      SecureToken : import.meta.env.VITE_REACT_APP_EMAILTOKEN,
       To: "jassedgmartinez@gmail.com",
       From: email,
       Subject: "Consulta",
       Body: `
         Nombre completo: ${document.getElementById("controlNames").value}
-        País de residencia: ${document.getElementById("controlCountry").value}
         Correo electrónico: ${email}
         Profesión: ${document.getElementById("controlProfession").value}
         Descripción del caso: ${document.getElementById("controlQuestion").value}
@@ -33,6 +32,12 @@ function QuestionForm() {
 
   function handleSubmit(event) {
     event.preventDefault();
+
+    const form = event.target;
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
 
     if (email !== confirmEmail) {
       alert("Los correos electrónicos no coinciden.");

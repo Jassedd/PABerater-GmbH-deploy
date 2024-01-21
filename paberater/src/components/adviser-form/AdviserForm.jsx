@@ -5,14 +5,15 @@ import "./AdviserForm.css";
 function AdviserForm() {
   const [email, setEmail] = useState("");
   const [confirmEmail, setConfirmEmail] = useState("");
+
   function sendEmail() {
     window.Email.send({
-      SecureToken : import.meta.envVITE_REACT_APP_EMAILTOKEN,
+      SecureToken : import.meta.env.VITE_REACT_APP_EMAILTOKEN,
       To: "jassedgmartinez@gmail.com",
       From: email,
       Subject: "Solicitud de asesoramiento",
       Body: `
-        Nombre completo: ${document.getElementById("controlProfessionAdviser").value}
+        Nombre completo: ${document.getElementById("controlNamesAdviser").value}
         Nacionalidad: ${document.getElementById("controlNationalityAdviser").value}
         País de residencia: ${document.getElementById("controlCountryAdviser").value}
         Correo electrónico: ${email}
@@ -30,9 +31,14 @@ function AdviserForm() {
       }
     );
   }
-
   function handleSubmit(event) {
     event.preventDefault();
+
+    const form = event.target;
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
 
     if (email !== confirmEmail) {
       alert("Los correos electrónicos no coinciden.");
@@ -41,7 +47,8 @@ function AdviserForm() {
 
     setEmail("");
     setConfirmEmail("");
-    sendEmail();
+    sendEmail()
+
     alert("Formulario enviado correctamente");
   }
 
@@ -49,7 +56,7 @@ function AdviserForm() {
     <>
       <Form className="adviserForm">
 
-       <Form.Group className="inputInfoAdviser" controlId="controlProfessionAdviser">
+       <Form.Group className="inputInfoAdviser" controlId="controlNamesAdviser">
           <Form.Control type="text" placeholder="Nombre completo *" required />
         </Form.Group>
 
@@ -111,7 +118,8 @@ function AdviserForm() {
           type="submit"
           className="btn-added"
           onClick={handleSubmit}
-          disabled={email !== confirmEmail}>AGENDAR CITA 
+          disabled={email !== confirmEmail}>
+            AGENDAR CITA 
         </button>
         </div>
       </Form>
