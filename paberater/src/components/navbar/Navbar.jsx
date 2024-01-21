@@ -38,9 +38,11 @@ function NavbarHome() {
             <img src={Logo} alt="" className="LogoPaberater" />
           </Navbar.Brand >
           <Container className="container-navbar" >
+            <Link to="/contacto">
             <button className="btn-nav">
               Quiero saber más <img src={Arrow} alt="" className="arrow-btn" />
             </button>
+            </Link>
             <Navbar.Brand className='mediaLogo'>
               <Link to="https://www.instagram.com/paberater_/?utm_source=ig_embed&ig_rid=331b1bec-9632-4b52-b1b5-18fc290548c9"  target="_blank">
                 <img src={IntagramLogo} alt="instagram logo" className='socialMediaLogo' />
