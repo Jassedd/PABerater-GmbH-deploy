@@ -1,8 +1,11 @@
 import { useAuth } from "../../authContext/AuthContext";
-import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Spinner from "react-bootstrap/esm/Spinner";
+
+
 export function ProtectedRoute({ children }) {
   const { user, loading } = useAuth();
+  const navigate = useNavigate()
 
   if (loading)
     return (
@@ -18,7 +21,7 @@ export function ProtectedRoute({ children }) {
       />
     );
 
-  if (!user) return <Navigate to="/" />;
+  if (!user) return navigate("/") ;
 
   return children;
 }

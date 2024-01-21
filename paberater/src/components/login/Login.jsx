@@ -2,7 +2,7 @@ import { useState } from "react";
 import Button from "react-bootstrap/esm/Button";
 import Form from "react-bootstrap/esm/Form";
 import { useAuth } from "../../authContext/AuthContext";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { auth, db } from "../../../firebase/firebase";
 import { get, ref, child } from "firebase/database";
 
