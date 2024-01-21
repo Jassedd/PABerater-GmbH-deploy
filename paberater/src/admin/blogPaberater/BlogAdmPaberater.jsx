@@ -77,7 +77,6 @@ const BlogAdmPaberater = () => {
     if (name === "img") {
       const file = e.target.files[0];
       if (file) {
-        // Validación de archivo
         const isImage = file.type.startsWith("image/");
         if (isImage) {
           setImage(file);
@@ -113,13 +112,13 @@ const BlogAdmPaberater = () => {
       <Form
         className="newsForm"
         style={{
-          width: "18rem",
+          width: "28rem",
           padding: "15px",
           borderRadius: "10px",
           overflowY: "hidden",
           maxHeight: "150vh",
           backgroundColor: newsColor,
-          color: "#cd222d",
+          color: "#25357a",
         }}
         onSubmit={handleSubmit}
       >
@@ -145,7 +144,6 @@ const BlogAdmPaberater = () => {
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label>Descripción de la noticia</Form.Label>
-          {/* Reemplaza el textarea por ReactQuill */}
           <ReactQuill
             value={description}
             onChange={(value) => setDescription(value)}

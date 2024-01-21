@@ -70,31 +70,41 @@ const router = createBrowserRouter([
         {
           path: "/home",
           element:(
+            <ProtectedRoute>
               <AdminHome />
+            </ProtectedRoute>
           ),
         },
         {
           path: "/blogadm",
           element:(
+            <ProtectedRoute>
               <BlogAdmPaberater />
+            </ProtectedRoute>
           ),
         },
         {
           path: "/admnews",
           element:(
+            <ProtectedRoute>
               <NewsList />
+            </ProtectedRoute>
           ),
         },
         {
           path: "/admnewsdetails/:id",
           element:(
+            <ProtectedRoute>
               <AdminNewsDetails />
+              </ProtectedRoute>
           ),
         },
         {
           path: "/admedit/:id",
           element:(
+            <ProtectedRoute>
               <AdminNewsEdit />
+            </ProtectedRoute>
           ),
         },
 
