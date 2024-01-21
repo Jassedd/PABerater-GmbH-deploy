@@ -91,9 +91,10 @@ p{
 @media (width >= 750px){
 
     .pinedaFooter{
-    display: grid;
-    flex-direction:row;
-    padding: 3%;
+        height: 25rem;
+        display: flex;
+        flex-direction: row;
+    padding: 0 3%;
     align-content: center;
     }
 
@@ -101,83 +102,149 @@ p{
     flex-direction: row;
     width: 35vw;
     }
+    .icons_action{
+        width: 6vh;
+        color:#25357a
+    }
+    
+    .groupPolitics{
+        background-color: #25357a;
+    }
 
     .socialMediaFooter{
         padding-bottom: 2vh;
     }
 
-    .contactFooter{
-    display: flex;
-    flex-direction: row;
-    margin: 2vh;
-    }
-
-    .paberater-rights {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    width: 100%;
-    }
-
-
-    .infoFooter{
-    display: flex;
-    flex-direction: column;
-    padding: 4vh;
-    }
-
-    .IconsFooter{
-        width: 5vh;
-        margin-bottom: 3vh;
-    }
-
-    .IconsFooterYT{
+    .contactFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    padding-bottom: 0.5rem;
+    padding-bottom: 2vh;
+      }
+      .paberater-rights {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        width: 100%;
+      }
+      .socialMediaFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 5rem;
+        margin-top: 5rem;
+      }
+      .IconSocialFooter {
+        margin: 25px;
+      }
+      .infoFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1vh;
+      }
+      .IconsFooter {
+        display: flex;
+        align-items: center;
+        width: 5rem;
+      }
+      .IconsFooterYT {
         height: 4vh;
         margin-top: -2vh;
-    }
-}
-
-@media (width >= 1000px){
-
-    .pinedaFooter{
-        height: 40vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        padding-bottom: 0.5rem ;
-    }
-    .socialMediaFooter {
+      }
+      .politics {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .IconSocialFooter {
-        margin: 25px;
-    }
-    .contactFooter{
-        display: flex;
-        flex-direction: column;
-    }
-    .infoFooter{
-        padding: 0.5rem;
-    }
-    .politics{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         background-color: #25357a;
         color: white;
-    }
-    .groupPolitics{
+        align-items: end;
+      }
+      .groupPolitics {
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-    .pol{
-        margin: 0 3rem;
+        align-items: end;
+        justify-content: end;
+        margin-left: 45%;
+      }
+      .paberater-rights {
+        display: flex;
+        justify-content: end;
+        margin-right: 5rem;
+      }
+      .pol {
+        margin: 0 0.5rem;
+      }
+      .contact_footer {
+        padding: 1rem 5rem;
+      }
     }
 
-}
-
+@media (width >= 1000px) {
+    .pinedaFooter {
+      height: 40vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding-bottom: 0.5rem;
+    }
+    .logoPaberater {
+      min-width: 50vh;
+      margin-bottom: 0;
+      margin-top: 2rem;
+    }
+    .socialMediaFooter {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-right: 5rem;
+      margin-top: 5rem;
+    }
+    .IconSocialFooter {
+      margin: 25px;
+    }
+    .contactFooter {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+    }
+    .infoFooter {
+      display: flex;
+      flex-direction: row;
+      padding: 0.5rem;
+    }
+    .politics {
+      display: flex;
+      flex-direction: column;
+      background-color: #25357a;
+      color: white;
+      align-items: end;
+    }
+    .groupPolitics {
+      display: flex;
+      flex-direction: row;
+      align-items: end;
+      justify-content: end;
+      margin-right: 3rem;
+    }
+  
+    .paberater-rights {
+      display: flex;
+      justify-content: end;
+      margin-right: 10rem;
+    }
+    .pol {
+      margin: 0 0.5rem;
+    }
+    .IconsFooter {
+      width: 12vh;
+    }
+    .contact_footer {
+      padding: 1rem 5rem;
+    }
+  }
+  
