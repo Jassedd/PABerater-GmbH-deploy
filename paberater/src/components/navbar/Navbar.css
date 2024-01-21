@@ -92,6 +92,13 @@ a, .nav-link{
   .LogoPaberater {
     margin-left: 4vw;
   }
+  }
 
-
+  @media (width >= 1000px){
+    .LogoPaberater {
+      width: 12vw;
+      padding: 4%;
+      margin: 4%;
+      margin-left: 6vw;
+    }
   }

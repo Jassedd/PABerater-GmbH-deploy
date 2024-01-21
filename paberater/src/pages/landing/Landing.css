@@ -68,7 +68,7 @@
     font-weight: 600;
     padding: 1%;
 }
-.phoneNumber :hover{
+.phoneNumber:hover{
     color: #25357a;
 }
 
@@ -274,7 +274,7 @@
         padding: 2%;
     }
     .text-landing{
-        margin-top: 2%;
+        margin-top: 3%;
     }
 
 
@@ -310,6 +310,9 @@
     }
 }
 
+
+
+
 @media (width >= 1000px){
 
 .formView{
@@ -317,43 +320,74 @@
     display: flex;
     flex-direction: row;
 }
-.jorge5{
-    width: 60vh;
-}
-.talent{
-    width: 50vw;
-    background-color: #C8A75A;
-}
+
 .photoSection{
     width: 100vw;
     background-color: #C8A75A;
 }
-.steps-landing{
-    width: 100vw;
-    margin: 0;
+
+.jorge5{
+    width: 25vw;
 }
+.talent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 60vh;
+    padding-top: 0;
+    background-color: #C8A75A;
+}
+
+.figure{
+    width: 30vw;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.Figure-text-landing{
+    width: 30vw;
+    height: 12vh;
+}
+
+.text-landing{
+    padding-top: 2%;
+    font-size: 1.6rem;
+}
+
 .arowsImg{
     width: 100vw;
     display: flex;
     flex-direction: row;
+    padding-top: 5%;
 }
 .steps-landing{
     width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .landing-map{
     padding: 2rem 0;
-    width: 50vw;
-    font-size: 2.5rem;
+    width: 40vw;
+    font-size: 2rem;
 }
 .time_landing{
     width: 100vw;
 }
 .img_time{
-    width: 50vw;
+    width: 40vw;
 }
+
+.btn-time-btn{
+    width: 15vW;
+    height: 8vh;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
 .pay-landing{
     padding: 0 45px;
     line-height: 1.5rem;
