@@ -5,6 +5,7 @@ import { db } from '../../../firebase/firebase';
 import { ref, onValue } from 'firebase/database';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css'; // Import the styles
+import ScrollToTop from '../../components/scrollToTop/ScrollToTop';
 
 const BlogDetails = () => {
   const { id } = useParams();
@@ -42,6 +43,8 @@ const BlogDetails = () => {
 
   return (
     <div className="blogDetails">
+      <ScrollToTop />
+
       <section>
         <h1 className='titleBlogDetails'>{selectedNews.title}</h1>
         <p className='blogDetailsDate'>{selectedNews.date}</p>

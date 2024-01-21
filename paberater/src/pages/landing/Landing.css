@@ -218,6 +218,19 @@
     padding: 2vh;
 }
 
+@media (width >= 380px){
+    .jorge5{
+        width: 50vh;
+    }
+    .figure{
+        width: 50vh;
+        margin-top: -4vh;
+    }
+    .Figure-text-landing{
+        width: 50vh;
+    }
+}
+
 
 @media (width >= 750px){
 
@@ -256,21 +269,24 @@
 
 
     .jorge5{
-        width: 75vW;
+        width: 60vh;
     }
 
     .figure{
-        width: 85vw;
+        width: 60vh;
         height: 60vh;
         margin-left: 8%;
     }
 
     .Figure-text-landing{
-        width: 85vw;
+        width: 60vh;
         height: 14vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         text-align: center;
         font-weight: 600;
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 2%;
     }
     .text-landing{
@@ -367,7 +383,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
 
+=======
+    margin-left: 5vh;
+>>>>>>> 2eb03b587c8b0cb697991c915e9e8abc29d4fdf6
 }
 .landing-map{
     padding: 2rem 0;
@@ -378,7 +398,11 @@
     width: 100vw;
 }
 .img_time{
+<<<<<<< HEAD
     width: 40vw;
+=======
+    width: 60vh;
+>>>>>>> 2eb03b587c8b0cb697991c915e9e8abc29d4fdf6
 }
 
 .btn-time-btn{
@@ -413,4 +437,13 @@
     margin:50px;
 }
 
+.figure{
+    width: 60vh;
+}
+.Figure-text-landing{
+    width: 60vh;
+}
+.text-landing{
+    width: 60vh;
+}
 }

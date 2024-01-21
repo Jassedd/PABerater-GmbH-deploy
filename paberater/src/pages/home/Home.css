@@ -136,7 +136,7 @@ svg{
   align-items: center;
 }
 
-.figure{
+.figure-talent{
   background-color: #E9EAF1;
   height: 40vh;
   margin-top: 5vh;
@@ -196,7 +196,7 @@ svg{
     z-index: -5;
   }
 
-  .figure{
+  .figure-talent{
     height: 62.5vh;
   }
   
