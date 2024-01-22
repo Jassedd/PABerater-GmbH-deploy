@@ -43,8 +43,8 @@ function Homologate() {
 
       <section className="title_section">
         <h1 className="title">
-          Homologación <br />
-          título de medicina <br />
+          Homologación 
+          título de medicina
           en Alemania.
         </h1>
         <br />

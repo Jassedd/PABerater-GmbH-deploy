@@ -18,7 +18,7 @@ svg{
 
 
 .video_homologate {
-width: 50vh;
+width: 40vh;
 border-radius: 0 15vh 0 15vh;
 margin-bottom: 2vh;
 margin-top: 7vh;
@@ -40,7 +40,7 @@ margin-top: 7vh;
 .figure_title {
     background-color: #25357a9c;
     color: #C8A75A;
-    width: 50vh;
+    width: 40vh;
     height: 15vh;
     border-radius: 4vh 0 4vh 0;
     position:absolute;
@@ -58,8 +58,10 @@ align-items: center;
 /* -------homologación image style end--------------*/
 
 .title{
+    text-align: center;
     font-size: 2.5rem;
-    margin: 2rem 0 0 2rem;
+    margin: 2rem 0 ;
+    padding: 0 1rem;
     color: #C8A75A;
 }
 .title_text{
@@ -79,6 +81,7 @@ color: #25357a;
 }
 
 .text_name_video{
+    padding: 0 2rem;
     margin: 0 2rem  2rem;
     font-size: 1.3rem;
     line-height: 2rem;
@@ -151,6 +154,7 @@ background-color: #25357a;
 .Title_ourServices_Text{
     font-size: 2rem;
     color: #25357a;
+    text-align: center;
     align-self: center;
     margin-bottom: 10%;
 }
@@ -212,5 +216,27 @@ background-color: #25357a;
     }
     .yt-service{
         height: 80vh;
+    }
+    .btn-contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+ 
+}
+
+@media (width >= 1000px) {
+    .Title_ourServices_Text{
+        margin-bottom: 2rem;
+    }
+    .title{
+        margin: 2rem 0 0 0;
+    }
+    .title_text{
+        padding: 1rem 2rem 2rem 2rem;
+    }
+    .text_name_video{
+        padding: 0 3rem;
     }
 }
