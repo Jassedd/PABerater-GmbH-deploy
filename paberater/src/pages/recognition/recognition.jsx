@@ -4,6 +4,7 @@ import video2 from "../../assets/video/pexels-los-muertos-crew-8853514 (1080p).m
 import Jorge2 from "../../assets/img/Jorge2.png";
 import QAaccordion from "../../components/q&a-accordion/Q&A-accordion";
 import ScrollToTop from "../../components/scrollToTop/ScrollToTop";
+import { Link } from "react-router-dom";
 
 function Recognition() {
   const RecognitionQuestions = [
@@ -139,7 +140,9 @@ function Recognition() {
             <h3 className="resaltar_text">
             ¡ES POSIBLE!
             </h3>
-            <button className="btn-comenzamos2">¿COMENZAMOS?</button>
+            <Link to="/contacto">
+              <button className="btn-comenzamos2">¿COMENZAMOS?</button>
+            </Link>
 
         </div>
       </section>
@@ -187,7 +190,9 @@ function Recognition() {
         ¡Vivir y trabajar como profesional en Alemania es posible 
         de la mano de PABerater!
         </h3>
-        <button className="btn-contact2"><p>CONTACTAR</p></button>
+        <Link to="/contacto">
+          <button className="btn-contact2"><p>CONTACTAR</p></button>
+        </Link>
 
       </section>
 
