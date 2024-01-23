@@ -4,7 +4,7 @@ import video1 from "../../assets/video/production_id_4873106 (1080p).mp4";
 import Jorge4 from "../../assets/img/jorge-4.png";
 import QAaccordion from "../../components/q&a-accordion/Q&A-accordion";
 import ScrollToTop from "../../components/scrollToTop/ScrollToTop";
-
+import { Link } from "react-router-dom";
 
 function Homologate() {
   const homologateQuestions = [
@@ -126,7 +126,9 @@ function Homologate() {
             <div>
               
             </div>
-            <button className="btn-comenzamos">¿COMENZAMOS?</button>
+            <Link to="/contacto">
+              <button className="btn-comenzamos">¿COMENZAMOS?</button>
+            </Link>
 
         </div>
       </section>

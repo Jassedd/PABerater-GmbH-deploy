@@ -97,7 +97,12 @@ function NavbarHome() {
                         Reconocimiento profesional
                       </Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Divider />
+                    <NavDropdown.Item className="dropdown-item">
+                      {" "}
+                      <Link to="/traduccionesjuradas">
+                        Traducciones juradas
+                      </Link>
+                    </NavDropdown.Item>
                   </NavDropdown>
                 </Nav>
               </Offcanvas.Body>

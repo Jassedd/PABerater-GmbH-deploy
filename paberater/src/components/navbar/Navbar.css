@@ -3,9 +3,14 @@ a, .nav-link{
   color: white !important;
 }
 
-.offcanvas-body{
+.offcanvas-body, .dropdown-menu.show{
   background-color: #25357a;
 }
+
+a.dropdown-item:hover{
+  background-color: #C8A75A;
+}
+
 
 .container-navbar{
   background-color: #25357a;

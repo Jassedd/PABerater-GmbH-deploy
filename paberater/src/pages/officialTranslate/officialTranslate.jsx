@@ -4,6 +4,7 @@ import video3 from "../../assets/video/production_id_4872898 (1080p).mp4";
 import Jorge3 from "../../assets/img/jorge-5.png";
 import QAaccordion from "../../components/q&a-accordion/Q&A-accordion";
 import ScrollToTop from "../../components/scrollToTop/ScrollToTop";
+import { Link } from "react-router-dom";
 
 function Translate() {
   const TranslateQuestions = [
@@ -127,7 +128,9 @@ function Translate() {
         <img src={Jorge3} alt="Jorge" className="jorge3_img" />
         <div className="text_translate_container">
             <br />
-            <button className="btn-comenzamos3">¿COMENZAMOS?</button>
+            <Link to="/contacto">
+              <button className="btn-comenzamos3">¿COMENZAMOS?</button>
+            </Link>
         </div>
       </section>
 
@@ -163,7 +166,9 @@ function Translate() {
         ¡Vivir y trabajar como profesional en Alemania es posible 
         de la mano de PABerater!
         </h3>
-        <button className="btn-contact2"><p>CONTACTAR</p></button>
+        <Link to="/contacto">
+          <button className="btn-contact2"><p>CONTACTAR</p></button>
+        </Link>
 
       </section>
 
