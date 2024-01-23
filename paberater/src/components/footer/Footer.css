@@ -55,7 +55,11 @@ p{
 }
 
 .paberater-rights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color:#25357a;
+    color: white;
 }
 
 .cookiesFooter{
@@ -83,6 +87,11 @@ p{
 }
 
 .groupPolitics{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.5rem;
     background-color: #25357a;
 }
 

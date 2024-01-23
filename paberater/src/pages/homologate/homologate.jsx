@@ -133,7 +133,7 @@ function Homologate() {
 
       <section className="ourServicesText_container">
         <h2 className="Title_ourServices_Text">
-          Nuestro Servicio <br />de asesoría incluye
+          Nuestro Servicio de asesoría incluye
         </h2>
         <ul className="li_ourServicesText">
           <li>
@@ -173,7 +173,7 @@ function Homologate() {
         de la mano de PABerater!
         </h3>
         <button className="btn-contact">
-          <p>CONTACTAR</p>
+          CONTACTAR
           </button>
 
       </section>
