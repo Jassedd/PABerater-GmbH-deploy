@@ -17,18 +17,16 @@ export function createNews(title, description, imageUrl) {
   }
 }
 
-export function createUsersForm(name, email, subject, description) {
+export function createUsersForm(id, name, email, subject, description) {
   try {
-    console.log("Creando usuario con nombre:", name);
+    console.log("Creando usuario con ID:", id);
+    console.log("Nombre:", name);
     console.log("Correo electrónico:", email);
     console.log("Asunto:", subject);
     console.log("Descripción:", description);
 
-    const idUserForm = uuidv4();
-    console.log("ID de usuario:", idUserForm);
-
-    set(ref(db, 'usersForms/' + idUserForm), {
-      id: idUserForm,
+    set(ref(db, 'usersForms/' + id), {
+      id: id,
       name: name,
       email: email,
       subject: subject,
@@ -40,3 +38,4 @@ export function createUsersForm(name, email, subject, description) {
     console.error("Error al crear el usuario:", error);
   }
 }
+

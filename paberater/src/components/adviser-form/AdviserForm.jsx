@@ -7,6 +7,8 @@ import { v4 as uuidv4 } from 'uuid';
 
 function AdviserForm() {
   const [email, setEmail] = useState("");
+  const [nameUsr, setNameUsr] = useState("");
+  const [descriptionUsr, setDescriptionUsr] = useState("");
   const [confirmEmail, setConfirmEmail] = useState("");
   const [subscribeToList, setSubscribeToList] = useState(false);
 
@@ -49,14 +51,6 @@ function AdviserForm() {
       return;
     }
   
-    const nameElement = form.querySelector('#controlNamesAdviser');
-    const emailElement = form.querySelector('#controlEmailsAdviser');
-    const questionElement = form.querySelector('#controlQuestionAdviser');
-  
-    const nameUsr = nameElement ? nameElement.value : '';
-    const emailUsr = emailElement ? emailElement.value : '';
-    const descriptionUsr = questionElement ? questionElement.value : '';
-  
     if (email !== confirmEmail) {
       alert("Los correos electrónicos no coinciden.");
       return;
@@ -67,11 +61,10 @@ function AdviserForm() {
         const idUserForm = uuidv4();
         console.log("Creando usuario con ID:", idUserForm);
   
-        // Usando las constantes capturadas
         createUsersForm(
           idUserForm,
           nameUsr,
-          emailUsr,
+          email,
           "Solicitud de asesoramiento",
           descriptionUsr
         );
@@ -81,11 +74,12 @@ function AdviserForm() {
         console.error("Error al crear el usuario:", error);
       }
     }
-  
+    setNameUsr("")
+    setDescriptionUsr("")
     setEmail("");
+    setSubscribeToList(false);
     setConfirmEmail("");
     sendEmail();
-    setSubscribeToList(false);
     alert("Formulario enviado correctamente");
   }
   
@@ -95,7 +89,7 @@ function AdviserForm() {
       <Form className="adviserForm">
 
        <Form.Group className="inputInfoAdviser" controlId="controlNamesAdviser">
-          <Form.Control type="text" placeholder="Nombre completo *" required />
+          <Form.Control type="text" value={nameUsr} placeholder="Nombre completo *" onChange={(e) => setNameUsr(e.target.value)} required />
         </Form.Group>
 
         <Form.Group className="inputInfoAdviser" controlId="controlNationalityAdviser">
@@ -136,6 +130,8 @@ function AdviserForm() {
             rows={3}
             placeholder="Describa su caso brevemente y mencione su profesión"
             required
+            value={descriptionUsr}
+            onChange={(e) => setDescriptionUsr(e.target.value)}
             style={{ borderColor: "#25357a", borderWidth: "1px" }}
           />
         </Form.Group>
