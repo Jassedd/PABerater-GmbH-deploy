@@ -1,24 +1,33 @@
 import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import "./AdviserForm.css";
+import { createUsersForm } from "../../../firebase/firebaseBack";
+import { v4 as uuidv4 } from 'uuid';
+
 
 function AdviserForm() {
   const [email, setEmail] = useState("");
   const [confirmEmail, setConfirmEmail] = useState("");
+  const [subscribeToList, setSubscribeToList] = useState(false);
 
   function sendEmail() {
     window.Email.send({
       SecureToken : import.meta.env.VITE_REACT_APP_EMAILTOKEN,
       To: "jassedgmartinez@gmail.com",
-      From: email,
+      From: "jassedgmartinez@gmail.com",
       Subject: "Solicitud de asesoramiento",
       Body: `
-        Nombre completo: ${document.getElementById("controlNamesAdviser").value}
-        Nacionalidad: ${document.getElementById("controlNationalityAdviser").value}
-        País de residencia: ${document.getElementById("controlCountryAdviser").value}
-        Correo electrónico: ${email}
-        Profesión: ${document.getElementById("controlProfessionAdviser").value}
-        Descripción del caso: ${document.getElementById("controlQuestionAdviser").value}
+        Nombre completo: 
+        ${document.getElementById("controlNamesAdviser").value}
+        Nacionalidad: 
+        ${document.getElementById("controlNationalityAdviser").value}
+        País de residencia: 
+        ${document.getElementById("controlCountryAdviser").value}
+        Correo electrónico: 
+        ${email}
+        Profesión: 
+        ${document.getElementById("controlProfessionAdviser").value} 
+        Descripción del caso:  ${document.getElementById("controlQuestionAdviser").value}
       `,
     }).then(
       (message) => {
@@ -33,24 +42,53 @@ function AdviserForm() {
   }
   function handleSubmit(event) {
     event.preventDefault();
-
+  
     const form = event.target;
     if (!form.checkValidity()) {
       form.reportValidity();
       return;
     }
-
+  
+    const nameElement = form.querySelector('#controlNamesAdviser');
+    const emailElement = form.querySelector('#controlEmailsAdviser');
+    const questionElement = form.querySelector('#controlQuestionAdviser');
+  
+    const nameUsr = nameElement ? nameElement.value : '';
+    const emailUsr = emailElement ? emailElement.value : '';
+    const descriptionUsr = questionElement ? questionElement.value : '';
+  
     if (email !== confirmEmail) {
       alert("Los correos electrónicos no coinciden.");
       return;
     }
-
+  
+    if (subscribeToList) {
+      try {
+        const idUserForm = uuidv4();
+        console.log("Creando usuario con ID:", idUserForm);
+  
+        // Usando las constantes capturadas
+        createUsersForm(
+          idUserForm,
+          nameUsr,
+          emailUsr,
+          "Solicitud de asesoramiento",
+          descriptionUsr
+        );
+  
+        console.log("Usuario creado exitosamente");
+      } catch (error) {
+        console.error("Error al crear el usuario:", error);
+      }
+    }
+  
     setEmail("");
     setConfirmEmail("");
-    sendEmail()
-
+    sendEmail();
+    setSubscribeToList(false);
     alert("Formulario enviado correctamente");
   }
+  
 
   return (
     <>
@@ -106,6 +144,7 @@ function AdviserForm() {
           <Form.Check
             type="checkbox"
             label="Me gustaría suscribirme al listado de PABerater."
+            onChange={() => setSubscribeToList(!subscribeToList)}
           />
           <Form.Check
             type="checkbox"

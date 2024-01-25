@@ -16,3 +16,27 @@ export function createNews(title, description, imageUrl) {
     console.error("Error al crear la noticia:", error);
   }
 }
+
+export function createUsersForm(name, email, subject, description) {
+  try {
+    console.log("Creando usuario con nombre:", name);
+    console.log("Correo electrónico:", email);
+    console.log("Asunto:", subject);
+    console.log("Descripción:", description);
+
+    const idUserForm = uuidv4();
+    console.log("ID de usuario:", idUserForm);
+
+    set(ref(db, 'usersForms/' + idUserForm), {
+      id: idUserForm,
+      name: name,
+      email: email,
+      subject: subject,
+      description: description,
+    });
+
+    console.log("Usuario creado exitosamente");
+  } catch (error) {
+    console.error("Error al crear el usuario:", error);
+  }
+}
