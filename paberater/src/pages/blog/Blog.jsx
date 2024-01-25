@@ -21,7 +21,8 @@ const Blog = () => {
 
     try {
       const newsRef = ref(db, 'news');
-      onValue(newsRef, (snapshot) => {
+      const unsubscribe = onValue(newsRef, (snapshot) => {
+        try {
         const data = snapshot.val();
         if (data) {
           const newsArray = Object.keys(data).map((key) => ({
@@ -31,16 +32,23 @@ const Blog = () => {
           setBlogData(newsArray.slice(startIndex, endIndex));
           setLoading(false);
         }
-      });
     } catch (error) {
       console.error('Error fetching data:', error);
       setLoading(false);
     }
+  });
+  return () => {
+    unsubscribe();
   };
+} catch (error) {
+  console.error('Error fetching data:', error);
+  setLoading(false);
+}
+};
+
 
   const onPageChange = (page) => {
     setCurrentPage(page);
-    fetchData(page);
   };
 
   useEffect(() => {

@@ -11,7 +11,6 @@ function UsersForms() {
   const [usersData, setUsersData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
-  const [expandedUsers, setExpandedUsers] = useState([]);
 
   const pageSize = 12;
 
@@ -68,7 +67,7 @@ function UsersForms() {
     <ScrollToTop />
     <section className='Users'>
       {usersData.map((post) => (
-        <div key={post.id} className={`user-container ${expandedUsers.includes(post.id) ? 'expanded' : ''}`}>
+        <div key={post.id} className="user-container" >
           <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="1">
               <Accordion.Header>{post.name}</Accordion.Header>
