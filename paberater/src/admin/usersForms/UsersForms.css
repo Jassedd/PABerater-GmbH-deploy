@@ -1,0 +1,22 @@
+.Users {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-container {
+    width: 18rem;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: height 0.3s ease-in-out; /* Agregada transición a height */
+}
+
+.user-detail {
+    margin-bottom: 20px; 
+  }
+
