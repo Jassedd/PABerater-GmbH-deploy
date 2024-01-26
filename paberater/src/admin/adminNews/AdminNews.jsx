@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Link, redirect } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./AdminNews.css";
 import Pagination from "../../components/pagination/Pagination";
-import { onValue, ref, remove } from "firebase/database";
+import { onSnapshot, collection, deleteDoc } from "firebase/firestore";
 import { db } from "../../../firebase/firebase";
 
 const NewsList = () => {
@@ -11,18 +11,15 @@ const NewsList = () => {
   const pageSize = 10;
 
   useEffect(() => {
-    const newsRef = ref(db, "news");
+    const newsCollection = collection(db, "news");
 
     const fetchNews = () => {
-      onValue(newsRef, (snapshot) => {
-        const data = snapshot.val();
-        if (data) {
-          const newsArray = Object.keys(data).map((key) => ({
-            id: key,
-            ...data[key],
-          }));
-          setNewsList(newsArray);
-        }
+      onSnapshot(newsCollection, (snapshot) => {
+        const data = snapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data(),
+        }));
+        setNewsList(data);
       });
     };
 
@@ -31,7 +28,7 @@ const NewsList = () => {
 
   const handleDeleteClick = async (id) => {
     try {
-      await remove(ref(db, `news/${id}`));
+      await deleteDoc(collection(db, "news", id));
 
       const updatedNewsList = newsList.filter((news) => news.id !== id);
       setNewsList(updatedNewsList);
@@ -52,7 +49,6 @@ const NewsList = () => {
     }
   };
 
-
   const getCurrentPageData = () => {
     const startIndex = (currentPage - 1) * pageSize;
     const endIndex = startIndex + pageSize;
@@ -64,24 +60,29 @@ const NewsList = () => {
       <h2>Lista de Noticias</h2>
       <ul className="listNews">
         {getCurrentPageData().map((news) => (
-            <Link to={`/admnewsdetails/${news.id}`}>
-          <li key={news.id} className="NewsItems">
-            <div className="NewsInfo">
-              <img src={news.img} alt={`Imagen de ${news.title}`} style={{ maxWidth: "100px" }} />
-              <h3 className="titleNewslist">{news.title}</h3>
-            </div>
-            <div className="Btns-list">
-              <Link to={`/admedit/${news.id}`}>
-              <button  className="Btn-edit">
-                Editar
-              </button>
-              </Link>
-              <button onClick={() => handleDeleteClick(news.id)} className="Btn-delete">
-                Eliminar
-              </button>
-            </div>
-          </li>
-        </Link>
+          <Link to={`/admnewsdetails/${news.id}`} key={news.id}>
+            <li className="NewsItems">
+              <div className="NewsInfo">
+                <img
+                  src={news.img}
+                  alt={`Imagen de ${news.title}`}
+                  style={{ maxWidth: "100px" }}
+                />
+                <h3 className="titleNewslist">{news.title}</h3>
+              </div>
+              <div className="Btns-list">
+                <Link to={`/admedit/${news.id}`}>
+                  <button className="Btn-edit">Editar</button>
+                </Link>
+                <button
+                  onClick={() => handleDeleteClick(news.id)}
+                  className="Btn-delete"
+                >
+                  Eliminar
+                </button>
+              </div>
+            </li>
+          </Link>
         ))}
       </ul>
       <Pagination

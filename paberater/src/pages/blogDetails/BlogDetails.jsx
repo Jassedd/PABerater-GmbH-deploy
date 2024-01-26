@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import './BlogDetails.css';
 import { db } from '../../../firebase/firebase';
-import { ref, onValue } from 'firebase/database';
+import { doc, getDoc } from 'firebase/firestore';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css'; // Import the styles
 import ScrollToTop from '../../components/scrollToTop/ScrollToTop';
@@ -15,19 +15,19 @@ const BlogDetails = () => {
   useEffect(() => {
     const fetchNewsDetails = async () => {
       try {
-        const newsRef = ref(db, `news/${id}`);
-        onValue(newsRef, (snapshot) => {
-          const newsData = snapshot.val();
-          if (newsData) {
-            setSelectedNews({
-              id,
-              ...newsData,
-            });
-            setDescription(newsData.description || ''); 
-          } else {
-            setSelectedNews(null);
-          }
-        });
+        const newsDoc = doc(db, 'news', id);
+        const snapshot = await getDoc(newsDoc);
+
+        if (snapshot.exists()) {
+          const newsData = snapshot.data();
+          setSelectedNews({
+            id,
+            ...newsData,
+          });
+          setDescription(newsData.description || ''); 
+        } else {
+          setSelectedNews(null);
+        }
       } catch (error) {
         console.error('Error fetching news details:', error);
         setSelectedNews(null);

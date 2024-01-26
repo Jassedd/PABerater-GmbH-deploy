@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, redirect } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
 import { db } from '../../../firebase/firebase';
-import { ref, onValue, set } from 'firebase/database';
+import { doc, getDoc, setDoc } from 'firebase/firestore';
 import './AdminNewsEdit.css';
 
 const AdminNewsEdit = () => {
   const { id } = useParams();
+  const redirect = useNavigate();
 
   const [newsData, setNewsData] = useState({
     title: '',
@@ -19,14 +20,14 @@ const AdminNewsEdit = () => {
   useEffect(() => {
     const fetchNewsDetails = async () => {
       try {
-        const newsRef = ref(db, `news/${id}`);
-        onValue(newsRef, (snapshot) => {
-          const newsData = snapshot.val();
-          if (newsData) {
-            setNewsData(newsData);
-          } else {
-          }
-        });
+        const newsDocRef = doc(db, 'news', id);
+        const newsDoc = await getDoc(newsDocRef);
+
+        if (newsDoc.exists()) {
+          setNewsData(newsDoc.data());
+        } else {
+          // Manejar el caso cuando el documento no existe
+        }
       } catch (error) {
         console.error('Error fetching news details:', error);
       }
@@ -45,12 +46,12 @@ const AdminNewsEdit = () => {
 
   const handleSaveClick = async () => {
     try {
-      const newsRef = ref(db, `news/${id}`);
-      await set(newsRef, newsData);
+      const newsDocRef = doc(db, 'news', id);
+      await setDoc(newsDocRef, newsData);
       alert('Noticia actualizada correctamente', {
         autoClose: 2000,
       });
-      redirect('/admin');
+      redirect('/home');
     } catch (error) {
       console.error('Error al actualizar la noticia:', error);
       alert('Error al actualizar la noticia. Por favor, inténtalo de nuevo.', {

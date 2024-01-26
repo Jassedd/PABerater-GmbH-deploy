@@ -1,12 +1,11 @@
 import { useState, useEffect } from "react";
 import { Button, Form } from "react-bootstrap";
-import ReactQuill from "react-quill"; 
+import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
-import { ref as dbRef, update, push } from "firebase/database";
+import { doc, setDoc, getDoc, updateDoc } from "firebase/firestore";
 import { ref as storageRef, uploadBytes, getDownloadURL } from "firebase/storage";
 import { createNews } from "../../../firebase/firebaseBack";
 import { useNavigate, useParams } from "react-router-dom";
-import "./AddNews.css";
 import { db, storage } from "../../../firebase/firebase";
 
 const initialStateValues = {
@@ -16,7 +15,7 @@ const initialStateValues = {
 };
 
 const BlogAdmPaberater = () => {
-  const { id, newId } = useParams();
+  const { newId } = useParams();
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [image, setImage] = useState(null);
@@ -28,10 +27,10 @@ const BlogAdmPaberater = () => {
     if (newId) {
       setEditing(true);
       const getNew = async () => {
-        const newsRef = dbRef(db, `news/${newId}`);
-        const snapshot = await get(newsRef);
-        const data = snapshot.val();
-        if (data) {
+        const newsDocRef = doc(db, 'news', newId);
+        const newsDoc = await getDoc(newsDocRef);
+        if (newsDoc.exists()) {
+          const data = newsDoc.data();
           setTitle(data.title || "");
           setDescription(data.description || "");
         }
@@ -48,7 +47,8 @@ const BlogAdmPaberater = () => {
       const newsObject = { title, description, img: imgUrl };
 
       if (editing) {
-        await update(dbRef(db, `news/${newId}`), newsObject);
+        const newsDocRef = doc(db, 'news', newId);
+        await updateDoc(newsDocRef, newsObject);
       } else {
         createNews(newsObject.title, newsObject.description, newsObject.img);
       }

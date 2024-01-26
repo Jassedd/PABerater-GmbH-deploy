@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 import { GoogleAuthProvider, createUserWithEmailAndPassword, onAuthStateChanged, 
   sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup, signOut,
 } from "firebase/auth";
-import { get, child, ref, set } from 'firebase/database';
+import { collection, doc, getDoc, setDoc, getDocs } from 'firebase/firestore';
 import { auth, db } from "../../firebase/firebase";
 
 export const AuthContext = createContext();
@@ -29,10 +29,11 @@ export function AuthProvider({ children }) {
       const result = await signInWithPopup(auth, googleProvider);
       const userCredential = result.user;
 
-      const userSnapshot = await get(child(ref(db), `users/${userCredential.uid}`));
+      const userDocRef = doc(db, 'users', userCredential.uid);
+      const userSnapshot = await getDoc(userDocRef);
 
       if (!userSnapshot.exists()) {
-        await set(child(ref(db), `users/${userCredential.uid}`), {
+        await setDoc(userDocRef, {
           email: userCredential.email,
           displayName: userCredential.displayName,
           type: 'user',
@@ -64,9 +65,11 @@ export function AuthProvider({ children }) {
     const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
       if (currentUser) {
         const userId = currentUser.uid;
-        const userSnapshot = await get(child(ref(db), `users/${userId}`));
+        const userDocRef = doc(db, 'users', userId);
+        const userSnapshot = await getDoc(userDocRef);
+        
         if (userSnapshot.exists()) {
-          currentUser.type = userSnapshot.val().type;
+          currentUser.type = userSnapshot.data().type;
         }
       }
       setUser(currentUser);

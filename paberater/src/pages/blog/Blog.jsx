@@ -3,7 +3,7 @@ import './Blog.css';
 import Pagination from '../../components/pagination/Pagination';
 import video3 from '../../assets/video/production_id_4872898 (1080p).mp4';
 import ScrollToTop from '../../components/scrollToTop/ScrollToTop';
-import { ref, onValue } from 'firebase/database';
+import { collection, getDocs } from 'firebase/firestore';
 import { db } from "../../../firebase/firebase";
 import 'react-quill/dist/quill.snow.css';
 import { Link } from 'react-router-dom';
@@ -20,32 +20,24 @@ const Blog = () => {
     const endIndex = startIndex + pageSize;
 
     try {
-      const newsRef = ref(db, 'news');
-      const unsubscribe = onValue(newsRef, (snapshot) => {
-        try {
-        const data = snapshot.val();
-        if (data) {
-          const newsArray = Object.keys(data).map((key) => ({
-            id: key,
-            ...data[key],
-          }));
-          setBlogData(newsArray.slice(startIndex, endIndex));
-          setLoading(false);
-        }
+      const newsCollection = collection(db, 'news');
+      const querySnapshot = await getDocs(newsCollection);
+
+      const newsArray = [];
+      querySnapshot.forEach((doc) => {
+        newsArray.push({
+          id: doc.id,
+          ...doc.data(),
+        });
+      });
+
+      setBlogData(newsArray.slice(startIndex, endIndex));
+      setLoading(false);
     } catch (error) {
       console.error('Error fetching data:', error);
       setLoading(false);
     }
-  });
-  return () => {
-    unsubscribe();
   };
-} catch (error) {
-  console.error('Error fetching data:', error);
-  setLoading(false);
-}
-};
-
 
   const onPageChange = (page) => {
     setCurrentPage(page);
