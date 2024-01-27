@@ -8,6 +8,7 @@ function QuestionForm() {
   const [email, setEmail] = useState("");
   const [confirmEmail, setConfirmEmail] = useState("");
   const [nameUsr, setNameUsr] = useState("");
+  const [professionUsr, setProfessionUsr] = useState("");
   const [descriptionUsr, setDescriptionUsr] = useState("");
   const [subscribeToList, setSubscribeToList] = useState(false);
 
@@ -60,6 +61,7 @@ function QuestionForm() {
           nameUsr,
           email,
           "Contacto",
+          professionUsr,
           descriptionUsr
         );
         console.log("Usuario creado exitosamente");
@@ -71,6 +73,7 @@ function QuestionForm() {
     setNameUsr("")
     setDescriptionUsr("")
     setEmail("");
+    setCountryUsr("")
     setSubscribeToList(false);
     setConfirmEmail("");
     sendEmail()
@@ -111,9 +114,22 @@ function QuestionForm() {
             required
           />
         </Form.Group>
-
         <Form.Group className="inputInfo" controlId="controlProfession">
-          <Form.Control type="text" placeholder="Su profesión" required />
+          <Form.Select
+            aria-label="Seleccione su profesión"
+            value={professionUsr}
+            onChange={(e) => setProfessionUsr(e.target.value)}
+            required
+          >
+            <option value="" disabled>
+              Seleccione su profesión
+            </option>
+            <option value="Médicos y profesionales de salud">Médicos y profesionales de salud</option>
+            <option value="Ingenieros">Ingenieros</option>
+            <option value="Arquitecto">Arquitecto</option>
+            <option value="Administración">Administración</option>
+            <option value="Otras profesiones">Otras profesiones</option>
+          </Form.Select>
         </Form.Group>
 
         <Form.Group className="inputInfo" controlId="controlQuestion">

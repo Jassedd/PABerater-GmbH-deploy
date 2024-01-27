@@ -20,14 +20,8 @@ export async function createNews(title, description, imageUrl) {
   }
 }
 
-export async function createUsersForm(id, name, email, subject, description) {
+export async function createUsersFormLanding(id, name, email, subject, nacionality, country, profession, description) {
   try {
-    console.log("Creando usuario con ID:", id);
-    console.log("Nombre:", name);
-    console.log("Correo electrónico:", email);
-    console.log("Asunto:", subject);
-    console.log("Descripción:", description);
-
     const usersFormsCollection = collection(db, 'usersForms');
 
     await addDoc(usersFormsCollection, {
@@ -35,6 +29,28 @@ export async function createUsersForm(id, name, email, subject, description) {
       name: name,
       email: email,
       subject: subject,
+      nacionality: nacionality,
+      country: country,
+      profession: profession,
+      description: description,
+    });
+
+    console.log("Usuario creado exitosamente");
+  } catch (error) {
+    console.error("Error al crear el usuario:", error);
+  }
+}
+
+export async function createUsersForm(id, name, email, subject, profession, description) {
+  try {
+    const usersFormsCollection = collection(db, 'usersForms');
+
+    await addDoc(usersFormsCollection, {
+      id: id,
+      name: name,
+      email: email,
+      subject: subject,
+      profession: profession,
       description: description,
     });
 

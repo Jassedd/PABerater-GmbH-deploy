@@ -1,35 +1,39 @@
 import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import "./AdviserForm.css";
-import { createUsersForm } from "../../../firebase/firebaseBack";
+import { createUsersFormLanding } from "../../../firebase/firebaseBack";
 import { v4 as uuidv4 } from 'uuid';
+import { countries } from "../countries/Countries";
 
 
 function AdviserForm() {
   const [email, setEmail] = useState("");
   const [nameUsr, setNameUsr] = useState("");
-  const [descriptionUsr, setDescriptionUsr] = useState("");
   const [confirmEmail, setConfirmEmail] = useState("");
+  const [descriptionUsr, setDescriptionUsr] = useState("");
+  const [nacionalityUsr, setNacionalityUsr] = useState("");
+  const [countryUsr, setCountryUsr] = useState("");
+  const [professionUsr, setProfessionUsr] = useState("");
   const [subscribeToList, setSubscribeToList] = useState(false);
 
   function sendEmail() {
     window.Email.send({
-      SecureToken : import.meta.env.VITE_REACT_APP_EMAILTOKEN,
+      SecureToken: import.meta.env.VITE_REACT_APP_EMAILTOKEN,
       To: "jassedgmartinez@gmail.com",
       From: "jassedgmartinez@gmail.com",
       Subject: "Solicitud de asesoramiento",
       Body: `
         Nombre completo: 
-        ${document.getElementById("controlNamesAdviser").value}
+        ${nameUsr}
         Nacionalidad: 
-        ${document.getElementById("controlNationalityAdviser").value}
+        ${nacionalityUsr}
         País de residencia: 
-        ${document.getElementById("controlCountryAdviser").value}
+        ${countryUsr}
         Correo electrónico: 
         ${email}
         Profesión: 
-        ${document.getElementById("controlProfessionAdviser").value} 
-        Descripción del caso:  ${document.getElementById("controlQuestionAdviser").value}
+        ${professionUsr} 
+        Descripción del caso:  ${descriptionUsr}
       `,
     }).then(
       (message) => {
@@ -42,6 +46,7 @@ function AdviserForm() {
       }
     );
   }
+  
   function handleSubmit(event) {
     event.preventDefault();
   
@@ -61,11 +66,14 @@ function AdviserForm() {
         const idUserForm = uuidv4();
         console.log("Creando usuario con ID:", idUserForm);
   
-        createUsersForm(
+        createUsersFormLanding(
           idUserForm,
           nameUsr,
           email,
           "Solicitud de asesoramiento",
+          nacionalityUsr,
+          countryUsr,
+          professionUsr,
           descriptionUsr
         );
   
@@ -76,6 +84,9 @@ function AdviserForm() {
     }
     setNameUsr("")
     setDescriptionUsr("")
+    setCountryUsr("")
+    setNacionalityUsr("")
+    setProfessionUsr("")
     setEmail("");
     setSubscribeToList(false);
     setConfirmEmail("");
@@ -89,16 +100,44 @@ function AdviserForm() {
       <Form className="adviserForm">
 
        <Form.Group className="inputInfoAdviser" controlId="controlNamesAdviser">
-          <Form.Control type="text" value={nameUsr} placeholder="Nombre completo *" onChange={(e) => setNameUsr(e.target.value)} required />
+          <Form.Control type="text" value={nameUsr} placeholder="Nombre completo *" onChange={(e) =>  setNameUsr(e.target.value)} required />
         </Form.Group>
 
-        <Form.Group className="inputInfoAdviser" controlId="controlNationalityAdviser">
-          <Form.Control type="text" placeholder="Nacionalidad*" required />
-        </Form.Group>
+        <Form.Group className="inputInfo" controlId="controlNationalityAdviser">
+        <Form.Select
+          aria-label="Nacionalidad"
+          value={nacionalityUsr}
+          onChange={(e) => setNacionalityUsr(e.target.value)}
+          required
+        >
+          <option value="" disabled>
+            Nacionalidad
+          </option>
+          {countries.map((country) => (
+            <option key={country.id} value={country.name}>
+              {country.name}
+            </option>
+          ))}
+        </Form.Select>
+      </Form.Group>
 
-        <Form.Group className="inputInfoAdviser" controlId="controlCountryAdviser">
-          <Form.Control type="text" placeholder="País de residencia*" required />
-        </Form.Group>
+        <Form.Group className="inputInfo" controlId="controlCountryAdviser">
+        <Form.Select
+          aria-label="Seleccione su país de residencia"
+          value={countryUsr}
+          onChange={(e) => setCountryUsr(e.target.value)}
+          required
+        >
+          <option value="" disabled>
+            Seleccione su país de residencia
+          </option>
+          {countries.map((country) => (
+            <option key={country.id} value={country.name}>
+              {country.name}
+            </option>
+          ))}
+        </Form.Select>
+      </Form.Group>
 
         <Form.Group className="inputInfoAdviser" controlId="controlEmailsAdviser">
           <Form.Control
@@ -120,8 +159,22 @@ function AdviserForm() {
           />
         </Form.Group>
 
-        <Form.Group className="inputInfoAdviser" controlId="controlProfessionAdviser">
-          <Form.Control type="text" placeholder="Su profesión" required />
+        <Form.Group className="inputInfo" controlId="controlProfession">
+          <Form.Select
+            aria-label="Seleccione su profesión"
+            value={professionUsr}
+            onChange={(e) => setProfessionUsr(e.target.value)}
+            required
+          >
+            <option value="" disabled>
+              Seleccione su profesión
+            </option>
+            <option value="Médicos y profesionales de salud">Médicos y profesionales de salud</option>
+            <option value="Ingenieros">Ingenieros</option>
+            <option value="Arquitecto">Arquitecto</option>
+            <option value="Administración">Administración</option>
+            <option value="Otras profesiones">Otras profesiones</option>
+          </Form.Select>
         </Form.Group>
 
         <Form.Group className="inputInfoAdviser" controlId="controlQuestionAdviser">
