@@ -36,9 +36,9 @@ svg{
 }
 
 .jorge-img2{
-  width: 29vh;
+  width: 59vw;
   position: absolute;
-  margin-top: -20%;
+  margin-top: -13.5%;
   display: flex;
 }
 
@@ -181,12 +181,12 @@ svg{
   }
 
   .container-img{
-    margin-top: -2vh;
+    margin-top: -7vh;
   }
 
   .jorge-img2{
-    width: 45vh;
-    margin-top: -44vh;
+    width: 50vw;
+    margin-top: -30vh;
     margin-right:4vh ;
   }
 
