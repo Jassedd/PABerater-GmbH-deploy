@@ -37,7 +37,7 @@ const Home = () => {
       <div className="container-img">
         <img src={Jorge2} alt="Jorge" className="jorge-img2" />
       </div>
-      <div className="container_background_img">
+      <div className="background_img">
         <img src={Berlin} alt="fondo" className="home_background" />
       </div>
       <section className="what-do-we-do">
