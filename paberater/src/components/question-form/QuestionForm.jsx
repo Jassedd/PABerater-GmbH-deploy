@@ -140,19 +140,19 @@ function QuestionForm() {
             required
             value={descriptionUsr}
             onChange={(e) => setDescriptionUsr(e.target.value)}
-            style={{ borderColor: "#25357a", borderWidth: "1px" }}
+          
           />
         </Form.Group>
 
         <Form.Group className="inputInfo" controlId="checkPABerater">
-        <Form.Check
+        <Form.Check className="form-check-section"
             type="checkbox"
             label="Me gustaría suscribirme al listado de PABerater."
             onChange={() => setSubscribeToList(!subscribeToList)}
           />
-          <Form.Check
+          <Form.Check className="form-check-section"
             type="checkbox"
-            label="He leído y acepto los términos y condiciones"
+            label="He leído y acepto los términos y condiciones*"
             required
           />
         <div className="adviserBtn">
@@ -160,8 +160,7 @@ function QuestionForm() {
           type="submit"
           className="btn-added"
           onClick={handleSubmit}
-          disabled={email !== confirmEmail}
-        >Agendar
+          disabled={email !== confirmEmail}>Agendar mi cita
         </button>
         </div>
         </Form.Group>
