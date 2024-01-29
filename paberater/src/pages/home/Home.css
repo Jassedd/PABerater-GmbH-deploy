@@ -36,20 +36,20 @@ svg{
 }
 
 .jorge-img2{
-  width: 29vh;
-  position: absolute;
-  margin-top: -20%;
-  display: flex;
+  width: 15vh;
 }
 
 .container_background_img{
-  height: 42vh;
+  position: absolute;
+  height: 5vh;
+  z-index: +5 ;
 }
 
 .home_background{
-  display: flex;
-  width: 98vw;
-  height: 62vh;
+  position:absolute;
+  width: 100vw;
+  margin-top: -11rem;
+  z-index: 5;
 }
 
 .question-home{
@@ -107,27 +107,24 @@ svg{
 
 .init-section{
   display: flex;
-  align-items: flex-start;
-  text-align:right;
-  justify-content: center;
-  position: relative;
+  flex-direction: row;
+  margin-left: 15rem;
+ 
 }
 
 .title-init{
+
   font-size: 1.3rem;
+  text-align:right;
 }
 
 .div-init{
-  margin: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  margin-left: 18vh;
-  margin-top: 5vh;
-}
-
-.jorge5{
-  width: 46vh;
+  justify-content: space-around;
+  margin-top: 5rem;
+  padding: 0 1rem;
 }
 
 .talent-home{
@@ -137,14 +134,23 @@ svg{
 }
 
 .figure-talent{
-  background-color: #E9EAF1;
-  height: 40vh;
-  margin-top: 5vh;
-  border-radius: 0 15vh 0 0;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  background-color: #E9EAF1;
+    width: 20rem;
+    height: 50vh;
+    margin-top: 3rem;
+  border-radius: 0 15vh 0 0;
 }
+
+.jorge5{
+  width: 20vh;
+ height: 50vh;
+}
+
+
+
 
 .talent-text{
   display: flex;
@@ -165,12 +171,18 @@ svg{
 
 
 
+
+
 @media (width >= 750px) {
 
   .div-init{
-    margin-left: 35vw;
-    margin-top: 5vh;
-    align-items:end;
+
+    align-items:center;
+    margin-top: 0;
+  }
+
+  .init-section{
+    margin-left: 3rem;
   }
   .title-init{
     font-size: 3rem;
@@ -185,19 +197,23 @@ svg{
   }
 
   .jorge-img2{
-    width: 45vh;
-    margin-top: -44vh;
-    margin-right:4vh ;
+    width: 26vh;
+    margin-top: 2vh;
   }
 
   .home_background{
-    display: flex;
-    height: 52vh;
-    z-index: -5;
+    position:absolute;
+    width: 100vw;
+    margin-top: -22rem;
+    z-index: 5;
   }
 
   .figure-talent{
-    height: 62.5vh;
+    width: 60vh;
+    height: 50vh;
+  }
+  .jorge5{
+    height: 60vh;
   }
   
   .talent_title{
@@ -208,5 +224,40 @@ svg{
   .roadMapHome{
     margin-left: 10rem;
     margin-right: 10rem;
+  }
+  .btn-advisory{
+    max-width: 20rem;
+  }
+}
+
+
+@media (width >= 1000px) {
+
+
+  .figure-talent{
+    width: 60vh;
+    height: 50vh;
+  }
+  .jorge5{
+    height: 60vh;
+  }
+  .home_background{
+    position:absolute;
+    display: block;
+    justify-content: center;
+    width: 100vw;
+    margin-top: -29rem;
+    z-index: 5;
+  }
+}
+
+@media (width >= 1100px){
+
+  .figure-talent{
+    width: 60vh;
+    height: 50vh;
+  }
+  .jorge5{
+    min-width: 60vh;
   }
 }

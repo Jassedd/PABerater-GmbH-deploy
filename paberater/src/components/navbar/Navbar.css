@@ -16,7 +16,8 @@ a.dropdown-item:hover{
   background-color: #25357a;
   height: 8vh;
   border-radius: 15vh;
-  width: 70vw !important;
+  width: 65vw !important;
+  margin: 0;
 }
 
 
@@ -37,7 +38,7 @@ a.dropdown-item:hover{
     border-radius: 10px;
     background-color: #C8A75A;
     height: 4vh;
-    min-width: 20vh;
+    min-width: 1vh;
     border: 0;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.281);
   }
@@ -56,10 +57,14 @@ a.dropdown-item:hover{
     padding: 7%;
     margin: 4%;
   }
+  .navbar {
+    flex-wrap: nowrap;
+  }
 
   
   .navbarHome {
     display: flex;
+    flex-direction: row;
     justify-content: space-between; 
     align-items: center; 
   }
