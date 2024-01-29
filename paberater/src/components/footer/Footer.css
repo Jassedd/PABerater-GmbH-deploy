@@ -78,11 +78,14 @@ p{
     align-items: center ;
     background-color: #C8A75A;
     width: 100%;
-    padding: 4vh;
+    padding: 4%;
+    position: sticky !important;
+    bottom: 0 !important;
+  
 }
 
 .icons_action{
-    width: 6vh;
+    width: 8vw;
     color:#25357a
 }
 
@@ -189,10 +192,22 @@ p{
       }
       .contact_footer {
         padding: 1rem 5rem;
+        position: sticky !important;
+        bottom: 0 !important;
       }
+
+      .icons_action{
+        width: 6vw;
+        color:#25357a
+    }
     }
 
 @media (width >= 1000px) {
+
+    .contact_footer{
+      display: none;
+    }
+
     .pinedaFooter {
       height: 40vh;
       display: flex;

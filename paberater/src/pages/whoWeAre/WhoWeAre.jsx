@@ -6,7 +6,8 @@ function WhoWeAre() {
   return (
     <>
     <ScrollToTop />
-      <section className="we-section">
+    <section className="section-somos">
+    <section className="we-section">
         <h2 className="we-title">Somos</h2>
         <p>
           una empresa de asesoría privada con sede en Alemania, nos
@@ -22,6 +23,7 @@ function WhoWeAre() {
           <img src={JorgeWe} alt="Jorge img" className="Jorge-we" />
         </div>
       </section>
+    </section>
       <section className="history">
         <h2 className="we-title">Nuestra Historia</h2>
         <p>

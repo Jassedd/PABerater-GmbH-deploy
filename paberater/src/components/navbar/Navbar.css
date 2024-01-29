@@ -1,6 +1,12 @@
+.navbarHome, .navbar, .navbar-expand-lg, .navbar-light {
+  position: sticky !important;
+  top: 0 !important;
+  background-color: #E9EAF1 !important;
+}
+
 a, .nav-link{
   text-decoration: none !important;
-  color: white !important;
+  color:#E9EAF1 !important;
 }
 
 .offcanvas-body, .dropdown-menu.show{
@@ -120,14 +126,14 @@ a.dropdown-item:hover{
   .btn-nav {
     font-size: 1.2rem;
     font-weight: 500;
-    color: #25357a;
-    border-radius: 10px;
-    background-color: #C8A75A;
     height: 4vh;
     min-width: 30vw;
-    border: 0;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.281);
-    margin-left: 8%;
+    margin-left: 4%;
+  }
+
+  .arrow-btn{
+    padding-left: 2%;
+    width: 3.3vw;
   }
 
   .navbar-toggler.collapsed{
@@ -143,5 +149,18 @@ a.dropdown-item:hover{
       padding: 4%;
       margin: 4%;
       margin-left: 6vw;
+    }
+
+    .btn-nav {
+      font-size: 1.3rem;
+      font-weight: 500;
+      height: 4vh;
+      min-width: 20vw;
+      margin-left: 4%;
+    }
+
+    .arrow-btn{
+      padding-left: 2%;
+      width: 2vw;
     }
   }
