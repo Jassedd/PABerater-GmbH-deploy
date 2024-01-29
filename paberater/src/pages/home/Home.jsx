@@ -22,7 +22,9 @@ const Home = () => {
         <div className="div-init">
           
             <img src={Jorge2} alt="Jorge" className="jorge-img2" />
-          
+   
+            <img src={Berlin} alt="fondo" className="home_background" />
+           
           <div className="textbtn">
             <h1 className="title-init">
               Asesoramos
@@ -41,9 +43,9 @@ const Home = () => {
         </div>
       
       
-     
+        
       <section className="what-do-we-do">
-      <img src={Berlin} alt="fondo" className="home_background" />
+      
 
         <div className="container-home">
 

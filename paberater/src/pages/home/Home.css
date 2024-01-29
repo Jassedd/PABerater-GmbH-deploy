@@ -34,24 +34,18 @@ svg{
   justify-content: center;
   margin-left: -45vw;
   position: relative;
-  margin-top: -17vh;
 }
 
 .jorge-img2{
   width: 15vh;
 }
 
-.container_background_img{
-  position: absolute;
-  height: 5vh;
-  z-index: +5 ;
-}
-
 .home_background{
   position:absolute;
   width: 100vw;
-  margin-top: -11rem;
-  z-index: 5;
+  height: auto;
+  z-index: -5;
+  bottom: 33rem;
 }
 
 .question-home{
@@ -121,11 +115,12 @@ svg{
 }
 
 .div-init{
+  height: 17rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin-top: 5rem;
+  margin-top: 0rem;
   padding: 0 1rem;
 }
 
@@ -178,9 +173,9 @@ svg{
 @media (width >= 750px) {
 
   .div-init{
-
+    height: 30rem;
     align-items:center;
-    margin-top: 0;
+    margin-top: 5rem;
   }
 
   .init-section{
@@ -206,8 +201,9 @@ svg{
   .home_background{
     position:absolute;
     width: 100vw;
-    margin-top: -22rem;
-    z-index: 5;
+    height: auto;
+    z-index: -5;
+    bottom: 18rem;
   }
 
   .figure-talent{
@@ -244,12 +240,13 @@ svg{
     height: 60vh;
   }
   .home_background{
+    margin-top: 1rem;
+    display: flex;
+    align-items: end;
+    justify-content: end;
     position:absolute;
-    display: block;
-    justify-content: center;
     width: 100vw;
-    margin-top: -29rem;
-    z-index: 5;
+    z-index: -5;
   }
 }
 
