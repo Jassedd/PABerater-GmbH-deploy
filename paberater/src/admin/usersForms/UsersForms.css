@@ -1,22 +1,41 @@
 .Users {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .user-container {
-    width: 18rem;
+    width: 90%;
     margin: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    overflow: hidden;
     display: flex;
-    flex-direction: column;
-    transition: height 0.3s ease-in-out; /* Agregada transición a height */
+    padding: 2vh;
+}
+.usersList{
+    width: 90%;
+    margin: 0;
+    padding: 0;
+
+}
+.dscription{
+    color: black;
 }
 
-.user-detail {
-    margin-bottom: 20px; 
+.unorderListUsers{
+    width: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+
+  .even {
+    background-color: #b7d6ee; 
+  }
+  
+  .odd {
+    background-color: #ffffff;
   }
 
