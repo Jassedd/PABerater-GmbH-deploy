@@ -1,0 +1,41 @@
+.Users {
+    display: flex;
+    flex-wrap: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-container {
+    width: 90%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    padding: 2vh;
+}
+.usersList{
+    width: 90%;
+    margin: 0;
+    padding: 0;
+
+}
+.dscription{
+    color: black;
+}
+
+.unorderListUsers{
+    width: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+
+  .even {
+    background-color: #b7d6ee; 
+  }
+  
+  .odd {
+    background-color: #ffffff;
+  }
+

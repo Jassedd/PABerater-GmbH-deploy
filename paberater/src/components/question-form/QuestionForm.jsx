@@ -1,16 +1,23 @@
 import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import "./QuestionForm.css";
+import { createUsersForm } from "../../../firebase/firebaseBack";
+import { v4 as uuidv4 } from 'uuid';
 
 function QuestionForm() {
   const [email, setEmail] = useState("");
   const [confirmEmail, setConfirmEmail] = useState("");
+  const [nameUsr, setNameUsr] = useState("");
+  const [professionUsr, setProfessionUsr] = useState("");
+  const [descriptionUsr, setDescriptionUsr] = useState("");
+  const [subscribeToList, setSubscribeToList] = useState(false);
+
 
   function sendEmail() {
     window.Email.send({
       SecureToken : import.meta.env.VITE_REACT_APP_EMAILTOKEN,
       To: "jassedgmartinez@gmail.com",
-      From: email,
+      From: "jassedgmartinez@gmail.com",
       Subject: "Consulta",
       Body: `
         Nombre completo: ${document.getElementById("controlNames").value}
@@ -44,10 +51,32 @@ function QuestionForm() {
       return;
     }
 
+    if (subscribeToList) {
+      try {
+        const idUserForm = uuidv4();
+        console.log("Creando usuario con ID:", idUserForm);
+  
+        createUsersForm(
+          idUserForm,
+          nameUsr,
+          email,
+          "Contacto",
+          professionUsr,
+          descriptionUsr
+        );
+        console.log("Usuario creado exitosamente");
+      } catch (error) {
+        console.error("Error al crear el usuario:", error);
+      }
+    }
+
+    setNameUsr("")
+    setDescriptionUsr("")
     setEmail("");
+    setCountryUsr("")
+    setSubscribeToList(false);
     setConfirmEmail("");
     sendEmail()
-
     alert("Formulario enviado correctamente");
   }
 
@@ -63,8 +92,8 @@ function QuestionForm() {
       <Form className="questionForm">
 
       <Form.Group className="inputInfo" controlId="controlNames">
-          <Form.Control type="text" placeholder="Nombre y Apellidos *" required />
-        </Form.Group>
+        <Form.Control type="text" value={nameUsr} placeholder="Nombre completo *" onChange={(e) => setNameUsr(e.target.value)} required />
+      </Form.Group>
 
         <Form.Group className="inputInfo" controlId="controlEmails">
           <Form.Control
@@ -85,9 +114,22 @@ function QuestionForm() {
             required
           />
         </Form.Group>
-
         <Form.Group className="inputInfo" controlId="controlProfession">
-          <Form.Control type="text" placeholder="Su profesión" required />
+          <Form.Select
+            aria-label="Seleccione su profesión"
+            value={professionUsr}
+            onChange={(e) => setProfessionUsr(e.target.value)}
+            required
+          >
+            <option value="" disabled>
+              Seleccione su profesión
+            </option>
+            <option value="Médicos y profesionales de salud">Médicos y profesionales de salud</option>
+            <option value="Ingenieros">Ingenieros</option>
+            <option value="Arquitecto">Arquitecto</option>
+            <option value="Administración">Administración</option>
+            <option value="Otras profesiones">Otras profesiones</option>
+          </Form.Select>
         </Form.Group>
 
         <Form.Group className="inputInfo" controlId="controlQuestion">
@@ -96,18 +138,21 @@ function QuestionForm() {
             rows={3}
             placeholder="Escriba aquí su consulta"
             required
-            style={{ borderColor: "#25357a", borderWidth: "1px" }}
+            value={descriptionUsr}
+            onChange={(e) => setDescriptionUsr(e.target.value)}
+          
           />
         </Form.Group>
 
         <Form.Group className="inputInfo" controlId="checkPABerater">
-          <Form.Check
+        <Form.Check className="form-check-section"
             type="checkbox"
             label="Me gustaría suscribirme al listado de PABerater."
+            onChange={() => setSubscribeToList(!subscribeToList)}
           />
-          <Form.Check
+          <Form.Check className="form-check-section"
             type="checkbox"
-            label="He leído y acepto los términos y condiciones"
+            label="He leído y acepto los términos y condiciones*"
             required
           />
         <div className="adviserBtn">
@@ -115,8 +160,7 @@ function QuestionForm() {
           type="submit"
           className="btn-added"
           onClick={handleSubmit}
-          disabled={email !== confirmEmail}
-        >Agendar
+          disabled={email !== confirmEmail}>Agendar mi cita
         </button>
         </div>
         </Form.Group>

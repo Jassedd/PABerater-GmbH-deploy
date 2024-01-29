@@ -16,6 +16,8 @@ svg{
   margin: 0;
 }
 
+@media (width >= 360px) {
+
 .first-arrow{
   margin-left: 20%;
 }
@@ -32,7 +34,7 @@ svg{
   justify-content: center;
   margin-left: -45vw;
   position: relative;
-  margin-top: -12vh;
+  margin-top: -17vh;
 }
 
 .jorge-img2{
@@ -164,11 +166,11 @@ svg{
 }
 
 .talent_title{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   padding-top: 5%;
   padding-bottom: 5%;
 }
-
+}
 
 
 
@@ -193,7 +195,7 @@ svg{
   }
 
   .container-img{
-    margin-top: -2vh;
+    margin-top: -7vh;
   }
 
   .jorge-img2{

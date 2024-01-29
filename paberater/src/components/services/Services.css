@@ -6,9 +6,19 @@ p, h3 {
     font-family: 'Jost', sans-serif;
 }
 
+
+.title-services{
+    display: flex;
+    align-items: center;
+    margin-top: 5vh;
+    padding-left: 8vw;
+    width: 100%;
+    font-size: 2.5rem;
+}
+
 .img-service{
-    border-radius: 0 10vh 0 0;
-    width: 40vh;
+    border-radius: 0 15vh 0 0;
+    width: 90vw;
     margin-bottom: 2vh;
     }
 
@@ -21,35 +31,32 @@ p, h3 {
 
 .titleService{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 60vw;
-}
-
-.arrow-btn{
-    margin: 0;
-}
-
-.btn-arrow{
-    display: flex;
-    align-items: center;
     justify-content: center;
-    width: 20vh;
-    height: 20vh;
-    border-radius: 5vh 5vh 5vh 5vh;
-    border: 0;
+    align-items: center;
+    width:85vw;
 }
 
 .servicesArticle{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin: 6vh 0 6vh 0;
 }
 
-.title-services{
-    margin-top: 5vh;
+.serviceName{
+    width: 70%;
+    font-size: 2rem;
+    color: #25357a;
+}
+
+.btn-circle{
+    width: 30%;
+    align-self: center;
+}
+
+.btn-arrow{
+    border-radius: 5vh 5vh 5vh 5vh;
+    border: 0;
 }
 
 .JorgeSection{
@@ -71,7 +78,8 @@ p, h3 {
 }
 
 .Jorge-4{
-    width: 45vw;
+    width: 48vw;
+    padding-top: 4%;
 }
 
 .JorgeArt{

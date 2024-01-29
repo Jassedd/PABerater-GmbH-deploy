@@ -9,4 +9,15 @@
     margin: 5vh 0;
     color: white;
     text-align: center;
+    font-size: 2rem;
+}
+
+@media (width >= 750px){
+.instaFeed{
+    width: 90%; 
+    height: 700px;
+}
+.instagramFeed_section_Title{
+    font-size: 3rem;
+}
 }

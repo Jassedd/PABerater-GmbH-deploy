@@ -1,32 +1,33 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, Link, redirect } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
 import '../../pages/blogDetails/BlogDetails.css';
 import { db } from '../../../firebase/firebase';
-import { ref, onValue, remove } from 'firebase/database';
+import { doc, getDoc, deleteDoc } from 'firebase/firestore';
 
 const AdminNewsDetails = () => {
   const { id } = useParams();
+  const redirect = useNavigate();
   const [selectedNews, setSelectedNews] = useState(null);
   const [description, setDescription] = useState('');
 
   useEffect(() => {
     const fetchNewsDetails = async () => {
       try {
-        const newsRef = ref(db, `news/${id}`);
-        onValue(newsRef, (snapshot) => {
-          const newsData = snapshot.val();
-          if (newsData) {
-            setSelectedNews({
-              id,
-              ...newsData,
-            });
-            setDescription(newsData.description || ''); // Set initial description value
-          } else {
-            setSelectedNews(null);
-          }
-        });
+        const newsDocRef = doc(db, 'news', id);
+        const newsDoc = await getDoc(newsDocRef);
+
+        if (newsDoc.exists()) {
+          const newsData = newsDoc.data();
+          setSelectedNews({
+            id,
+            ...newsData,
+          });
+          setDescription(newsData.description || ''); // Set initial description value
+        } else {
+          setSelectedNews(null);
+        }
       } catch (error) {
         console.error('Error fetching news details:', error);
         setSelectedNews(null);
@@ -38,12 +39,12 @@ const AdminNewsDetails = () => {
 
   const handleDeleteClick = async () => {
     try {
-      const newsRef = ref(db, `news/${id}`);
-      await remove(newsRef);
+      const newsDocRef = doc(db, 'news', id);
+      await deleteDoc(newsDocRef);
       alert('Noticia eliminada correctamente', {
         autoClose: 2000,
       });
-      redirect("/admnews"); // Use history.push for redirection
+      redirect('/admnews');
     } catch (error) {
       console.error('Error al eliminar la noticia:', error);
       alert('Error al eliminar la noticia. Por favor, inténtalo de nuevo.', {

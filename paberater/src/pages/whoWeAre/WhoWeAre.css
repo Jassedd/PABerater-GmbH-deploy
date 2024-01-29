@@ -97,3 +97,58 @@ p, h3 {
         font-size: 2rem;
     }
 }
+
+
+@media (width >= 1000px){
+.section-somos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.we-section {
+    background-color:#25357a;
+    width: 60%;
+    padding: 6%;
+    color: #E9EAF1;
+}
+
+.section-figure{
+width: 40%;
+}
+.Jorge-we{
+    height: 60vh;
+    padding-left: 12%;
+    border-radius: 0 15vh 0 13vh;
+}
+
+@keyframes fade-in {
+    from {
+    transform: translateX(100%);
+    opacity: 0.25;
+    }
+    to {
+    transform: translateX(0%);
+    opacity: 1;
+    }
+}
+
+.Jorge-we{
+    animation: fade-in 1000ms;
+    animation-delay: 800ms;
+    animation-timing-function:ease-in;
+}
+
+
+.figure-we{
+    width: 26vw;
+    height: 60vh;
+    margin: 0;
+    background-color: #E9EAF1;
+    border-radius:0 10vw 0 7vw;
+}
+
+
+
+}

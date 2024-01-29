@@ -12,33 +12,40 @@
     display: flex;
     flex-direction: column;
     font-size: 0.8rem;
+    padding: 7%;
+    background-color: #E9EAF1;
 }
 
 .inputInfo{
-    padding: 3vh;
-    background-color: #E9EAF1;
-
+    padding: 3%;
+    color: #919292;
 }
-
-.inputInfo input {
-    border: 1px solid #25357a;
-  }
 
 .titleQuestion{
     color:#C8A75A;
+    font-size: 2rem;
 }
 
 .question_subtitle {
-    color:white;
+    color: #E9EAF1;
+    font-size: 1.5rem;
 }
 
-#controlNames, #controlEmails, #controlEmailConfirmation, #controlProfession{
-    height: 9vh;
+#controlNames, #controlEmails, #controlEmailConfirmation, #controlProfession {
+    height: 5vh;
 }
 
 #controlQuestion{
     height: 20vh;
+    border: 0;
+    
 }
+
+.adviserBtn{
+    margin-top: 4%;
+    }
+
+
 
 @media (width >= 750px){
     .questionForm{
@@ -47,5 +54,20 @@
     .question_subtitle {
         color:white;
         font-size: 2rem;
+    }
+    #controlNames, #controlEmails, #controlEmailConfirmation, #controlProfession {
+        height: 5vh;
+    }
+
+    .inputInfo{
+        padding: 2%;
+    }
+
+    .inputInfo input {
+        margin-right: 2%;
+      }
+
+    .adviserBtn{
+    margin-top: 4%;
     }
 }

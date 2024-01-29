@@ -15,12 +15,12 @@ function Services() {
       <section className="section-services">
       <div className="figure-BtnBigAdbisory">
       </div>
-        <h3 className="title-services" style={{color: "#C8A75A", fontWeight: "bold"}}>¿Qué Servicios Ofrecemos?</h3>
+        <h2 className="title-services" style={{color: "#C8A75A", fontWeight: "bold"}}>¿Qué Servicios Ofrecemos?</h2>
         <article className="servicesArticle">
           <img src={Service1} alt="" className="img-service" />
           <section className="titleService">
             <h3 className="serviceName">Homologación de títulos</h3>
-            <Link to="/homologaciones">
+            <Link to="/homologaciones" className="btn-circle">
             <button className="btn-arrow">
               <img className="arrow-btn" src={ArrowBtn} alt="button arrow" />
             </button>
@@ -32,7 +32,7 @@ function Services() {
           <img src={Service2} alt="" className="img-service" />
           <section className="titleService">
             <h3 className="serviceName">Reconocimiento profesional</h3>
-            <Link to= "/reconocimiento">
+            <Link to= "/reconocimiento" className="btn-circle">
             <button className="btn-arrow">
               <img className="arrow-btn" src={ArrowBtn} alt="button arrow" />
             </button>
@@ -44,7 +44,7 @@ function Services() {
           <img src={Service3} alt="" className="img-service" />
           <section className="titleService">
             <h3 className="serviceName">Traducciones juradas</h3>
-            <Link to="/traduccionesjuradas">
+            <Link to="/traduccionesjuradas" className="btn-circle">
             <button className="btn-arrow">
               <img className="arrow-btn" src={ArrowBtn} alt="button arrow" />
             </button>

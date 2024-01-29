@@ -4,7 +4,8 @@ import Form from "react-bootstrap/esm/Form";
 import { useAuth } from "../../authContext/AuthContext";
 import { useNavigate } from "react-router-dom";
 import { auth, db } from "../../../firebase/firebase";
-import { get, ref, child } from "firebase/database";
+import { getDoc, doc } from "firebase/firestore";
+import Alert from 'react-bootstrap/esm/Alert';
 
 export function Login() {
   const [user, setUser] = useState({
@@ -18,6 +19,7 @@ export function Login() {
   const handleChange = ({ target: { name, value } }) => {
     setUser({ ...user, [name]: value });
   };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError(null);
@@ -30,29 +32,29 @@ export function Login() {
       if (authenticatedUser) {
         const userId = authenticatedUser.uid;
 
-        const userSnapshot = await get(child(ref(db), `users/${userId}`));
+        const userDoc = doc(db, 'users', userId);
+        const userSnapshot = await getDoc(userDoc);
 
         if (userSnapshot.exists()) {
-          const userType = userSnapshot.val().type;
+          const userType = userSnapshot.data().type;
 
           console.log("User Type:", userType);
 
           if (["user", "admin"].includes(userType)) {
-          if (userType === "admin") {
-            console.log("Navigating to Admin Home");
-            navigate(`/home`);
-          } else {
-            console.log("Navigating to User Home");
-            navigate(`/`);
-          }
-        } 
+            if (userType === "admin") {
+              console.log("Navigating to Admin Home");
+              navigate(`/home`);
+            } else {
+              console.log("Navigating to User Home");
+              navigate(`/`);
+            }
+          } 
         } else {
           console.error("User data not found");
           setError(
             "Datos de usuario no encontrados. Por favor, inténtelo de nuevo."
           );
         }
-
       } else {
         console.error("Authentication failed or user not found");
         setError(
@@ -81,10 +83,11 @@ export function Login() {
       await loginWithGoogle();
 
       const userId = auth.currentUser.uid;
-      const userSnapshot = await get(child(ref(db), `users/${userId}`));
+      const userDoc = doc(db, 'users', userId);
+      const userSnapshot = await getDoc(userDoc);
 
       if (userSnapshot.exists()) {
-        const userType = userSnapshot.val().type;
+        const userType = userSnapshot.data().type;
 
         console.log("User Type:", userType);
 

@@ -1,6 +1,12 @@
+.navbarHome, .navbar, .navbar-expand-lg, .navbar-light {
+  position: sticky !important;
+  top: 0 !important;
+  background-color: #E9EAF1 !important;
+}
+
 a, .nav-link{
   text-decoration: none !important;
-  color: white !important;
+  color:#E9EAF1 !important;
 }
 
 .offcanvas-body, .dropdown-menu.show{
@@ -44,8 +50,8 @@ a.dropdown-item:hover{
   }
 
   .btn-nav:hover {
-    background-color:white;
-    color:#25357a;
+    background-color:#757ea7;
+    color:#E9EAF1;
   }
 
   .arrow-btn{
@@ -53,9 +59,10 @@ a.dropdown-item:hover{
   }
   
   .LogoPaberater {
-    width: 27vw;
-    padding: 7%;
-    margin: 4%;
+    width: 24vw;
+    padding: 2%;
+    margin: 2%;
+    margin-left: 12%;
   }
   .navbar {
     flex-wrap: nowrap;
@@ -72,10 +79,11 @@ a.dropdown-item:hover{
   .NavContainer.container {
     background-color: #25357a;
     border-radius: 16px;
-    width: 67%;
+    width: 65%;
     display: flex;
     align-items: center;
     height: 8vh;
+    margin-right: 10%;
   }
   
   .navbar-toggler{
@@ -84,7 +92,16 @@ a.dropdown-item:hover{
     border: 0 !important;
     width: 5vh !important;
     height: 5vh !important;
-    font-size: 0.6rem !important;
+  }
+
+
+  .navbar-toggler.collapsed{
+    padding: 2% !important;
+  }
+
+  .navbar-toggler-icon{
+    font-size: 0.9rem !important;
+    align-content: center !important;
   }
 
 
@@ -95,10 +112,41 @@ a.dropdown-item:hover{
       margin: 0;
       width: 34%;
   }
+
+  .socialMediaLogo :hover{
+    color: #C8A75A;
+  }
+
+
+
   .LogoPaberater {
-    width: 20vh;
+    width: 15vw;
+    padding-left: 10%;
   }
+
+  .container-navbar{
+    width: 75vw !important;
   }
+
+  .btn-nav {
+    font-size: 1.2rem;
+    font-weight: 500;
+    height: 4vh;
+    min-width: 30vw;
+    margin-left: 4%;
+  }
+
+  .arrow-btn{
+    padding-left: 2%;
+    width: 3.3vw;
+  }
+
+  .navbar-toggler.collapsed{
+    padding: 1% !important;
+  }
+}
+
+
 
   @media (width >= 1000px){
     .LogoPaberater {
@@ -106,5 +154,18 @@ a.dropdown-item:hover{
       padding: 4%;
       margin: 4%;
       margin-left: 6vw;
+    }
+
+    .btn-nav {
+      font-size: 1.3rem;
+      font-weight: 500;
+      height: 4vh;
+      min-width: 20vw;
+      margin-left: 4%;
+    }
+
+    .arrow-btn{
+      padding-left: 2%;
+      width: 2vw;
     }
   }
