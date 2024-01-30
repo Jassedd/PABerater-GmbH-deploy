@@ -112,17 +112,17 @@ const router = createBrowserRouter([
         {
           path: "/users",
           element:(
-            //<ProtectedRoute>
+            <ProtectedRoute>
               <UsersForms />
-            //</ProtectedRoute>
+            </ProtectedRoute>
           ),
         },
         {
           path: "/descripcion/:id",
           element:(
-            //<ProtectedRoute>
+            <ProtectedRoute>
               <UsersDescription />
-            //</ProtectedRoute>
+            </ProtectedRoute>
           ),
         },
 
