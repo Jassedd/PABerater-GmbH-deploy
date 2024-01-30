@@ -18,6 +18,7 @@ function Footer() {
   return (
     <>
       <section className="pinedaFooter">
+      <div className="logo-social">
         <img src={Logo} alt="logo" className="logoPaberater" />
         <div className="socialMediaFooter">
           <Link to="https://www.instagram.com/paberater_/?hl=es" target="_blank">
@@ -30,7 +31,7 @@ function Footer() {
             <img src={FacebookLogo} alt="" className="IconSocialFooter" />
           </Link>
         </div>
-
+</div>
         <div className="contactFooter">
           <div className="infoFooter">
             <img src={EmailIcon} alt="" className="IconsFooter"/>
@@ -43,7 +44,7 @@ function Footer() {
           <div className="infoFooter">
             <img src={LocalIcon} alt="" className="IconsFooter"/>
             <Link to="https://www.google.com/maps/dir/40.3800498,-3.7739879/paberater-de/@45.9383877,-5.6762452,5z/
-            " target="_blank">PABerater GmbH, <br />Waltersdorfer Ch 203,<br />12355 Berlin, Alemania </Link>
+            " target="_blank" className="directionFooter">PABerater GmbH, <br />Waltersdorfer Ch 203,<br />12355 Berlin, Alemania </Link>
           </div>
         </div>
       </section>

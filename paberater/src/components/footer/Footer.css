@@ -9,7 +9,7 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5%;
+    text-align: center;
 }
 
 .logoPaberater{
@@ -19,7 +19,11 @@ p{
 }
 
 .socialMediaFooter{
-    padding-bottom: 8vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+    padding-bottom: 4vh;
 }
 
 .infoFooter{
@@ -30,6 +34,7 @@ p{
 }
 
 .infoFooter a{
+  width: 25vh;
     font-size: 1.3rem;
 }
 
@@ -51,7 +56,8 @@ p{
 .contactFooter{
     display: flex;
     flex-direction: column;
-    align-items: self-start;
+    align-items: center;
+    justify-content: center;
 }
 
 .paberater-rights{
@@ -98,6 +104,10 @@ p{
     background-color: #25357a;
 }
 
+.directionFooter{
+  text-align: center;
+}
+
 
 
 @media (width >= 750px){
@@ -106,13 +116,14 @@ p{
         height: 25rem;
         display: flex;
         flex-direction: row;
-    padding: 0 3%;
     align-content: center;
+    justify-content: space-around;
     }
 
     .logoPaberater{
     flex-direction: row;
     width: 35vw;
+    margin-bottom: 0;
     }
     .icons_action{
         width: 6vh;
@@ -123,17 +134,19 @@ p{
         background-color: #25357a;
     }
 
-    .socialMediaFooter{
-        padding-bottom: 2vh;
-    }
-
     .contactFooter {
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: center;
         justify-content: start;
     padding-bottom: 0.5rem;
     padding-bottom: 2vh;
+      }
+
+      .directionFooter{
+        text-align: center;
+          width: 25vh;
+        
       }
       .paberater-rights {
         display: flex;
@@ -143,11 +156,9 @@ p{
       }
       .socialMediaFooter {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin-right: 5rem;
-        margin-top: 5rem;
       }
       .IconSocialFooter {
         margin: 25px;
@@ -174,6 +185,7 @@ p{
         background-color: #25357a;
         color: white;
         align-items: end;
+       
       }
       .groupPolitics {
         display: flex;
@@ -213,20 +225,25 @@ p{
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      padding-bottom: 0.5rem;
+      padding: 0 5rem;
     }
     .logoPaberater {
-      min-width: 50vh;
+      max-width: 50vh;
       margin-bottom: 0;
-      margin-top: 2rem;
+      padding: 8rem 5rem 0 5rem;
     }
     .socialMediaFooter {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo-social{
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-right: 5rem;
-      margin-top: 5rem;
+
     }
     .IconSocialFooter {
       margin: 25px;
@@ -247,6 +264,7 @@ p{
       background-color: #25357a;
       color: white;
       align-items: end;
+      padding-right: 10rem;
     }
     .groupPolitics {
       display: flex;
