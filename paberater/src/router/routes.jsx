@@ -19,6 +19,7 @@ import addOrEditNews from "../admin/AddOrEditNews";
 import AdminNewsDetails from "../admin/admNewsDetails/AdmNewsDetails";
 import AdminNewsEdit from "../admin/adminNewsEdit/AdminNewsEdit";
 import UsersForms from "../admin/usersForms/UsersForms";
+import UsersDescription from "../admin/usersForms/UsersDescription";
 
 
 const router = createBrowserRouter([
@@ -107,11 +108,21 @@ const router = createBrowserRouter([
               <AdminNewsEdit />
             </ProtectedRoute>
           ),
+        },
+        {
           path: "/users",
           element:(
             //<ProtectedRoute>
               <UsersForms />
-           // </ProtectedRoute>
+            //</ProtectedRoute>
+          ),
+        },
+        {
+          path: "/descripcion/:id",
+          element:(
+            //<ProtectedRoute>
+              <UsersDescription />
+            //</ProtectedRoute>
           ),
         },
 

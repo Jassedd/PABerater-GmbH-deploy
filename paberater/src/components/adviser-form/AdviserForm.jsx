@@ -63,11 +63,7 @@ function AdviserForm() {
   
     if (subscribeToList) {
       try {
-        const idUserForm = uuidv4();
-        console.log("Creando usuario con ID:", idUserForm);
-  
         createUsersFormLanding(
-          idUserForm,
           nameUsr,
           email,
           "Solicitud de asesoramiento",

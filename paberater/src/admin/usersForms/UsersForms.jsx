@@ -6,6 +6,7 @@ import ScrollToTop from '../../components/scrollToTop/ScrollToTop';
 import { Link } from 'react-router-dom';
 import "./UsersForms.css";
 import { countries } from '../../components/countries/Countries';
+import Form from 'react-bootstrap/Form';
 
 
 function UsersForms() {
@@ -77,7 +78,7 @@ function UsersForms() {
       case 'country':
         setFilterCountry(value);
         break;
-      case 'nationality':
+      case 'nacionality':
         setFilterNationality(value);
         break;
       default:
@@ -85,9 +86,6 @@ function UsersForms() {
     }
   };
 
-  const applyFilters = () => {
-    fetchData(currentPage);
-  };
   
   const resetFilters = () => {
     setFilterSubject(null);
@@ -107,35 +105,34 @@ function UsersForms() {
       <div className="filter-controls">
           <label>
             Asunto:
-            <select onChange={(e) => handleFilterChange(e, 'subject')}>
+            <Form.Select onChange={(e) => handleFilterChange(e, 'subject')}>
               <option value="">Todos</option>
               <option value="Solicitud de asesoramiento">Solicitud de Asesoría</option>
-              <option value="Consulta">Consulta</option>
-            </select>
+              <option value="Contacto">Contacto</option>
+            </Form.Select>
           </label>
           <label>
             Nacionalidad:
-            <select onChange={(e) => handleFilterChange(e, 'nacionality')}>
+            <Form.Select onChange={(e) => handleFilterChange(e, 'nacionality')}>
               <option value="">Todos</option>
               {countries.map((nacionality) => (
                 <option key={nacionality.id} value={nacionality.id}>
                   {nacionality.name}
                 </option>
               ))}
-            </select>
+            </Form.Select>
           </label>
           <label>
             País de residencia:
-            <select onChange={(e) => handleFilterChange(e, 'country')}>
+            <Form.Select onChange={(e) => handleFilterChange(e, 'country')}>
               <option value="">Todos</option>
               {countries.map((country) => (
                 <option key={country.id} value={country.id}>
                   {country.name}
                 </option>
               ))}
-            </select>
+            </Form.Select>
           </label>
-          <button onClick={() => applyFilters()}>Aplicar Filtros</button>
           <button onClick={() => resetFilters()}>Reestablecer Filtros</button>
         </div>
       {usersData.map((post, index) => (
@@ -158,7 +155,7 @@ function UsersForms() {
                     <strong>Email:</strong> {post.email}
                   </div>
                   <div className="user-detail">
-                    <Link to="/descripcion">
+                    <Link to={`/descripcion/${post.id}`}>
                       <strong className='dscription'>Descripción</strong>
                     </Link>
                   </div>

@@ -1,31 +1,33 @@
-import { collection, addDoc } from "firebase/firestore";
-import { v4 as uuidv4 } from "uuid";
-import { db } from "./firebase";
+import { collection, addDoc, doc, setDoc } from 'firebase/firestore';
+import { v4 as uuidv4 } from 'uuid';
+import { db } from './firebase';
 
 export async function createNews(title, description, imageUrl) {
   try {
     const idNews = uuidv4();
     const newsCollection = collection(db, 'news');
 
-    await addDoc(newsCollection, {
-      id: idNews,
+    // Agregar el documento principal
+    const newsDocRef = doc(newsCollection, idNews);
+    await setDoc(newsDocRef, {
       title: title,
       description: description,
-      img: imageUrl
+      img: imageUrl,
     });
 
-    console.log("Noticia creada exitosamente");
+    console.log('Noticia creada exitosamente');
   } catch (error) {
-    console.error("Error al crear la noticia:", error);
+    console.error('Error al crear la noticia:', error);
   }
 }
 
-export async function createUsersFormLanding(id, name, email, subject, nacionality, country, profession, description) {
+export async function createUsersFormLanding( name, email, subject, nacionality, country, profession, description) {
   try {
+    const idUsers = uuidv4();
     const usersFormsCollection = collection(db, 'usersForms');
 
-    await addDoc(usersFormsCollection, {
-      id: id,
+    const usersDocRef = doc(usersFormsCollection, idUsers)
+    await setDoc(usersDocRef, {
       name: name,
       email: email,
       subject: subject,
@@ -41,12 +43,13 @@ export async function createUsersFormLanding(id, name, email, subject, nacionali
   }
 }
 
-export async function createUsersForm(id, name, email, subject, profession, description) {
+export async function createUsersForm( name, email, subject, profession, description) {
   try {
+    const idUsers = uuidv4();
     const usersFormsCollection = collection(db, 'usersForms');
 
-    await addDoc(usersFormsCollection, {
-      id: id,
+    const usersDocRef = doc(usersFormsCollection, idUsers)
+    await setDoc(usersDocRef, {
       name: name,
       email: email,
       subject: subject,

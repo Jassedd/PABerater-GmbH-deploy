@@ -4,7 +4,7 @@ import './BlogDetails.css';
 import { db } from '../../../firebase/firebase';
 import { doc, getDoc } from 'firebase/firestore';
 import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css'; // Import the styles
+import 'react-quill/dist/quill.snow.css';
 import ScrollToTop from '../../components/scrollToTop/ScrollToTop';
 
 const BlogDetails = () => {

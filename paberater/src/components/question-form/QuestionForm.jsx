@@ -53,11 +53,7 @@ function QuestionForm() {
 
     if (subscribeToList) {
       try {
-        const idUserForm = uuidv4();
-        console.log("Creando usuario con ID:", idUserForm);
-  
         createUsersForm(
-          idUserForm,
           nameUsr,
           email,
           "Contacto",
@@ -73,7 +69,6 @@ function QuestionForm() {
     setNameUsr("")
     setDescriptionUsr("")
     setEmail("");
-    setCountryUsr("")
     setSubscribeToList(false);
     setConfirmEmail("");
     sendEmail()
