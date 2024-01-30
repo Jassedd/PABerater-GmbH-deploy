@@ -168,6 +168,25 @@ svg{
 }
 
 
+@media (width >= 550px){
+  .home_background{
+   bottom: 31rem;
+  }
+}
+
+
+
+@media (width >= 660px){
+  .home_background{
+   bottom: 30rem;
+  }
+}
+
+
+
+
+
+
 
 
 @media (width >= 750px) {
@@ -195,7 +214,7 @@ svg{
 
   .jorge-img2{
     width: 26vh;
-    margin-top: 2vh;
+    margin-top: 0.7vh;
   }
 
   .home_background{
@@ -258,5 +277,12 @@ svg{
   }
   .jorge5{
     min-width: 60vh;
+  }
+}
+
+@media (width >= 1500px){
+  .home_background{
+   bottom: 13rem;
+   height: 60vh;
   }
 }
