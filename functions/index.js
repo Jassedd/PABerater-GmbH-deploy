@@ -1,19 +1,45 @@
-/**
- * Import function triggers from their respective submodules:
- *
- * const {onCall} = require("firebase-functions/v2/https");
- * const {onDocumentWritten} = require("firebase-functions/v2/firestore");
- *
- * See a full list of supported triggers at https://firebase.google.com/docs/functions
- */
+const functions = require('firebase-functions');
+const nodemailer = require('nodemailer');
+const cors = require('cors')({ origin: true });
+const { onRequest } = require('firebase-functions/v2/https');
+const logger = require('firebase-functions/logger');
 
-const {onRequest} = require("firebase-functions/v2/https");
-const logger = require("firebase-functions/logger");
+const transporter = nodemailer.createTransport({
+  host: functions.config().smtp.host,
+  port: functions.config().smtp.puerto,
+  secure: true,
+  auth: {
+    user: functions.config().correo.usuario,
+    pass: functions.config().correo.contraseña,
+  },
+});
 
-// Create and deploy your first functions
-// https://firebase.google.com/docs/functions/get-started
+exports.enviarCorreo = onRequest((req, res) => {
+  cors(req, res, async () => {
+    try {
+      const { nombre, email, mensaje } = req.body;
 
-// exports.helloWorld = onRequest((request, response) => {
-//   logger.info("Hello logs!", {structuredData: true});
-//   response.send("Hello from Firebase!");
-// });
+      // Verificar si los datos requeridos están presentes
+      if (!nombre || !email || !mensaje) {
+        res.status(400).send('Datos incompletos en la solicitud.');
+        return;
+      }
+
+      // Detalles del correo electrónico
+      const mailOptions = {
+        from: functions.config().correo.usuario,
+        to: functions.config().correo.destinatario,
+        subject: `Nuevo mensaje de ${nombre} (${email})`,
+        text: mensaje,
+      };
+
+      // Enviar el correo electrónico
+      await transporter.sendMail(mailOptions);
+
+      res.status(200).send('Correo enviado correctamente');
+    } catch (error) {
+      logger.error(error);  // Usar el logger de Firebase Functions
+      res.status(500).send(`Error al enviar el correo: ${error}`);
+    }
+  });
+});
