@@ -11,26 +11,26 @@
 .first-stape{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color: #C8A75A;
-    padding: 3%;
+    background-color:#E9EAF1;
+    padding-top: 8%;
 }
 
-.frame-youtube{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+.form_landing{
+display: flex;
+flex-direction: column-reverse;
+justify-content: center;
 }
 
 .first-title-landing, .second-title-landing, .second-text-landing{
-    color: #25357a;
+    color:#25357a;
     font-size: 2rem;
     line-height: 4vh;
 }
 
 .first-text-landing, .article-span{
-    color: white;
+    color:#C8A75A;
     font-size: 1.5rem;
 }
 
@@ -48,12 +48,15 @@
 .landing-contact{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    padding: 4%;
-    font-size: 1.6rem;
-    color: #25357a;
-    background-color: #C8A75A;
+    align-items: center;
+    background-color: #25357a;
+    color: #E9EAF1;
+}
+
+.title_landing-contact{
+    font-size: 2.3rem;
+    padding-top: 4%;
 }
 
 .phone_landing{
@@ -61,39 +64,42 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    color:#C8A75A;
 }
 
 .phoneNumber{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 1%;
 }
 .phoneNumber:hover{
     color: #25357a;
 }
+.phone_icon{
+    color: #C8A75A;
+}
+
+.Figure-text-landing{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    color:#C8A75A;
+    padding-bottom: 6%;
+}
 
 .talent{
     background-color: #C8A75A;
     height: 60vh;
+    margin: 0;
 }
 
-.jorge5{
-    width: 80vw;
+.text_first-stape{
+    margin-bottom: 8%;
 }
-.figure{
-    width: 85vw;
-    height: 45vh;
-    margin-left: 8%;
-}
-.Figure-text-landing{
-    background-color: #25357a;
-    color: white;
-    width: 85vw;
-    height: 9vh;
-    text-align: center;
-    font-weight: 600;
-    font-size: 1rem;
-    padding: 2%
+
+.jorge-5{
+width:80%;
 }
 
 .arowsImg{
@@ -170,7 +176,7 @@
     color: #25357a;
 }
 
-.btn-start{
+.btn-start-landing{
     background-color:#25357a;
     border: 0;
     width: 30vh;
@@ -182,7 +188,8 @@
     justify-content: center;
     font-weight: bold;
     font-size: 1.2rem;
-    margin: 10%;
+    margin-top: 8%;
+    margin-bottom: 12%;
     }
     
     .btn-arrow{
@@ -215,7 +222,7 @@
 .pay-title{
     color: #C8A75A;
     font-size: 2.3rem;
-    padding: 2vh;
+    padding-bottom: 4%;
 }
 
 @media (width >= 380px){

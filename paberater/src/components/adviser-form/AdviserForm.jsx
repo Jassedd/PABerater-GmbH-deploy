@@ -119,13 +119,13 @@ function AdviserForm() {
 
         <Form.Group className="inputInfo" controlId="controlCountryAdviser">
         <Form.Select
-          aria-label="Seleccione su país de residencia"
+          aria-label="País de residencia"
           value={countryUsr}
           onChange={(e) => setCountryUsr(e.target.value)}
           required
         >
           <option value="" disabled>
-            Seleccione su país de residencia
+            País de residencia
           </option>
           {countries.map((country) => (
             <option key={country.id} value={country.name}>
@@ -181,7 +181,6 @@ function AdviserForm() {
             required
             value={descriptionUsr}
             onChange={(e) => setDescriptionUsr(e.target.value)}
-            style={{ borderColor: "#25357a", borderWidth: "1px" }}
           />
         </Form.Group>
 

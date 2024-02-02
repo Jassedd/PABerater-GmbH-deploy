@@ -1,26 +1,36 @@
 
 .inputInfoAdviser{
     padding: 0.5rem 2rem;
+    color: #a3a3a3;
     background-color: #E9EAF1;
+    border: 0;
 }
 
 .adviserForm{
     padding-top: 2rem;
     background-color: #E9EAF1;
     padding-bottom: 7%;
-}
-
-.inputInfoAdviser input {
-    border: 1px solid #25357a;
+    color:#a3a3a3;
 }
 
 
 #controlNamesAdviser, #controlEmailsAdviser, #controlEmailConfirmationAdviser, #controlProfessionAdviser, #controlNationalityAdviser, #controlCountryAdviser{
     height: 3rem;
+    color:#a3a3a3;
 }
 
-#controlQuestion{
+#controlQuestionadviser{
     height: 20vh;
+    color:#a3a3a3;
+
+}
+#controlNationalityAdviser, #controlProfession, #controlCountryAdviser {
+    border:0;
+    width: 82vw;
+    padding: 0.5rem 2rem;
+    margin-left: 6%;
+    color:#a3a3a3;
+    
 }
 
 .btn-added{

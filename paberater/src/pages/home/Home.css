@@ -135,9 +135,9 @@ svg{
   align-items: center;
   justify-content: center;
   background-color: #E9EAF1;
-    width: 20rem;
+    width: 22rem;
     height: 50vh;
-    margin-top: 3rem;
+    margin-top: 10%;
   border-radius: 0 15vh 0 0;
 }
 
@@ -145,9 +145,6 @@ svg{
   width: 20vh;
  height: 50vh;
 }
-
-
-
 
 .talent-text{
   display: flex;

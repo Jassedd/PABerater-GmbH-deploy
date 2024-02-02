@@ -16,52 +16,52 @@ function Landing() {
   return (
     <>
     <ScrollToTop />
-        <div className="frame-youtube">
+    
+    <section form_landing>
+    <div className="frame-youtube">
             <iframe
-            width="90%"
+            width="100%"
             height="600vh"
             src={`https://www.youtube.com/embed/I_xoQ3T-FoM`}
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
+            ></iframe>
+    </div>
 
-        ></iframe>
-        </div>
+    <div className="section-assignment">
+    <p>¡Te asignaremos un asesor personalizado!</p>
+    </div>
+    <AdviserForm />
+    </section>
 
-      <section className='first-stape'>
+
+    <section className='first-stape'>
+        <div className="text_first-stape">
         <h1 className="first-title-landing"> <span className="article-span">El</span>  primer paso hacia</h1>
         <h4 className="first-text-landing">tu crecimiento profesional</h4>
         <h2 className="second-title-landing"><span className="article-span">en</span> Alemania</h2>
         <h5 className="second-text-landing">está solo a 30min</h5>
-      </section>
+        </div>
+        <img src={Jorge5} alt="jorge" className="jorge-5" />
 
-      <section className="section-assignment">
-        <p>¡Te asignaremos un asesor personalizado!</p>
-      </section>
-    
-        
-    <section className="formView">
-        <AdviserForm />
-       <div className="photoSection" >
-        <article className="landing-contact">
-            <h2 style={{fontSize:"2.5rem", marginTop:"1.5rem"}}>¿HABLAMOS?</h2>
+    </section>
+
+    <section phoneContact>
+    <article className="landing-contact">
+            <h2 className="title_landing-contact">¿HABLAMOS?</h2>
             <div className="phone_landing">
-            <img src={PhoneIcon} alt="phone icon" />
+            <img src={PhoneIcon} alt="phone icon" className="phone_icon" />
             <a className="phoneNumber" href="tel:+4915780633091">+49 157 806 33091</a>
             </div>
-        </article>
-        
-            <article className="talent">
-                <div className="figure">
-                    <img src={Jorge5} alt="jorge" className="jorge5" />
-                    <div className='Figure-text-landing'>
-                        <p className='text-landing'>Tu pones el talento, <br/> nosotros nos encargamos de lo demás</p>
-                    </div>
-                </div>        
-            </article>
+            <div className='Figure-text-landing'>
+            <p className='text-landing'>Tu pones el talento, <br/> nosotros nos encargamos de lo demás</p>
             </div>
+        </article>
+
     </section>
+
 
     <section className="arowsImg">  
             <article className="steps-landing">
@@ -106,7 +106,7 @@ function Landing() {
                 y te descontamos <span className="span-landing">100€.</span>
             </p>
             <Link to="/contacto">
-                <button className="btn-start">
+                <button className="btn-start-landing">
                     ¡Quiero saber más! <img src={Arrow} alt="btn-arrow"/>
                 </button>
             </Link>
