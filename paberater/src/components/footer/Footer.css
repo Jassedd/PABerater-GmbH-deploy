@@ -13,8 +13,9 @@ p{
 }
 
 .logoPaberater{
-    width: 65vw;
+    width: 45vw;
     padding: 8%;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -23,7 +24,7 @@ p{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-    padding-bottom: 4vh;
+  padding-bottom: 4vh;
 }
 
 .infoFooter{
@@ -35,11 +36,12 @@ p{
 
 .infoFooter a{
   width: 25vh;
-    font-size: 1.3rem;
+  font-size: 1.2rem;
+  text-align: left;
 }
 
 .IconsFooter{
-    width: 4em;
+    width: 2.5em;
     padding-right: 4vw;
 }
 
@@ -53,24 +55,47 @@ p{
     padding-right: 2em;
 }
 
+.IconSocialFooterFB{
+  width: 1.3em;
+}
+
 .contactFooter{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+.politics{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  background-color:#25357a;
+  color:#717caf;
+  font-size: 1rem;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
 
 .paberater-rights{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:#25357a;
-    color: white;
+align-self: center;
+height: 5vh;
+}
+
+.groupPolitics{
+  color:#717caf;
+}
+
+.groupPolitics a{
+font-size: 0.8rem;
+padding: 4%;
+color:#717caf;
+
 }
 
 .cookiesFooter{
     background-color: #16204D;
-    color: white;
+    color:#bebec5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,14 +120,6 @@ p{
     color:#25357a
 }
 
-.groupPolitics{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 0.5rem;
-    background-color: #25357a;
-}
 
 .directionFooter{
   text-align: center;
@@ -113,34 +130,32 @@ p{
 @media (width >= 750px){
 
     .pinedaFooter{
-        height: 25rem;
+        height: 20rem;
         display: flex;
         flex-direction: row;
-    align-content: center;
-    justify-content: space-around;
+        align-content: center;
+        justify-content: space-around;
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
 
     .logoPaberater{
     flex-direction: row;
-    width: 35vw;
-    margin-bottom: 0;
+    width: 30vw;
+    margin-bottom: 5%;
     }
     .icons_action{
         width: 6vh;
         color:#25357a
     }
     
-    .groupPolitics{
-        background-color: #25357a;
-    }
-
     .contactFooter {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: start;
-    padding-bottom: 0.5rem;
-    padding-bottom: 2vh;
+        padding-bottom: 0.5rem;
+        padding-bottom: 2vh;
       }
 
       .directionFooter{
@@ -154,18 +169,17 @@ p{
         align-self: center;
         width: 100%;
       }
-      .socialMediaFooter {
+      .socialMediaFooter{
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
+        align-items:center;
+        justify-content: space-between;
+        padding-bottom: 2vh;
       }
-      .IconSocialFooter {
-        margin: 25px;
-      }
+
       .infoFooter {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         padding: 1vh;
@@ -173,35 +187,51 @@ p{
       .IconsFooter {
         display: flex;
         align-items: center;
-        width: 5rem;
+        width: 4rem;
       }
       .IconsFooterYT {
         height: 4vh;
         margin-top: -2vh;
       }
-      .politics {
+
+      .politics{
         display: flex;
         flex-direction: column;
-        background-color: #25357a;
-        color: white;
-        align-items: end;
-       
+        justify-content:flex-start;
+        align-items: left;
+        background-color:#25357a;
+        color:#717caf;
+        font-size: 1.2rem;
+        margin-top: -1%;
+        padding-top: 3%;
+        padding-bottom: 3%;
       }
-      .groupPolitics {
+      
+      
+      .paberater-rights{
+      align-self: center;
+      height: 5vh;
+      }
+      
+      .groupPolitics{
         display: flex;
         flex-direction: row;
-        align-items: end;
-        justify-content: end;
-        margin-left: 45%;
+        justify-content:center;
+        align-content: center;
+        width: 100vw;
+        color:#717caf;
+        margin-left:5%;
       }
-      .paberater-rights {
-        display: flex;
-        justify-content: end;
-        margin-right: 5rem;
+      
+      .groupPolitics a{
+      font-size: 1rem;
       }
+
       .pol {
-        margin: 0 0.5rem;
+        margin: 0 1rem;
+        color: #717caf;
       }
+
       .contact_footer {
         padding: 1rem 5rem;
         position: sticky !important;

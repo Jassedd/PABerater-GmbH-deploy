@@ -18,7 +18,6 @@ const Home = () => {
     <main>
       <ScrollToTop />
       
-      <div className="container-img"></div>
         <div className="div-init">
           
             <img src={Jorge2} alt="Jorge" className="jorge-img2" />
@@ -36,10 +35,11 @@ const Home = () => {
               <br />
               <span className="pequena">a </span>
               <span className="resaltar">Alemania</span>
-              <div className="btnAdvisoryHome"></div>
-              <BtnAdvisory />
             </h1>
           </div>
+          <div className="btnAdvisoryHome">
+              <BtnAdvisory />
+              </div>
         </div>
       
       

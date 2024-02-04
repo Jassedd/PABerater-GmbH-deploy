@@ -28,7 +28,7 @@ function Footer() {
             <img src={YoutubeLogo} alt="" className="IconSocialFooterYT" />
           </Link>
           <Link to="https://www.facebook.com/PABerater/?locale=de_DE" target="_blank">
-            <img src={FacebookLogo} alt="" className="IconSocialFooter" />
+            <img src={FacebookLogo} alt="" className="IconSocialFooterFB" />
           </Link>
         </div>
 </div>
@@ -51,7 +51,7 @@ function Footer() {
 
         <section className="politics">
           <div className= "paberater-rights">
-          <p style={{margin:"0.7rem"}}>© 2023 PABerater GmbH. All Rights Reserved.</p>
+          <p style={{margin:"1rem"}}>© 2023 PABerater GmbH. All Rights Reserved.</p>
           </div>
           <div className="groupPolitics">
             <div className= "impressum pol">

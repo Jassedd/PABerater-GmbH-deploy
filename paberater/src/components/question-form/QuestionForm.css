@@ -13,7 +13,12 @@
     flex-direction: column;
     font-size: 0.8rem;
     padding: 7%;
+    color: #a3a3a3;
     background-color: #E9EAF1;
+}
+
+.form-check-section{
+    padding-left: 5%;
 }
 
 .inputInfo{
@@ -22,13 +27,19 @@
 }
 
 .titleQuestion{
-    color:#C8A75A;
+    color: #C8A75A;
     font-size: 2rem;
 }
 
 .question_subtitle {
     color: #E9EAF1;
     font-size: 1.5rem;
+}
+
+#controlProfession.form-select{
+    margin-left: 0;
+    padding-left: 1rem;
+    width: 99.5%;
 }
 
 #controlNames, #controlEmails, #controlEmailConfirmation, #controlProfession {
@@ -38,7 +49,6 @@
 #controlQuestion{
     height: 20vh;
     border: 0;
-    
 }
 
 .adviserBtn{
@@ -55,9 +65,15 @@
         color:white;
         font-size: 2rem;
     }
+    #controlProfession.form-select{
+        margin-left: 0;
+        width: 99.5%;
+    }
+    
     #controlNames, #controlEmails, #controlEmailConfirmation, #controlProfession {
         height: 5vh;
     }
+
 
     .inputInfo{
         padding: 2%;

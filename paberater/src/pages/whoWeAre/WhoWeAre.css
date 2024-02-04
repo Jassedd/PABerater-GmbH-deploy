@@ -96,6 +96,7 @@ p, h3 {
         color: white;
         font-size: 2rem;
     }
+
 }
 
 
@@ -122,24 +123,6 @@ width: 40%;
     padding-left: 12%;
     border-radius: 0 15vh 0 13vh;
 }
-
-@keyframes fade-in {
-    from {
-    transform: translateX(100%);
-    opacity: 0.25;
-    }
-    to {
-    transform: translateX(0%);
-    opacity: 1;
-    }
-}
-
-.Jorge-we{
-    animation: fade-in 1000ms;
-    animation-delay: 800ms;
-    animation-timing-function:ease-in;
-}
-
 
 .figure-we{
     width: 26vw;

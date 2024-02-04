@@ -112,10 +112,11 @@ p, h3 {
     }
     .title-services{
         font-size: 3rem;
+        margin-left: 7rem;
     }
     .titleService{
         width: 60vh;
-    }
+ç    }
 
     .serviceName{
         font-size: 3rem;
