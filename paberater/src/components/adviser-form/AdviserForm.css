@@ -7,7 +7,6 @@
 }
 
 .adviserForm{
-    padding-top: 2rem;
     background-color: #E9EAF1;
     padding-bottom: 7%;
     color:#a3a3a3;
@@ -24,14 +23,13 @@
     color:#a3a3a3;
 
 }
-#controlNationalityAdviser, #controlProfession, #controlCountryAdviser {
+#controlNationalityAdviser, #controlProfessionAdviser, #controlCountryAdviser {
     border:0;
-    width: 82vw;
     padding: 0.5rem 2rem;
-    margin-left: 6%;
     color:#a3a3a3;
     
 }
+
 
 .btn-added{
     background-color: #25357a ;
@@ -62,35 +60,26 @@
 }
 
 @media (width >= 750px){
-    .adviserForm{
-        padding: 5rem 10rem;
-    }
+
     .inputInfoAdviser{
         padding: 0.5rem;
     }
-
+    
     .btn-added{
         width: 30vh;
         height: 6vh;
         font-size: 1.5rem;
     }
+
 }
 
 @media (width >= 1000px){
     .adviserForm{
         order:2;
-        width: 50vw;
-        height: 72vh;
-        padding: 2rem 4rem 2rem 4rem;
+        width: 80vh;
     }
     .inputInfoAdviser{
         background-color: #E9EAF1;
-    }
-    .form-check-label
-
-    #controlNationalityAdviser, #controlCountryAdviser{
-        width: 31.5vw;
-        margin-left: 0;
     }
 
     #controlProfessionAdviser, #controlEmailsAdviser, #controlEmailConfirmationAdviser, #controlProfessionAdviser, #controlNationalityAdviser, #controlCountryAdviser{

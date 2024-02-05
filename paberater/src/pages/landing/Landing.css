@@ -1,5 +1,5 @@
 
-  h1, h2 {
+  h1, h2, h5 {
     font-family: 'DM Serif Display', serif;
   }
   
@@ -13,24 +13,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:#E9EAF1;
-    padding-top: 8%;
+    background-color: #C8A75A;
+    padding: 2.5rem;
 }
 
 .form_landing{
-display: flex;
-flex-direction: column-reverse;
-justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .first-title-landing, .second-title-landing, .second-text-landing{
     color:#25357a;
-    font-size: 2rem;
-    line-height: 4vh;
+    font-size: 1.8rem;
+    line-height: 6vh;
 }
 
 .first-text-landing, .article-span{
-    color:#C8A75A;
+    color:#E9EAF1;
     font-size: 1.5rem;
 }
 
@@ -38,7 +38,7 @@ justify-content: center;
     background-color: #25357a;
     color: white;
     height: 15vh;
-    font-size: 1.2rem;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,12 +94,23 @@ justify-content: center;
     margin: 0;
 }
 
+.figureAdvisory{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E9EAF1;
+    width: 22rem;
+    height: 40vh;
+    margin-top: 10%;
+    border-radius: 0 15vh 0 0;
+}
+
 .text_first-stape{
-    margin-bottom: 8%;
+    color: #E9EAF1;
 }
 
 .jorge-5{
-width:80%;
+width:85%;
 }
 
 .arowsImg{
@@ -155,7 +166,6 @@ width:80%;
     align-items: center;
     justify-content: center;
     background-color: #C8A75A;
-    margin-top: 4%;
 }
 
 .btn-time-btn{
@@ -230,8 +240,8 @@ width:80%;
 }
 
 @media (width >= 380px){
-    .jorge5{
-        width: 50vh;
+    .jorge-5{
+        width: 40vh;
     }
     .figure{
         width: 50vh;
@@ -250,27 +260,29 @@ width:80%;
         display: flex;
         flex-direction: column;
         background-color: #C8A75A;
-        padding: 3%;
+
     }
     .section-assignment p{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .section-assignment{
         width: 100vw;
     }
     .first-title-landing, .second-title-landing, .second-text-landing{
         font-size: 3rem;
-        line-height: 3vh;
+        line-height: 6vh;
     }
     .first-text-landing, .article-span{
-        font-size: 2rem;
+        font-size: 3rem !important;
     }
+
     .landing-contact{
-        padding: 3%;
         font-size: 2rem;
+        width: 100vw;
+        
     }
     .phoneNumber{
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding-left: 2%;
     }
 
@@ -278,7 +290,11 @@ width:80%;
         height: 80vh;
     }
 
-
+    .phoneContact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .jorge5{
         width: 60vh;
     }
@@ -291,7 +307,6 @@ width:80%;
 
     .Figure-text-landing{
         width: 60vh;
-        height: 14vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -300,20 +315,17 @@ width:80%;
         font-size: 1.5rem;
         padding: 2%;
     }
-    .text-landing{
-        margin-top: 3%;
-    }
 
 
     .steps-landing{
-    padding:3rem 0;
-    margin-top: -2%;
+        padding:3rem 0;
+        margin-top: -2%;
     }
 
     .landing-map{
         max-width: 75vw;
         font-weight:bolder;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .arrow{
@@ -322,7 +334,6 @@ width:80%;
 
     .img_time{
         width: 80vw;
-        margin-top: 5%;
         margin-bottom: 3%;
     }
     .btn-time-btn{
@@ -335,17 +346,32 @@ width:80%;
     .pay-title{
         font-size: 3rem;
     }
+    .adviser-form-landing{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #E9EAF1;
+    }
 }
 
 
 
 @media (width >= 1100px){
 
+.text_first-stape{
+    margin-bottom: 0;
+}
+
 .form_landing{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 80vh;
+    background-color: #E9EAF1;
+}
+.adviser-form-landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .frame-youtube iframe{
@@ -357,15 +383,8 @@ width:80%;
     height: 8vh;
 }
 
-}
-
-.photoSection{
-    width: 50vw;
-    background-color: #C8A75A;
-}
-
 .jorge-5{
-    width: 25vw;
+    width: 50vh;
 }
 .talent{
     display: flex;
@@ -383,22 +402,33 @@ width:80%;
     margin-left: 0;
     margin-top: 0;
 }
-
+.figureAdvisory{
+    margin-top: 2rem;
+    height: 60vh;
+}
+.phoneContact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.landing-contact{
+    font-size: 2rem;
+    width: 50vw;
+}
 .Figure-text-landing{
     width: 30vw;
-    height: 12vh;
+    height: 20vh;
 }
 
 .text-landing{
-    padding-top: 2%;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .arowsImg{
     width: 100vw;
     display: flex;
     flex-direction: row;
-    padding-top: 5%;
+    justify-content: space-between;
 }
 .steps-landing{
     width: 50vw;
@@ -408,15 +438,14 @@ width:80%;
     margin-left: 5vh;
 }
 .landing-map{
-    padding: 2rem 0;
     width: 40vw;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .time_landing{
     width: 100vw;
 }
 .img_time{
-    width: 45vh;
+    width: 60vh;
 }
 
 .btn-time-btn{
@@ -425,12 +454,13 @@ width:80%;
     border-radius: 10px;
     font-size: 1.5rem;
 }
+.time-landing{
+    margin-left: 5rem;
+}
 
 .pay-landing{
     padding: 0 45px;
     line-height: 1.5rem;
-    width: 100vw;
-    height: 35rem;
 }
 .pinedaFooter{
     width: 100vw;
@@ -457,13 +487,11 @@ width:80%;
 .Figure-text-landing{
     width: 60vh;
 }
-.text-landing{
-    width: 60vh;
-}
 
+}
 
 @media (width >= 2000px){
     .img_time{
-        width: 65vh;
+        width: 60vh;
     }
 }

@@ -28,11 +28,11 @@ function Landing() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
             ></iframe>
+        </div>
+        <div className="adviser-form-landing">
             <div className="section-assignment">
                 <p>¡Te asignaremos un asesor personalizado!</p>
             </div>
-        </div>
-        <div className="adviser-form-landing">
             <AdviserForm />
         </div>
     </section>
@@ -45,12 +45,13 @@ function Landing() {
         <h2 className="second-title-landing"><span className="article-span">en</span> Alemania</h2>
         <h5 className="second-text-landing">está solo a 30min</h5>
         </div>
-        <img src={Jorge5} alt="jorge" className="jorge-5" />
-
     </section>
 
-    <section phoneContact>
-    <article className="landing-contact">
+    <section className="phoneContact" >
+        <article className="landing-contact">
+            <div className="figureAdvisory">
+                <img src={Jorge5} alt="jorge" className="jorge-5" />
+            </div>
             <h2 className="title_landing-contact">¿HABLAMOS?</h2>
             <div className="phone_landing">
             <img src={PhoneIcon} alt="phone icon" className="phone_icon" />
@@ -60,26 +61,23 @@ function Landing() {
             <p className='text-landing'>Tu pones el talento, <br/> nosotros nos encargamos de lo demás</p>
             </div>
         </article>
-
+        <article className="steps-landing">
+            <section className="landing-map">
+                <p className="text-landing-map1">Responderemos todas tus dudas</p>
+                <img src={Arrow1} alt="arrow1" className="arrow" />
+            </section>
+                <section className="landing-map">
+                <img src={Arrow2} alt="flecha" className="arrow" />
+                <p className="text-landing-map2">Proceso ágil, transparente y confiable</p>
+            </section>
+                <section className="landing-map">
+                <p className="text-landing-map3">Oportunidades acorde <br />a tu perfil profesional</p>
+            </section>  
+        </article>
     </section>
 
 
-    <section className="arowsImg">  
-            <article className="steps-landing">
-                <section className="landing-map">
-                    <p className="text-landing-map1">Responderemos todas tus dudas</p>
-                    <img src={Arrow1} alt="arrow1" className="arrow" />
-                </section>
-                    <section className="landing-map">
-                    <img src={Arrow2} alt="flecha" className="arrow" />
-                    <p className="text-landing-map2">Proceso ágil, transparente y confiable</p>
-                </section>
-                    <section className="landing-map">
-                    <p className="text-landing-map3">Oportunidades acorde <br />a tu perfil profesional</p>
-                </section>  
-            </article>
-
-
+        <section className="arowsImg">  
             <section className="time-landing">
                 <img className="img_time" src={Time} alt="" />
                 <div className="btn_time">
@@ -89,29 +87,28 @@ function Landing() {
                     </button>               
                   </Link>
                 </div>
-                
             </section>
-            </section>      
+            <section className="pay-landing">
+                <h1 className="pay-title">Medios de pago</h1>
+                <h4 style={{fontSize: "1.3rem", fontWeight:"600"}}>Comienza tu proceso y paga en cómodas facilidades</h4>
+                <p style={{fontSize: "1.5rem"}}>
+                <br /> Elige el plan ideal para ti.<br /> <br />
+
+                    <span className="span-landing">A.</span>  Inicia tu proceso y paga el 50% a los quince
+                    días. Liquida 2 meses después.
+                    <br /> <br />
+                    <span className="span-landing">B.</span>  Pronto pago. Pago en una exhibición 
+                    y te descontamos <span className="span-landing">100€.</span>
+                </p>
+                <Link to="/contacto">
+                    <button className="btn-start-landing">
+                        ¡Quiero saber más! <img src={Arrow} alt="btn-arrow"/>
+                    </button>
+                </Link>
+            </section>
+        </section>      
         
 
-        <section className="pay-landing">
-            <h1 className="pay-title">Medios de pago</h1>
-            <h4 style={{fontSize: "1.3rem", fontWeight:"600"}}>Comienza tu proceso y paga en cómodas facilidades</h4>
-            <p style={{fontSize: "1.5rem"}}>
-            <br /> Elige el plan ideal para ti.<br /> <br />
-
-                <span className="span-landing">A.</span>  Inicia tu proceso y paga el 50% a los quince
-                días. Liquida 2 meses después.
-                <br /> <br />
-                <span className="span-landing">B.</span>  Pronto pago. Pago en una exhibición 
-                y te descontamos <span className="span-landing">100€.</span>
-            </p>
-            <Link to="/contacto">
-                <button className="btn-start-landing">
-                    ¡Quiero saber más! <img src={Arrow} alt="btn-arrow"/>
-                </button>
-            </Link>
-        </section>
     </>
   )
 }

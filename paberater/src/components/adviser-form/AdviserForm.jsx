@@ -99,7 +99,7 @@ function AdviserForm() {
           <Form.Control type="text" value={nameUsr} placeholder="Nombre completo *" onChange={(e) =>  setNameUsr(e.target.value)} required />
         </Form.Group>
 
-        <Form.Group className="inputInfo" controlId="controlNationalityAdviser">
+        <Form.Group className="inputInfoAdviser" controlId="controlNationalityAdviser">
         <Form.Select
           aria-label="Nacionalidad"
           value={nacionalityUsr}
@@ -117,7 +117,7 @@ function AdviserForm() {
         </Form.Select>
       </Form.Group>
 
-        <Form.Group className="inputInfo" controlId="controlCountryAdviser">
+        <Form.Group className="inputInfoAdviser" controlId="controlCountryAdviser">
         <Form.Select
           aria-label="País de residencia"
           value={countryUsr}
@@ -155,7 +155,7 @@ function AdviserForm() {
           />
         </Form.Group>
 
-        <Form.Group className="inputInfo" controlId="controlProfession">
+        <Form.Group className="inputInfoAdviser" controlId="controlProfession">
           <Form.Select
             aria-label="Seleccione su profesión"
             value={professionUsr}
