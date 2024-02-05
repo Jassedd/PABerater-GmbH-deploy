@@ -36,17 +36,11 @@ const Home = () => {
               <span className="pequena">a </span>
               <span className="resaltar">Alemania</span>
             </h1>
+            <BtnAdvisory />
           </div>
-          <div className="btnAdvisoryHome">
-              <BtnAdvisory />
-              </div>
         </div>
-      
-      
         
       <section className="what-do-we-do">
-      
-
         <div className="container-home">
 
           <div className="question-home">
