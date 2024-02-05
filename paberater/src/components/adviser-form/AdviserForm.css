@@ -79,15 +79,22 @@
 @media (width >= 1000px){
     .adviserForm{
         order:2;
-        width: 100vw;
-        padding: 5rem 8rem 1rem 8rem;
+        width: 50vw;
+        height: 72vh;
+        padding: 2rem 4rem 2rem 4rem;
     }
     .inputInfoAdviser{
-        padding: 0.5rem;
         background-color: #E9EAF1;
     }
+    .form-check-label
+
+    #controlNationalityAdviser, #controlCountryAdviser{
+        width: 31.5vw;
+        margin-left: 0;
+    }
+
     #controlProfessionAdviser, #controlEmailsAdviser, #controlEmailConfirmationAdviser, #controlProfessionAdviser, #controlNationalityAdviser, #controlCountryAdviser{
-        height: 5rem;
+        height: 3rem;
     }
     
 }

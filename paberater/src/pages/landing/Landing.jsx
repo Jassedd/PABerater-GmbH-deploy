@@ -17,8 +17,8 @@ function Landing() {
     <>
     <ScrollToTop />
     
-    <section form_landing>
-    <div className="frame-youtube">
+    <section className="form_landing">
+        <div className="frame-youtube">
             <iframe
             width="100%"
             height="600vh"
@@ -28,12 +28,13 @@ function Landing() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
             ></iframe>
-    </div>
-
-    <div className="section-assignment">
-    <p>¡Te asignaremos un asesor personalizado!</p>
-    </div>
-    <AdviserForm />
+            <div className="section-assignment">
+                <p>¡Te asignaremos un asesor personalizado!</p>
+            </div>
+        </div>
+        <div className="adviser-form-landing">
+            <AdviserForm />
+        </div>
     </section>
 
 

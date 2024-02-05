@@ -339,21 +339,32 @@ width:80%;
 
 
 
-
 @media (width >= 1100px){
 
-.formView{
-    width: 100vw;
+.form_landing{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    height: 80vh;
+}
+
+.frame-youtube iframe{
+    height: 80vh;
+}
+
+.section-assignment{
+    width: 50vw;
+    height: 8vh;
+}
+
 }
 
 .photoSection{
-    width: 100vw;
+    width: 50vw;
     background-color: #C8A75A;
 }
 
-.jorge5{
+.jorge-5{
     width: 25vw;
 }
 .talent{
@@ -449,7 +460,7 @@ width:80%;
 .text-landing{
     width: 60vh;
 }
-}
+
 
 @media (width >= 2000px){
     .img_time{
