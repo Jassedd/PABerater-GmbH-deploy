@@ -7,6 +7,7 @@ import { ref as storageRef, uploadBytes, getDownloadURL } from "firebase/storage
 import { createNews } from "../../../firebase/firebaseBack";
 import { useNavigate, useParams } from "react-router-dom";
 import { db, storage } from "../../../firebase/firebase";
+import "./AddNews.css"
 
 const initialStateValues = {
   title: "",
@@ -107,13 +108,13 @@ const BlogAdmPaberater = () => {
   return (
     <div
       className="d-flex align-items-center justify-content-center"
-      style={{ minHeight: "60vh", color: "white" }}
+      style={{ minHeight: "60vh", color: "white", padding: "5vh", marginBottom:"5rem" }}
     >
       <Form
         className="newsForm"
         style={{
-          width: "28rem",
-          padding: "15px",
+          width: "50rem",
+          padding: "5px",
           borderRadius: "10px",
           overflowY: "hidden",
           maxHeight: "150vh",

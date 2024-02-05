@@ -5,5 +5,22 @@
 }
 
 .ql-editor, .ql-blank{
-    height: 30vh;
+    height: 80vh;
+    font-size: 1rem;
+}
+
+.ql-editor a{
+    color: blue !important;
+}
+
+.ql-editor h1{
+    color: #C8A75A;
+}
+
+.ql-editor h2{
+    color: #C8B25A;
+}
+
+.ql-editor h3{
+    color: #beac60;
 }

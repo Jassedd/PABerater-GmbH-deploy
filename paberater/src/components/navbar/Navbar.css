@@ -1,5 +1,6 @@
 .navbarHome, .navbar, .navbar-expand-lg, .navbar-light {
   position: sticky !important;
+  z-index: 100;
   top: 0 !important;
   background-color: #E9EAF1 !important;
 }
