@@ -21,8 +21,8 @@ function Services() {
           <section className="titleService">
             <h3 className="serviceName">Homologación de títulos</h3>
             <Link to="/homologaciones" className="btn-circle">
-            <button className="btn-arrow">
-              <img className="arrow-btn" src={ArrowBtn} alt="button arrow" />
+            <button className="btn-arrow-service">
+              <img className="arrow-btn-service" src={ArrowBtn} alt="button arrow" />
             </button>
             </Link>
           </section>
@@ -33,8 +33,8 @@ function Services() {
           <section className="titleService">
             <h3 className="serviceName">Reconocimiento profesional</h3>
             <Link to= "/reconocimiento" className="btn-circle">
-            <button className="btn-arrow">
-              <img className="arrow-btn" src={ArrowBtn} alt="button arrow" />
+            <button className="btn-arrow-service">
+              <img className="arrow-btn-service" src={ArrowBtn} alt="button arrow" />
             </button>
             </Link>
           </section>
@@ -45,8 +45,8 @@ function Services() {
           <section className="titleService">
             <h3 className="serviceName">Traducciones juradas</h3>
             <Link to="/traduccionesjuradas" className="btn-circle">
-            <button className="btn-arrow">
-              <img className="arrow-btn" src={ArrowBtn} alt="button arrow" />
+            <button className="btn-arrow-service">
+              <img className="arrow-btn-service" src={ArrowBtn} alt="button arrow" />
             </button>
             </Link>
           </section>

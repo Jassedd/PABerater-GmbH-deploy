@@ -16,7 +16,7 @@ svg{
   margin: 0;
 }
 
-@media (width >= 360px) {
+@media (width >= 300px) {
 
 .first-arrow{
   margin-left: 20%;
@@ -53,7 +53,7 @@ align-self: left;
 
 
 .jorge-img2{
-  width: 60vw;
+  width: 36vh;
   margin-left:-3.5rem;
 }
 
@@ -71,6 +71,8 @@ align-self: left;
   height: auto;
   z-index: -5;
   bottom: 20rem;
+  display: flex;
+  align-self:flex-end;
 }
 
 .question-home{
@@ -191,7 +193,7 @@ align-self: left;
 @media (width >= 750px) {
 
   .div-init{
-    height: 42.5rem;
+
     align-items:center;
     margin-top: 2rem;
   }
@@ -216,9 +218,9 @@ align-self: left;
     }
 
   .jorge-img2{
-    height: 60vh;
+    height: 73.5vh;
+    width: 90vh;
     margin-left: -8rem;
-    margin-top: 3.5rem;
     padding-bottom: 1rem;
   }
 
@@ -255,8 +257,10 @@ align-self: left;
 
 
   .div-init{
-    height: 42rem;
+    display: flex;
     align-items:center;
+    margin-top: -8rem;
+    height: 42.5rem;
   }
 
   .title-init{
@@ -278,9 +282,11 @@ align-self: left;
 
 
   .jorge-img2{
-    height: 70vh;
+    height: 85vh;
+    width: 90vh;
     align-self:flex-end;
     margin-bottom: -1rem;
+    margin-left: 0;
   }
 
   .home_background{

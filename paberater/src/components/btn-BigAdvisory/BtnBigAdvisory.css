@@ -24,6 +24,7 @@ color: #C8A75A;
 
 @media (width >= 750px) {
     .btn-BigAdvisory{
+        width: 50vh;
         font-size: 1.6rem;
     }
 
