@@ -51,8 +51,8 @@ p{
 
 .IconSocialFooterYT{
     height: 2em;
-    padding-left: 2em;
     padding-right: 2em;
+    padding-left: 2em;
 }
 
 .IconSocialFooterFB{
@@ -154,8 +154,7 @@ color:#717caf;
         flex-direction: column;
         align-items: center;
         justify-content: start;
-        padding-bottom: 0.5rem;
-        padding-bottom: 2vh;
+
       }
 
       .directionFooter{
@@ -251,7 +250,6 @@ color:#717caf;
     }
 
     .pinedaFooter {
-      height: 40vh;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -268,6 +266,9 @@ color:#717caf;
       align-items: center;
       justify-content: center;
     }
+    .IconSocialFooterYT{
+      padding-left: 0;
+    }
     .logo-social{
       display: flex;
       flex-direction: column;
@@ -277,6 +278,7 @@ color:#717caf;
     }
     .IconSocialFooter {
       margin: 25px;
+      margin-left: 0;
     }
     .contactFooter {
       display: flex;
@@ -295,6 +297,7 @@ color:#717caf;
       color: white;
       align-items: end;
       padding-right: 10rem;
+      padding-bottom: 0;
     }
     .groupPolitics {
       display: flex;
