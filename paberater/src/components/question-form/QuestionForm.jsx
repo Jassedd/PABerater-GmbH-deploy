@@ -39,18 +39,26 @@ function QuestionForm() {
 
   function handleSubmit(event) {
     event.preventDefault();
-
+  
     const form = event.target;
+    const requiredFields = [nameUsr, email, confirmEmail, professionUsr, descriptionUsr];
+    const isAnyFieldEmpty = requiredFields.some(field => field.trim() === '');
+  
+    if (isAnyFieldEmpty) {
+      alert("Por favor completa todos los campos obligatorios.");
+      return;
+    }
+  
     if (!form.checkValidity()) {
       form.reportValidity();
       return;
     }
-
+  
     if (email !== confirmEmail) {
       alert("Los correos electrónicos no coinciden.");
       return;
     }
-
+  
     if (subscribeToList) {
       try {
         createUsersForm(
@@ -65,16 +73,16 @@ function QuestionForm() {
         console.error("Error al crear el usuario:", error);
       }
     }
-
-    setNameUsr("")
-    setDescriptionUsr("")
+  
+    setNameUsr("");
+    setDescriptionUsr("");
     setEmail("");
     setSubscribeToList(false);
     setConfirmEmail("");
     sendEmail()
     alert("Formulario enviado correctamente");
   }
-
+  
   return (
     <>
       <section className="questionsTitle">

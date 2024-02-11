@@ -51,6 +51,14 @@ function AdviserForm() {
     event.preventDefault();
   
     const form = event.target;
+    const requiredFields = [nameUsr, nacionalityUsr, countryUsr, email, confirmEmail, professionUsr, descriptionUsr];
+    const isAnyFieldEmpty = requiredFields.some(field => field.trim() === '');
+  
+    if (isAnyFieldEmpty) {
+      alert("Por favor completa todos los campos obligatorios.");
+      return;
+    }
+  
     if (!form.checkValidity()) {
       form.reportValidity();
       return;
@@ -78,18 +86,19 @@ function AdviserForm() {
         console.error("Error al crear el usuario:", error);
       }
     }
-    setNameUsr("")
-    setDescriptionUsr("")
-    setCountryUsr("")
-    setNacionalityUsr("")
-    setProfessionUsr("")
+  
+    setNameUsr("");
+    setDescriptionUsr("");
+    setCountryUsr("");
+    setNacionalityUsr("");
+    setProfessionUsr("");
     setEmail("");
     setSubscribeToList(false);
     setConfirmEmail("");
     sendEmail();
     alert("Formulario enviado correctamente");
   }
-  
+    
 
   return (
     <>
