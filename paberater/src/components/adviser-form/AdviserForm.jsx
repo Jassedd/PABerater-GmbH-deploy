@@ -17,34 +17,25 @@ function AdviserForm() {
   const [subscribeToList, setSubscribeToList] = useState(false);
 
   function sendEmail() {
-    window.Email.send({
-      SecureToken: import.meta.env.VITE_REACT_APP_EMAILTOKEN,
-      To: "jassedgmartinez@gmail.com",
-      From: "jassedgmartinez@gmail.com",
-      Subject: "Solicitud de asesoramiento",
-      Body: `
-        Nombre completo: 
-        ${nameUsr}
-        Nacionalidad: 
-        ${nacionalityUsr}
-        País de residencia: 
-        ${countryUsr}
-        Correo electrónico: 
-        ${email}
-        Profesión: 
-        ${professionUsr} 
-        Descripción del caso:  ${descriptionUsr}
-      `,
-    }).then(
-      (message) => {
-        alert("Correo electrónico enviado correctamente");
-        console.log(message);
-      },
-      (error) => {
-        alert("Error al enviar el correo electrónico. Por favor, inténtelo de nuevo.");
-        console.error(error);
-      }
-    );
+
+    let body = {
+      "name": nameUsr,
+      "email": email,
+      "mensaje": professionUsr,
+      "secret": "Shavesecreta"
+
+    }
+  fetch('https://europe-west3-paberater-8ca33.cloudfunctions.net/EnviarCorreoPaberater-E', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(body)
+})
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('Error:', error));
+
   }
   
   function handleSubmit(event) {
