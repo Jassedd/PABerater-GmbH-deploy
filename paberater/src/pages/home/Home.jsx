@@ -19,11 +19,7 @@ const Home = () => {
       <ScrollToTop />
       
         <div className="div-init">
-          
-            <img src={Jorge2} alt="Jorge" className="jorge-img2" />
-   
-            <img src={Berlin} alt="fondo" className="home_background" />
-           
+            <img src={Jorge2} alt="Jorge" className="jorge-img2" />           
           <div className="textbtn">
             <h1 className="title-init">
               Asesoramos

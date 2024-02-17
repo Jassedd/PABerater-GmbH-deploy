@@ -65,6 +65,7 @@ const Blog = () => {
       </section>
       <h1 className="titleBlog">Ultimas Noticias</h1>
       <br />
+      <section className='Allnews'>
       {blogData.map((post) => (
         <div key={post.id} className="container-new">
           <br /> <br />
@@ -89,6 +90,7 @@ const Blog = () => {
           </div>
         </div>
       ))}
+      </section>
       <Pagination totalItems={blogData.length} itemsPerPage={pageSize} onPageChange={onPageChange} />
     </section>
   );

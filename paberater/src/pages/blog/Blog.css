@@ -15,7 +15,12 @@
     margin-bottom: 5vh;
     width: 50vh;
 }
-
+.Allnews{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 .titleBlog{
     color: #C8A75A;
     font-size: 2.3rem;

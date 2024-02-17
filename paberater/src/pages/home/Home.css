@@ -30,11 +30,11 @@ svg{
 }
 
 .div-init{
-  height: 25.8rem;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 2vh;
+  margin-right: 2vh;
 }
 
 .container-img{
@@ -44,17 +44,16 @@ svg{
 }
 
 .textbtn{
-width: 45vw;
-height: 22rem;
-margin-left: -4rem;
-font-size: 1rem;
-align-self: left;
+  width: 45vw;
+  height: 22rem;
+  font-size: 1rem;
+  align-self: left;
 }
 
 
 .jorge-img2{
   width: 36vh;
-  margin-left:-3.5rem;
+
 }
 
 .title-init{
@@ -193,7 +192,6 @@ align-self: left;
 @media (width >= 750px) {
 
   .div-init{
-
     align-items:center;
     margin-top: 2rem;
   }
@@ -209,19 +207,16 @@ align-self: left;
   .textbtn{
     width: 45%;
     height: 30rem;
-    margin-left: -15rem;
   }
 
-    .btnAdvisoryHome{
-      margin-left: -30rem;
-      margin-top: 6rem;
-    }
+  .btnAdvisoryHome{
+    margin-left: -30rem;
+    margin-top: 6rem;
+  }
 
   .jorge-img2{
     height: 73.5vh;
     width: 90vh;
-    margin-left: -8rem;
-    padding-bottom: 1rem;
   }
 
   .home_background{
@@ -276,7 +271,6 @@ align-self: left;
   .textbtn{
     width: 45%;
     height: 30rem;
-    margin-left: -15rem;
     align-self:left;
   }
 
@@ -285,7 +279,6 @@ align-self: left;
     height: 85vh;
     width: 90vh;
     align-self:flex-end;
-    margin-bottom: -1rem;
     margin-left: 0;
   }
 
