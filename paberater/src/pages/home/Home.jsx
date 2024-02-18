@@ -36,13 +36,11 @@ const Home = () => {
           </div>
         </div>
         
-      <section className="what-do-we-do">
-        <div className="container-home">
-
           <div className="question-home">
             <h1 className="titleWeDo">¿Qué Hacemos?</h1>
           </div>
-
+      <section className="what-do-we-do">
+        <div className="container-home">
           <div className="roadMapHome">
             <section className="Asesoramos">
               <h2 className="titleStep">Asesoramos</h2>
