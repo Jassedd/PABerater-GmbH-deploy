@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     background-color: #C8A75A;
-    padding: 2.5rem;
+    padding: 1rem;
 }
 
 .form_landing{
@@ -26,7 +26,6 @@
 .first-title-landing, .second-title-landing, .second-text-landing{
     color:#25357a;
     font-size: 1.8rem;
-    line-height: 6vh;
 }
 
 .first-text-landing, .article-span{
@@ -256,7 +255,7 @@ width:85%;
 @media (width >= 750px){
 
     .first-stape{
-        width: 100vw;
+        width: 100%;
         display: flex;
         flex-direction: column;
         background-color: #C8A75A;
@@ -266,14 +265,13 @@ width:85%;
         font-size: 2rem;
     }
     .section-assignment{
-        width: 100vw;
+        width: 100%;
     }
     .first-title-landing, .second-title-landing, .second-text-landing{
-        font-size: 3rem;
-        line-height: 6vh;
+        font-size: 2.2rem;
     }
     .first-text-landing, .article-span{
-        font-size: 3rem !important;
+        font-size: 2.2rem !important;
     }
 
     .landing-contact{
@@ -337,7 +335,7 @@ width:85%;
         margin-bottom: 3%;
     }
     .btn-time-btn{
-        width: 40vW;
+        width: 40vh;
         height: 8vh;
         border-radius: 10px;
         font-size: 1.5rem;
@@ -391,7 +389,7 @@ width:85%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50vw;
+    width: 50vh;
     height: 60vh;
     padding-top: 0;
     background-color: #C8A75A;
@@ -425,7 +423,7 @@ width:85%;
 }
 
 .arowsImg{
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -442,7 +440,7 @@ width:85%;
     font-size: 1.5rem;
 }
 .time_landing{
-    width: 100vw;
+    width: 100%;
 }
 .img_time{
     width: 60vh;
@@ -461,21 +459,22 @@ width:85%;
 .pay-landing{
     padding: 0 45px;
     line-height: 1.5rem;
+    width: 50.55vw;
 }
 .pinedaFooter{
-    width: 100vw;
+    width: 100%;
 }
 .cookiesFooter{
-    width: 100vw;
+    width: 100%;
 }
 .contact_footer{
-    width: 100vw;
+    width: 100%;
 }
 .frame-youtube{
-    width: 100vw;
+    width: 100%;
 }
 .navbarHome .navbar .navbar-expand-lg .navbar-light{
-    width: 100vw;
+    width: 100%;
 }
 .btn-start{
     margin:50px;
