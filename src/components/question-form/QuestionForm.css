@@ -5,7 +5,7 @@
     justify-content: center;
     text-align: center;
     padding: 5vh;
-    background-color:#25357a;
+    background-color:#C8A75A;
 }
 
 .questionForm{
@@ -27,12 +27,12 @@
 }
 
 .titleQuestion{
-    color: #C8A75A;
+    color: #25357a;
     font-size: 2rem;
 }
 
 .question_subtitle {
-    color: #E9EAF1;
+    color:  #25357a;
     font-size: 1.5rem;
 }
 
@@ -86,4 +86,16 @@
     .adviserBtn{
     margin-top: 4%;
     }
+}
+
+@media (width >= 1000px) {
+   .questionsTitle {
+    display: none;
+   }
+    .questionForm{
+        padding: 6%;
+        height: 84vh;
+        margin-top: 6vh;
+    }
+
 }

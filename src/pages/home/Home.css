@@ -170,12 +170,73 @@ svg{
   padding-top: 5%;
   padding-bottom: 5%;
 }
+
+.contactHome-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.pab_map{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.questionsTitleFormHome{
+  display: none;
+}
+}
+
+
+@media (width = 360px){
+
+  .textbtn{
+    width: 45vw;
+    height: 22rem;
+    font-size: 1rem;
+    align-self: left;
+    margin-top: 2rem;
+    margin-left: -1rem;
+  }
+  .jorge-img2{
+    width: 30vh;
+    margin-left: -1.5rem;
+  }
+  
+  .title-init{
+    font-size: 1.4rem;
+    text-align:left;
+    align-content: left;
+    margin-left: -2rem;
+  }
+  .questionsTitleFormHome{
+    display: none;
+  }
+}
+
+@media (width >= 390px){
+  .textbtn{
+    margin-top: 2rem;
+    margin-left: -2rem;
+  }
+  .jorge-img2{
+    margin-left: -2rem;
+  }
+  .questionsTitleFormHome{
+    display: none;
+  }
 }
 
 
 @media (width >= 550px){
   .home_background{
    bottom: 31rem;
+  }
+
+  .questionsTitleFormHome{
+    display: none;
   }
 }
 
@@ -184,6 +245,10 @@ svg{
 @media (width >= 660px){
   .home_background{
    bottom: 30rem;
+  }
+
+  .questionsTitleFormHome{
+    display: none;
   }
 }
 
@@ -205,18 +270,14 @@ svg{
   }
 
   .textbtn{
-    width: 45%;
-    height: 30rem;
+    width: 45rem;
+    height: 50vh;
   }
 
-  .btnAdvisoryHome{
-    margin-left: -30rem;
-    margin-top: 6rem;
-  }
 
   .jorge-img2{
     height: 73.5vh;
-    width: 90vh;
+    width: 80vh;
   }
 
   .home_background{
@@ -244,6 +305,10 @@ svg{
   .roadMapHome{
     margin-left: 10rem;
     margin-right: 10rem;
+  }
+
+  .questionsTitleFormHome{
+    display: none;
   }
 }
 
@@ -321,6 +386,44 @@ svg{
   .btn-advisory{
     max-width: 20rem;
   }
+
+  .contactHome-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    height: 57rem;
+    background-color: #E9EAF1;;
+  }
+  
+  .Q-form{
+    width: 50%;
+    height: 50rem;
+}
+
+  .pab_map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:50%;
+    padding: 4%;
+  }
+
+  .questionsTitleFormHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 20vh;
+    background-color:#C8A75A;
+    border: 0;
+  }
+
+  .titleQuestionFormHome, .question_subtitle_form{
+    align-self: center;
+    color:#25357a;
+  }
 }
 
 @media (width >= 1300px){
@@ -342,5 +445,16 @@ svg{
   .home_background{
    bottom: -1rem;
    height: 60vh;
+  }
+
+  .title-init{
+    font-size: 4rem;
+    text-align: left;
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+
+  .jorge-img2{
+margin-left: 1rem;
   }
 }

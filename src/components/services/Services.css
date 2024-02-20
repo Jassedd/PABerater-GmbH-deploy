@@ -188,4 +188,11 @@ p, h3 {
     .titleService{
         width: 40vh;
     }
+
+    .btn-bookApoinment{
+        width: 25vh;
+        height: 6vh;
+        font-size: 1.5rem;
+        border-radius: 10px;
+    }
 }

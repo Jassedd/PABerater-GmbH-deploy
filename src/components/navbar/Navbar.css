@@ -47,7 +47,6 @@ a.dropdown-item:hover{
     height: 4vh;
     width: 44vw;
     border: 0;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.281);
     font-size: 1rem;
     font-weight: 500;
     display: flex;
@@ -153,6 +152,7 @@ a.dropdown-item:hover{
 
   .navbar-toggler.collapsed{
     padding: 1% !important;
+    border: 0;
   }
 }
 
@@ -177,5 +177,10 @@ a.dropdown-item:hover{
     .arrow-btn{
       padding-left: 2%;
       width: 2vw;
+    }
+
+    .navbar-toggler.collapsed{
+      padding: 1% !important;
+      border: 0;
     }
   }

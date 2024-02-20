@@ -20,27 +20,43 @@
     color:white;
     }
 
-    @media (min-width: 360px) and (max-width: 480px){
+    @media(width <= 360px) {
         .btn-advisory{
-            align-items: left;
-            width: 45vw;
+            align-items:center;
+            width: 13em;
             height: 5vh;
             font-size:0.7rem;
             margin-top: 2.5vh;
-            margin-left: -1.4rem;
+            margin-left: 0.5rem;
         }
         .arrow-btn1{
             margin-left: 1vw;
         }
     }   
 
+    @media(width >= 390px) {
+        .btn-advisory{
+            align-items:center;
+            width: 13em;
+            height: 6vh;
+            font-size:0.75rem;
+            margin-top: 3vh;
+            margin-left: 0.5rem;
+        }
+        .arrow-btn1{
+            margin-left: 1vw;
+        }
+    }  
+
 
 
     @media (width >= 750px){
     .btn-advisory{
-        font-size:1.7rem;
-        height: 6vh;
-        margin-top: 1vh;
+        font-size:1.5rem;
+        width: 25vh;
+        height: 5.5vh;
+        margin-top: 2vh;
+        margin-left: 2rem;
     }
     .arrow-btn1{
         margin-left: 1vw;
@@ -49,10 +65,11 @@
 
     @media (width >= 1000px){
         .btn-advisory{
-            font-size:1.2rem;
-            height: 5vh;
+            font-size:1.5rem;
+            height: 6vh;
             width: 50vh;
             margin-top: 1vh;
+            margin-top: 2rem;
         }
         .arrow-btn1{
             margin-left: 1vw;

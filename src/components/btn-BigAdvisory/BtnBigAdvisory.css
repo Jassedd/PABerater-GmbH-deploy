@@ -18,8 +18,8 @@
 }
 
 .btn-BigAdvisory:hover{
-background-color: #25357a;
-color: #C8A75A;
+background-color: #757ea7;
+color: white;
 }
 
 @media (width >= 750px) {

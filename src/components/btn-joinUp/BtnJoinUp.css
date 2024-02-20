@@ -34,9 +34,19 @@
 
 @media (width >= 750px){
     .btn-joinUp{
-        width: 30vw;
+        width: 25vh;
         height: 6vh;
         font-size: 1.3rem;
+    }
+
+}
+
+@media (width >= 1000px){
+    .btn-joinUp{
+        width: 30vh;
+        height: 6vh;
+        font-size: 1.3rem;
+        margin-left: -2.5rem;
     }
 
 }
