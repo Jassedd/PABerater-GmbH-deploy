@@ -276,8 +276,6 @@ svg{
   .div-init{
     display: flex;
     align-items:center;
-    margin-top: -8rem;
-    height: 42.5rem;
   }
 
   .title-init{
@@ -298,10 +296,8 @@ svg{
 
 
   .jorge-img2{
-    height: 85vh;
-    width: 90vh;
-    align-self:flex-end;
-    margin-left: 0;
+    height: 75vh;
+    width: 70vh;
   }
 
   .home_background{
