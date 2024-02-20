@@ -227,3 +227,38 @@ background-color: #25357a;
     color:#C8A75A;
     text-align: center;
 }
+@media (width >= 1000px) {
+    .Title_ourServices_Text {
+      margin-bottom: 2rem;
+    }
+    .title {
+      margin: 2rem 0 0 0;
+    }
+    .title_section2{
+      display: flex;
+    }
+    .firstArticleRecognition{
+      width: 90%;
+    }
+    .title_text {
+      padding: 1rem 2rem 2rem 2rem;
+    }
+    .text_name_video {
+      padding: 0 3rem;
+    }
+    .btn-comenzamos {
+      max-width: 20vw;
+    }
+    .btn-contact {
+      border: 0;
+      max-width: 20vw;
+      max-height: 6vh;
+      border-radius: 10px;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+    .yt-service {
+      height: 70vh;
+      margin-top: 3rem;
+    }
+  }

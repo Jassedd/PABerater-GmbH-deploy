@@ -41,20 +41,32 @@ function Homologate() {
         </div>
       </section>
 
+          <h1 className="title">
+            Homologación 
+            título de medicina
+            en Alemania.
+          </h1>
+          <p className="title_text">
+            Actualmente, el motor de Europa está buscando urgentemente
+            profesionales de la medicina y ofrece salarios mensuales promedio de
+            6,500 euros para médicos/as generales y hasta 12,000 euros dependiendo
+            de la especialidad.
+          </p>
       <section className="title_section">
-        <h1 className="title">
-          Homologación 
-          título de medicina
-          en Alemania.
-        </h1>
-        <br />
-        <p className="title_text">
-          Actualmente, el motor de Europa está buscando urgentemente
-          profesionales de la medicina y ofrece salarios mensuales promedio de
-          6,500 euros para médicos/as generales y hasta 12,000 euros dependiendo
-          de la especialidad.
-        </p>
-        <br />
+        <div className="firstArticleHomologation">
+          <div className="name_video">
+            <p>
+              Darling Gonzáles médica venezolana <br />
+              en Alemania
+            </p>
+          </div>
+          <br />
+          <p className="text_name_video">
+            Inició el trámite de reconocimiento de su título universitario con
+            PABerater y está a punto de finalizarlo.
+          </p>
+          <br />
+        </div>
 
         <iframe
           width="100%"
@@ -66,19 +78,6 @@ function Homologate() {
           allowfullscreen
           className="yt-service"
         ></iframe>
-
-        <div className="name_video">
-          <p>
-            Darling Gonzáles médica venezolana <br />
-            en Alemania
-          </p>
-        </div>
-        <br />
-        <p className="text_name_video">
-          Inició el trámite de reconocimiento de su título universitario con
-          PABerater y está a punto de finalizarlo.
-        </p>
-        <br />
       </section>
 
       <section className="text_background_Blue">
@@ -163,10 +162,8 @@ function Homologate() {
             alemán.
           </li>
         </ul>
-
         <h3 className="resaltar_text2">Cuente con nuestra asesoría durante 
         todo el proceso.</h3>
-        <br />
       </section>
 
       <section className="callToAction_container2">

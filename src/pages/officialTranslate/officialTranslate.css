@@ -20,7 +20,7 @@ svg{
 width: 50vh;
 border-radius: 0 15vh 0 15vh;
 margin-bottom: 2vh;
-margin-top: 10%;
+margin-top: 7vh;
 }
 
 .title3_img_translate {
@@ -29,6 +29,12 @@ margin-top: 10%;
     margin-top: 0.7rem;
 }
 
+.titleArticleTranslate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .figure_title3 {
     background-color: #25357a9c;
@@ -225,3 +231,43 @@ background-color: #25357a;
     font-weight: 600;
     color:#25357a;
 }
+@media (width >= 1000px) {
+    .Title_ourServices_Text {
+      margin-bottom: 2rem;
+    }
+    .title {
+      margin: 2rem 0 0 0;
+    }
+    .title_section3{
+      display: flex;
+    }
+    .firstArticleTranslation{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 75%;
+    }
+    .title_text {
+      padding: 1rem 2rem 2rem 2rem;
+    }
+    .text_name_video {
+      padding: 0 3rem;
+    }
+    .btn-comenzamos {
+      max-width: 20vw;
+    }
+    .btn-contact {
+      border: 0;
+      max-width: 20vw;
+      max-height: 6vh;
+      border-radius: 10px;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+    .yt-service {
+      height: 70vh;
+      margin-top: 3rem;
+    }
+  }
+  

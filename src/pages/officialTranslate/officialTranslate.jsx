@@ -39,11 +39,9 @@ function Translate() {
           <h1 className="title3_img_translate">Traducciones oficiales</h1>
         </div>
       </section>
-
-      <section className="title_section3">
+        <div className="titleArticleTranslate">
         <h1 className="title_section_translate">
           Traducciones <br />
-
         </h1>
         <br />
         <p className="title_text_translate">
@@ -51,7 +49,8 @@ function Translate() {
         certificados en Alemania.
         </p>
         <br />
-
+        </div>
+      <section className="title_section3">
         <iframe
           width="100%"
           height="200"
@@ -62,30 +61,31 @@ function Translate() {
           allowfullscreen
           className="yt-service"
         ></iframe>
-
-        <div className="name_video2">
-          <p>
-          Reinaldo Díaz Lugo, Ingeniero Informático venezolano <br />
-            en Alemania.
+        <div className="firstArticleTranslation">
+          <div className="name_video2">
+            <p>
+            Reinaldo Díaz Lugo, Ingeniero Informático venezolano <br />
+              en Alemania.
+            </p>
+          </div>
+          <br />
+          <p className="text_name_video2">
+          Ambos realizaron el trámite de homologación profesional con PABerater, 
+          y en esta entrevista él nos cuenta cómo fue le proceso de migración, 
+          cómo es vivir en Alemania y lo que más le llamó la atención de su trabajo.
+          <br />
+          <br />
+          En PABerater le orientamos paso a paso para que complete todos 
+          los requisitos para reconocer sus cualificaciones profesionales 
+          y trabajar en Alemania.
+          <br />
+          <br />
+          Contamos con un equipo bilingüe que está 
+          disponible para brindarle un servicio de asesoría en español 
+          y comunicarnos con las autoridades alemanas en su idioma.
           </p>
+          <br />
         </div>
-        <br />
-        <p className="text_name_video2">
-        Ambos realizaron el trámite de homologación profesional con PABerater, 
-        y en esta entrevista él nos cuenta cómo fue le proceso de migración, 
-        cómo es vivir en Alemania y lo que más le llamó la atención de su trabajo.
-        <br />
-        <br />
-        En PABerater le orientamos paso a paso para que complete todos 
-        los requisitos para reconocer sus cualificaciones profesionales 
-        y trabajar en Alemania.
-        <br />
-        <br />
-        Contamos con un equipo bilingüe que está 
-        disponible para brindarle un servicio de asesoría en español 
-        y comunicarnos con las autoridades alemanas en su idioma.
-        </p>
-        <br />
       </section>
 
       <section className="text_background_Blue3">
