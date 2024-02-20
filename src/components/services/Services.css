@@ -20,6 +20,8 @@ p, h3 {
     border-radius: 0 15vh 0 0;
     width: 90vw;
     margin-bottom: 2vh;
+    object-fit: cover; 
+    object-position: center;
 }
 
 .section-services{
@@ -176,8 +178,6 @@ p, h3 {
     }
     .img-service{
         width: 40vh;
-        object-fit: cover; 
-        object-position: center;
     }
     .servicesArticle{
         width: 40vh;
