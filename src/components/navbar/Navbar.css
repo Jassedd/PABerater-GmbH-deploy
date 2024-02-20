@@ -69,6 +69,7 @@ a.dropdown-item:hover{
     padding: 2%;
     margin: 2%;
     margin-left: 12%;
+    cursor: pointer;
   }
   .navbar {
     flex-wrap: nowrap;
