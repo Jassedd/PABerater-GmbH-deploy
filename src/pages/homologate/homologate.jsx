@@ -1,6 +1,6 @@
 import React from "react";
 import "./homologate.css";
-import video1 from "../../assets/video/production_id_4873106 (1080p).mp4";
+import HomologateVideo from "../../components/homologate-video/homologate-video";
 import Jorge4 from "../../assets/img/jorge-4.png";
 import QAaccordion from "../../components/q&a-accordion/Q&A-accordion";
 import ScrollToTop from "../../components/scrollToTop/ScrollToTop";
@@ -31,10 +31,9 @@ function Homologate() {
     <main>
       <ScrollToTop />
       <section className="homologate_services1">
-        <video className="video_homologate" autoPlay loop>
-          <source src={video1} type="video/mp4" />
-          Tu navegador no soporta el elemento de video.
-        </video>
+        <div className="video_section">
+        <HomologateVideo />
+        </div>
         <div className="figure_title">
           <h1 className="title_img1">Homologación</h1>
           <h2 className="title_img2">de títulos profesionales</h2>
@@ -67,10 +66,10 @@ function Homologate() {
           </p>
           <br />
         </div>
-
+        <div className="Darling_video">
         <iframe
           width="100%"
-          height="200"
+          height="200em"
           src={`https://www.youtube.com/embed/UGLXVXbxNXY`}
           title="YouTube video player"
           frameborder="0"
@@ -78,6 +77,8 @@ function Homologate() {
           allowfullscreen
           className="yt-service"
         ></iframe>
+        </div>
+
       </section>
 
       <section className="text_background_Blue">

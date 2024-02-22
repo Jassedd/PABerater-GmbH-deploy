@@ -66,17 +66,19 @@
     color:#C8A75A;
 }
 
+.phone_icon{
+ width: 1.5rem;
+}
+
 .phoneNumber{
     font-size: 1.5rem;
     font-weight: 600;
     padding: 1%;
 }
 .phoneNumber:hover{
-    color: #25357a;
+    color:#C8A75A !important;
 }
-.phone_icon{
-    color: #C8A75A;
-}
+
 
 .Figure-text-landing{
     display: flex;
@@ -98,8 +100,8 @@
     align-items: center;
     justify-content: center;
     background-color: #E9EAF1;
-    width: 22rem;
-    height: 40vh;
+    width: 40vh;
+    height: 50vh;
     margin-top: 10%;
     border-radius: 0 15vh 0 0;
 }
@@ -109,11 +111,20 @@
 }
 
 .jorge-5{
-width:85%;
+    margin-top: 1.6rem;
+width:45vh;
 }
 
 .arowsImg{
     background-color: #C8A75A;
+}
+
+.phoneContact{
+    background-color: #25357a;
+}
+
+.steps-title{
+    display: none;
 }
 
 .steps-landing{
@@ -131,7 +142,7 @@ width:85%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: #25357a;
+    color:#C8A75A;
     margin-top: 4%;
 
 }
@@ -159,12 +170,17 @@ width:85%;
     
 }
 
+.arowsImg{
+    background-color: #E9EAF1;
+}
+
 .time-landing{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #C8A75A;
+    background-color: #E9EAF1;
+
 }
 
 .btn-time-btn{
@@ -204,6 +220,11 @@ width:85%;
     margin-top: 8%;
     margin-bottom: 12%;
     }
+
+    .btn-start-landing:hover{
+        background-color:#C8A75A;
+        color:#25357a;
+    }
     
     .btn-arrow{
     display: flex;
@@ -219,12 +240,12 @@ width:85%;
 
 
 .pay-landing{
-    background-color: #E9EAF1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: #25357a;
+    background-color: #E9EAF1;
     padding: 5vh 5vh 0 ;
 }
 
@@ -240,7 +261,7 @@ width:85%;
 
 @media (width >= 380px){
     .jorge-5{
-        width: 40vh;
+        width: 45.5vh;
     }
     .figure{
         width: 50vh;
@@ -259,7 +280,6 @@ width:85%;
         display: flex;
         flex-direction: column;
         background-color: #C8A75A;
-
     }
     .section-assignment p{
         font-size: 2rem;
@@ -277,10 +297,24 @@ width:85%;
     .landing-contact{
         font-size: 2rem;
         width: 100vw;
-        
     }
+
+    .title_landing-contact{
+        font-size: 2.5rem;
+        margin-left: 3rem;
+        padding-top: 4%;
+    }
+
+    .phone_landing{
+        margin-left: 2rem;
+    }
+
+    .phone_icon{
+        width: 3rem;
+    }
+
     .phoneNumber{
-        font-size: 1.5rem;
+        font-size: 2rem;
         padding-left: 2%;
     }
 
@@ -293,13 +327,14 @@ width:85%;
         flex-direction: column;
         align-items: center;
     }
-    .jorge5{
-        width: 60vh;
+    .jorge-5{
+        width: 45vh;
+        margin-top: 2.5rem;
     }
 
-    .figure{
-        width: 60vh;
-        height: 60vh;
+    .figureAdvisory{
+        height: 50vh;
+        width: 45vh;
         margin-left: 8%;
     }
 
@@ -331,8 +366,7 @@ width:85%;
     }
 
     .img_time{
-        width: 80vw;
-        margin-bottom: 3%;
+        width: 70vw;
     }
     .btn-time-btn{
         width: 40vh;
@@ -356,15 +390,12 @@ width:85%;
 
 @media (width >= 1100px){
 
-.text_first-stape{
-    margin-bottom: 0;
-}
-
 .form_landing{
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: #E9EAF1;
+    height:93vh;
 }
 .adviser-form-landing{
     display: flex;
@@ -373,7 +404,7 @@ width:85%;
 }
 
 .frame-youtube iframe{
-    height: 80vh;
+    height:93vh;
 }
 
 .section-assignment{
@@ -381,9 +412,23 @@ width:85%;
     height: 8vh;
 }
 
+.first-stape{
+    display: none;
+}
+
 .jorge-5{
     width: 50vh;
+    margin-top: 2.6rem;
 }
+.figureAdvisory{
+    margin-top: 4rem;
+    height: 55vh;
+}
+
+.title_landing-contact{
+    font-size: 2.5rem;
+}
+
 .talent{
     display: flex;
     flex-direction: column;
@@ -400,22 +445,23 @@ width:85%;
     margin-left: 0;
     margin-top: 0;
 }
-.figureAdvisory{
-    margin-top: 2rem;
-    height: 60vh;
-}
+
 .phoneContact{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 3%;
 }
 .landing-contact{
     font-size: 2rem;
-    width: 50vw;
+    width: 52.8%;
 }
 .Figure-text-landing{
-    width: 30vw;
-    height: 20vh;
+display: none;
+}
+
+.phone_landing{
+    margin-left: 3rem;
 }
 
 .text-landing{
@@ -423,27 +469,23 @@ width:85%;
 }
 
 .arowsImg{
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.steps-landing{
-    width: 50vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5vh;
-}
-.landing-map{
-    width: 40vw;
-    font-size: 1.5rem;
-}
+
 .time_landing{
-    width: 100%;
+    width: 50%;
 }
 .img_time{
     width: 60vh;
+
+}
+
+.pay-landing{
+    padding: 0 45px;
+    line-height: 1.5rem;
+    width: 60%;
 }
 
 .btn-time-btn{
@@ -452,15 +494,26 @@ width:85%;
     border-radius: 10px;
     font-size: 1.5rem;
 }
-.time-landing{
-    margin-left: 5rem;
+
+.steps-title{
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    color: #25357a;
+    background-color: #C8A75A;
 }
 
-.pay-landing{
-    padding: 0 45px;
-    line-height: 1.5rem;
-    width: 50.55vw;
+.steps-landing{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.landing-map{
+    width: 40vw;
+    font-size: 1.5rem;
+}
+
 .pinedaFooter{
     width: 100%;
 }
@@ -489,8 +542,29 @@ width:85%;
 
 }
 
-@media (width >= 2000px){
+@media (width >= 1500px){
+
+    .arowsImg{
+        justify-content: center;
+    }
     .img_time{
         width: 60vh;
+    }
+
+    .jorge-5{
+        width: 50vh;
+        margin-top: 3rem;
+    }
+
+    .title_landing-contact{
+        margin-left: 6rem;
+    }
+    .phone_landing{
+        margin-left: 4rem;
+
+    }
+
+    .pay-landing{
+        width: 75%;
     }
 }

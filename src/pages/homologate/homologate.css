@@ -71,6 +71,11 @@ svg {
   color: #25357a;
 }
 
+.Darling_video{
+  width: 100%;
+}
+
+
 .name_video {
   margin: 4% 0 0 5%;
   font-weight: bold;
@@ -209,6 +214,42 @@ svg {
 }
 
 @media (width >= 750px) {
+
+  .video_homologate {
+    width: 45vh;
+    border-radius: 0 15vh 0 15vh;
+    margin-bottom: 2vh;
+    margin-top: 7vh;
+  }
+
+  .title_img1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .title_img2 {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 0.9rem;
+  }
+  
+  .figure_title {
+    background-color: #25357a9c;
+    color: #c8a75a;
+    width: 45vh;
+    height: 15vh;
+    border-radius: 4vh 0 4vh 0;
+    position: absolute;
+    margin-top: 10rem;
+  }
+
+
+  .Darling_video iframe{
+    width: 100%;
+    height: 30em;
+  }
+
   .jorge_img {
     width: 50vh;
   }
@@ -229,6 +270,37 @@ svg {
 }
 
 @media (width >= 1000px) {
+
+  .homologate_services1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title_img1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .title_img2 {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 0.9rem;
+  }
+  
+  .figure_title {
+    background-color: #25357a9c;
+    color: #c8a75a;
+    width: 45vh;
+    height: 15vh;
+    border-radius: 4vh 0 4vh 0;
+    position: absolute;
+    margin-top: 10rem;
+  }
+
+
   .Title_ourServices_Text {
     margin-bottom: 2rem;
   }
@@ -243,11 +315,17 @@ svg {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 75%;
+    width: 60%;
   }
   .title_text {
     padding: 1rem 2rem 2rem 2rem;
   }
+
+  .Darling_video iframe{
+    width: 100%;
+    height: 40em;
+  }
+
   .text_name_video {
     padding: 0 3rem;
   }

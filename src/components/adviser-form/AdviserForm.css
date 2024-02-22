@@ -61,6 +61,10 @@
 
 @media (width >= 750px){
 
+    .adviserForm{
+        padding-top: 3%;
+    }
+
     .inputInfoAdviser{
         padding: 0.5rem;
     }
@@ -76,7 +80,8 @@
 @media (width >= 1000px){
     .adviserForm{
         order:2;
-        width: 80vh;
+        width: 70vh;
+        height: 50vh;
     }
     .inputInfoAdviser{
         background-color: #E9EAF1;

@@ -2,12 +2,13 @@ import "./Landing.css"
 import Jorge5 from "../../assets/icons/Jorge/jorge-5.svg"
 import Arrow1 from "../../assets/icons/Arrow-landing1.svg"
 import Arrow2 from "../../assets/icons/Arrow-landing5.svg"
+import IconPhone2 from "../../assets/icons/Iconphone.svg"
 import Arrow from "../../assets/icons/arrow.svg"
 import Time from "../../assets/img/ahorra-tiempo-dinero.svg"
 import AdviserForm from "../../components/adviser-form/AdviserForm"
-import PhoneIcon from "../../assets/icons/Icon_phone.svg"
 import BtnStartBlue from "../../components/btn-start-Blue/BtnStartBlue"
 import ScrollToTop from "../../components/scrollToTop/ScrollToTop"
+import NewsMedia from "../../components/news-media/NewsMedia"
 import { Link } from "react-router-dom"
 import "animate.css"
 
@@ -21,7 +22,7 @@ function Landing() {
         <div className="frame-youtube">
             <iframe
             width="100%"
-            height="600vh"
+            height="700vh"
             src={`https://www.youtube.com/embed/I_xoQ3T-FoM`}
             title="YouTube video player"
             frameborder="0"
@@ -48,20 +49,14 @@ function Landing() {
     </section>
 
     <section className="phoneContact" >
-        <article className="landing-contact">
-            <div className="figureAdvisory">
-                <img src={Jorge5} alt="jorge" className="jorge-5" />
-            </div>
-            <h2 className="title_landing-contact">¿HABLAMOS?</h2>
-            <div className="phone_landing">
-            <img src={PhoneIcon} alt="phone icon" className="phone_icon" />
-            <a className="phoneNumber" href="tel:+4915780633091">+49 157 806 33091</a>
-            </div>
-            <div className='Figure-text-landing'>
-            <p className='text-landing'>Tu pones el talento, <br/> nosotros nos encargamos de lo demás</p>
-            </div>
-        </article>
+
         <article className="steps-landing">
+            <div className="steps-title">
+                <h2 className="steps-title">
+                    El primer paso hacia tu crecimiento profesional <br />
+                    en Alemania, está a solo 30 min"
+                </h2>
+            </div>
             <section className="landing-map">
                 <p className="text-landing-map1">Responderemos todas tus dudas</p>
                 <img src={Arrow1} alt="arrow1" className="arrow" />
@@ -74,20 +69,23 @@ function Landing() {
                 <p className="text-landing-map3">Oportunidades acorde <br />a tu perfil profesional</p>
             </section>  
         </article>
+        <article className="landing-contact">
+            <div className="figureAdvisory">
+                <img src={Jorge5} alt="jorge" className="jorge-5" />
+            </div>
+            <h2 className="title_landing-contact">¿HABLAMOS?</h2>
+            <div className="phone_landing">
+            <img src={IconPhone2} alt="phone icon" className="phone_icon" />
+            <a className="phoneNumber" href="tel:+4915780633091">+49 157 806 33091</a>
+            </div>
+            <div className='Figure-text-landing'>
+            <p className='text-landing'>Tu pones el talento, <br/> nosotros nos encargamos de lo demás</p>
+            </div>
+        </article>
     </section>
 
 
         <section className="arowsImg">  
-            <section className="time-landing">
-                <img className="img_time" src={Time} alt="" />
-                <div className="btn_time">
-                  <Link to="/contacto">
-                    <button className="btn-time-btn">
-                    ¡Comenzámos! <img style={{margin:"4%"}} src={Arrow} alt="btn-arrow"/>
-                    </button>               
-                  </Link>
-                </div>
-            </section>
             <section className="pay-landing">
                 <h1 className="pay-title">Medios de pago</h1>
                 <h4 style={{fontSize: "1.3rem", fontWeight:"600"}}>Comienza tu proceso y paga en cómodas facilidades</h4>
@@ -106,9 +104,11 @@ function Landing() {
                     </button>
                 </Link>
             </section>
+            <section className="time-landing">
+                <img className="img_time" src={Time} alt="" />
+            </section>
         </section>      
-        
-
+        <NewsMedia />
     </>
   )
 }

@@ -71,7 +71,7 @@ p{
   justify-content: left;
   align-items: left;
   background-color:#25357a;
-  color:#717caf;
+  color:#111939;
   font-size: 1rem;
   padding-top: 3%;
   padding-bottom: 3%;
@@ -83,15 +83,19 @@ height: 5vh;
 }
 
 .groupPolitics{
-  color:#717caf;
+  color:#111939;
+
 }
 
 .groupPolitics a{
 font-size: 0.8rem;
 padding: 4%;
-color:#717caf;
-
+color:#111939 !important;
 }
+
+.groupPolitics a :hover{
+  color:#bebec5 !important;
+  }
 
 .cookiesFooter{
     background-color: #16204D;
@@ -124,6 +128,8 @@ color:#717caf;
 .directionFooter{
   text-align: center;
 }
+
+
 
 
 
@@ -199,7 +205,7 @@ color:#717caf;
         justify-content:flex-start;
         align-items: left;
         background-color:#25357a;
-        color:#717caf;
+        color:#111939;
         font-size: 1.2rem;
         margin-top: -1%;
         padding-top: 3%;
@@ -217,9 +223,9 @@ color:#717caf;
         flex-direction: row;
         justify-content:center;
         align-content: center;
-        width: 90vw;
-        color:#717caf;
-        margin-left:9%;
+        color:#111939;
+        margin-left: 4em;
+      
       }
       
       .groupPolitics a{
@@ -228,7 +234,7 @@ color:#717caf;
 
       .pol {
         margin: 0 1rem;
-        color: #717caf;
+        color:#111939;
       }
 
       .contact_footer {
@@ -256,9 +262,9 @@ color:#717caf;
       padding: 0 5rem;
     }
     .logoPaberater {
-      max-width: 50vh;
+      max-width: 45vh;
       margin-bottom: 0;
-      padding: 8rem 5rem 0 5rem;
+      padding: 0 5rem 0 5rem;
     }
     .socialMediaFooter {
       display: flex;
@@ -293,28 +299,32 @@ color:#717caf;
     .politics {
       display: flex;
       flex-direction: column;
+      width: 100%;
       background-color: #25357a;
-      color: white;
-      align-items: end;
-      padding-right: 10rem;
+      color:#111939;
       padding-bottom: 0;
     }
     .groupPolitics {
       display: flex;
       flex-direction: row;
-      align-items: end;
-      justify-content: end;
-      margin-right: 3rem;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin-left: 0;
     }
   
     .paberater-rights {
       display: flex;
-      justify-content: end;
-      margin-right: 10rem;
+      justify-content: center;
+      width: 100%;
     }
     .pol {
       margin: 0 0.5rem;
     }
+    .políticas_cookies{
+      width: 15%;
+    }
+
     .IconsFooter {
       width: 12vh;
     }
@@ -323,3 +333,16 @@ color:#717caf;
     }
   }
   
+
+  @media (width >= 1500px) {
+    .pinedaFooter{
+      height: 20rem;
+      padding-top: 10%;
+      padding-bottom: 5%;
+  }
+
+    .groupPolitics {
+      padding-left: 6rem;
+    }
+  }
+
