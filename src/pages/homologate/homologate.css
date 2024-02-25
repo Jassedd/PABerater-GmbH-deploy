@@ -18,11 +18,30 @@ svg {
   margin: 0;
 }
 
-.video_homologate {
-  width: 40vh;
+
+.homologate_services1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-img{
+  width: 45vh;
+  height: 60vh;
   border-radius: 0 15vh 0 15vh;
   margin-bottom: 2vh;
-  margin-top: 7vh;
+  margin-top: 8vh;
+}
+
+.figure_title {
+  background-color: #25357a9c;
+  color: #c8a75a;
+  width: 45vh;
+  height: 15vh;
+  border-radius: 4vh 0 4vh 0;
+  position: absolute;
+  margin-top: 9rem;
 }
 
 .title_img1 {
@@ -37,35 +56,19 @@ svg {
   line-height: 0.9rem;
 }
 
-.figure_title {
-  background-color: #25357a9c;
-  color: #c8a75a;
-  width: 40vh;
-  height: 15vh;
-  border-radius: 4vh 0 4vh 0;
-  position: absolute;
-  margin-top: 9rem;
-}
 
-.homologate_services1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 /* -------homologación image style end--------------*/
 
 .title {
   text-align: center;
   font-size: 2.5rem;
-  margin: 2rem 0;
-  padding: 0 1rem;
+  margin-top: 3rem;
+  padding: 4%;
   color: #c8a75a;
 }
 .title_text {
-  margin: 0 2rem 0 2rem;
-  padding: 4%;
+  padding: 6%;
   font-size: 1.3rem;
   line-height: 1.7em;
   color: #25357a;
@@ -74,7 +77,6 @@ svg {
 .Darling_video{
   width: 100%;
 }
-
 
 .name_video {
   margin: 4% 0 0 5%;
@@ -123,14 +125,15 @@ svg {
 
 .calltoaction_title {
   margin-top: -3%;
-  margin-left: -20%;
-  font-size: 1.4rem;
+  margin-left: -25%;
+  font-size: 1.6rem;
   color: #c8a75a;
   text-align: left;
 }
 
-.resaltar_text {
-  font-size: 2rem;
+.posible_text {
+  font-size: 1.5rem;
+  color: #25357a;
   font-weight: 600;
 }
 
@@ -143,6 +146,10 @@ svg {
   border: 0;
   font-size: 1rem;
   font-weight: 600;
+}
+.btn-comenzamos:hover {
+  background-color:#c8a75a;
+  color:#25357a;
 }
 
 .ourServicesText_container {
@@ -196,9 +203,9 @@ svg {
   font-size: 1rem;
   font-weight: 600;
 }
-.btn-contactar :hover {
-  background-color: #e9eaf1;
-  color: #25357a;
+.btn-contact:hover {
+  background-color:#8898de;
+  color:#e9eaf1;
 }
 
 .questions_container {
@@ -213,35 +220,54 @@ svg {
   color: #25357a;
 }
 
-@media (width >= 750px) {
 
-  .video_homologate {
-    width: 45vh;
-    border-radius: 0 15vh 0 15vh;
-    margin-bottom: 2vh;
-    margin-top: 7vh;
-  }
 
-  .title_img1 {
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 2rem;
-  }
-  
-  .title_img2 {
-    font-size: 2rem;
-    text-align: center;
-    line-height: 0.9rem;
+
+
+@media (width >= 390px){
+  .banner-img{
+    width: 50vh;
+    height: 65vh;
+    margin-top: 6vh;
   }
   
   .figure_title {
-    background-color: #25357a9c;
-    color: #c8a75a;
-    width: 45vh;
-    height: 15vh;
-    border-radius: 4vh 0 4vh 0;
-    position: absolute;
-    margin-top: 10rem;
+    width: 50vh;
+  }
+  
+  .title_img1 {
+    margin-top: 0.5rem;
+  }
+}
+
+
+
+
+@media (width >= 750px) {
+
+  .banner-img{
+    width: 60vh;
+    height: 75vh;
+    margin-top: 4vh;
+  }
+
+  .figure_title {
+    width: 60vh;
+  }
+
+  .title_img1 {
+    font-size: 4.5rem;
+    margin-top: 1rem;
+  }
+  
+  .title_img2 {
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
+  
+  .title_section{
+    background-color: #e9eaf1;
+    height: 43em;
   }
 
 
@@ -250,12 +276,84 @@ svg {
     height: 30em;
   }
 
-  .jorge_img {
-    width: 50vh;
+  .name_video{
+    font-size: 2rem;
+    text-align: center;
   }
+
   .yt-service {
     height: 70vh;
   }
+
+  .callToAction_container {
+    justify-content: space-between;
+    height: 49vh;
+    margin-bottom: 5vh;
+  }
+
+  .jorge_img {
+    width: 40vh;
+    height: auto;
+    margin-top: 3rem;
+    margin-left:2rem;
+  }
+  
+.title{
+  font-size: 2rem;
+  padding: 0;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.title_text{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 1.5rem;
+}
+
+  .text_container {
+    width: 50%;
+    align-content: left;
+    padding: 3%;
+  }
+  
+  .calltoaction_title {
+    margin-top: -3%;
+    font-size: 2.5rem;
+    color: #c8a75a;
+    margin-left: -25%;
+  }
+  
+  .posible_text {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #25357a;
+    text-align: left;
+    margin-left: -25%;
+  }
+  
+  .btn-comenzamos {
+    background-color: #25357a;
+    color: #c8a75a;
+    max-width: 30vw;
+    border-radius: 10px;
+    border: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 3%;
+    margin-top: 1rem;
+  }
+
+.callToAction_container2{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.text_callToAction_container2{
+  padding-right: 2.5rem;
+}
+
   .btn-contact {
     border: 0;
     width: 23vh;
@@ -264,51 +362,77 @@ svg {
     font-size: 1.2rem;
     font-weight: 600;
   }
-  .btn-comenzamos {
-    max-width: 20vw;
-  }
 }
+
+
+
 
 @media (width >= 1000px) {
 
   .homologate_services1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+    flex-direction: row;
+    justify-content: right;
+    background-color: #25357a;
+    height: 70vh;
 
+  }
+  
+  .banner-img{
+    height: 70vh;
+    width: 60vh;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: 6rem;
+  }
+  
+  .figure_title {
+    background-color:#25357a;
+    color: #c8a75a;
+    width: 60vh;
+    height: 15vh;
+    border-radius:0;
+    position: absolute;
+    margin-top: 0;
+    margin-right: 40rem;
+  }
+  
   .title_img1 {
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 1rem;
+    font-size: 4rem;
+    text-align: left;
+    margin-top: 0rem;
   }
   
   .title_img2 {
     font-size: 2rem;
-    text-align: center;
-    line-height: 0.9rem;
-  }
-  
-  .figure_title {
-    background-color: #25357a9c;
-    color: #c8a75a;
-    width: 45vh;
-    height: 15vh;
-    border-radius: 4vh 0 4vh 0;
-    position: absolute;
-    margin-top: 10rem;
+    text-align: left;
+    line-height: 2rem;
   }
 
+  .title{
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0;
+    padding-left: 4%;
+    padding-top: 4%;
+    text-align: left;
+  }
+  
+  .title_text{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    font-size: 1.5rem;
+  }
 
   .Title_ourServices_Text {
     margin-bottom: 2rem;
   }
-  .title {
-    margin: 2rem 0 0 0;
-  }
+
   .title_section{
     display: flex;
+    justify-content: center;
+    height: 30em;
+    background-color: #e9eaf1;
   }
   .firstArticleHomologation{
     display: flex;
@@ -317,31 +441,176 @@ svg {
     justify-content: center;
     width: 60%;
   }
-  .title_text {
-    padding: 1rem 2rem 2rem 2rem;
-  }
 
   .Darling_video iframe{
     width: 100%;
-    height: 40em;
+    height: 30em;
+    margin: 0;
   }
 
   .text_name_video {
     padding: 0 3rem;
   }
+  .calltoaction_title {
+    font-size: 3em;
+    margin-left: -15%;
+  }
+  
+  .posible_text {
+    margin-left: -15%;
+  }
+
   .btn-comenzamos {
-    max-width: 20vw;
-  }
-  .btn-contact {
-    border: 0;
-    max-width: 20vw;
-    max-height: 6vh;
+    background-color: #25357a;
+    color: #c8a75a;
+    max-width: 30vw;
     border-radius: 10px;
-    font-size: 1.2rem;
+    border: 0;
+    font-size: 1.5rem;
     font-weight: 600;
+    margin-left: -15%;
+    margin-top: 1rem;
   }
+
+  .jorge_img {
+    width: 40vh;
+    height: auto;
+    margin-top: 2.3rem;
+    margin-left:10em;
+  }
+
+
+  .btn-contact {
+    margin-top: 2%;
+  }
+
+
   .yt-service {
     height: 70vh;
     margin-top: 3rem;
   }
+}
+
+
+@media (width >= 1300px) {
+
+  
+  .banner-img{
+    margin-right: 13rem;
+  }
+  
+  .figure_title {
+    width: 65vh;
+    margin-right: 50rem;
+  }
+  
+  .title_img1 {
+    font-size: 5rem;
+  }
+  
+  .title_img2 {
+    font-size: 3rem;
+  }
+
+  .title{
+    font-size: 3rem;
+    padding-top: 1%;
+  }
+  
+  .title_text{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-left: 6%;
+  }
+
+  .title_section{
+    height: 30em;
+  }
+  .firstArticleHomologation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+  }
+
+  .Darling_video iframe{
+    height: 30em;
+  }
+
+  .calltoaction_title {
+    font-size: 4em;
+    margin-left: -8%;
+  }
+  
+  .posible_text {
+    margin-left: -8%;
+  }
+
+  .btn-comenzamos {
+    background-color: #25357a;
+    color: #c8a75a;
+    max-width: 30vw;
+    border-radius: 10px;
+    border: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: -8%;
+    margin-top: 1rem;
+  }
+
+  .jorge_img {
+    margin-left:25em;
+    margin-top: 2.3%;
+  }
+
+  .btn-contact {
+    margin-top: 1%;
+  }
+
+  .ourServicesText_container {
+    margin: 2%;
+    padding: 4%;
+    padding-top: 2%;
+  }
+  
+  .Title_ourServices_Text {
+    font-size: 3rem;
+  }
+  
+  .li_ourServicesText li {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+  }
+  
+
+  @media (width >= 1500px) {
+
+  
+    .banner-img{
+      margin-right: 20rem;
+    }
+    
+    .figure_title {
+      width: 65vh;
+      margin-right: 60rem;
+    }
+    
+    .title_img1 {
+      font-size: 5rem;
+    }
+    
+    .title_img2 {
+      font-size: 3rem;
+
+      .title_section{
+        height: 60em;
+      }
+
+      .Darling_video iframe{
+        height: 40em;
+      }
+
+}
+}
 }

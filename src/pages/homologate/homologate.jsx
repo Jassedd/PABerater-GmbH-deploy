@@ -1,7 +1,7 @@
 import React from "react";
 import "./homologate.css";
-import HomologateVideo from "../../components/homologate-video/homologate-video";
 import Jorge4 from "../../assets/img/jorge-4.png";
+import Service1 from "../../assets/img/service1.jpg";
 import QAaccordion from "../../components/q&a-accordion/Q&A-accordion";
 import ScrollToTop from "../../components/scrollToTop/ScrollToTop";
 import { Link } from "react-router-dom";
@@ -31,9 +31,7 @@ function Homologate() {
     <main>
       <ScrollToTop />
       <section className="homologate_services1">
-        <div className="video_section">
-        <HomologateVideo />
-        </div>
+        <img src={Service1} alt="service1" className="banner-img" />  
         <div className="figure_title">
           <h1 className="title_img1">Homologación</h1>
           <h2 className="title_img2">de títulos profesionales</h2>
@@ -113,23 +111,18 @@ function Homologate() {
 
       <section className="callToAction_container">
         <img src={Jorge4} alt="Jorge" className="jorge_img" />
-
+        
         <div className="text_container">
           <h2 className="calltoaction_title">
             Homologar tu título <br /> 
             en Alemania
-            </h2>
-            <br />
-            <h3 className="resaltar_text">
+          </h2>
+          <h3 className="posible_text">
             ¡ES POSIBLE!
-            </h3>
-            <div>
-              
-            </div>
-            <Link to="/contacto">
-              <button className="btn-comenzamos">¿COMENZAMOS?</button>
-            </Link>
-
+          </h3>
+          <Link to="/contacto">
+            <button className="btn-comenzamos">¿COMENZAMOS?</button>
+          </Link>
         </div>
       </section>
 
@@ -169,8 +162,8 @@ function Homologate() {
 
       <section className="callToAction_container2">
         <h3 className="text_callToAction_container2">
-        ¡Vivir y trabajar como profesional en Alemania es posible 
-        de la mano de PABerater!
+        ¡Vivir y trabajar como profesional en Alemania <br /> 
+        es posible de la mano de PABerater!
         </h3>
         <button className="btn-contact">
           CONTACTAR

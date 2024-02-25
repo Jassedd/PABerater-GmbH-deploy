@@ -1,7 +1,7 @@
 import React from "react";
 import "./recognition.css";
-import video2 from "../../assets/video/pexels-los-muertos-crew-8853514 (1080p).mp4";
 import Jorge2 from "../../assets/img/Jorge2.png";
+import Service2 from "../../assets/img/service2.jpg";
 import QAaccordion from "../../components/q&a-accordion/Q&A-accordion";
 import ScrollToTop from "../../components/scrollToTop/ScrollToTop";
 import { Link } from "react-router-dom";
@@ -30,21 +30,17 @@ function Recognition() {
   return (
     <main>
       <ScrollToTop />
-      <section className="recognition_services2">
-        <video className="video_recognition" autoPlay loop>
-          <source src={video2} type="video/mp4" />
-          Tu navegador no soporta el elemento de video.
-        </video>
+      <section className="recognition_services">
+      <img src={Service2} alt="service1" className="banner-img_2" />
         <div className="figure_title2">
           <h1 className="title2_img_recognition">
-            Reconocimiento <br />
-            de títulos profesionales
+            Reconocimiento de títulos <br />profesionales
           </h1>
         </div>
       </section>
 
         <h1 className="title_section_recognition">
-          Reconocimiento de títulos profesionales en Alemania. <br />
+          Reconocimiento de títulos profesionales en Alemania 
         </h1>
         <p className="title_text_recognition">
           Si ha estudiado una profesión universitaria de entre 4 y 5 años y
@@ -57,7 +53,7 @@ function Recognition() {
       <div className="firstArticleRecognition">
         <div className="name_video2">
           <p>
-            Eugenio Etcheverry, ingeniero electromecánico argentino <br />
+            Eugenio Etcheverry, <br />ingeniero electromecánico argentino
             en Alemania.
           </p>
         </div>
@@ -78,7 +74,8 @@ function Recognition() {
           alemanas en su idioma.
         </p>
       </div>
-        <iframe
+      <div className="Eugenio_video">
+      <iframe
           width="100%"
           height="200"
           src={`https://www.youtube.com/embed/VELeEFp3Tj8`}
@@ -88,6 +85,8 @@ function Recognition() {
           allowfullscreen
           className="yt-service"
         ></iframe>
+      </div>
+
       </section>
 
       <section className="text_background_Blue2">
@@ -133,7 +132,7 @@ function Recognition() {
             en Alemania
           </h2>
           <br />
-          <h3 className="resaltar_text">¡ES POSIBLE!</h3>
+          <h3 className="posible_text">¡ES POSIBLE!</h3>
           <Link to="/contacto">
             <button className="btn-comenzamos2">¿COMENZAMOS?</button>
           </Link>
