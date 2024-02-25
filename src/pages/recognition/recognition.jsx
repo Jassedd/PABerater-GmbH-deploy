@@ -64,14 +64,6 @@ function Recognition() {
           disfruta de estar en Alemania trabajando en su profesión y junto a su
           familia.
           <br />
-          <br />
-          En PABerater le orientamos paso a paso para que complete todos los
-          requisitos para reconocer sus cualificaciones profesionales y trabajar
-          en Alemania.
-          <br />
-          Contamos con un equipo bilingüe que está disponible para brindarle un
-          servicio de asesoría en español y comunicarnos con las autoridades
-          alemanas en su idioma.
         </p>
       </div>
       <div className="Eugenio_video">
@@ -132,7 +124,7 @@ function Recognition() {
             en Alemania
           </h2>
           <br />
-          <h3 className="posible_text">¡ES POSIBLE!</h3>
+          <h3 className="posible_text2">¡ES POSIBLE!</h3>
           <Link to="/contacto">
             <button className="btn-comenzamos2">¿COMENZAMOS?</button>
           </Link>
@@ -188,7 +180,7 @@ function Recognition() {
           de PABerater!
         </h3>
         <Link to="/contacto">
-          <button className="btn-contact2">
+          <button className="btn-contact_2">
             <p>CONTACTAR</p>
           </button>
         </Link>
