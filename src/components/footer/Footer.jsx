@@ -64,7 +64,7 @@ function Footer() {
               <Link to="">Datenschutz</Link>
             </div>
             <div className= "políticas_cookies pol">
-              <Link to="">Políticas de cookies(UE)</Link>
+              <Link to="/terminos-y-condiciones">Políticas de cookies(UE)</Link>
             </div>
           </div>
         </section>
