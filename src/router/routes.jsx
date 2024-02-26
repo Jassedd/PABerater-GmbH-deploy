@@ -21,6 +21,8 @@ import AdminNewsEdit from "../admin/adminNewsEdit/AdminNewsEdit";
 import UsersForms from "../admin/usersForms/UsersForms";
 import UsersDescription from "../admin/usersForms/UsersDescription";
 import TermsConditions from "../pages/terms&conditions/Terms&Conditios";
+import CookieConsent from "../components/cookieConsent/CookieConsent";
+import CookiePolicy from "../pages/cookiesPolicy/cookiesPolicy";
 
 
 const router = createBrowserRouter([
@@ -69,6 +71,10 @@ const router = createBrowserRouter([
         {
           path:"/terminos-y-condiciones",
           element: <TermsConditions />
+        },
+        {
+          path:"/politica-de-cookies-ue",
+          element: <CookiePolicy />
         },
         {
           path:"/login",
