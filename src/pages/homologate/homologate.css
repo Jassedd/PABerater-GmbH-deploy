@@ -412,13 +412,13 @@ svg {
     padding: 0;
     margin: 0;
     padding-left: 4%;
-    padding-top: 4%;
+    padding-top: 2em;
     text-align: left;
   }
   
   .title_text{
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 2.5em;
     padding-left: 4%;
     font-size: 1.5rem;
   }
@@ -513,13 +513,14 @@ svg {
 
   .title{
     font-size: 3rem;
-    padding-top: 1%;
+    padding-top: 2em;
   }
   
   .title_text{
     padding-top: 3%;
-    padding-bottom: 2%;
+    padding-bottom: 2em;
     padding-left: 6%;
+
   }
 
   .title_section{
@@ -581,11 +582,10 @@ svg {
     font-size: 1.5rem;
     line-height: 1.7rem;
   }
-  
+}
+
 
   @media (width >= 1500px) {
-
-  
     .banner-img{
       margin-right: 20rem;
     }
@@ -601,8 +601,9 @@ svg {
     
     .title_img2 {
       font-size: 3rem;
+    }
 
-      .title_section{
+    .title_section{
         height: 60em;
       }
 
@@ -610,6 +611,4 @@ svg {
         height: 40em;
       }
 
-}
-}
 }

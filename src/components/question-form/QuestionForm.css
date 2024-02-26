@@ -88,14 +88,14 @@
     }
 }
 
-@media (width >= 1000px) {
+@media (width >= 1200px) {
    .questionsTitle {
     display: none;
    }
     .questionForm{
-        padding: 6%;
-        height: 84vh;
-        margin-top: 6vh;
+        padding: 10%;
+        padding-top: 5%;
+        height: 97vh;
     }
 
 }

@@ -20,9 +20,9 @@ function Contact() {
             Contacto
           </h1>
         </div>
-      </section>
-        <QuestionForm />
-        
+      </section>  
+      <QuestionForm />
+      
         <section className="Contact">
           <div className="info_contact">
           <div className='contact-div'>
@@ -54,7 +54,6 @@ function Contact() {
           ></iframe>
         </div>
         </section>
-
 
     </main>
   )

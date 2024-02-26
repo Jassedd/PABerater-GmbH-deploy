@@ -430,6 +430,7 @@ svg {
         font-size: 1.3rem;
         line-height: 1.7em;
         color: #25357a;
+        margin-bottom: 2em;
     }
     .title_section2{
         display: flex;
@@ -534,10 +535,10 @@ svg {
     }
     .figure_title2 {
         width: 85vh;
-        margin-right: 55rem;
+        margin-right: 45rem;
     }
     .title2_img_recognition {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     .title_text_recognition{
         padding-bottom: 2%;
@@ -592,5 +593,20 @@ svg {
     }
     .li_ourServicesText {
         margin: 0 6rem 1rem 6rem;
+    }
+}
+
+@media (width >= 1700px) {
+
+    .banner-img_2{
+        margin-right: 13rem;
+    }
+    .figure_title2 {
+        width: 85vh;
+        height: 8vh;
+        margin-right: 55rem;
+    }
+    .title2_img_recognition {
+        font-size: 4rem;
     }
 }
