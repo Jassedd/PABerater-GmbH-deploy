@@ -1,6 +1,6 @@
 import React from "react";
 import "./officialTranslate.css";
-import video3 from "../../assets/video/production_id_4872898 (1080p).mp4";
+import Service3 from "../../assets/img/service3.jpg";
 import Jorge3 from "../../assets/img/jorge-5.png";
 import QAaccordion from "../../components/q&a-accordion/Q&A-accordion";
 import ScrollToTop from "../../components/scrollToTop/ScrollToTop";
@@ -31,17 +31,16 @@ function Translate() {
     <main>
       <ScrollToTop />
       <section className="translate_services3">
-        <video className="video_translater" autoPlay loop>
-          <source src={video3} type="video/mp4" />
-          Tu navegador no soporta el elemento de video.
-        </video>
+      <img src={Service3} alt="service3" className="banner-img_3" />
         <div className="figure_title3">
-          <h1 className="title3_img_translate">Traducciones oficiales</h1>
+          <h1 className="title3_img_translate">
+            Traducciones oficiales
+          </h1>
         </div>
       </section>
-        <div className="titleArticleTranslate">
+
         <h1 className="title_section_translate">
-          Traducciones <br />
+          Traducciones
         </h1>
         <br />
         <p className="title_text_translate">
@@ -49,8 +48,23 @@ function Translate() {
         certificados en Alemania.
         </p>
         <br />
-        </div>
+
       <section className="title_section3">
+      <div className="firstArticleTranslation">
+          <div className="name_video3">
+            <p>
+            Reinaldo Díaz Lugo, Ingeniero Informático venezolano
+              en Alemania.
+            </p>
+          </div>
+          <br />
+          <p className="text_name_video3">
+          Ambos realizaron el trámite de homologación profesional con PABerater, 
+          y en esta entrevista él nos cuenta cómo fue le proceso de migración, 
+          cómo es vivir en Alemania y lo que más le llamó la atención de su trabajo.
+          </p>
+        </div>
+        <div className="Reinaldo_video">
         <iframe
           width="100%"
           height="200"
@@ -61,30 +75,6 @@ function Translate() {
           allowfullscreen
           className="yt-service"
         ></iframe>
-        <div className="firstArticleTranslation">
-          <div className="name_video2">
-            <p>
-            Reinaldo Díaz Lugo, Ingeniero Informático venezolano <br />
-              en Alemania.
-            </p>
-          </div>
-          <br />
-          <p className="text_name_video2">
-          Ambos realizaron el trámite de homologación profesional con PABerater, 
-          y en esta entrevista él nos cuenta cómo fue le proceso de migración, 
-          cómo es vivir en Alemania y lo que más le llamó la atención de su trabajo.
-          <br />
-          <br />
-          En PABerater le orientamos paso a paso para que complete todos 
-          los requisitos para reconocer sus cualificaciones profesionales 
-          y trabajar en Alemania.
-          <br />
-          <br />
-          Contamos con un equipo bilingüe que está 
-          disponible para brindarle un servicio de asesoría en español 
-          y comunicarnos con las autoridades alemanas en su idioma.
-          </p>
-          <br />
         </div>
       </section>
 
@@ -92,7 +82,7 @@ function Translate() {
         <h3 className="subtitle1_text_background_blue3">
           Traducciones Juradas 
         </h3>
-        <p className="text1_translate_subtitle">
+        <p className="text_translate_subtitle_1">
           En PABerater le garantizamos un servicio de traducción profesional 
           reconocido por su calidad.
           Este servicio es proporcionado por nuestros traductores oficiales 
@@ -109,7 +99,7 @@ function Translate() {
         <h3 className="subtitle2_text_background_blue3-1">
           Traducciones de CV
         </h3>
-        <p className="text2_translate_subtitle">
+        <p className="text_translate_subtitle_2">
         Presentar una carpeta de solicitud de empleo completa es fundamental 
         para conseguir un buen empleo en Alemania, esto incluye una carta 
         de presentación además del currículo vitae. Gracias a nuestra experiencia 
@@ -123,14 +113,18 @@ function Translate() {
 
       <section className="callToAction_translate_container">
         <h2 className="calltoaction_translate_title">
-          <strong className="blue_name">PABerater,</strong> tu compañero ideal para transformar tu vida profesional. 
+          <strong className="blue_name">PABerater, </strong> 
+          tu compañero ideal para transformar tu vida profesional. 
         </h2>
+        <div className="Jorge3_container">
         <img src={Jorge3} alt="Jorge" className="jorge3_img" />
         <div className="text_translate_container">
             <br />
             <Link to="/contacto">
               <button className="btn-comenzamos3">¿COMENZAMOS?</button>
             </Link>
+        </div>
+
         </div>
       </section>
 
@@ -167,7 +161,7 @@ function Translate() {
         de la mano de PABerater!
         </h3>
         <Link to="/contacto">
-          <button className="btn-contact2"><p>CONTACTAR</p></button>
+          <button className="btn-contact_3"><p>CONTACTAR</p></button>
         </Link>
 
       </section>

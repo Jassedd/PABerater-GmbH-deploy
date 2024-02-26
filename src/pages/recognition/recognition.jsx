@@ -78,7 +78,6 @@ function Recognition() {
           className="yt-service"
         ></iframe>
       </div>
-
       </section>
 
       <section className="text_background_Blue2">
