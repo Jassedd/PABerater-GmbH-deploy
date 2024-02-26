@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Blog.css';
 import Pagination from '../../components/pagination/Pagination';
-import video3 from '../../assets/video/production_id_4872898 (1080p).mp4';
+import BlogImg from "../../assets/img/blog.jpg";
 import ScrollToTop from '../../components/scrollToTop/ScrollToTop';
 import { collection, getDocs } from 'firebase/firestore';
 import { db } from "../../../firebase/firebase";
@@ -52,23 +52,23 @@ const Blog = () => {
   }
 
   return (
-    <section className="blogSection">
+    <main>
       <ScrollToTop />
-      <section className="translate_services3">
-        <video className="video_translater" autoPlay loop>
-          <source src={video3} type="video/mp4" />
-          Tu navegador no soporta el elemento de video.
-        </video>
-        <div className="figure_title3">
-          <h1 className="title3_img_translate">NOTICIAS e información de interés</h1>
+      <section className="blog_Section">
+        <img src={BlogImg} alt="blog-img" className="banner_blog_img" />
+        <div className="figure_blog">
+          <h1 className="title_img_blog">
+            Novedades
+          </h1>
         </div>
       </section>
-      <h1 className="titleBlog">Ultimas Noticias</h1>
+
+      <h1 className="titleBlog">Estas son las ultimas noticias</h1>
       <br />
       <section className='Allnews'>
       {blogData.map((post) => (
         <div key={post.id} className="container-new">
-          <br /> <br />
+          <br />
           <img src={post.img} alt={post.title} className="blogImg" />
           <div className="content-new">
             <h2 className="blogTitle">{post.title}</h2>
@@ -92,7 +92,7 @@ const Blog = () => {
       ))}
       </section>
       <Pagination totalItems={blogData.length} itemsPerPage={pageSize} onPageChange={onPageChange} />
-    </section>
+    </main>
   );
 };
 

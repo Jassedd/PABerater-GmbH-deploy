@@ -116,7 +116,7 @@ function Translate() {
           <strong className="blue_name">PABerater, </strong> 
           tu compañero ideal para transformar tu vida profesional. 
         </h2>
-        <div className="Jorge3_container">
+        <div className="">
         <img src={Jorge3} alt="Jorge" className="jorge3_img" />
         <div className="text_translate_container">
             <br />
