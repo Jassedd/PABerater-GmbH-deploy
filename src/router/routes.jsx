@@ -20,6 +20,7 @@ import AdminNewsDetails from "../admin/admNewsDetails/AdmNewsDetails";
 import AdminNewsEdit from "../admin/adminNewsEdit/AdminNewsEdit";
 import UsersForms from "../admin/usersForms/UsersForms";
 import UsersDescription from "../admin/usersForms/UsersDescription";
+import TermsConditions from "../pages/terms&conditions/Terms&Conditios";
 
 
 const router = createBrowserRouter([
@@ -64,6 +65,10 @@ const router = createBrowserRouter([
         {
           path:"/blogPABerater/:id",
           element: <BlogDetails />
+        },
+        {
+          path:"/terminos-y-condiciones",
+          element: <TermsConditions />
         },
         {
           path:"/login",

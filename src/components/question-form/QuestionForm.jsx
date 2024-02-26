@@ -3,6 +3,7 @@ import Form from "react-bootstrap/Form";
 import "./QuestionForm.css";
 import { createUsersForm } from "../../../firebase/firebaseBack";
 import { v4 as uuidv4 } from 'uuid';
+import { Link } from "react-router-dom";
 
 function QuestionForm() {
   const [email, setEmail] = useState("");
@@ -155,7 +156,12 @@ function QuestionForm() {
           />
           <Form.Check className="form-check-section"
             type="checkbox"
-            label="He leído y acepto los términos y condiciones*"
+            label={
+              <span>
+                He leído y acepto los{' '}
+                <Link className="termsform" to="/terminos-y-condiciones">términos y condiciones</Link>
+              </span>
+            }
             required
           />
         <div className="adviserBtn">

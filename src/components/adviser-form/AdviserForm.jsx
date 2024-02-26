@@ -4,7 +4,7 @@ import "./AdviserForm.css";
 import { createUsersFormLanding } from "../../../firebase/firebaseBack";
 import { v4 as uuidv4 } from 'uuid';
 import { countries } from "../countries/Countries";
-
+import { Link } from "react-router-dom";
 
 function AdviserForm() {
   const [email, setEmail] = useState("");
@@ -190,11 +190,16 @@ function AdviserForm() {
             label="Me gustaría suscribirme al listado de PABerater."
             onChange={() => setSubscribeToList(!subscribeToList)}
           />
-          <Form.Check
-            type="checkbox"
-            label="He leído y acepto los términos y condiciones"
-            required
-          />
+           <Form.Check
+              type="checkbox"
+              label={
+                <span>
+                  He leído y acepto los{' '}
+                  <Link className="termsform" to="/terminos-y-condiciones">términos y condiciones</Link>
+                </span>
+              }
+              required
+            />
         </Form.Group>
         <div className="adviserBtn">
         <button

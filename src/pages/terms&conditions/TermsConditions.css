@@ -1,0 +1,47 @@
+
+.TermsConditions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C8A75A;
+    
+}
+.PrivacyPolicy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    color: #25357a;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+}
+.tdR{
+    display: flex;
+    flex-direction: column;
+    width: 30vh;
+}
+ th, td {
+   padding: 8px;
+   text-align: left;
+}
+  
+ th {
+   background-color: #f2f2f2;
+}
+  
+ th.border-right, td.border-right {
+   border-right: 1px solid #ddd;
+}
+  
+ tr.border-bottom td {
+   border-bottom: 1px solid #ddd;
+}
+
+@media (width >= 1000px) {
+    .tdR{
+        width: 90vh;
+    }
+}
