@@ -1,6 +1,7 @@
 import Accordion from 'react-bootstrap/Accordion';
 import { Link } from 'react-router-dom';
 
+
 function CookiesAcordion() {
   return (
     <Accordion defaultActiveKey="0">

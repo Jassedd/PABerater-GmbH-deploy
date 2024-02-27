@@ -100,7 +100,7 @@ p, h3 {
 }
 
 
-@media (width >= 1000px){
+@media (width >= 1200px){
 .section-somos{
     display: flex;
     flex-direction: row;
@@ -119,19 +119,36 @@ p, h3 {
 width: 40%;
 }
 .Jorge-we{
-    height: 60vh;
+    height: 65vh;
     padding-left: 12%;
     border-radius: 0 15vh 0 13vh;
 }
 
 .figure-we{
-    width: 26vw;
-    height: 60vh;
+    width: 28vw;
+    height: 65vh;
     margin: 0;
     background-color: #E9EAF1;
     border-radius:0 10vw 0 7vw;
 }
-
-
-
 }
+
+@media (width >= 1500px){
+    
+    .section-figure{
+    width: 40%;
+    }
+    .Jorge-we{
+        height: 60vh;
+        padding-left: 12%;
+        border-radius: 0 15vh 0 13vh;
+    }
+    
+    .figure-we{
+        width: 26vw;
+        height: 60vh;
+        margin: 0;
+        background-color: #E9EAF1;
+        border-radius:0 10vw 0 7vw;
+    }
+    }

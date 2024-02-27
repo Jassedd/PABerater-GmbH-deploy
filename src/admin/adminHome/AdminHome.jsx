@@ -19,7 +19,9 @@ function AdminHome() {
     <section className='Section-adm'>
       <img src={Jorge} alt="" className='JorgeAdm' />
       <div className="admin-dashboard">
-      <h2>Bienvenid@</h2>
+      <h1 className='welcome_title'>
+        ¡Buen día Team!
+      </h1>
       <br />
       <Link to="/admnews">  
         <button className='btn-advisory'>Ver Noticias</button>

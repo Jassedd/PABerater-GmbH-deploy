@@ -5,6 +5,11 @@
     justify-content: center;
 }
 
+.newslist_title{
+    color: #25357a;
+    font-size: 3rem;
+}
+
 .listNews{
     display: flex;
     flex-direction: column;

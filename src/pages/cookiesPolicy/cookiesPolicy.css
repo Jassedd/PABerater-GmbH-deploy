@@ -6,4 +6,18 @@
     background-color: #C8A75A;
     color:  #25357a;
     line-height: 1.7rem;
+    padding: 2em;
+    font-size: 1.5rem;
+}
+.cookie-policy p{
+    color: #3f3f3f;
+}
+.cookie-policy li{
+    color: #3f3f3f;
+}
+
+@media (width >= 1300px){
+    .cookie-policy{
+        padding: 4em;
+    }
 }

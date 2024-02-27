@@ -37,7 +37,9 @@ const CookiePolicy = () => {
       <br />
       <h2>6. Cookies usadas</h2>
       <br />
+      <div className='acordion_cookies'>
       <CookiesAcordion />
+      </div>
       <br />
       <h2>7. Consentimiento</h2>
       <p>Cuando visites nuestra web por primera vez, te mostraremos una ventana emergente con una explicación sobre las cookies. Tan pronto como hagas clic en «Guardar preferencias», aceptas que usemos las categorías de cookies y plugins que has seleccionado en la ventana emergente, tal y como se describe en esta política de cookies. Puedes desactivar el uso de cookies a través de tu navegador, pero, por favor, ten en cuenta que nuestra web puede dejar de funcionar correctamente.</p>
@@ -64,7 +66,7 @@ const CookiePolicy = () => {
       <br />
       <h2>10. Datos de contacto</h2>
       <p>Para preguntas y/o comentarios sobre nuestra política de cookies y esta declaración, por favor, contacta con nosotros usando los siguientes datos de contacto:</p>
-      <p>PABerater GmbH<br />Waltersdorfer Ch 203, 12355 Berlin<br />Alemania<br />Web: <a href="https://paberater.de">https://paberater.de</a><br />Correo electrónico: <a href="mailto:ed.retarebap@ofni">ed.retarebap@ofni</a><br />Número de teléfono: +49 15780633091</p>
+      <p>PABerater GmbH<br />Waltersdorfer Ch 203, 12355 Berlin<br />Alemania<br />Web: <a href="https://paberater.de">https://paberater.de</a><br />Correo electrónico: <a href="mailto:info@paberterde">info@paberater.de</a><br />Número de teléfono: +49 15780633091</p>
       <p>Esta política de cookies se ha sincronizado con cookiedatabase.org el octubre 25, 2023.</p>
     </div>
   );

@@ -164,7 +164,7 @@ svg {
         flex-direction: row;
         justify-content: right;
         background-color: #25357a;
-        height: 85vh;
+        height: 75vh;
     }
     .banner_contact_img {
         height: 75vh;
@@ -218,4 +218,23 @@ svg {
     height: 45vh;
     margin-top: 5%;
 }
+}
+
+
+
+@media (width >=1600px){
+
+    .contact_section{
+        height: 79.5vh;
+    }
+    .banner_contact_img {
+        height: 71vh;
+        width: 45vh;
+        margin-top: 5rem;
+        margin-right: 20rem;
+    }
+    .figure_contact{
+        height: 15vh;
+        margin-right: 60rem;
+    }
 }

@@ -178,11 +178,11 @@ svg {
 @media (width >=1300px){
 
     .banner_blog_img {
-        margin-right: 16rem;
+        margin-right: 15rem;
     }
     .figure_blog {
         width: 85vh;
-        margin-right: 55rem;
+        margin-right: 45rem;
     }
 
     .titleBlog{
@@ -191,5 +191,16 @@ svg {
         padding: 2%;
         padding-bottom: 0;
         color: #c8a75a;
+    }
+}
+
+@media (width >=1600px){
+
+    .banner_blog_img {
+        margin-right: 16rem;
+    }
+    .figure_blog {
+        width: 85vh;
+        margin-right: 55rem;
     }
 }

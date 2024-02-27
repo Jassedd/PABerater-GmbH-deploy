@@ -7,13 +7,17 @@
 }
 
 .JorgeAdm{
-    width: 25vh;
+    width: 40vh;
+    margin-right: 5em;
     position: relative;
-
+}
+.welcome_title{
+    color: #25357a;
+    margin-left: 5%;
 }
 
 .Section-adm{
-    height: 50vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;

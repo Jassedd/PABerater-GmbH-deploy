@@ -516,7 +516,7 @@ background-color: #25357a;
     }
     .figure_title3 {
         width: 85vh;
-        margin-right: 55rem;
+        margin-right: 45rem;
     }
     .title3_img_translate {
         font-size: 4rem;
@@ -527,11 +527,11 @@ background-color: #25357a;
         padding-right: 6%;
     }
     .title_section3{
-        height: 35em;
+        height: 30em;
     }
     .Reinaldo_video iframe{
         width: 100vh;
-        height: 35em;
+        height: 30em;
     }
     .firstArticleTranslation{
         width: 100vh;
@@ -561,5 +561,24 @@ background-color: #25357a;
         padding: 3%;
         padding-left: 10%;
         width: 60%;
+    }
+}
+
+
+@media (width >= 1500px){
+    .banner-img_3{
+        margin-right: 18rem;
+    }
+    .figure_title3 {
+        width: 85vh;
+        margin-right: 55rem;
+    }
+    .title3_img_translate {
+        font-size: 4rem;
+    }
+    .title_text_translate{
+        padding-bottom: 2%;
+        padding-left: 6%;
+        padding-right: 6%;
     }
 }
