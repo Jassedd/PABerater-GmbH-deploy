@@ -1,0 +1,9 @@
+.cookie-policy{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    background-color: #C8A75A;
+    color:  #25357a;
+    line-height: 1.7rem;
+}
