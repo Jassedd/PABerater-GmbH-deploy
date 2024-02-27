@@ -1,7 +1,8 @@
 import React from 'react';
+import "./cookiesPolicy.css";
 import { Accordion, Card, Button } from 'react-bootstrap';
 import CookiesAcordion from '../../components/CookiesAcordion/CookiesAcordion';
-import "./cookiesPolicy.css";
+
 
 
 const CookiePolicy = () => {

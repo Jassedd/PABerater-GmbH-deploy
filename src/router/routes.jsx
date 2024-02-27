@@ -23,6 +23,8 @@ import UsersDescription from "../admin/usersForms/UsersDescription";
 import TermsConditions from "../pages/terms&conditions/Terms&Conditios";
 import CookieConsent from "../components/cookieConsent/CookieConsent";
 import CookiePolicy from "../pages/cookiesPolicy/cookiesPolicy";
+import Datenschutz from "../pages/datenschutz/Datenschutz";
+import Impressum from "../pages/impressum/impressum";
 
 
 const router = createBrowserRouter([
@@ -75,6 +77,14 @@ const router = createBrowserRouter([
         {
           path:"/politica-de-cookies-ue",
           element: <CookiePolicy />
+        },
+        {
+          path:"/datenschutz",
+          element: <Datenschutz />
+        },
+        {
+          path:"/impressum",
+          element: <Impressum />
         },
         {
           path:"/login",
