@@ -29,6 +29,10 @@ function AdminHome() {
         <button className='btn-advisory'>Crear Noticia</button>
       </Link>
       <br />
+      <Link to="/users">  
+        <button className='btn-advisory'>Ver usuarios</button>
+      </Link>
+      <br />
       <button onClick={handleLogout} className='btn-advisory'>Cerrar sesión</button>
     </div>
   </section>

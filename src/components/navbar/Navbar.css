@@ -45,7 +45,7 @@ a.dropdown-item:hover{
     border-radius: 10px;
     background-color: #C8A75A;
     height: 4vh;
-    width: 44vw;
+    width: 27vh;
     border: 0;
     font-size: 1rem;
     font-weight: 500;
@@ -111,7 +111,7 @@ a.dropdown-item:hover{
   }
   @media (width >= 460px){
     .btn-nav {
-      width: 40vh;
+      width: 20vh;
     }
   }
 
@@ -140,7 +140,7 @@ a.dropdown-item:hover{
     font-size: 1.2rem;
     font-weight: 500;
     height: 4vh;
-    width: 30vh;
+    width: 20vh;
     min-width: 30vw;
     margin-left: 4%;
   }
@@ -170,7 +170,7 @@ a.dropdown-item:hover{
       font-size: 1.3rem;
       font-weight: 500;
       height: 4vh;
-      min-width: 20vw;
+      width: 20vh;
       margin-left: 4%;
     }
 

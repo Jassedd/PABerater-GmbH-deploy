@@ -42,7 +42,7 @@ p{
 
 .IconsFooter{
     width: 2.5em;
-    padding-right: 4vw;
+    padding-right: 4vh;
 }
 
 .IconSocialFooter{
@@ -326,7 +326,7 @@ color:#111939 !important;
     }
 
     .IconsFooter {
-      width: 12vh;
+      width: 9vh;
     }
     .contact_footer {
       padding: 1rem 5rem;

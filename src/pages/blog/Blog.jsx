@@ -72,15 +72,7 @@ const Blog = () => {
           <img src={post.img} alt={post.title} className="blogImg" />
           <div className="content-new">
             <h2 className="blogTitle">{post.title}</h2>
-            <p
-              className="blogDescription"
-              dangerouslySetInnerHTML={{
-                __html:
-                  post.description.length > 100
-                    ? `${post.description.substring(0, 100)}...`
-                    : post.description,
-              }}
-            />
+           
               <Link to={`/blogPABerater/${post.id}`} className="see-more">
                 {' '}
                 Leer más

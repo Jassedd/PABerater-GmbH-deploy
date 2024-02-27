@@ -23,6 +23,7 @@ import UsersDescription from "../admin/usersForms/UsersDescription";
 import TermsConditions from "../pages/terms&conditions/Terms&Conditios";
 import CookieConsent from "../components/cookieConsent/CookieConsent";
 import CookiePolicy from "../pages/cookiesPolicy/cookiesPolicy";
+import Register from "../components/register/Register";
 
 
 const router = createBrowserRouter([
@@ -79,6 +80,10 @@ const router = createBrowserRouter([
         {
           path:"/login",
           element: <Login />
+        },
+        {
+          path:"/register",
+          element: <Register />
         },
         {
           path: "/home",

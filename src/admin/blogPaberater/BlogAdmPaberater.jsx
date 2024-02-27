@@ -45,7 +45,14 @@ const BlogAdmPaberater = () => {
 
     try {
       const imgUrl = image ? await handleImageUpload(image) : null;
-      const newsObject = { title, description, img: imgUrl };
+      const currentDate = new Date();
+      
+      const newsObject = { 
+        title, 
+        description, 
+        img: imgUrl,
+        date: currentDate.toISOString() // Convertir la fecha a un formato compatible con el backend
+      };
 
       if (editing) {
         const newsDocRef = doc(db, 'news', newId);
@@ -117,7 +124,6 @@ const BlogAdmPaberater = () => {
           padding: "5px",
           borderRadius: "10px",
           overflowY: "hidden",
-          maxHeight: "150vh",
           backgroundColor: newsColor,
           color: "#25357a",
         }}
@@ -130,7 +136,7 @@ const BlogAdmPaberater = () => {
             <img
               src={imagePreview}
               alt="Vista previa"
-              style={{ maxWidth: "100%", marginTop: "10px" }}
+              style={{ maxWidth: "200px", marginTop: "10px" }}
             />
           )}
         </Form.Group>
