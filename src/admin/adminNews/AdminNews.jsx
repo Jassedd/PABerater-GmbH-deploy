@@ -57,7 +57,7 @@ const NewsList = () => {
 
   return (
     <div className="containerList">
-      <h2>Lista de Noticias</h2>
+      <h2 className="newslist_title">PABrater al día </h2>
       <ul className="listNews">
         {getCurrentPageData().map((news) => (
           <Link to={`/admnewsdetails/${news.id}`} key={news.id}>

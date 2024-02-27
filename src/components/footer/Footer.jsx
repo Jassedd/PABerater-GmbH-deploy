@@ -55,13 +55,13 @@ function Footer() {
           </div>
           <div className="groupPolitics">
             <div className= "impressum pol">
-              <Link to="">Impresum</Link>
+              <Link to="/impressum">Impressum</Link>
             </div>
             <div className= "agb pol">
               <Link to="">AGB</Link>
             </div>
             <div className= "datenschutz pol">
-              <Link to="">Datenschutz</Link>
+              <Link to="/datenschutz">Datenschutz</Link>
             </div>
             <div className= "políticas_cookies pol">
               <Link to="/politica-de-cookies-ue">Políticas de cookies(UE)</Link>
