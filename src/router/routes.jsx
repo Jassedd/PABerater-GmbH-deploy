@@ -26,7 +26,7 @@ import CookiePolicy from "../pages/cookiesPolicy/cookiesPolicy";
 import Register from "../components/register/Register";
 import Datenschutz from "../pages/datenschutz/Datenschutz";
 import Impressum from "../pages/impressum/impressum";
-
+import Agb from "../pages/agb/agb";
 
 const router = createBrowserRouter([
     {
@@ -87,6 +87,10 @@ const router = createBrowserRouter([
           path:"/impressum",
           element: <Impressum />
         },
+        {
+        path:"/agb",
+        element: <Agb />
+      },
         {
           path:"/login",
           element: <Login />
