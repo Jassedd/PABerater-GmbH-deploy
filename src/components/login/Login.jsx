@@ -6,6 +6,9 @@ import { useNavigate } from "react-router-dom";
 import { auth, db } from "../../../firebase/firebase";
 import { getDoc, doc } from "firebase/firestore";
 import Alert from 'react-bootstrap/esm/Alert';
+import GoogleLogo from "../../assets/img/icons8-google.svg"
+import "./Login.css";
+import LogoAzul from "../../assets/img/Logos/LOGO AZUL3dpi.svg"
 
 export function Login() {
   const [user, setUser] = useState({
@@ -122,11 +125,9 @@ export function Login() {
   const burgundyColor = "#FFF";
 
   return (
-    <div
-      className="d-flex align-items-center justify-content-center"
-      style={{ height: "100%" }}
-    >
-      <div className="form" style={{ width: "19rem" }}>
+    <section className="login_container">
+      <div className="form_card">
+        <img src={LogoAzul} alt="logo-pab" className="logo_pabe"/>
         {error && <Alert variant="danger">{error}</Alert>}
         <Form
           onSubmit={handleSubmit}
@@ -157,28 +158,25 @@ export function Login() {
             />
           </Form.Group>
 
-          <div className="d-flex justify-content-between mb-3">
-            <a href="#!" onClick={handleResetPassword}>
+          <div className="forgot_pass">
+            <a href="#!" onClick={handleResetPassword} className="text_pass">
               ¿Olvidaste tu contraseña?
             </a>
           </div>
 
           <div className="buttons-login">
-            <Button variant="light" type="submit" className="button-login">
+            <Button className="button-regular" type="submit">
               Iniciar sesión
             </Button>
-            <Button
-              onClick={handleGoogleSignin}
-              variant="light"
-              type="button"
-              className="button-google"
-            >
+            <Button className ="button-google" 
+              onClick={handleGoogleSignin}>
+              <img src={GoogleLogo} alt="logo" className="logo_google" />
               Iniciar sesión con Google
             </Button>
           </div>
         </Form>
       </div>
-    </div>
+    </section>
   );
 }
 
