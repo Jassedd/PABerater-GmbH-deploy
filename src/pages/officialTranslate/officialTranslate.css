@@ -53,21 +53,23 @@ svg{
     padding: 4%;
     color: #c8a75a;
 }
+.title_section3{
+    padding: 1.5em;
+}
 .title_text_translate{
-    padding: 2.5%;
     font-size: 1.3rem;
     line-height: 1.7em;
     color: #25357a;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 .name_video3{
     font-weight: bold;
     font-size: 1.5rem;
     color: #25357a;
-    padding: 3%;
 }
 .text_name_video3{
-    padding: 0 2rem;
-    margin: 0 2rem 2rem;
+    padding-bottom: 1em;
     font-size: 1.3rem;
     line-height: 2rem;
 }
@@ -260,7 +262,9 @@ background-color: #25357a;
     }
     .title_section3{
         background-color: #e9eaf1;
-        height: 53em;
+        height: 50em;
+        padding: 0;
+
     }
     .title_section_translate{
         font-size: 4rem;
@@ -277,8 +281,10 @@ background-color: #25357a;
         height: 30em;
     }
     .name_video3 p{
-        font-size: 2.5rem;
+        font-size: 2rem;
         text-align: left;
+        padding-left: 1em;
+        padding-top: 1em;
     }
     .text_name_video3 {
         padding: 0 3rem;

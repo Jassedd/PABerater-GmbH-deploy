@@ -53,7 +53,7 @@ function Homologate() {
         <div className="firstArticleHomologation">
           <div className="name_video">
             <p>
-              Darling Gonzáles médica venezolana <br />
+              Darling Gonzáles médica venezolana
               en Alemania
             </p>
           </div>

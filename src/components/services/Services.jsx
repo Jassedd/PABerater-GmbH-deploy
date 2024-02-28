@@ -13,10 +13,7 @@ function Services() {
     <>
       <section className="section-services">
         <div className="figure-BtnBigAdbisory"></div>
-        <h2
-          className="title-services"
-          style={{ color: "#C8A75A", fontWeight: "bold" }}
-        >
+        <h2 className="title-services">
           ¿Qué Servicios Ofrecemos?
         </h2>
         <section className="allServices">

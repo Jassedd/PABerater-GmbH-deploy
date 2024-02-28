@@ -67,18 +67,26 @@ svg {
     color: #25357a;
 }
 
-.name_video2 p {
+.title_section2{
+    padding: 1.5em;
+}
+
+.Eugenio_video{
+    height:25vh;
+}
+.name_video2{
     font-weight: bold;
     font-size: 1.5rem;
     color: #25357a;
 }
 
 .text_name_video2 {
-    padding: 0 2rem;
-    margin: 0 2rem 2rem;
+    padding-bottom: 1em;
     font-size: 1.3rem;
     line-height: 2rem;
 }
+
+
 
 .text_background_Blue2 {
     background-color: #25357a;
@@ -291,13 +299,14 @@ svg {
 
     .title_section2{
         background-color: #e9eaf1;
-        height: 55em;
+        height: 47em;
+        padding: 0;
     }
 
     .title_section_recognition {
         font-size: 3rem;
         margin-top: 3rem;
-        padding: 2%;
+        padding: 2;
         
     }
 
@@ -312,13 +321,15 @@ svg {
         height: 30em;
     }
 
-    .name_video2 p {
+    .name_video2 p{
         font-size: 2rem;
         text-align: left;
+        padding-left:1em;
+        padding-right:1em;
     }
 
     .text_name_video2 {
-        padding: 0 4rem;
+        padding: 0 2rem;
         margin: 0 2rem 2rem;
         font-size: 1.7rem;
         line-height: 2rem;
@@ -452,7 +463,7 @@ svg {
     .name_video2 p {
         font-weight: bold;
         font-size: 1.9rem;
-        padding: 0;
+        padding-left: 0;
     }
     .text_name_video2 {
         padding: 0;
