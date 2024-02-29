@@ -21,9 +21,12 @@ function AdviserForm() {
     let body = {
       "name": nameUsr,
       "email": email,
-      "mensaje": professionUsr,
+      "mensaje": descriptionUsr,
+      "profession": professionUsr,
+      "countryResidence": countryUsr,
+      "nationality": nacionalityUsr,
+      "subject": "Solicitud de asesoramiento",
       "secret": "Shavesecreta"
-
     }
   fetch('https://europe-west3-paberater-8ca33.cloudfunctions.net/EnviarCorreoPaberater-E', {
     method: 'POST',
