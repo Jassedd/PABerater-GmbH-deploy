@@ -145,15 +145,14 @@ a.dropdown-item:hover{
   }
 
   .container-navbar{
-    width: 75vw !important;
+    width: 95vw !important;
   }
 
   .btn-nav {
     font-size: 1.2rem;
     font-weight: 500;
     height: 4vh;
-    width: 20vh;
-    min-width: 30vw;
+    width: 27vh;
     margin-left: 4%;
   }
 
@@ -168,6 +167,15 @@ a.dropdown-item:hover{
   }
 }
 
+@media (min-width: 992px){
+
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+      position: absolute;
+      margin-left: -10rem;
+  }
+
+}
+
 
 
   @media (width >= 1000px){
@@ -177,12 +185,18 @@ a.dropdown-item:hover{
       margin: 4%;
       margin-left: 6vw;
     }
+    .mediaLogo.navbar-brand {
+      display: flex;
+      justify-content: space-around;
+      margin: 0;
+      width: 28%;
+  }
 
     .btn-nav {
       font-size: 1.3rem;
       font-weight: 500;
       height: 4vh;
-      width: 20vh;
+      width: 35vh;
       margin-left: 4%;
     }
 

@@ -27,6 +27,8 @@ import Register from "../components/register/Register";
 import Datenschutz from "../pages/datenschutz/Datenschutz";
 import Impressum from "../pages/impressum/impressum";
 import Agb from "../pages/agb/agb";
+import EngineeringRecognition from "../pages/engineeringRecognition/EngineeringRecognition";
+import SuccesStories from "../pages/successStories/succesStories";
 
 const router = createBrowserRouter([
     {
@@ -47,10 +49,17 @@ const router = createBrowserRouter([
           element: <Recognition />
         },
         {
+          path:"/reconocimiento-ingenieros",
+          element: <EngineeringRecognition />
+        },
+        {
           path:"/traduccionesjuradas",
           element: <Translate />
         },
-
+        {
+          path:"/casos-exito",
+          element: <SuccesStories />
+        },
         {
           path:"/landing",
           element: <Landing />

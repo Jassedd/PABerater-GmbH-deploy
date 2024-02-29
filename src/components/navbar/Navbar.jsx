@@ -68,14 +68,15 @@ function NavbarHome() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="me-auto">
-                  <Nav.Link>
-                    <Link to="/">Inicio</Link>
-                  </Nav.Link>
 
                   <Nav.Link>
                     <Link to="/somos">Somos</Link>
                   </Nav.Link>
 
+                  <Nav.Link>
+                    <Link to="/casos-exito">Casos de éxito</Link>
+                  </Nav.Link>
+                  
                   <Nav.Link>
                     <Link to="/blogPABerater">Blog</Link>
                   </Nav.Link>
@@ -89,12 +90,20 @@ function NavbarHome() {
                   >
                     <NavDropdown.Item className="dropdown-item">
                       {" "}
-                      <Link to="/homologaciones">Homologación de títulos</Link>
+                      <Link to="/homologaciones">
+                        Homologación de títulos
+                      </Link>
                     </NavDropdown.Item>
                     <NavDropdown.Item className="dropdown-item">
                       {" "}
                       <Link to="/reconocimiento">
                         Reconocimiento profesional
+                      </Link>
+                    </NavDropdown.Item>
+                    <NavDropdown.Item className="dropdown-item">
+                      {" "}
+                      <Link to="/reconocimiento-ingenieros">
+                        Reconocimiento de Ingenieros
                       </Link>
                     </NavDropdown.Item>
                     <NavDropdown.Item className="dropdown-item">

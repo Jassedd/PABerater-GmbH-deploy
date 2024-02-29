@@ -241,7 +241,15 @@ svg {
 }
 
 
-
+.successStoriesSection{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.LinksuccessStoriesSection{
+    color: #25357a !important;
+}
 
 @media (width >=390px) {
     .banner-img2 {
