@@ -5,6 +5,10 @@ import QAaccordion from "../../components/q&a-accordion/Q&A-accordion";
 import ScrollToTop from "../../components/scrollToTop/ScrollToTop";
 import { Link } from "react-router-dom";
 import "./SuccesStories.css";
+import Case1 from "../../assets/img/CasoExito-1.png";
+import Case2 from "../../assets/img/CasoExito-2.png";
+import Case3 from "../../assets/img/CasoExito-3.png";
+import Case4 from "../../assets/img/CasoExito-4.png";
 
 function SuccesStories() {
   const TranslateQuestions = [
@@ -82,18 +86,17 @@ function SuccesStories() {
           </div>
           <br />
           <p className="descriptionSuccessStories">
-            Junto a su esposo
-            Reinaldo, Ingeniero Informático, y la mascota de ambos, Simón. Los
-            dos realizaron su trámite de reconocimiento profesional con
-            PABerater. En este primer video, Verónica nos cuenta cómo vivió ella
-            todo el proceso de migración, las diferencias con Latinoamérica y
-            cómo se siente en Alemania.
+            Junto a su esposo Reinaldo, Ingeniero Informático, y la mascota de
+            ambos, Simón. Los dos realizaron su trámite de reconocimiento
+            profesional con PABerater. En este primer video, Verónica nos cuenta
+            cómo vivió ella todo el proceso de migración, las diferencias con
+            Latinoamérica y cómo se siente en Alemania.
           </p>
         </div>
         <div className="divVideoSuccessStories">
           <iframe
-            width="100%"
-            height="200"
+           width="100%"
+           height="200"
             src={`https://www.youtube.com/embed/4zUybTbOs4A`}
             title="YouTube video player"
             frameborder="0"
@@ -181,7 +184,7 @@ function SuccesStories() {
         <div className="divVideoSuccessStories">
           <iframe
             width="100%"
-            height="200em"
+            height="200"
             src={`https://www.youtube.com/embed/UGLXVXbxNXY`}
             title="YouTube video player"
             frameborder="0"
@@ -191,7 +194,102 @@ function SuccesStories() {
           ></iframe>
         </div>
       </section>
-
+      <br />
+      <section className="ServiceSuccessYt">
+        <div className="firstArticleTranslationSuccesStorieIg">
+          <div className="name_video_succesStories">
+            <p>Luis González, Técnico electricista.</p>
+          </div>
+          <br />
+          <p className="descriptionSuccessStories">
+            Conoció a PABerater por recomendación de un amigo, inició un proceso
+            con nosotros y no solo ya tiene su título homologado, sino que ¡ya
+            está en Alemania!.{" "}
+            <Link
+              to="https://www.instagram.com/reel/CkL-gBKjHFw/?utm_source=ig_web_copy_link"
+              className="LinksuccessStoriesSection"
+              target="_blank"
+            >
+              Ver video
+            </Link>
+          </p>
+        </div>
+        <div className="divVideoSuccessStoriesIg">
+          <img className="imgCase" src={Case1} alt="" />
+        </div>
+      </section>
+      <br />
+      <section className="ServiceSuccessYt">
+        <div className="firstArticleTranslationSuccesStorieIg">
+          <div className="name_video_succesStories">
+            <p>Andres Astor, Ingeniero en telecomunicaciones.</p>
+          </div>
+          <br />
+          <p className="descriptionSuccessStories">
+            Andrés Ernesto Astor Villegas es venezolano, Ingeniero en
+            Telecomunicaciones y ya homologó su título de manera exitosa con
+            PABerater.{" "}
+            <Link
+              className="LinksuccessStoriesSection"
+              to="https://www.instagram.com/reel/ClmaJo5DG2s/?utm_source=ig_web_copy_link"
+              target="_blank"
+            >
+              Ver video
+            </Link>
+          </p>
+        </div>
+        <div className="divVideoSuccessStoriesIg">
+          <img className="imgCase" src={Case2} alt="" />
+        </div>
+      </section>
+      <br />
+      <section className="ServiceSuccessYt">
+        <div className="firstArticleTranslationSuccesStorieIg">
+          <div className="name_video_succesStories">
+            <p>Eber León, Ingeniero Electricista</p>
+          </div>
+          <br />
+          <p className="descriptionSuccessStories">
+            Eber Leon Contreras nació y estudió en Venezuela, es Ingeniero
+            Electricista y ya se encuentra en Alemania listo para cumplir el
+            sueño de trabajar en la potencia económica de Europa. <Link
+              className="LinksuccessStoriesSection"
+              to="https://www.instagram.com/reel/CkwMYQtDHpL/?utm_source=ig_web_copy_link"
+              target="_blank"
+            >
+              Ver video
+            </Link>
+          </p>
+        </div>
+        <div className="divVideoSuccessStoriesIg">
+          <img className="imgCase" src={Case3} alt="" />
+        </div>
+      </section>
+      <br />
+      <section className="ServiceSuccessYt">
+        <div className="firstArticleTranslationSuccesStorieIg">
+          <div className="name_video_succesStories">
+            <p>German Bravo, Licenciado en Educación</p>
+          </div>
+          <br />
+          <p className="descriptionSuccessStories">
+            Bravo es de Bogotá, Colombia, con veinte años de experiencia como
+            profesor de filología clásica y español. En Berlín, donde ya está
+            viviendo, habló con PABerater sobre la experiencia de migrar y de
+            nuestra asesoría. <Link
+              className="LinksuccessStoriesSection"
+              to="https://www.instagram.com/reel/Cpn226Jj2yo/?utm_source=ig_web_copy_link"
+              target="_blank"
+            >
+              Ver video
+            </Link>
+          </p>
+        </div>
+        <div className="divVideoSuccessStoriesIg">
+          <img className="imgCase" src={Case4} alt="" />
+        </div>
+      </section>
+      <br />
       <section className="callToAction_translate_container">
         <h2 className="calltoaction_translate_title">
           <strong className="blue_name">PABerater, </strong>

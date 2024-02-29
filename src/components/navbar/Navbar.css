@@ -28,7 +28,6 @@ a.dropdown-item:hover{
   margin: 0;
 }
 
-
 .mediaLogo.navbar-brand {
     display: none;
     justify-content: space-around;
@@ -132,7 +131,7 @@ a.dropdown-item:hover{
       display: flex;
       justify-content: space-around;
       margin: 0;
-      width: 34%;
+      width: 30%;
   }
 
   .socialMediaLogo :hover{
@@ -152,7 +151,7 @@ a.dropdown-item:hover{
     font-size: 1.2rem;
     font-weight: 500;
     height: 4vh;
-    width: 27vh;
+    width: 30vh;
     margin-left: 4%;
   }
 
@@ -173,10 +172,10 @@ a.dropdown-item:hover{
       position: absolute;
       margin-left: -10rem;
   }
-
+  .mediaLogo.navbar-brand{
+    width: 18%;
+  }
 }
-
-
 
   @media (width >= 1000px){
     .LogoPaberater {
@@ -189,17 +188,16 @@ a.dropdown-item:hover{
       display: flex;
       justify-content: space-around;
       margin: 0;
-      width: 28%;
+      width: 18%;
   }
 
     .btn-nav {
       font-size: 1.3rem;
       font-weight: 500;
       height: 4vh;
-      width: 35vh;
+      width: 32vh;
       margin-left: 4%;
     }
-
     .arrow-btn{
       padding-left: 2%;
       width: 2vw;
@@ -208,5 +206,10 @@ a.dropdown-item:hover{
     .navbar-toggler.collapsed{
       padding: 1% !important;
       border: 0;
+    }
+  }
+  @media (width >= 1000px){
+    .container-navbar{
+      width: 70vw !important;
     }
   }
