@@ -8,13 +8,14 @@
 .newslist_title{
     color: #25357a;
     font-size: 3rem;
+    padding: 1em;
+
 }
 
 .listNews{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
 }
 
 .NewsInfo{
@@ -24,16 +25,16 @@
 }
 
 .NewsItems{
-    background-color: #E9EAF1;
-    color: #25357a;
-    width: 25rem;
-    height: 30;
-    padding: 3vh;
-    margin-bottom: 5vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    background-color: #E9EAF1;
+    color: #25357a;
+    width: 25rem;
+    height: 30vh;
+    padding: 3vh;
+    margin-bottom: 5%;
 }
 
 .titleNewslist{
@@ -50,7 +51,7 @@
 
 .Btn-delete{
     background-color: #7a2525;
-    color: #FEEC8A;
+    color:#E9EAF1;
     width: 10vh;
     height: 5vh;
     border: 0;
@@ -59,7 +60,7 @@
 
 .Btn-edit{
     background-color: #25357a;
-    color: #FEEC8A;
+    color:#E9EAF1;
     width: 10vh;
     height: 5vh;
     border: 0;

@@ -158,7 +158,7 @@ function QuestionForm() {
             type="checkbox"
             label={
               <span>
-                He leído y acepto los{' '}
+                *He leído y acepto los{' '}
                 <Link className="termsform" to="/terminos-y-condiciones">términos y condiciones</Link>
               </span>
             }

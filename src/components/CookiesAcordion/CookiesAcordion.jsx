@@ -47,19 +47,6 @@ function CookiesAcordion() {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="3">
-        <Accordion.Header>WordPress - Funcional</Accordion.Header>
-        <Accordion.Body>
-            Uso
-            Usamos WordPress para desarrollo de sitios web. <Link to="https://cookiedatabase.org/service/wordpress/">Leer más</Link> 
-            <br />
-            Compartir datos
-            Estos datos no se comparten con terceros.
-            <br />
-            Funcional:
-            <Link to="https://cookiedatabase.org/cookie/wordpress/wpemojisettingssupports/">wpEmojiSettingsSupports</Link>- sesión
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="4">
         <Accordion.Header>Google Adsense - Marketing</Accordion.Header>
         <Accordion.Body>
             Uso
@@ -77,7 +64,7 @@ function CookiesAcordion() {
             persistente-Habilitar la publicación de anuncios o retargeting
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="5">
+      <Accordion.Item eventKey="4">
         <Accordion.Header>Hotjar - Estadísticas, Funcional</Accordion.Header>
         <Accordion.Body>
             Uso
@@ -100,7 +87,7 @@ function CookiesAcordion() {
             sesión-Proporcionar funcionalidad entre páginas
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="6">
+      <Accordion.Item eventKey="5">
         <Accordion.Header>Google Analytics - Estadísticas</Accordion.Header>
         <Accordion.Body>
             Uso
@@ -118,7 +105,7 @@ function CookiesAcordion() {
             1 año-Contar y rastrear páginas vistas
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="7">
+      <Accordion.Item eventKey="6">
         <Accordion.Header>Varios - Propósito pendiente de investigación</Accordion.Header>
         <Accordion.Body>
             Uso
