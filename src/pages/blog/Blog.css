@@ -55,7 +55,6 @@ svg {
     align-items: center;
     justify-content: center;
     background-color: #e9eaf1;
-
 }
 .titleBlog{
     text-align: center;
@@ -88,9 +87,10 @@ svg {
     justify-content: space-evenly;
     margin-bottom: 1vh;
     width: 45vh;
-    height: 40vh;
+    height: 25vh;
     background-color:#25357a;
     color:#e9eaf1;
+    text-align: center;
     padding: 1vh;
 }
 
@@ -132,6 +132,20 @@ svg {
         padding-bottom: 0;
         color: #c8a75a;
     }
+    .container-new{
+        width: 75vh;
+    }
+    .content-new{
+        width: 75vh;
+        height: 20vh;
+    }
+    .blogImg{
+        width: 75vh;
+        height: 50vh;
+    }
+    .blogTitle{
+        font-size: 2em;
+    }
 }
 
 
@@ -141,6 +155,10 @@ svg {
         justify-content: right;
         background-color: #25357a;
         height: 75vh;
+    }
+    .container-new{
+       padding: 2%;
+       margin-right: 2%;
     }
     .banner_blog_img {
         height: 75vh;

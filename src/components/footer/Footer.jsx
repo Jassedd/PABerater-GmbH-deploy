@@ -58,7 +58,7 @@ function Footer() {
               <Link to="/impressum">Impressum</Link>
             </div>
             <div className= "agb pol">
-              <Link to="">AGB</Link>
+              <Link to="/agb">AGB</Link>
             </div>
             <div className= "datenschutz pol">
               <Link to="/datenschutz">Datenschutz</Link>

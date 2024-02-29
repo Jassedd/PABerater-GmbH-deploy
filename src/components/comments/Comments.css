@@ -28,6 +28,7 @@
 @media (width >= 750px){
     .sectionComments h2 {
         font-size: 3rem;
+        margin-bottom: 1em;
     }
     .custom-carousel {
         width: 100%;

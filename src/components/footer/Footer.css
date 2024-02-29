@@ -27,27 +27,33 @@ p{
   padding-bottom: 4vh;
 }
 
+
 .infoFooter{
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 15%;
+
 }
 
 .infoFooter a{
   width: 25vh;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: left;
+}
+.infoFooter a:hover{
+color:#111939 !important;
 }
 
 .IconsFooter{
-    width: 2.5em;
-    padding-right: 4vh;
+    width: 3em;
+    padding-right: 3vh;
 }
 
 .IconSocialFooter{
     width: 2.5em;
 }
+
 
 .IconSocialFooterYT{
     height: 2em;
@@ -90,11 +96,11 @@ height: 5vh;
 .groupPolitics a{
 font-size: 0.8rem;
 padding: 4%;
-color:#111939 !important;
+color:#bebec5 !important;
 }
 
-.groupPolitics a :hover{
-  color:#bebec5 !important;
+.groupPolitics a:hover{
+  color:#C8A75A !important;
   }
 
 .cookiesFooter{
