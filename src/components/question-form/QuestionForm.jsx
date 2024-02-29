@@ -92,7 +92,7 @@ function QuestionForm() {
         </h2>
         <p className="question_subtitle">respuesta en 24 horas</p>
       </section>
-      <Form className="questionForm">
+      <Form className="questionForm" onSubmit={handleSubmit}  >
 
       <Form.Group className="inputInfo" controlId="controlNames">
         <Form.Control type="text" value={nameUsr} placeholder="Nombre completo *" onChange={(e) => setNameUsr(e.target.value)} required />
@@ -167,8 +167,8 @@ function QuestionForm() {
         <button
           type="submit"
           className="btn-added"
-          onClick={handleSubmit}
-          disabled={email !== confirmEmail}>Agendar mi cita
+         >
+            Agendar mi cita
         </button>
         </div>
         </Form.Group>
