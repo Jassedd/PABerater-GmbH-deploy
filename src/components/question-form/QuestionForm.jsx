@@ -15,27 +15,26 @@ function QuestionForm() {
 
 
   function sendEmail() {
-    window.Email.send({
-      SecureToken : import.meta.env.VITE_REACT_APP_EMAILTOKEN,
-      To: "jassedgmartinez@gmail.com",
-      From: "jassedgmartinez@gmail.com",
-      Subject: "Consulta",
-      Body: `
-        Nombre completo: ${document.getElementById("controlNames").value}
-        Correo electrónico: ${email}
-        Profesión: ${document.getElementById("controlProfession").value}
-        Descripción del caso: ${document.getElementById("controlQuestion").value}
-      `,
-    }).then(
-      (message) => {
-        alert("Correo electrónico enviado correctamente");
-        console.log(message);
-      },
-      (error) => {
-        alert("Error al enviar el correo electrónico. Por favor, inténtelo de nuevo.");
-        console.error(error);
+
+      let body = {
+        "name": nameUsr,
+        "email": email,
+        "mensaje": descriptionUsr,
+        "profession": professionUsr,
+        "subject": "Consulta",
+        "secret": "Shavesecreta"
       }
-    );
+    fetch('https://europe-west3-paberater-8ca33.cloudfunctions.net/EnviarCorreoPaberater-E', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(body)
+  })
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error('Error:', error));
+    
   }
 
   function handleSubmit(event) {
@@ -93,7 +92,7 @@ function QuestionForm() {
         </h2>
         <p className="question_subtitle">respuesta en 24 horas</p>
       </section>
-      <Form className="questionForm">
+      <Form className="questionForm" onSubmit={handleSubmit}  >
 
       <Form.Group className="inputInfo" controlId="controlNames">
         <Form.Control type="text" value={nameUsr} placeholder="Nombre completo *" onChange={(e) => setNameUsr(e.target.value)} required />
@@ -168,8 +167,8 @@ function QuestionForm() {
         <button
           type="submit"
           className="btn-added"
-          onClick={handleSubmit}
-          disabled={email !== confirmEmail}>Agendar mi cita
+         >
+            Agendar mi cita
         </button>
         </div>
         </Form.Group>

@@ -50,6 +50,22 @@ function Services() {
           </article>
 
           <article className="servicesArticle">
+            <img src={Service2} alt="" className="img-service" />
+            <section className="titleService">
+              <h3 className="serviceName">Reconocimiento de Ingenieros</h3>
+              <Link to="/reconocimiento-ingenieros" className="btn-circle">
+                <button className="btn-arrow-service">
+                  <img
+                    className="arrow-btn-service"
+                    src={ArrowBtn}
+                    alt="button arrow"
+                  />
+                </button>
+              </Link>
+            </section>
+          </article>
+
+          <article className="servicesArticle">
             <img src={Service3} alt="" className="img-service" />
             <section className="titleService">
               <h3 className="serviceName">Traducciones juradas</h3>
