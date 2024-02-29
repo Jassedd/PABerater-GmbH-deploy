@@ -194,10 +194,12 @@ svg {
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    height: 60vh;
+    height: 65vh;
     margin-left: 0;
     padding-left: 4em;
     padding-bottom: 1em;
+    padding-top: 2em;
+
 }
 .info_contact{
     justify-content: center;
@@ -236,5 +238,9 @@ svg {
     .figure_contact{
         height: 15vh;
         margin-right: 60rem;
+    }
+    .Contact{
+        height: 70vh;
+        padding-top: 5em;
     }
 }
