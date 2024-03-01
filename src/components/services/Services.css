@@ -33,9 +33,10 @@ p, h3 {
 
 .titleService{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width:85vw;
+    width:90%;
+    padding-left: 1em;
 }
 
 .servicesArticle{
@@ -46,21 +47,24 @@ p, h3 {
 }
 
 .serviceName{
-    width: 70%;
-    font-size: 2rem;
+    width: 80%;
+    font-size: 1.7rem;
     color: #25357a;
 }
 
 .btn-circle{
-    width: 30%;
+    width: 20%;
     align-self: center;
+    padding-left: 1em;
 }
+
+
 
 .btn-arrow-service{
     border-radius: 5vh 5vh 5vh 5vh;
     border: 0;
-    width: 6vh;
-    height: 6vh;
+    width: 7vh;
+    height: 7vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,7 +134,7 @@ p, h3 {
    }
 
     .serviceName{
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     .JorgeSection{
         width: 100%;
@@ -178,10 +182,12 @@ p, h3 {
     .allServices{
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
+        align-items: left;
         justify-content: space-evenly;
         width: 100%;
+        padding: 3em;
     }
+
     .img-service{
         width: 40vh;
     }
@@ -208,6 +214,5 @@ p, h3 {
     .title-services{
         font-size: 3rem;
         text-align: center;
-        padding-left: 50%;
     }
 }

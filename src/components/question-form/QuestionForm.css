@@ -21,6 +21,12 @@
     padding-left: 5%;
 }
 
+.form-check-label{
+    font-size: 0.7rem;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
 .inputInfo{
     padding: 3%;
     color: #919292;
@@ -81,7 +87,13 @@
 
     .inputInfo input {
         margin-right: 2%;
-      }
+    }
+
+    .form-check-label{
+        font-size: 1rem;
+        padding-left: 1%;
+        padding-top: 0%;
+    }
 
     .adviserBtn{
     margin-top: 4%;

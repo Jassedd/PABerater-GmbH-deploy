@@ -53,10 +53,10 @@
     @media (width >= 750px){
     .btn-advisory{
         font-size:1.5rem;
-        width: 25vh;
+        width: 30vh;
         height: 5.5vh;
         margin-top: 2vh;
-        margin-left: 2rem;
+        margin-left: -1em;
     }
     .arrow-btn1{
         margin-left: 1vw;

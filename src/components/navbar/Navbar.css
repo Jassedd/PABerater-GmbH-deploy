@@ -134,8 +134,8 @@ a.dropdown-item:hover{
       width: 30%;
   }
 
-  .socialMediaLogo :hover{
-    color: #C8A75A;
+  .socialMediaLogo:hover{
+    color: #C8A75A !important;
   }
 
   .LogoPaberater {
@@ -144,7 +144,7 @@ a.dropdown-item:hover{
   }
 
   .container-navbar{
-    width: 95vw !important;
+    width: 75vw !important;
   }
 
   .btn-nav {
@@ -166,7 +166,7 @@ a.dropdown-item:hover{
   }
 }
 
-@media (min-width: 992px){
+@media (width >= 992px){
 
   .navbar-expand-lg .navbar-nav .dropdown-menu {
       position: absolute;
@@ -208,8 +208,19 @@ a.dropdown-item:hover{
       border: 0;
     }
   }
-  @media (width >= 1000px){
-    .container-navbar{
-      width: 70vw !important;
+
+
+
+
+  @media (width >= 1500px){
+    .NavContainer.container {
+      width: 60%;
     }
+    .mediaLogo.navbar-brand {
+      width: 30%;
+  }
+  .socialMediaLogo{
+    width: 27px;
+    height: 27px;
+  }
   }

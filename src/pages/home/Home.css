@@ -52,8 +52,7 @@ svg{
 
 
 .jorge-img2{
-  width: 36vh;
-
+width: 36vh;
 }
 
 .title-init{
@@ -152,14 +151,14 @@ svg{
 }
 
 .jorge5{
-  width: 95vw;
+  max-width: 40vh;
 }
 
 .talent-text{
   display: flex;
   flex-direction: column;
   background-color:#25357a;
-  color: #FEEC8A;
+  color:#E9EAF1;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -300,12 +299,12 @@ svg{
   }
 
   .figure-talent{
-    width: 55vh;
+    width: 50vh;
     height: 50vh;
   }
 
   .jorge5{
-    height: 50vh;
+    max-width: 50vh;
   }
   
   .talent_title{

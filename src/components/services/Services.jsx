@@ -2,6 +2,7 @@ import React from "react";
 import Service1 from "../../assets/img/service1.jpg";
 import Service2 from "../../assets/img/service2.jpg";
 import Service3 from "../../assets/img/service3.jpg";
+import Service5 from "../../assets/img/service5.jpg";
 import ArrowBtn from "../../assets/icons/btn-arrow.svg";
 import Arrow from "../../assets/icons/arrow.svg";
 import "./Services.css";
@@ -20,7 +21,7 @@ function Services() {
           <article className="servicesArticle">
             <img src={Service1} alt="" className="img-service" />
             <section className="titleService">
-              <h3 className="serviceName">Homologación de títulos de medicina</h3>
+              <h3 className="serviceName">Homologaciones profesionales médicas</h3>
               <Link to="/homologaciones" className="btn-circle">
                 <button className="btn-arrow-service">
                   <img
@@ -50,7 +51,7 @@ function Services() {
           </article>
 
           <article className="servicesArticle">
-            <img src={Service2} alt="" className="img-service" />
+            <img src={Service5} alt="" className="img-service" />
             <section className="titleService">
               <h3 className="serviceName">Reconocimiento de Ingenieros</h3>
               <Link to="/reconocimiento-ingenieros" className="btn-circle">

@@ -110,7 +110,7 @@ function Footer() {
         </div>
 
         <div>
-        <Link to="https://wa.me/491778014367">
+        <Link to="https://wa.me/4915753370000">
         <img src={WhatsAppIcon} alt="" className="icons_action" />
         </Link>   
         </div>
