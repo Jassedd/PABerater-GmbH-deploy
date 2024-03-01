@@ -120,7 +120,7 @@ function Translate() {
         <img src={Jorge3} alt="Jorge" className="jorge3_img" />
         <div className="text_translate_container">
             <br />
-            <Link to="/contacto">
+            <Link to="/landing">
               <button className="btn-comenzamos3">¿COMENZAMOS?</button>
             </Link>
         </div>
@@ -160,7 +160,7 @@ function Translate() {
         ¡Vivir y trabajar como profesional en Alemania es posible 
         de la mano de PABerater!
         </h3>
-        <Link to="/contacto">
+        <Link to="/landing">
           <button className="btn-contact_3"><p>CONTACTAR</p></button>
         </Link>
 

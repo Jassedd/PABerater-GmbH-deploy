@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 function BtnJoinUp() {
   return (
-    <Link to="/contacto">
+    <Link to="/landing">
       <button className='btn-joinUp'>
           ¿COMENZAMOS? <img className='btn-arrow3' src={Arrow} alt="btn-arrow"/>
       </button>

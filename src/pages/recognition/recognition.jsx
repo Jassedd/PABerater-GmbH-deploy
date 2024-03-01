@@ -124,7 +124,7 @@ function Recognition() {
           </h2>
           <br />
           <h3 className="posible_text2">¡ES POSIBLE!</h3>
-          <Link to="/contacto">
+          <Link to="/landing">
             <button className="btn-comenzamos2">¿COMENZAMOS?</button>
           </Link>
         </div>
@@ -178,7 +178,7 @@ function Recognition() {
           ¡Vivir y trabajar como profesional en Alemania es posible de la mano
           de PABerater!
         </h3>
-        <Link to="/contacto">
+        <Link to="/landing">
           <button className="btn-contact_2">
             <p>CONTACTAR</p>
           </button>

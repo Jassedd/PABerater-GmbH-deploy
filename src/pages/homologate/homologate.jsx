@@ -34,7 +34,7 @@ function Homologate() {
         <img src={Service1} alt="service1" className="banner-img" />  
         <div className="figure_title">
           <h1 className="title_img1">Homologación</h1>
-          <h2 className="title_img2">de títulos profesionales</h2>
+          <h2 className="title_img2">de títulos de medicina</h2>
         </div>
       </section>
 
@@ -120,7 +120,7 @@ function Homologate() {
           <h3 className="posible_text">
             ¡ES POSIBLE!
           </h3>
-          <Link to="/contacto">
+          <Link to="/landing">
             <button className="btn-comenzamos">¿COMENZAMOS?</button>
           </Link>
         </div>

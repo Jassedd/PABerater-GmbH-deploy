@@ -87,7 +87,6 @@ svg {
     justify-content: space-evenly;
     margin-bottom: 1vh;
     width: 45vh;
-    height: 25vh;
     background-color:#25357a;
     color:#e9eaf1;
     text-align: center;
@@ -137,7 +136,6 @@ svg {
     }
     .content-new{
         width: 75vh;
-        height: 20vh;
     }
     .blogImg{
         width: 75vh;

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 function BtnStart() {
   return (
-    <Link to="/contacto">
+    <Link to="/landing">
       <button className='btn-start'>
           ¿COMENZAMOS? <img src={Arrow} alt="btn-arrow"/>
       </button>

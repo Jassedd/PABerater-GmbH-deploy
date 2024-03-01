@@ -20,7 +20,7 @@ function Services() {
           <article className="servicesArticle">
             <img src={Service1} alt="" className="img-service" />
             <section className="titleService">
-              <h3 className="serviceName">Homologación de títulos</h3>
+              <h3 className="serviceName">Homologación de títulos de medicina</h3>
               <Link to="/homologaciones" className="btn-circle">
                 <button className="btn-arrow-service">
                   <img
@@ -92,7 +92,7 @@ function Services() {
               tenemos una maleta de posibilidades para tu crecimiento
               profesional.
             </p>
-            <Link to="/contacto">
+            <Link to="/landing">
               <button className="btn-bookApoinment">
                 Agendar cita <img src={Arrow} alt="arrow" className="arrow4" />
               </button>

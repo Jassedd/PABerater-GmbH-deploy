@@ -95,8 +95,8 @@ function SuccesStories() {
         </div>
         <div className="divVideoSuccessStories">
           <iframe
-           width="100%"
-           height="200"
+            width="100%"
+            height="200"
             src={`https://www.youtube.com/embed/4zUybTbOs4A`}
             title="YouTube video player"
             frameborder="0"
@@ -215,7 +215,13 @@ function SuccesStories() {
           </p>
         </div>
         <div className="divVideoSuccessStoriesIg">
-          <img className="imgCase" src={Case1} alt="" />
+          <Link
+            to="https://www.instagram.com/reel/CkL-gBKjHFw/?utm_source=ig_web_copy_link"
+            className="LinksuccessStoriesSection"
+            target="_blank"
+          >
+            <img className="imgCase" src={Case1} alt="" />
+          </Link>
         </div>
       </section>
       <br />
@@ -239,7 +245,13 @@ function SuccesStories() {
           </p>
         </div>
         <div className="divVideoSuccessStoriesIg">
-          <img className="imgCase" src={Case2} alt="" />
+          <Link
+            className="LinksuccessStoriesSection"
+            to="https://www.instagram.com/reel/ClmaJo5DG2s/?utm_source=ig_web_copy_link"
+            target="_blank"
+          >
+            <img className="imgCase" src={Case2} alt="" />
+          </Link>
         </div>
       </section>
       <br />
@@ -252,7 +264,8 @@ function SuccesStories() {
           <p className="descriptionSuccessStories">
             Eber Leon Contreras nació y estudió en Venezuela, es Ingeniero
             Electricista y ya se encuentra en Alemania listo para cumplir el
-            sueño de trabajar en la potencia económica de Europa. <Link
+            sueño de trabajar en la potencia económica de Europa.{" "}
+            <Link
               className="LinksuccessStoriesSection"
               to="https://www.instagram.com/reel/CkwMYQtDHpL/?utm_source=ig_web_copy_link"
               target="_blank"
@@ -262,7 +275,13 @@ function SuccesStories() {
           </p>
         </div>
         <div className="divVideoSuccessStoriesIg">
-          <img className="imgCase" src={Case3} alt="" />
+          <Link
+            className="LinksuccessStoriesSection"
+            to="https://www.instagram.com/reel/CkwMYQtDHpL/?utm_source=ig_web_copy_link"
+            target="_blank"
+          >
+            <img className="imgCase" src={Case3} alt="" />
+          </Link>
         </div>
       </section>
       <br />
@@ -276,7 +295,8 @@ function SuccesStories() {
             Bravo es de Bogotá, Colombia, con veinte años de experiencia como
             profesor de filología clásica y español. En Berlín, donde ya está
             viviendo, habló con PABerater sobre la experiencia de migrar y de
-            nuestra asesoría. <Link
+            nuestra asesoría.{" "}
+            <Link
               className="LinksuccessStoriesSection"
               to="https://www.instagram.com/reel/Cpn226Jj2yo/?utm_source=ig_web_copy_link"
               target="_blank"
@@ -286,7 +306,13 @@ function SuccesStories() {
           </p>
         </div>
         <div className="divVideoSuccessStoriesIg">
-          <img className="imgCase" src={Case4} alt="" />
+          <Link
+            className="LinksuccessStoriesSection"
+            to="https://www.instagram.com/reel/Cpn226Jj2yo/?utm_source=ig_web_copy_link"
+            target="_blank"
+          >
+            <img className="imgCase" src={Case4} alt="" />
+          </Link>
         </div>
       </section>
       <br />
@@ -299,7 +325,7 @@ function SuccesStories() {
           <img src={Jorge3} alt="Jorge" className="jorge3_img" />
           <div className="text_translate_container">
             <br />
-            <Link to="/contacto">
+            <Link to="/landing">
               <button className="btn-comenzamos3">¿COMENZAMOS?</button>
             </Link>
           </div>
@@ -333,7 +359,7 @@ function SuccesStories() {
           ¡Vivir y trabajar como profesional en Alemania es posible de la mano
           de PABerater!
         </h3>
-        <Link to="/contacto">
+        <Link to="/landing">
           <button className="btn-contact_3">
             <p>CONTACTAR</p>
           </button>

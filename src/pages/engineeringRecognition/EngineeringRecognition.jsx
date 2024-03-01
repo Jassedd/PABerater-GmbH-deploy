@@ -90,7 +90,7 @@ function EngineeringRecognition() {
           </h2>
           <br />
           <h3 className="posible_text2">¡ES POSIBLE!</h3>
-          <Link to="/contacto">
+          <Link to="/landing">
             <button className="btn-comenzamos2">¿COMENZAMOS?</button>
           </Link>
         </div>

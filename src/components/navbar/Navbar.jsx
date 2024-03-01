@@ -38,7 +38,7 @@ function NavbarHome() {
             <img src={Logo} alt="" className="LogoPaberater" />
           </Navbar.Brand >
           <Container className="container-navbar" >
-            <Link to="/contacto">
+            <Link to="/landing">
             <button className="btn-nav">
               Quiero saber más <img src={Arrow} alt="" className="arrow-btn" />
             </button>
@@ -91,7 +91,7 @@ function NavbarHome() {
                     <NavDropdown.Item className="dropdown-item">
                       {" "}
                       <Link to="/homologaciones">
-                        Homologación de títulos
+                        Homologación de títulos de medicina
                       </Link>
                     </NavDropdown.Item>
                     <NavDropdown.Item className="dropdown-item">

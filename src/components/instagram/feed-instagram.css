@@ -22,3 +22,12 @@
     font-size: 3rem;
 }
 }
+@media (width >= 1000px){
+    .instaFeed{
+        width: 60%;
+        
+    }
+    .instagramFeed_section_Title{
+        font-size: 3rem;
+    }
+    }
