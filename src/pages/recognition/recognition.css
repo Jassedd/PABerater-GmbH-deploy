@@ -161,7 +161,7 @@ svg {
 .posible_text2 {
     font-size: 1.5em;
     font-weight: 600;
-    color: #25357a;
+    color:#e9eaf1;
 
 }
 
@@ -391,7 +391,6 @@ svg {
     .posible_text2 {
         font-size: 2rem;
         font-weight: 600;
-        color: #25357a;
         text-align: left;
         margin-left: -8%;
     }
