@@ -15,14 +15,14 @@ function NewsMedia() {
           <Carousel className="mediaNews-carousel">
             <Carousel.Item className="news">
               <img src={ExampleCarouselImage1} alt="articulo" className="news1" />
-              <Link to="https://www.elnacional.com/empresas-productos/paberater-el-emprendimiento-de-raices-venezolanas-que-brinda-oportunidades-a-hispanohablantes-en-alemania/">
+              <Link to="https://www.elnacional.com/empresas-productos/paberater-el-emprendimiento-de-raices-venezolanas-que-brinda-oportunidades-a-hispanohablantes-en-alemania/" target="_blank">
                 <p className="news-title">Leer artículo completo</p>
                 </Link>
             </Carousel.Item>
 
             <Carousel.Item className="news">
               <img src={ExampleCarouselImage2} alt="articulo" className="news2" />
-              <Link to="https://noticias.perfil.com/noticias/empresas-y-protagonistas/oportunidades-laborales-para-medicos-en-alemania-un-mercado-en-expansion-brand.phtml">
+              <Link to="https://noticias.perfil.com/noticias/empresas-y-protagonistas/oportunidades-laborales-para-medicos-en-alemania-un-mercado-en-expansion-brand.phtml" target="_blank">
                 <p className="news-title">Leer artículo completo</p>
                 </Link>
             </Carousel.Item>
