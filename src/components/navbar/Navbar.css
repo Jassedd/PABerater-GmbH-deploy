@@ -108,7 +108,17 @@ a.dropdown-item:hover{
     font-size: 0.9rem !important;
     align-content: center !important;
   }
+  
+  @media (width >= 350px){
+    .btn-nav {
+      width: 17vh;
+      font-size: 0.8rem;
 
+    }
+    .NavContainer.container {
+      width: 65%;
+    }
+  }
 
   @media (width >= 390px){
     .btn-nav {
