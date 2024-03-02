@@ -40,12 +40,11 @@ a.dropdown-item:hover{
  }
   
 .btn-nav {
-    font-size: 0.8rem;
     color: #25357a;
     border-radius: 10px;
     background-color: #C8A75A;
     height: 4vh;
-    width: 22vh;
+    width: 20vh;
     border: 0;
     font-size: 0.8rem;
     font-weight: 500;
@@ -113,8 +112,8 @@ a.dropdown-item:hover{
 
   @media (width >= 390px){
     .btn-nav {
-      width: 25vh;
-      font-size: 1rem;
+      width: 20vh;
+      font-size: 0.9rem;
 
     }
     .NavContainer.container {
@@ -148,10 +147,10 @@ a.dropdown-item:hover{
   }
 
   .btn-nav {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
     height: 4vh;
-    width: 30vh;
+    width: 25vh;
     margin-left: 4%;
   }
 
@@ -195,8 +194,9 @@ a.dropdown-item:hover{
       font-size: 1.3rem;
       font-weight: 500;
       height: 4vh;
-      width: 32vh;
+      width: 15vh;
       margin-left: 4%;
+      font-size: 0.9rem;
     }
     .arrow-btn{
       padding-left: 2%;
@@ -209,7 +209,11 @@ a.dropdown-item:hover{
     }
   }
 
-
+  @media (width >= 1020px){
+    .btn-nav {
+      width: 30vh;
+    }
+  }
 
 
   @media (width >= 1500px){
