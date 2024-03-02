@@ -136,6 +136,14 @@ svg {
     background-color: #e9eaf1;
     margin-bottom: 5vh;
 }
+.callToAction_recognition_containerSuccess{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #25357a;
+    margin-bottom: 5vh;
+}
 
 .calltoaction_recognition_title {
     margin-top: -60%;
@@ -158,8 +166,8 @@ svg {
 }
 
 .btn-comenzamos2 {
-    background-color: #25357a;
-    color: #c8a75a;
+    background-color: #C8A75A;
+    color: #25357a;
     width: 45vw;
     height: 6vh;
     border-radius: 10px;
@@ -169,7 +177,7 @@ svg {
 }
 
 .btn-comenzamos2:hover {
-    background-color: #c8a75a;
+    background-color: #e9eaf1;
     color: #25357a;
 }
 
@@ -389,15 +397,14 @@ svg {
     }
 
     .btn-comenzamos2 {
-        background-color: #25357a;
-        color: #c8a75a;
+        background-color: #C8A75A;
+        color: #25357a;
         max-width: 30vw;
         border-radius: 10px;
         border: 0;
         font-size: 1.5rem;
         font-weight: 600;
         margin-left: -9%;
-        margin-top: 1rem;
     }
     .callToAction_recognition_container2 {
         display: flex;
@@ -529,11 +536,10 @@ svg {
         margin-left: 3%;
     }
     .btn-comenzamos2 {
-        background-color: #25357a;
-        color: #c8a75a;
+        background-color: #C8A75A;
+        color: #25357a;
         max-width: 20vw;
         margin-left: 3%;
-        margin-top: 1rem;
     }
     .Title_ourServicesText {
         font-size: 3rem;
@@ -593,6 +599,7 @@ svg {
 
     .Eugenio_video iframe{
         width:100vh;
+        height: 30em;
     }
 
     .callToAction_recognition_container {
@@ -608,11 +615,11 @@ svg {
         margin-left: 5%;
     }
     .btn-comenzamos2 {
-        background-color: #25357a;
-        color: #c8a75a;
+        background-color: #C8A75A;
+        color: #25357a;
         max-width: 20vw;
         margin-left: 5%;
-        margin-top: 1rem;
+
     }
     .jorge2_img {
         width: 35vh;

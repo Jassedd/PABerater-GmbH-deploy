@@ -80,7 +80,7 @@ function EngineeringRecognition() {
           ></iframe>
         </div>
       </section>
-      <section className="callToAction_recognition_container">
+      <section className="callToAction_recognition_containerSuccess">
         <img src={Jorge2} alt="Jorge" className="jorge2_img" />
 
         <div className="text_container">
