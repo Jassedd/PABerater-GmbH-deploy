@@ -101,11 +101,11 @@ const router = createBrowserRouter([
         element: <Agb />
       },
         {
-          path:"/login",
+          path:"/hipaberater",
           element: <Login />
         },
         {
-          path:"/register",
+          path:"/newpaberater",
           element: <Register />
         },
         {
