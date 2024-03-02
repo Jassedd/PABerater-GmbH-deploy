@@ -112,7 +112,7 @@ a.dropdown-item:hover{
 
   @media (width >= 390px){
     .btn-nav {
-      width: 20vh;
+      width: 25vh;
       font-size: 0.9rem;
 
     }
