@@ -6,7 +6,7 @@ import IntagramLogo from "../../assets/icons/logo_instagram.svg";
 import YoutubeLogo from "../../assets/icons/logo_youtube.svg";
 import FacebookLogo from "../../assets/icons/logo_facebook.svg";
 import "./Navbar.css";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Arrow from "../../assets/icons/arrow.svg";
 import Offcanvas from "react-bootstrap/Offcanvas";
@@ -16,6 +16,7 @@ import { useContext } from "react";
 function NavbarHome() {
   const navigate = useNavigate();
   const { user } = useContext(AuthContext);
+  const location = useLocation();
 
   const handleLogoCLick = () =>{
     if(user){
@@ -30,6 +31,18 @@ function NavbarHome() {
     }
   }
 
+ const handleScrollToLanding = () => {
+    const landingPath = '/landing';
+    if (location.pathname === landingPath) {
+      const formSection = document.getElementById('adviser-form-landing');
+      if (formSection) {
+        formSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      window.location.href = landingPath;
+    }
+  };
+
   return (
     <>
       {["lg"].map((expand) => (
@@ -39,7 +52,7 @@ function NavbarHome() {
           </Navbar.Brand >
           <Container className="container-navbar" >
             <Link to="/landing">
-            <button className="btn-nav">
+            <button className="btn-nav" onClick={handleScrollToLanding}>
               Quiero saber más <img src={Arrow} alt="" className="arrow-btn" />
             </button>
             </Link>
