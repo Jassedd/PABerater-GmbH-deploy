@@ -28,7 +28,7 @@ import Datenschutz from "../pages/datenschutz/Datenschutz";
 import Impressum from "../pages/impressum/impressum";
 import Agb from "../pages/agb/agb";
 import EngineeringRecognition from "../pages/engineeringRecognition/EngineeringRecognition";
-import SuccesStories from "../pages/successStories/succesStories";
+import SuccesStories from "../pages/successStories/SuccesStories";
 
 const router = createBrowserRouter([
     {
@@ -101,11 +101,11 @@ const router = createBrowserRouter([
         element: <Agb />
       },
         {
-          path:"/login",
+          path:"/hipaberater",
           element: <Login />
         },
         {
-          path:"/register",
+          path:"/newpaberater",
           element: <Register />
         },
         {
