@@ -124,6 +124,10 @@ width: 36vh;
 .resaltar {
   color: #25357a;
 }
+.resaltarEmigrar{
+  color: #25357a;
+  font-size: 1.35rem;
+}
 
 .pequena {
   font-size: 1.2rem;
@@ -275,7 +279,9 @@ width: 36vh;
   .title-init{
     font-size: 3rem;
   }
-
+  .resaltarEmigrar{
+    font-size: 2.2rem;
+  }
   .pequena {
     font-size: 2rem;
   }
@@ -358,6 +364,9 @@ width: 36vh;
     font-size: 4rem;
     text-align: left;
     margin-top: 3rem;
+  }
+  .resaltarEmigrar{
+    font-size: 3.3rem;
   }
 
   .pequena {
