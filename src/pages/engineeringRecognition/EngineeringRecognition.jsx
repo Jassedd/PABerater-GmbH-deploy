@@ -1,7 +1,7 @@
 import React from "react";
 import "../recognition/recognition.css";
 import Jorge2 from "../../assets/img/Jorge2.png";
-import Service2 from "../../assets/img/service2.jpg";
+import Service2 from "../../assets/img/service5.jpg";
 import QAaccordion from "../../components/q&a-accordion/Q&A-accordion";
 import ScrollToTop from "../../components/scrollToTop/ScrollToTop";
 import { Link } from "react-router-dom";
@@ -53,12 +53,12 @@ function EngineeringRecognition() {
       <section className="title_section2">
         <div className="firstArticleRecognition">
           <div className="name_video2">
-            <p>
+            <p className="titlesuccessStoriesVideo">
               Familia Oviedo Quevedo, <br />
               Ingeniero Mecánico en Alemania
             </p>
-          </div>
-          <p className="text_name_video">
+          </div> <br />
+          <p className="text_name_video2">
             La familia Oviedo Quevedo es de Venezuela y ya está en Alemania de
             la mano de PABerater. Nos invitaron a conocer su hermosa casa en la
             región de Baviera, donde Mario trabaja como Ingeniero Mecánico, con
@@ -148,14 +148,13 @@ function EngineeringRecognition() {
           </button>
         </Link>
       </section>
-      <br />
       <section className="successStoriesSection">
-      <h2>Casos de éxito:</h2>
-      <p>
+      <h2 className="successStoriesSectionTitle">Casos de éxito:</h2>
+      <p className="textsuccessStoriesSection">
         Acá compartimos con usted alguno de nuestros muchos casos de éxitos:
       </p>
       <br />
-      <h5>German Bravo, Licenciado en Educación.</h5>
+      <h5 className="successStoriesSectionName">German Bravo, Licenciado en Educación.</h5>
       <p className="textsuccessStoriesSection">
         Bravo es de Bogotá, Colombia, con veinte años de experiencia como
         profesor de filología clásica y español. En Berlín, donde ya está
@@ -163,14 +162,14 @@ function EngineeringRecognition() {
         nuestra asesoría. <Link className="LinksuccessStoriesSection" to="https://www.instagram.com/reel/Cpn226Jj2yo/?utm_source=ig_web_copy_link" target="_blank">Ver video</Link>
       </p>
       <br />
-      <h5>Luis González, Técnico electricista.</h5>
+      <h5 className="successStoriesSectionName">Luis González, Técnico electricista.</h5>
       <p className="textsuccessStoriesSection">
         Conoció a PABerater por recomendación de un amigo, inició un proceso con
         nosotros y no solo ya tiene su título homologado, sino que ¡ya está en
         Alemania!. <Link to="https://www.instagram.com/reel/CkL-gBKjHFw/?utm_source=ig_web_copy_link" className="LinksuccessStoriesSection" target="_blank">Ver video</Link>
       </p>
       <br />
-      <h5>Eber León, Ingeniero electricista.</h5>
+      <h5 className="successStoriesSectionName">Eber León, Ingeniero electricista.</h5>
       <p className="textsuccessStoriesSection">
         Eber Leon Contreras nació y estudió en Venezuela, es Ingeniero
         Electricista y ya se encuentra en Alemania listo para cumplir el sueño
@@ -178,7 +177,7 @@ function EngineeringRecognition() {
         <Link to="https://www.instagram.com/reel/CkwMYQtDHpL/?utm_source=ig_web_copy_link" className="LinksuccessStoriesSection" target="_blank">Ver video</Link>
       </p>
       <br />
-      <h5>Andres Astor, Ingeniero en telecomunicaciones.</h5>
+      <h5 className="successStoriesSectionName">Andres Astor, Ingeniero en telecomunicaciones.</h5>
       <p className="textsuccessStoriesSection">
         Andrés Ernesto Astor Villegas es venezolano, Ingeniero en
         Telecomunicaciones y ya homologó su título de manera exitosa con

@@ -509,8 +509,10 @@ background-color: #25357a;
         margin: 5rem 8rem 0 4rem;
     }
     .yt-service {
-    height: 70vh;
-    margin-top: 3rem;
+        height: 70vh;
+        margin-top: 3rem;
+        object-fit: cover; 
+        object-position: center;
     }
 }
 

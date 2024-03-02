@@ -72,7 +72,7 @@ svg {
 }
 
 .Eugenio_video{
-    height:25vh;
+
 }
 .name_video2{
     font-weight: bold;
@@ -244,8 +244,20 @@ svg {
 .successStoriesSection{
     display: flex;
     flex-direction: column;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    background-color: #e9eaf1;
+    width: 100%;
+    padding: 2.5rem;
+}
+.successStoriesSectionTitle{
+    color: #25357a;
+    font-size: 1.9rem;
+}
+.textsuccessStoriesSection{
+    font-size: 1.1rem;
+}
+.successStoriesSectionName{
+    color: #25357a;
+    font-size: 1.3rem;
 }
 .LinksuccessStoriesSection{
     color: #25357a !important;
@@ -307,7 +319,6 @@ svg {
 
     .title_section2{
         background-color: #e9eaf1;
-        height: 47em;
         padding: 0;
     }
 
@@ -326,7 +337,6 @@ svg {
     .Eugenio_video iframe {
         margin-top: 3%;
         width: 100%;
-        height: 30em;
     }
 
     .name_video2 p{
@@ -345,6 +355,8 @@ svg {
 
     .yt-service {
         height: 70vh;
+        object-fit: cover; 
+        object-position: center;
     }
 
 
@@ -455,17 +467,15 @@ svg {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        height: 25em;
         width: 100%;
     }
     .firstArticleRecognition{
-        width: 60vh;
+        width: 80vh;
         padding: 2%;
         margin: 0;
     }
     .Eugenio_video iframe{
         width: 85vh;
-        height: 25em;
         margin: 0;
     }
     .name_video2 p {
@@ -543,6 +553,9 @@ svg {
         height: 6vh;
         font-size: 1.3rem;
     }
+    .successStoriesSection{
+        padding: 3.5rem;
+    }
 }
 
 
@@ -569,7 +582,7 @@ svg {
         justify-content: space-around;
     }
     .firstArticleRecognition{
-        width: 80vh;
+        width: 90vh;
         padding: 1%;
 
     }
@@ -580,7 +593,6 @@ svg {
 
     .Eugenio_video iframe{
         width:100vh;
-        height: 30em;
     }
 
     .callToAction_recognition_container {

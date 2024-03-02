@@ -299,6 +299,8 @@ svg {
 
   .yt-service {
     height: 70vh;
+    object-fit: cover; 
+    object-position: center;
   }
 
   .callToAction_container {
@@ -502,6 +504,8 @@ svg {
   .yt-service {
     height: 70vh;
     margin-top: 3rem;
+    object-fit: cover; 
+    object-position: center;
   }
 }
 
