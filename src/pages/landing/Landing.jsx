@@ -12,6 +12,12 @@ import NewsMedia from "../../components/news-media/NewsMedia"
 import { Link } from "react-router-dom"
 import "animate.css"
 
+function scrollToForm() {
+    const formSection = document.getElementById('adviser-form-landing');
+    if (formSection) {
+      formSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 
 function Landing() {
   return (
@@ -30,7 +36,7 @@ function Landing() {
             allowfullscreen
             ></iframe>
         </div>
-        <div className="adviser-form-landing">
+        <div className="adviser-form-landing" id="adviser-form-landing">
             <div className="section-assignment">
                 <p>¡Te asignaremos un asesor personalizado!</p>
             </div>
@@ -98,7 +104,7 @@ function Landing() {
                     <span className="span-landing">B.</span>  Pronto pago. Pago en una exhibición 
                     y te descontamos <span className="span-landing">100€.</span>
                 </p>
-                <Link to="#adviserForm">
+                <Link to="#" onClick={scrollToForm}>
                     <button className="btn-start-landing">
                         ¡Quiero saber más! <img src={Arrow} alt="btn-arrow"/>
                     </button>
