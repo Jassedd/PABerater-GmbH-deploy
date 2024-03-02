@@ -26,6 +26,11 @@
     padding: 1rem;
     background-color: #e9eaf1;
 }
+.text_succes_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .firstArticleTranslationSuccesStorie, .firstArticleTranslationSuccesStorieIg{
     text-align: center;
     margin-top: 1rem;

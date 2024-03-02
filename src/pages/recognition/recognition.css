@@ -133,7 +133,7 @@ svg {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #e9eaf1;
+    background-color: #25357a;
     margin-bottom: 5vh;
 }
 .callToAction_recognition_containerSuccess{
@@ -147,7 +147,6 @@ svg {
 
 .calltoaction_recognition_title {
     margin-top: -60%;
-    margin-left: -35%;
     font-size: 1.6rem;
     color: #c8a75a;
     text-align: left;
@@ -298,7 +297,6 @@ svg {
     }
 
     .calltoaction_recognition_title {
-        margin-left: -25%;
         font-size: 1.8rem;
     }
     .btn-contact_2 {
