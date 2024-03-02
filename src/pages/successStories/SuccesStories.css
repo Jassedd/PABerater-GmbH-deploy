@@ -65,12 +65,10 @@
     background-color: #25357a;
 }
 
-
 .jorgeSucces_img{
     width:45vh;
     margin-top: -2rem;
     margin-bottom: -1rem;
-
 }
 .calltoaction_succes_title{
     padding: 2rem;
@@ -84,6 +82,7 @@
 .text_container {
     align-content: center;
 }
+
 .btn-comenzamos4{
     background-color:#C8A75A;
     color:#25357a;
@@ -96,7 +95,7 @@
     margin-top: -1rem;
 }
 .btn-comenzamos4:hover {
-    background-color:#C8A75A;
+    background-color:#e9eaf1;
     color:#25357a;
 }
 

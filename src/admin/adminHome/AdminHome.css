@@ -1,24 +1,70 @@
-.admin-dashboard{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: -6vh;
+@media (width >=360px){
+    .admin-dashboard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .JorgeAdm{
+    display: none;
+    }
+    .welcome_title{
+        color: #25357a;
+        font-size: 2rem;
+    }
+    .btn-admin{
+        background-color: #C8A75A;
+        border: 0;
+        width: 70vw;
+        height: 8vh;
+        border-radius: 10px;
+        color: #25357a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
 }
 
-.JorgeAdm{
-    width: 40vh;
-    margin-right: 5em;
-    position: relative;
-}
-.welcome_title{
-    color: #25357a;
-    margin-left: 5%;
-}
 
-.Section-adm{
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media (width >=1200px){
+
+
+    .Section-adm{
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .JorgeAdm{
+        display: flex;
+        width: 20vw;
+        margin-left: 5em;
+        position: relative;
+    }
+    .admin-dashboard{
+        align-items: center;
+        width: 50%;
+    }
+    .btn-admin{
+        width: 50vw;
+        height: 8vh;
+    }
+    .JorgeAdm{
+        width: 48vh;
+        margin-right: 5em;
+        position: relative;
+    }
+    .welcome_title{
+        margin-left:0;
+        font-size: 3rem;
+    }
+    .btn-admin{
+        width: 30vw;
+        font-size: 1.5rem;
+    }
+
 }

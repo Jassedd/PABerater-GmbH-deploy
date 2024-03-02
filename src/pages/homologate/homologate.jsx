@@ -165,9 +165,11 @@ function Homologate() {
         ¡Vivir y trabajar como profesional en Alemania <br /> 
         es posible de la mano de PABerater!
         </h3>
-        <button className="btn-contact">
-          CONTACTAR
-          </button>
+        <Link to="/landing">
+          <button className="btn-contact">
+            CONTACTAR
+            </button>
+      </Link>
 
       </section>
 

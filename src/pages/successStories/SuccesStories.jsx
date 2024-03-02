@@ -318,7 +318,7 @@ function SuccesStories() {
         </h2>
         <div className="Jorge_call">
           <img src={Jorge3} alt="Jorge" className="jorgeSucces_img" />
-          <div className="text_translate_container">
+          <div className="text_succes_container">
             <br />
             <Link to="/landing">
               <button className="btn-comenzamos4">¿COMENZAMOS?</button>

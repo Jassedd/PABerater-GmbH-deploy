@@ -37,11 +37,11 @@
     @media(width >= 390px) {
         .btn-advisory{
             align-items:center;
-            width: 13em;
+            width: 15em;
             height: 6vh;
-            font-size:0.75rem;
+            font-size:0.8rem;
             margin-top: 3vh;
-            margin-left: 0.5rem;
+            margin-left:-1rem;
         }
         .arrow-btn1{
             margin-left: 1vw;
@@ -75,5 +75,15 @@
             margin-left: 1vw;
         }
     }
-
     }
+    
+
+    @media (width >= 1600px){
+        .btn-advisory{
+            margin-left:2em;
+        }
+        .arrow-btn1{
+            margin-left: 1vw;
+        }
+    }
+

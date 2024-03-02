@@ -16,7 +16,6 @@ svg{
   margin: 0;
 }
 
-@media (width >= 300px) {
 
 .first-arrow{
   margin-left: 20%;
@@ -44,7 +43,7 @@ svg{
 }
 
 .textbtn{
-  width: 45vw;
+  width: 47vw;
   height: 22rem;
   font-size: 1rem;
   align-self: left;
@@ -197,7 +196,6 @@ width: 36vh;
   padding-top: 6%;
   padding-bottom: 6%;
 }
-}
 
 
 @media (width = 360px){
@@ -229,10 +227,10 @@ width: 36vh;
 @media (width >= 390px){
   .textbtn{
     margin-top: 2rem;
-    margin-left: -2rem;
+    margin-left: -1rem;
   }
   .jorge-img2{
-    margin-left: -2rem;
+    margin-left: -3.5rem;
   }
   .questionsTitleFormHome{
     display: none;
@@ -467,4 +465,5 @@ width: 36vh;
   .jorge-img2{
 margin-left: 1rem;
   }
+
 }
