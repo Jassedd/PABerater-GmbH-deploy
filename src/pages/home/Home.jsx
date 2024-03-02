@@ -25,7 +25,7 @@ const Home = () => {
               <br />
               <span className="pequena">que</span>{" "}
               <span className="pequena resaltar">desean</span>{" "}
-              <span className="resaltar">emigrar</span>
+              <span className="resaltarEmigrar">emigrar</span>
               <br />
               <span className="pequena">a </span>
               <span className="resaltar">Alemania</span>
