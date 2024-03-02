@@ -1,5 +1,4 @@
 import React from "react";
-import Service3 from "../../assets/img/service3.jpg";
 import Jorge3 from "../../assets/img/jorge-5.png";
 import QAaccordion from "../../components/q&a-accordion/Q&A-accordion";
 import ScrollToTop from "../../components/scrollToTop/ScrollToTop";
@@ -9,6 +8,7 @@ import Case1 from "../../assets/img/CasoExito-1.png";
 import Case2 from "../../assets/img/CasoExito-2.png";
 import Case3 from "../../assets/img/CasoExito-3.png";
 import Case4 from "../../assets/img/CasoExito-4.png";
+import Exito from "../../assets/img/exito.jpg";
 
 function SuccesStories() {
   const TranslateQuestions = [
@@ -35,11 +35,12 @@ function SuccesStories() {
     <main>
       <ScrollToTop />
       <section className="translate_services3">
-        <img src={Service3} alt="service3" className="banner-img_3" />
+        <img src={Exito} alt="service3" className="banner-img_3" />
         <div className="figure_title3">
           <h1 className="title3_img_translate">Casos de éxito</h1>
         </div>
       </section>
+      <br />
       <br />
       <p className="title_text_translate">
         Nuestros asesorados han tenido la oportunidad de contar sus vivencias,
@@ -57,7 +58,6 @@ function SuccesStories() {
               Reinaldo Díaz Lugo, Ingeniero Informático venezolano en Alemania.
             </p>
           </div>
-          <br />
           <p className="descriptionSuccessStories">
             Ambos realizaron el trámite de homologación profesional con
             PABerater, y en esta entrevista él nos cuenta cómo fue le proceso de
@@ -65,6 +65,7 @@ function SuccesStories() {
             atención de su trabajo.
           </p>
         </div>
+
         <div className="divVideoSuccessStories">
           <iframe
             width="100%"
@@ -78,13 +79,13 @@ function SuccesStories() {
           ></iframe>
         </div>
       </section>
-      <br />
+
+
       <section className="ServiceSuccessYt">
         <div className="firstArticleTranslationSuccesStorie">
           <div className="name_video_succesStories">
             <p>Verónica Anzola , Médica venezolana que ya está en Alemania </p>
           </div>
-          <br />
           <p className="descriptionSuccessStories">
             Junto a su esposo Reinaldo, Ingeniero Informático, y la mascota de
             ambos, Simón. Los dos realizaron su trámite de reconocimiento
@@ -106,7 +107,7 @@ function SuccesStories() {
           ></iframe>
         </div>
       </section>
-      <br />
+
       <section className="ServiceSuccessYt">
         <div className="firstArticleTranslationSuccesStorie">
           <div className="name_video_succesStories">
@@ -115,7 +116,6 @@ function SuccesStories() {
               ingeniero electromecánico argentino en Alemania.
             </p>
           </div>
-          <br />
           <p className="descriptionSuccessStories">
             Realizó con PABerater el trámite de reconocimiento de su título
             universitario, así como todos los trámites posteriores, por lo que
@@ -137,7 +137,6 @@ function SuccesStories() {
           ></iframe>
         </div>
       </section>
-      <br />
       <section className="ServiceSuccessYt">
         <div className="firstArticleTranslationSuccesStorie">
           <div className="name_video_succesStories">
@@ -168,19 +167,18 @@ function SuccesStories() {
           ></iframe>
         </div>
       </section>
-      <br />
+
       <section className="ServiceSuccessYt">
         <div className="firstArticleTranslationSuccesStorie">
           <div className="name_video_succesStories">
             <p>Darling Gonzáles médica venezolana en Alemania</p>
           </div>
-          <br />
           <p className="descriptionSuccessStories">
             Inició el trámite de reconocimiento de su título universitario con
             PABerater y está a punto de finalizarlo.
           </p>
-          <br />
         </div>
+
         <div className="divVideoSuccessStories">
           <iframe
             width="100%"
@@ -194,13 +192,12 @@ function SuccesStories() {
           ></iframe>
         </div>
       </section>
-      <br />
+
       <section className="ServiceSuccessYt">
         <div className="firstArticleTranslationSuccesStorieIg">
           <div className="name_video_succesStories">
             <p>Luis González, Técnico electricista.</p>
           </div>
-          <br />
           <p className="descriptionSuccessStories">
             Conoció a PABerater por recomendación de un amigo, inició un proceso
             con nosotros y no solo ya tiene su título homologado, sino que ¡ya
@@ -214,6 +211,7 @@ function SuccesStories() {
             </Link>
           </p>
         </div>
+
         <div className="divVideoSuccessStoriesIg">
           <Link
             to="https://www.instagram.com/reel/CkL-gBKjHFw/?utm_source=ig_web_copy_link"
@@ -224,13 +222,12 @@ function SuccesStories() {
           </Link>
         </div>
       </section>
-      <br />
+
       <section className="ServiceSuccessYt">
         <div className="firstArticleTranslationSuccesStorieIg">
           <div className="name_video_succesStories">
             <p>Andres Astor, Ingeniero en telecomunicaciones.</p>
           </div>
-          <br />
           <p className="descriptionSuccessStories">
             Andrés Ernesto Astor Villegas es venezolano, Ingeniero en
             Telecomunicaciones y ya homologó su título de manera exitosa con
@@ -254,13 +251,12 @@ function SuccesStories() {
           </Link>
         </div>
       </section>
-      <br />
+
       <section className="ServiceSuccessYt">
         <div className="firstArticleTranslationSuccesStorieIg">
           <div className="name_video_succesStories">
             <p>Eber León, Ingeniero Electricista</p>
           </div>
-          <br />
           <p className="descriptionSuccessStories">
             Eber Leon Contreras nació y estudió en Venezuela, es Ingeniero
             Electricista y ya se encuentra en Alemania listo para cumplir el
@@ -284,13 +280,12 @@ function SuccesStories() {
           </Link>
         </div>
       </section>
-      <br />
+
       <section className="ServiceSuccessYt">
         <div className="firstArticleTranslationSuccesStorieIg">
           <div className="name_video_succesStories">
             <p>German Bravo, Licenciado en Educación</p>
           </div>
-          <br />
           <p className="descriptionSuccessStories">
             Bravo es de Bogotá, Colombia, con veinte años de experiencia como
             profesor de filología clásica y español. En Berlín, donde ya está
@@ -315,18 +310,18 @@ function SuccesStories() {
           </Link>
         </div>
       </section>
-      <br />
-      <section className="callToAction_translate_container">
-        <h2 className="calltoaction_translate_title">
-          <strong className="blue_name">PABerater, </strong>
+
+      <section className="callToAction_succes_container">
+        <h2 className="calltoaction_succes_title">
+          <strong className="succes_blue_name">PABerater, </strong>
           tu compañero ideal para transformar tu vida profesional.
         </h2>
-        <div className="">
-          <img src={Jorge3} alt="Jorge" className="jorge3_img" />
+        <div className="Jorge_call">
+          <img src={Jorge3} alt="Jorge" className="jorgeSucces_img" />
           <div className="text_translate_container">
             <br />
             <Link to="/landing">
-              <button className="btn-comenzamos3">¿COMENZAMOS?</button>
+              <button className="btn-comenzamos4">¿COMENZAMOS?</button>
             </Link>
           </div>
         </div>

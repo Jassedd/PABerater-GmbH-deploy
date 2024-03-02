@@ -98,7 +98,7 @@ function Landing() {
                     <span className="span-landing">B.</span>  Pronto pago. Pago en una exhibición 
                     y te descontamos <span className="span-landing">100€.</span>
                 </p>
-                <Link to="/landing">
+                <Link to="#adviserForm">
                     <button className="btn-start-landing">
                         ¡Quiero saber más! <img src={Arrow} alt="btn-arrow"/>
                     </button>
