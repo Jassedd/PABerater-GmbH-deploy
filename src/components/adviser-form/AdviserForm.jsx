@@ -24,7 +24,7 @@ function AdviserForm() {
       "countryResidence": countryUsr,
       "nationality": nacionalityUsr,
       "subject": "Solicitud de asesoramiento",
-      "secret": "Shavesecreta"
+      "secret": import.meta.env.VITE_REACT_APP_SECRET
     };
 
     fetch('https://europe-west3-paberater-8ca33.cloudfunctions.net/EnviarCorreoPaberater-E', {
