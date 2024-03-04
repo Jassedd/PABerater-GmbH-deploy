@@ -29,6 +29,7 @@ import Impressum from "../pages/impressum/impressum";
 import Agb from "../pages/agb/agb";
 import EngineeringRecognition from "../pages/engineeringRecognition/EngineeringRecognition";
 import SuccesStories from "../pages/successStories/SuccesStories";
+import ThanksPage from "../pages/ThanksPage/ThanksPage";
 
 const router = createBrowserRouter([
     {
@@ -75,6 +76,10 @@ const router = createBrowserRouter([
         {
           path:"/blogPABerater",
           element: <Blog />
+        },
+        {
+          path:"/gracias",
+          element: <ThanksPage />
         },
         {
           path:"/blogPABerater/:id",

@@ -1,14 +1,11 @@
 import React from 'react'
 import "./ErrorPage.css"
-import NavbarHome from '../../components/navbar/Navbar'
-import Footer from '../../components/footer/Footer'
 import Jorge from "../../assets/img/jorge-4.png"
 import { Link } from 'react-router-dom'
 
 function ErrorPage() {
   return (
     <>
-    <NavbarHome />
     <div className='Errorpage'>
       <img src={Jorge} alt="" className='imgError'/>
       <div className='Errormsg'>
@@ -19,7 +16,6 @@ function ErrorPage() {
         </Link>
       </div>
     </div>
-    <Footer />
     </>
   )
 }

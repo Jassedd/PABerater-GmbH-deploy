@@ -3,7 +3,7 @@ import Form from "react-bootstrap/Form";
 import "./AdviserForm.css";
 import { createUsersFormLanding } from "../../../firebase/firebaseBack";
 import { countries } from "../countries/Countries";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function AdviserForm() {
   const [email, setEmail] = useState("");
@@ -14,6 +14,8 @@ function AdviserForm() {
   const [countryUsr, setCountryUsr] = useState("");
   const [professionUsr, setProfessionUsr] = useState("");
   const [subscribeToList, setSubscribeToList] = useState(false);
+
+  const redirect= useNavigate()
 
   function sendEmail() {
     let body = {
@@ -88,7 +90,7 @@ function AdviserForm() {
     setSubscribeToList(false);
     setConfirmEmail("");
     sendEmail();
-    alert("Formulario enviado correctamente");
+    redirect("/gracias")
   }
 
   return (
