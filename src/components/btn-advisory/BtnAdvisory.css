@@ -35,17 +35,37 @@
         }
     }   
 
-    @media(width >= 390px) {
+
+    @media(width <= 375px) {
         .btn-advisory{
-            align-items:center;
-            width: 15em;
+            width: 13em;
             height: 6vh;
             font-size:0.8rem;
-            margin-top: 3vh;
-            margin-left:-1rem;
+            margin-top: 2.5vh;
+            margin-left: 0.5rem;
+            margin-right: 1rem;
         }
         .arrow-btn1{
             margin-left: 1vw;
+        }
+    }  
+
+
+
+    @media(width >= 390px) {
+        .btn-advisory{
+            width: 12em;
+            height: 6vh;
+            font-size:0.9rem;
+            margin-top: 1vh;
+            padding: 0%;
+            margin-left:1.5rem;
+            margin-right: 1rem;
+
+        }
+        .arrow-btn1{
+            margin-left: 1.5vw;
+            padding: 0%;
         }
     }  
 
@@ -64,6 +84,19 @@
     }
 
 
+    @media (width >= 850px){
+        .btn-advisory{
+            font-size:1.3rem;
+            width: 40vh;
+            height: 7vh;
+            margin-top: 2vh;
+            margin-left: -4em;
+        }
+        .arrow-btn1{
+            margin-left: 1vw;
+        }
+
+
     @media (width >= 1000px){
         .btn-advisory{
             font-size:1.5rem;
@@ -71,6 +104,8 @@
             width: 50vh;
             margin-top: 1vh;
             margin-top: 2rem;
+            margin-left: -10rem;
+
         }
         .arrow-btn1{
             margin-left: 1vw;
@@ -81,7 +116,7 @@
 
     @media (width >= 1600px){
         .btn-advisory{
-            margin-left:2em;
+            margin-left:-3em;
         }
         .arrow-btn1{
             margin-left: 1vw;

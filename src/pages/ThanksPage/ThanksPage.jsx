@@ -1,6 +1,6 @@
 import React from "react";
 import "./ThanksPage.css";
-import Jorge from "../../assets/img/jorge-4.png";
+import Jorge from "../../assets/img/jorge-9.jpg";
 import { Link } from "react-router-dom";
 import IntagramLogo from "../../assets/icons/logo_instagram.svg";
 import YoutubeLogo from "../../assets/icons/logo_youtube.svg";
@@ -35,15 +35,15 @@ function ThanksPage() {
           />
         </Link>
       </div>
-      <div className="Errorpage">
-        <img src={Jorge} alt="" className="imgError" />
-        <div className="Errormsg">
-          <h1>Gracias</h1>
-          <p>Hemos recibido tu solicitud.</p>
+      <div className="thankspage-container">
+        <div className="thanksmsg">
+          <h1 className="thanks-title">¡Gracias!</h1>
+          <p className="thanks-text">Hemos recibido tu solicitud.</p>
           <Link to="/">
-            <button className="btn-added">Volver al Inicio</button>
+            <button className="btn-thanks">Volver al Inicio</button>
           </Link>
         </div>
+        <img src={Jorge} alt="" className="imgthanks" />
       </div>
     </>
   );

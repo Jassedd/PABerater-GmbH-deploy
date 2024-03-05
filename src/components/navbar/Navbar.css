@@ -60,6 +60,7 @@ a.dropdown-item:hover{
 
   .arrow-btn{
     width: 2vh;
+    margin-left: 0.5em;
   }
   
   .LogoPaberater {
@@ -109,6 +110,10 @@ a.dropdown-item:hover{
     align-content: center !important;
   }
   
+
+
+
+
   @media (width >= 350px){
     .btn-nav {
       width: 21vh;
@@ -120,9 +125,13 @@ a.dropdown-item:hover{
     }
   }
 
-  @media (width >= 390px){
+
+
+
+  @media (width >= 375px){
     .btn-nav {
-      width: 25vh;
+      width: 24vh;
+      height: 4.3vh;
       font-size: 0.9rem;
 
     }
@@ -130,6 +139,26 @@ a.dropdown-item:hover{
       width: 65%;
     }
   }
+
+
+  @media (width >= 390px){
+    .btn-nav {
+      width: 24vh;
+      font-size: 0.9rem;
+
+    }
+    .NavContainer.container {
+      width: 65%;
+    }
+  }
+
+
+  @media (width >= 393px){
+    .btn-nav {
+      width: 23.5vh;
+    }
+  }
+
 
 
 
@@ -175,6 +204,11 @@ a.dropdown-item:hover{
   }
 }
 
+
+
+
+
+
 @media (width >= 992px){
 
   .navbar-expand-lg .navbar-nav .dropdown-menu {
@@ -183,6 +217,17 @@ a.dropdown-item:hover{
   }
   .mediaLogo.navbar-brand{
     width: 18%;
+  }
+  .btn-nav {
+    font-size: 0.8rem;
+    font-weight: 500;
+    height: 5vh;
+    width: 25vh;
+    margin-left: 4%;
+  }
+  .arrow-btn{
+    padding-left: 2%;
+    width: 2.5vw;
   }
 }
 

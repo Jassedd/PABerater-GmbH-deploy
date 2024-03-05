@@ -213,11 +213,11 @@ width: 36vh;
     font-size: 1rem;
     align-self: left;
     margin-top: 2rem;
-    margin-left: -1.5rem;
+    margin-left: -0.7rem;
   }
   .jorge-img2{
     width: 30vh;
-    margin-left: -1.5rem;
+    margin-left: -3rem;
   }
   
   .title-init{
@@ -230,6 +230,27 @@ width: 36vh;
     display: none;
   }
 }
+
+
+@media (width >= 375px){
+  .textbtn{
+    width: 45vw;
+    height: 22rem;
+    font-size: 1rem;
+    align-self: left;
+    margin-top: 2rem;
+    margin-left: -1.3rem;
+  }
+  .jorge-img2{
+    margin-left: -3.5rem;
+  }
+  .questionsTitleFormHome{
+    display: none;
+  }
+}
+
+
+
 
 @media (width >= 390px){
   .textbtn{
@@ -435,13 +456,17 @@ width: 36vh;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    height: 20vh;
+    height: 24vh;
     background-color:#C8A75A;
     border: 0;
   }
 
+.question_subtitle_form{
+  font-size: 2em;
+}
   .titleQuestionFormHome, .question_subtitle_form{
     align-self: center;
+    text-align: center;
     color:#25357a;
   }
 }
@@ -453,12 +478,12 @@ width: 36vh;
     height: 50vh;
   }
   .jorge5{
-    min-width: 60vh;
+    min-width: 50vh;
   }
   .home_background{
     bottom: 3rem;
     height: 60vh;
-   }
+  }
 }
 
 @media (width >= 1500px){

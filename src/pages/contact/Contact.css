@@ -155,6 +155,12 @@ svg {
 }
 }
 
+@media (width >=1000px){
+    .questionsTitle{
+        display: none;
+    }
+}
+
 
 
 
