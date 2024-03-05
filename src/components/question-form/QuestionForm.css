@@ -107,7 +107,6 @@
     .questionForm{
         padding: 10%;
         padding-top: 5%;
-        height: 97vh;
         margin-top: 5em;
         padding-bottom: 3em;
 
@@ -123,9 +122,20 @@
          padding: 10%;
          padding-top: 5%;
          padding-bottom: 3em;
-         height: 95vh;
          margin-top: 0;
-
      }
- 
  }
+
+ @media (width >= 2000px) {
+    .questionsTitle {
+     display: none;
+    }
+     .questionForm{
+         padding: 10%;
+         padding-top: 5%;
+         padding-bottom: 3em;
+         margin-top: 0;
+         max-height:70vh ;
+     }
+ }
+

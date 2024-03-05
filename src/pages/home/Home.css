@@ -504,3 +504,14 @@ margin-left: 1rem;
   }
 
 }
+
+
+
+@media (width >= 2000px){
+  .title-init{
+    font-size: 5rem;
+    text-align: left;
+    margin-top: -4rem;
+    margin-left: -8rem;
+  }
+}
