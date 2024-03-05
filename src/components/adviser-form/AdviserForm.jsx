@@ -21,12 +21,12 @@ function AdviserForm() {
     let body = {
       "name": nameUsr,
       "email": email,
-      "mensaje": descriptionUsr,
+      "description": descriptionUsr,
       "profession": professionUsr,
       "countryResidence": countryUsr,
       "nationality": nacionalityUsr,
       "subject": "Solicitud de asesoramiento",
-      "secret": "Shavesecreta"
+      "secret": import.meta.env.VITE_REACT_APP_SECRET
     };
 
     fetch('https://europe-west3-paberater-8ca33.cloudfunctions.net/EnviarCorreoPaberater-E', {

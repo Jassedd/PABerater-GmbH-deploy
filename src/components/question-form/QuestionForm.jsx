@@ -19,10 +19,10 @@ function QuestionForm() {
       let body = {
         "name": nameUsr,
         "email": email,
-        "mensaje": descriptionUsr,
+        "description": descriptionUsr,
         "profession": professionUsr,
         "subject": "Consulta",
-        "secret": "Shavesecreta"
+        "secret":  import.meta.env.VITE_REACT_APP_SECRET
       }
     fetch('https://europe-west3-paberater-8ca33.cloudfunctions.net/EnviarCorreoPaberater-E', {
       method: 'POST',
