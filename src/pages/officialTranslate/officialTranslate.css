@@ -48,7 +48,7 @@ svg{
 
 .title_section_translate{
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2.7rem;
     margin-top: 3rem;
     padding: 4%;
     color: #c8a75a;
@@ -57,11 +57,11 @@ svg{
     padding: 1.5em;
 }
 .title_text_translate{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     line-height: 1.7em;
     color: #25357a;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    padding-left: 1.2em;
+    padding-right: 1em;
 }
 .name_video3{
     font-weight: bold;
@@ -173,6 +173,7 @@ background-color: #25357a;
 .callToAction_translate_container3{
     background-color:#C8A75A;
     padding: 2rem;
+    
 }
 .text_callToAction_translate_container3{
     color:#25357a;
@@ -180,14 +181,16 @@ background-color: #25357a;
     line-height: 2.5rem;
 }
 .btn-contact_3{
-    margin: 2rem 0 2rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color:#25357a;
     color:white;
     border: 0;
-    width: 23vh;
-    height: 7vh;
+    width: 40vw;
+    height: 6vh;
     border-radius: 10px;   
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600; 
 }
 .btn-contact_3:hover {
@@ -224,10 +227,10 @@ background-color: #25357a;
     }
 
     .title_text_translate{
-        font-size: 1.5rem;
-        line-height: 1.7em;
-        padding-left: 2em;
-        padding-right: 2em;
+        font-size: 2rem;
+        line-height: 1.5em;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 
     .name_video3 {

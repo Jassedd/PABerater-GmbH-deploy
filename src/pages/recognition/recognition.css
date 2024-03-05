@@ -144,7 +144,8 @@ svg {
 
 .calltoaction_recognition_title {
     margin-top: -60%;
-    font-size: 1.6rem;
+    margin-left: -2em;
+    font-size: 1.5rem;
     color: #c8a75a;
     text-align: left;
 }
@@ -214,15 +215,17 @@ svg {
 }
 
 .btn-contact_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color:#25357a;
-    color:#C8A75A;
-    width: 20vh;
-    height: 6vh;
-    border-radius: 10px;
+    color:white;
     border: 0;
+    width: 40vw;
+    height: 6vh;
+    border-radius: 10px;   
     font-size: 1rem;
-    font-weight: 600;
-    margin-left: 25%;
+    font-weight: 600; 
 }
 
 .btn-contact_2:hover {
@@ -294,7 +297,8 @@ svg {
     }
 
     .calltoaction_recognition_title {
-        font-size: 1.8rem;
+        margin-left: -2em;
+        font-size: 1.7rem;
     }
     .btn-contact_2 {
         margin-left: 30%;

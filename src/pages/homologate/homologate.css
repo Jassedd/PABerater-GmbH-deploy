@@ -180,12 +180,12 @@ svg {
 }
 
 .callToAction_container2 {
-  background-color: #25357a;
+  background-color:#c8a75a;
   padding: 2rem;
 }
 
 .text_callToAction_container2 {
-  color: #c8a75a;
+  color:#25357a;
   font-size: 1.5rem;
   line-height: 2.5rem;
 }
@@ -194,8 +194,8 @@ svg {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #c8a75a;
-  color: #25357a;
+  background-color:#25357a;
+  color:#c8a75a;
   width: 40vw;
   height: 6vh;
   border-radius: 10px;
@@ -204,8 +204,8 @@ svg {
   font-weight: 600;
 }
 .btn-contact:hover {
-  background-color:#8898de;
-  color:#e9eaf1;
+  background-color:#e9eaf1;
+  color:#25357a;
 }
 
 .questions_container {

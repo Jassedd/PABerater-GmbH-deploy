@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import "./QuestionForm.css";
 import { createUsersForm } from "../../../firebase/firebaseBack";
-import { v4 as uuidv4 } from 'uuid';
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function QuestionForm() {
   const [email, setEmail] = useState("");
@@ -13,6 +12,7 @@ function QuestionForm() {
   const [descriptionUsr, setDescriptionUsr] = useState("");
   const [subscribeToList, setSubscribeToList] = useState(false);
 
+  const redirect= useNavigate()
 
   function sendEmail() {
 
@@ -80,7 +80,7 @@ function QuestionForm() {
     setSubscribeToList(false);
     setConfirmEmail("");
     sendEmail()
-    alert("Formulario enviado correctamente");
+    redirect("/gracias")
   }
   
   return (

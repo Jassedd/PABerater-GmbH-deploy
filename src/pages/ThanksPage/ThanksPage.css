@@ -1,0 +1,98 @@
+.thankspage-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:  #e9eaf1;
+    padding-top: 2em;
+}
+
+.SocialsThanks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #25357a;
+    height: 10vh;
+}
+.SocialsThanksLogo{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.imgthanks{
+    width: 50vh;
+    align-self: center;
+    padding: 2em;
+    border-radius: 0 15vh 0 20vh;
+}
+
+.thanksmsg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.thanks-title{
+font-size: 2.5rem;
+color: #25357a;
+}
+
+.thanks-text{
+    font-size: 1.5rem;
+    }
+
+
+.btn-thanks{
+    background-color: #25357a ;
+    border: 0;
+    width: 20vh;
+    height: 7.5vh;
+    border-radius: 10px;
+    color:#C8A75A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 2em;
+}
+
+.btn-thanks:hover{
+    background-color: #C8A75A;
+    color: #25357a;
+}
+
+
+
+@media (width >= 750px){
+    .thanks-title{
+        font-size: 3rem;
+        }
+        .thanks-text{
+            font-size: 2rem;
+            }
+    .btn-thanks{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (width >= 1000px){
+    .thankspage-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color:  #e9eaf1;
+        padding-top: 2em;
+    }
+    .thanks-title{
+        font-size: 3rem;
+        }
+        .thanks-text{
+            font-size: 2rem;
+            }
+    .btn-thanks{
+        font-size: 1.3rem;
+    }
+}
