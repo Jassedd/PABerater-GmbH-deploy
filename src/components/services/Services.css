@@ -226,3 +226,16 @@ p, h3 {
     }
     
 }
+
+
+@media (width>=2000px){
+    .title-services{
+        font-size: 4rem;
+        text-align: center;
+    }
+    .allServices{
+        padding: 1em;
+    }
+    
+}
+

@@ -283,3 +283,11 @@ a.dropdown-item:hover{
     height: 27px;
   }
   }
+
+
+  @media (width >= 2000px){
+    .btn-nav {
+      font-size: 1.5rem;
+
+  } 
+  }

@@ -99,3 +99,20 @@
 }
 
 
+@media (width>=2000px){
+
+    .JoinUp_callToAction{
+        font-size: 2.5rem;
+    }
+    .btn_JU{
+        margin-top: 4vh;
+        margin-left: 8vw;
+    }
+
+    .JoinUp_text{
+        padding: 2rem;
+        font-size: 3rem;
+    }
+}
+
+
