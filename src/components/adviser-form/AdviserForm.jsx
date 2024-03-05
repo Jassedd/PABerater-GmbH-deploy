@@ -19,7 +19,7 @@ function AdviserForm() {
     let body = {
       "name": nameUsr,
       "email": email,
-      "mensaje": descriptionUsr,
+      "description": descriptionUsr,
       "profession": professionUsr,
       "countryResidence": countryUsr,
       "nationality": nacionalityUsr,

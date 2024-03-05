@@ -19,7 +19,7 @@ function QuestionForm() {
       let body = {
         "name": nameUsr,
         "email": email,
-        "mensaje": descriptionUsr,
+        "description": descriptionUsr,
         "profession": professionUsr,
         "subject": "Consulta",
         "secret":  import.meta.env.VITE_REACT_APP_SECRET
