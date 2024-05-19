@@ -193,6 +193,7 @@ const CookiePolicy = () => {
           octubre 25, 2023.
         </p>
       </div>
+      <script id="CookieDeclaration" src="https://consent.cookiebot.com/14982b2e-c1ea-46e6-b588-ca0829724b96/cd.js" type="text/javascript" async></script>
     </main>
   );
 };
