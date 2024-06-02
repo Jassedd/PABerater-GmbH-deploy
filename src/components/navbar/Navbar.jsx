@@ -13,6 +13,7 @@ import Arrow from "../../assets/icons/arrow.svg";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { AuthContext } from "../../authContext/AuthContext";
 import { useContext } from "react";
+import LanguageSelector from "../language-selector/LanguageSelector";
 
 function NavbarHome() {
   const navigate = useNavigate();
@@ -151,6 +152,7 @@ function NavbarHome() {
           </Container>
         </Navbar>
       ))}
+  
     </>
   );
 }

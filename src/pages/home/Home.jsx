@@ -10,13 +10,11 @@ import JoinUp from "../../components/join-up/JoinUp";
 import QuestionForm from "../../components/question-form/QuestionForm";
 import FeedInstagram from "../../components/instagram/feed-instagram";
 import ScrollToTop from "../../components/scrollToTop/ScrollToTop";
-import homeTranslations from "../../locales/es/home.json"
 import { useTranslation } from "react-i18next";
 
 const Home = () => {
   const { t } = useTranslation("home");
 
-  console.log(homeTranslations)
   return (
     <main>
       <ScrollToTop />
