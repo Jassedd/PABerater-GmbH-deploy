@@ -10,43 +10,41 @@ import JoinUp from "../../components/join-up/JoinUp";
 import QuestionForm from "../../components/question-form/QuestionForm";
 import FeedInstagram from "../../components/instagram/feed-instagram";
 import ScrollToTop from "../../components/scrollToTop/ScrollToTop";
+import homeTranslations from "../../locales/es/home.json"
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
+  const { t } = useTranslation("home");
+
+  console.log(homeTranslations)
   return (
     <main>
       <ScrollToTop />
-      
         <div className="div-init">
             <img src={Jorge2} alt="Jorge" className="jorge-img2" />           
           <div className="textbtn">
             <h1 className="title-init">
-              Asesoramos
-              <br />a <span className="resaltar">profesionales</span>
-              <br />
-              <span className="pequena">que</span>{" "}
-              <span className="pequena resaltar">desean</span>{" "}
-              <span className="resaltarEmigrar">emigrar</span>
-              <br />
-              <span className="pequena">a </span>
-              <span className="resaltar">Alemania</span>
+              {t("titles.title1")} <br />
+              {t("titles.title2")} <span className="resaltar">{t("titles.title3")}</span> <br />
+              <span className="pequena">{t("titles.title4")}</span>{" "}
+              <span className="pequena resaltar">{t("titles.title5")}</span>{" "}
+              <span className="resaltarEmigrar">{t("titles.title6")}</span> <br />
+              <span className="pequena">{t("titles.title7")}</span>{" "}
+              <span className="resaltar">{t("titles.title8")}</span>
             </h1>
             <BtnAdvisory />
           </div>
         </div>
         
           <div className="question-home">
-            <h1 className="titleWeDo">¿Qué Hacemos?</h1>
+            <h1 className="titleWeDo">{t("titles.whatWeDo")}</h1>
           </div>
       <section className="what-do-we-do">
         <div className="container-home">
           <div className="roadMapHome">
             <section className="Asesoramos">
-              <h2 className="titleStep">Asesoramos</h2>
-              <p>
-                a profesionales hispanohablantes a ingresar al mercado laboral
-                alemán prestando servicios relacionados con su reconocimientos
-                académico aquí en Alemania.
-              </p>
+              <h2 className="titleStep">{t("titles.section1")}</h2>
+              <p>{t("content.content1")}</p>
             </section>
             <svg
               width="50%"
@@ -64,13 +62,10 @@ const Home = () => {
 
             <section className="Acompañamos">
               <div className="empty">
-                <h2 className="titleStep">Acompañamos</h2>
+                <h2 className="titleStep">{t("titles.section2")}</h2>
               </div>
               <div className="empty">
-                <p>
-                  paso a paso, antes y durante el proceso de la homologación o
-                  reconocimiento de sus títulos profesionales.
-                </p>
+                <p>{t("content.content2")}</p>
               </div>
             </section>
             <svg
@@ -89,15 +84,10 @@ const Home = () => {
 
             <section className="Gestionamos">
               <div className="empty-column">
-                <h2 className="titleStep">Gestionamos</h2>
+                <h2 className="titleStep">{t("titles.section3")}</h2>
               </div>
               <div className="empty-column">
-                <p>
-                  TODO. En PABerater somos conocedores del proceso porque
-                  pasamos por ello y por eso nuestra misión es ayudarte
-                  proporcionándote toda la información de una manera accesible y
-                  fácil de entender.
-                </p>
+                <p>{t("content.content3")}</p>
               </div>
             </section>
           </div>
@@ -123,10 +113,9 @@ const Home = () => {
 
       <section className="questionsTitleFormHome">
         <h2 className="titleQuestionFormHome">
-          De seguro tienes mucha dudas y nosotros estamos dispuestos a
-          responderlas todas
+          {t("titles.questionsTitle")}
         </h2>
-        <p className="question_subtitle_form">respuesta en 24 horas</p>
+        <p className="question_subtitle_form">{t("content.questionsSubtitle")}</p>
       </section>
 
       <section className="contactHome-section"> 
