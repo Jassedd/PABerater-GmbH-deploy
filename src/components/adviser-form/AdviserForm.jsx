@@ -17,7 +17,18 @@ function AdviserForm() {
 
   const redirect= useNavigate()
 
-  function sendEmail() {
+  async function sendEmail() {
+
+    let zapBody = {
+      "name": nameUsr,
+      "email": email,
+      "description": descriptionUsr,
+      "profession": professionUsr,
+      "countryResidence": countryUsr,
+      "nationality": nacionalityUsr,
+      "subject": "Solicitud de asesoramiento"
+    }
+
     let body = {
       "name": nameUsr,
       "email": email,
@@ -29,23 +40,26 @@ function AdviserForm() {
       "secret": import.meta.env.VITE_REACT_APP_SECRET
     };
 
-    fetch('https://europe-west3-paberater-8ca33.cloudfunctions.net/EnviarCorreoPaberater-E', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(body)
-    })
+    try {
+      await fetch('https://europe-west3-paberater-8ca33.cloudfunctions.net/EnviarCorreoPaberater-E', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(body)
+      });
+  
+      await fetch('https://hooks.zapier.com/hooks/catch/16091476/30sjlhg/', {
+        method: 'POST',
+        body: JSON.stringify(zapBody)
+      });
+  
+      console.log('Ambas solicitudes fueron exitosas.');
+    } catch (error) {
+      console.error('Hubo un problema con las solicitudes:', error);
+    }
 
-    fetch('https://hooks.zapier.com/hooks/catch/16091476/30sjlhg/', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(body)
-    })
-
-  }
+  };
 
   function handleSubmit(event) {
     event.preventDefault();

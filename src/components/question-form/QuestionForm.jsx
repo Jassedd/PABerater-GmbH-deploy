@@ -22,7 +22,7 @@ function QuestionForm() {
         "description": descriptionUsr,
         "profession": professionUsr,
         "subject": "Consulta",
-        "secret":  import.meta.env.VITE_REACT_APP_SECRET
+        "secret": import.meta.env.VITE_REACT_APP_SECRET
       }
     fetch('https://europe-west3-paberater-8ca33.cloudfunctions.net/EnviarCorreoPaberater-E', {
       method: 'POST',
