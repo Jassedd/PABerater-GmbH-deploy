@@ -8,15 +8,15 @@ import "./UsersForms.css";
 import { countries } from '../../components/countries/Countries';
 import Form from 'react-bootstrap/Form';
 
-
 function UsersForms() {
   const [usersData, setUsersData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
-  const [filterSubject, setFilterSubject] = useState(null);
-  const [filterCountry, setFilterCountry] = useState(null);
-  const [filterNationality, setFilterNationality] = useState(null);
-  const [filtersChanged, setFiltersChanged] = useState(false);
+  const [filters, setFilters] = useState({
+    subject: null,
+    country: null,
+    nationality: null,
+  });
 
   const pageSize = 12;
 
@@ -30,19 +30,18 @@ function UsersForms() {
       const usersCollection = collection(db, 'usersForms');
       let queryRef = query(usersCollection);
 
-      if (filterSubject) {
-        queryRef = query(usersCollection, where('subject', '==', filterSubject));
+      if (filters.subject) {
+        queryRef = query(queryRef, where('subject', '==', filters.subject));
       }
-      if (filterCountry) {
-        queryRef = query(usersCollection, where('country', '==', filterCountry));
+      if (filters.country) {
+        queryRef = query(queryRef, where('country', '==', filters.country));
+        console.log("Filtro de país:", filterCountry);
       }
-      if (filterNationality) {
-        queryRef = query(usersCollection, where('nacionality', '==', filterNationality));
+      if (filters.nationality) {
+        queryRef = query(queryRef, where('nacionality', '==', filters.nationality));
       }
 
       const querySnapshot = await getDocs(queryRef);
-
-      console.log('Documentos filtrados:', querySnapshot.size);
 
       const usersArray = [];
       querySnapshot.forEach((doc) => {
@@ -54,7 +53,6 @@ function UsersForms() {
 
       setUsersData(usersArray.slice(startIndex, endIndex));
       setLoading(false);
-      setFiltersChanged(false);
     } catch (error) {
       console.error('Error fetching data:', error);
       setLoading(false);
@@ -67,31 +65,22 @@ function UsersForms() {
 
   useEffect(() => {
     fetchData(currentPage);
-  }, [currentPage, filterSubject, filterCountry, filterNationality]);
+  }, [currentPage, filters]);
 
   const handleFilterChange = (event, filterType) => {
     const value = event.target.value;
-    switch (filterType) {
-      case 'subject':
-        setFilterSubject(value);
-        break;
-      case 'country':
-        setFilterCountry(value);
-        break;
-      case 'nacionality':
-        setFilterNationality(value);
-        break;
-      default:
-        break;
-    }
+    setFilters((prevFilters) => ({
+      ...prevFilters,
+      [filterType]: value,
+    }));
   };
 
-  
   const resetFilters = () => {
-    setFilterSubject(null);
-    setFilterCountry(null);
-    setFilterNationality(null);
-    fetchData(currentPage);
+    setFilters({
+      subject: null,
+      country: null,
+      nationality: null,
+    });
   };
 
   if (loading) {
@@ -113,11 +102,11 @@ function UsersForms() {
           </label>
           <label>
             Nacionalidad:
-            <Form.Select onChange={(e) => handleFilterChange(e, 'nacionality')}>
+            <Form.Select onChange={(e) => handleFilterChange(e, 'nationality')}>
               <option value="">Todos</option>
-              {countries.map((nacionality) => (
-                <option key={nacionality.id} value={nacionality.id}>
-                  {nacionality.name}
+              {countries.map((nationality) => (
+                <option key={nationality.id} value={nationality.id}>
+                  {nationality.name}
                 </option>
               ))}
             </Form.Select>
@@ -133,7 +122,7 @@ function UsersForms() {
               ))}
             </Form.Select>
           </label>
-          <button onClick={() => resetFilters()}>Reestablecer Filtros</button>
+          <button onClick={resetFilters}>Reestablecer Filtros</button>
         </div>
       {usersData.map((post, index) => (
           <div key={post.id} className={`user-container ${index % 2 === 0 ? 'even' : 'odd'}`}>
@@ -153,6 +142,9 @@ function UsersForms() {
                   </div>
                   <div className="user-detail">
                     <strong>Email:</strong> {post.email}
+                  </div>
+                  <div className="user-detail">
+                    <strong>Fecha:</strong> {post.date}
                   </div>
                   <div className="user-detail">
                     <Link to={`/descripcion/${post.id}`}>
