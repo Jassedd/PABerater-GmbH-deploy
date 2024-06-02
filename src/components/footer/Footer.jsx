@@ -6,9 +6,6 @@ import FacebookLogo from "../../assets/icons/logo_facebook.svg";
 import EmailIcon from "../../assets/icons/IconsmsIcon.svg";
 import PhoneIcon from "../../assets/icons/IconPhone.svg";
 import LocalIcon from "../../assets/icons/localitation.svg";
-import WhatsAppIcon from "../../assets/icons/whatsapp_blue.svg";
-import PhoneBlue from "../../assets/icons/phone_blue.svg";
-import Mailblue from "../../assets/icons/mail_blue.svg";
 import { Link } from "react-router-dom";
 
 
@@ -96,25 +93,6 @@ function Footer() {
         </p>
       </section>
 
-      <section className="contact_footer">
-      <div>
-        <Link to="tel:+4915780633091">
-        <img src={PhoneBlue} alt="" className="icons_action" />
-        </Link> 
-        </div>
-
-        <div>
-        <Link to="mailto:info@paberater.de">
-        <img src={Mailblue} alt="" className="icons_action"  />
-        </Link> 
-        </div>
-
-        <div>
-        <Link to="https://wa.me/4915753370000">
-        <img src={WhatsAppIcon} alt="" className="icons_action" />
-        </Link>   
-        </div>
-      </section>
     </>
   );
 }

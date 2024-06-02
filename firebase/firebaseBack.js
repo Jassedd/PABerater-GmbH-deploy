@@ -1,4 +1,4 @@
-import { collection, addDoc, doc, setDoc } from 'firebase/firestore';
+import { collection, addDoc, doc, setDoc, Timestamp } from 'firebase/firestore';
 import { v4 as uuidv4 } from 'uuid';
 import { db } from './firebase';
 
@@ -35,6 +35,7 @@ export async function createUsersFormLanding( name, email, subject, nacionality,
       country: country,
       profession: profession,
       description: description,
+      date: Timestamp.now()
     });
 
     console.log("Usuario creado exitosamente");
@@ -55,6 +56,7 @@ export async function createUsersForm( name, email, subject, profession, descrip
       subject: subject,
       profession: profession,
       description: description,
+      date: Timestamp.now()
     });
 
     console.log("Usuario creado exitosamente");

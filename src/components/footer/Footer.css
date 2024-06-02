@@ -112,19 +112,6 @@ color:#bebec5 !important;
     padding: 5vh;
 }
 
-.contact_footer{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    align-items: center ;
-    background-color: #C8A75A;
-    width: 100%;
-    padding: 4%;
-    position: sticky !important;
-    bottom: 0 !important;
-  
-}
-
 .icons_action{
     width: 8vw;
     color:#25357a
@@ -134,9 +121,6 @@ color:#bebec5 !important;
 .directionFooter{
   text-align: center;
 }
-
-
-
 
 
 @media (width >= 750px){
@@ -243,11 +227,6 @@ color:#bebec5 !important;
         color:#bebec5;
       }
 
-      .contact_footer {
-        padding: 1rem 5rem;
-        position: sticky !important;
-        bottom: 0 !important;
-      }
 
       .icons_action{
         width: 6vw;
@@ -256,10 +235,6 @@ color:#bebec5 !important;
     }
 
 @media (width >= 1000px) {
-
-    .contact_footer{
-      display: none;
-    }
 
     .pinedaFooter {
       display: flex;
@@ -332,9 +307,6 @@ color:#bebec5 !important;
 
     .IconsFooter {
       width: 9vh;
-    }
-    .contact_footer {
-      padding: 1rem 5rem;
     }
   }
   

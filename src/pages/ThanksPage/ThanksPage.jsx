@@ -38,7 +38,8 @@ function ThanksPage() {
       <div className="thankspage-container">
         <div className="thanksmsg">
           <h1 className="thanks-title">¡Gracias!</h1>
-          <p className="thanks-text">Hemos recibido tu solicitud.</p>
+          <p className="thanks-text">Gracias por dar este gran paso para tu crecimiento profesional. Nuestro equipo estará brindándote un seguimiento dentro de las próximas 48 horas vía mail. <br /> ¡No olvides revisar tu bandeja de spam! 
+</p>
           <Link to="/">
             <button className="btn-thanks">Volver al Inicio</button>
           </Link>
