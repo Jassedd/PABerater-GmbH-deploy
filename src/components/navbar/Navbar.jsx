@@ -152,7 +152,7 @@ function NavbarHome() {
           </Container>
         </Navbar>
       ))}
-  
+    {/*<LanguageSelector/>*/}
     </>
   );
 }
