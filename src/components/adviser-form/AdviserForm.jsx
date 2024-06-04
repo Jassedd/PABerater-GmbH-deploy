@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import "./AdviserForm.css";
-import { createUsersFormLanding } from "../../../firebase/firebaseBack";
+import { createUsersFormLanding } from "../../../firebase/firebaseBack";x
 import { countries } from "../countries/Countries";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -30,7 +30,8 @@ function AdviserForm() {
       "campaign_source": "Facebook",
       "campaign_medium":"ingenieros",
       "campaign_name":"campaign 1",
-      "campaign_id": "ad 1"
+      "campaign_id": "ad 1",
+      "timestamp": new Date().toISOString() 
     }
 
     let body = {
