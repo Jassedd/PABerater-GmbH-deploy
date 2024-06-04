@@ -26,7 +26,11 @@ function AdviserForm() {
       "profession": professionUsr,
       "countryResidence": countryUsr,
       "nationality": nacionalityUsr,
-      "subject": "Solicitud de asesoramiento"
+      "subject": "Solicitud de asesoramiento",
+      "campaign_source": "Facebook",
+      "campaign_medium":"ingenieros",
+      "campaign_name":"campaign 1",
+      "campaign_id": "ad 1"
     }
 
     let body = {
