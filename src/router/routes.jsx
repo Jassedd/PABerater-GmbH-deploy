@@ -30,6 +30,7 @@ import Agb from "../pages/agb/agb";
 import EngineeringRecognition from "../pages/engineeringRecognition/EngineeringRecognition";
 import SuccesStories from "../pages/successStories/SuccesStories";
 import ThanksPage from "../pages/ThanksPage/ThanksPage";
+import DownloadPdf from "../components/DownloadPdf/DownloadPdf";
 
 const router = createBrowserRouter([
     {
@@ -80,6 +81,10 @@ const router = createBrowserRouter([
         {
           path:"/gracias",
           element: <ThanksPage />
+        },
+        {
+          path:"/somosPABerater",
+          element: <DownloadPdf />
         },
         {
           path:"/blogPABerater/:id",
