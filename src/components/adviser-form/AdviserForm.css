@@ -7,6 +7,16 @@ a.termsform{
     background-color: #E9EAF1;
     border: 0;
 }
+.optionalSection, .accordion-button{
+    color:light-dark(graytext, rgb(170, 170, 170)) !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.accordion-body{
+    background-color: #E9EAF1;
+}
+.optionalLabel{
+    color: #25357a;
+}
 
 .adviserForm{
     background-color: #E9EAF1;
@@ -15,7 +25,7 @@ a.termsform{
 }
 
 
-#controlNamesAdviser, #controlEmailsAdviser, #controlEmailConfirmationAdviser, #controlProfessionAdviser, #controlNationalityAdviser, #controlCountryAdviser{
+#controlNamesAdviser, #controlEmailsAdviser, #controlEmailConfirmationAdviser, #controlProfessionAdviser, #controlNationalityAdviser, #controlCountryAdviser, #controlTelefono{
     height: 3rem;
     color:#a3a3a3;
 }
