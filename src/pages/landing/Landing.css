@@ -1,4 +1,7 @@
-
+html{
+    padding: 0;
+    margin: 0;
+}
   h1, h2, h5 {
     font-family: 'DM Serif Display', serif;
   }
@@ -67,7 +70,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
+    width: 90%;
     color:#C8A75A;
 }
 
@@ -117,7 +120,7 @@
 
 .jorge-5{
     margin-top: 1.7rem;
-width:45vh;
+    width:45vh;
 }
 
 .arowsImg{

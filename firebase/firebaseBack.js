@@ -21,12 +21,15 @@ export async function createNews(title, description, imageUrl) {
   }
 }
 
-export async function createUsersFormLanding( name, email, subject, nacionality, country, profession, description) {
+export async function createUsersFormLanding(
+  name, email, subject, nacionality, country, profession, description,
+  telefono, hasEmigrated, moveDate, maritalStatus, germanLevel, englishLevel, estimatedCost, motivation
+) {
   try {
     const idUsers = uuidv4();
     const usersFormsCollection = collection(db, 'usersForms');
 
-    const usersDocRef = doc(usersFormsCollection, idUsers)
+    const usersDocRef = doc(usersFormsCollection, idUsers);
     await setDoc(usersDocRef, {
       name: name,
       email: email,
@@ -35,6 +38,14 @@ export async function createUsersFormLanding( name, email, subject, nacionality,
       country: country,
       profession: profession,
       description: description,
+      telefono: telefono, 
+      hasEmigrated: hasEmigrated,
+      moveDate: moveDate,
+      maritalStatus: maritalStatus,
+      germanLevel: germanLevel,
+      englishLevel: englishLevel,
+      estimatedCost: estimatedCost,
+      motivation: motivation,
       date: Timestamp.now()
     });
 
