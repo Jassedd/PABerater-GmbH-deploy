@@ -266,10 +266,10 @@ function AdviserForm() {
 
       <Accordion className="inputInfoAdviser">
         <Accordion.Item eventKey="0">
-          <Accordion.Header>Cuéntanos de ti (Opcional)</Accordion.Header>
+          <Accordion.Header className="optionalSection">Cuéntanos de ti (Opcional)</Accordion.Header>
           <Accordion.Body>
             <Form.Group className="inputInfoAdviser" controlId="controlHasEmigrated">
-              <Form.Label>¿Has emigrado anteriormente?</Form.Label>
+              <Form.Label className="optionalLabel">¿Has emigrado anteriormente?</Form.Label>
               <Form.Select
                 aria-label="¿Has emigrado anteriormente?"
                 value={hasEmigrated}
@@ -282,7 +282,7 @@ function AdviserForm() {
             </Form.Group>
 
             <Form.Group className="inputInfoAdviser" controlId="controlMoveDate">
-              <Form.Label>Fecha prevista para mudarse a Alemania</Form.Label>
+              <Form.Label className="optionalLabel">Fecha prevista para mudarse a Alemania</Form.Label>
               <Form.Select
                 aria-label="Fecha prevista para mudarse a Alemania"
                 value={moveDate}
@@ -297,7 +297,7 @@ function AdviserForm() {
             </Form.Group>
 
             <Form.Group className="inputInfoAdviser" controlId="controlMaritalStatus">
-              <Form.Label>Estado civil y familiar</Form.Label>
+              <Form.Label className="optionalLabel">Estado civil y familiar</Form.Label>
               <Form.Select
                 aria-label="Estado civil y familiar"
                 value={maritalStatus}
@@ -312,7 +312,7 @@ function AdviserForm() {
             </Form.Group>
 
             <Form.Group className="inputInfoAdviser" controlId="controlGermanLevel">
-              <Form.Label>Nivel de dominio en Alemán</Form.Label>
+              <Form.Label className="optionalLabel">Nivel de dominio en Alemán</Form.Label>
               <Form.Select
                 aria-label="Nivel de dominio en Alemán"
                 value={germanLevel}
@@ -326,7 +326,7 @@ function AdviserForm() {
             </Form.Group>
 
             <Form.Group className="inputInfoAdviser" controlId="controlEnglishLevel">
-              <Form.Label>Nivel de dominio en Inglés</Form.Label>
+              <Form.Label className="optionalLabel">Nivel de dominio en Inglés</Form.Label>
               <Form.Select
                 aria-label="Nivel de dominio en Inglés"
                 value={englishLevel}
@@ -340,7 +340,7 @@ function AdviserForm() {
             </Form.Group>
 
             <Form.Group className="inputInfoAdviser" controlId="controlEstimatedCost">
-              <Form.Label>¿Cuánto estimas que costaría comenzar una nueva vida en Alemania?</Form.Label>
+              <Form.Label className="optionalLabel">¿Cuánto estimas que costaría comenzar una nueva vida en Alemania?</Form.Label>
               <Form.Select
                 aria-label="¿Cuánto estimas que costaría comenzar una nueva vida en Alemania?"
                 value={estimatedCost}
@@ -355,7 +355,7 @@ function AdviserForm() {
             </Form.Group>
 
             <Form.Group className="inputInfoAdviser" controlId="controlMotivation">
-              <Form.Label>¿Qué te motivaría a iniciar una nueva vida en Alemania?</Form.Label>
+              <Form.Label className="optionalLabel">¿Qué te motivaría a iniciar una nueva vida en Alemania?</Form.Label>
               <Form.Select
                 aria-label="¿Qué te motivaría a iniciar una nueva vida en Alemania?"
                 value={motivation}
