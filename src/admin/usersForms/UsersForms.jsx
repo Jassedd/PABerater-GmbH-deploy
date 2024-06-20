@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { collection, getDocs, query, where, orderBy, limit, startAfter } from 'firebase/firestore';
+import { collection, getDocs, query, where } from 'firebase/firestore';
 import { db } from "../../../firebase/firebase";
 import Pagination from '../../components/pagination/Pagination';
 import ScrollToTop from '../../components/scrollToTop/ScrollToTop';
@@ -12,41 +12,37 @@ function UsersForms() {
   const [usersData, setUsersData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
-  const [lastVisible, setLastVisible] = useState(null);
   const [filters, setFilters] = useState({
-    subject: "",
-    country: "",
-    nacionality: "",
+    subject: null,
+    country: null,
+    nationality: null,
   });
-  const [totalUsersCount, setTotalUsersCount] = useState(0);
 
-  const pageSize = 20;
+  const pageSize = 12;
 
-  const fetchData = async (page, filters) => {
+  const fetchData = async (page) => {
     setLoading(true);
+
+    const startIndex = (page - 1) * pageSize;
+    const endIndex = startIndex + pageSize;
 
     try {
       const usersCollection = collection(db, 'usersForms');
-      let queryRef = query(usersCollection, orderBy('date', 'desc'));
+      let queryRef = query(usersCollection);
 
       if (filters.subject) {
         queryRef = query(queryRef, where('subject', '==', filters.subject));
       }
       if (filters.country) {
         queryRef = query(queryRef, where('country', '==', filters.country));
+        console.log("Filtro de país:", filterCountry);
       }
-      if (filters.nacionality) {
-        queryRef = query(queryRef, where('nacionality', '==', filters.nacionality));
-      }
-
-      if (page > 1 && lastVisible) {
-        queryRef = query(queryRef, startAfter(lastVisible), limit(pageSize));
-      } else {
-        queryRef = query(queryRef, limit(pageSize));
-        setLastVisible(null); // Reset lastVisible for new queries
+      if (filters.nationality) {
+        queryRef = query(queryRef, where('nacionality', '==', filters.nationality));
       }
 
       const querySnapshot = await getDocs(queryRef);
+
       const usersArray = [];
       querySnapshot.forEach((doc) => {
         usersArray.push({
@@ -55,15 +51,7 @@ function UsersForms() {
         });
       });
 
-      const lastVisibleDoc = querySnapshot.docs[querySnapshot.docs.length - 1];
-      setLastVisible(lastVisibleDoc);
-
-      const totalUsersRef = query(usersCollection);
-      const totalUsersSnapshot = await getDocs(totalUsersRef);
-      const totalUsersCount = totalUsersSnapshot.size;
-      setTotalUsersCount(totalUsersCount);
-
-      setUsersData(usersArray);
+      setUsersData(usersArray.slice(startIndex, endIndex));
       setLoading(false);
     } catch (error) {
       console.error('Error fetching data:', error);
@@ -71,8 +59,12 @@ function UsersForms() {
     }
   };
 
+  const onPageChange = (page) => {
+    setCurrentPage(page);
+  };
+
   useEffect(() => {
-    fetchData(currentPage, filters);
+    fetchData(currentPage);
   }, [currentPage, filters]);
 
   const handleFilterChange = (event, filterType) => {
@@ -81,22 +73,14 @@ function UsersForms() {
       ...prevFilters,
       [filterType]: value,
     }));
-    setCurrentPage(1); 
-    setLastVisible(null); 
   };
 
   const resetFilters = () => {
     setFilters({
-      subject: "",
-      country: "",
-      nacionality: "",
+      subject: null,
+      country: null,
+      nationality: null,
     });
-    setCurrentPage(1);
-    setLastVisible(null); 
-  };
-
-  const onPageChange = (page) => {
-    setCurrentPage(page);
   };
 
   if (loading) {
@@ -107,10 +91,10 @@ function UsersForms() {
     <section>
       <ScrollToTop />
       <section className='Users'>
-        <div className="filter-controls">
+      <div className="filter-controls">
           <label>
             Asunto:
-            <Form.Select value={filters.subject} onChange={(e) => handleFilterChange(e, 'subject')}>
+            <Form.Select onChange={(e) => handleFilterChange(e, 'subject')}>
               <option value="">Todos</option>
               <option value="Solicitud de asesoramiento">Solicitud de Asesoría</option>
               <option value="Contacto">Contacto</option>
@@ -118,18 +102,18 @@ function UsersForms() {
           </label>
           <label>
             Nacionalidad:
-            <Form.Select value={filters.nacionality} onChange={(e) => handleFilterChange(e, 'nacionality')}>
+            <Form.Select onChange={(e) => handleFilterChange(e, 'nationality')}>
               <option value="">Todos</option>
-              {countries.map((nacionality) => (
-                <option key={nacionality.id} value={nacionality.id}>
-                  {nacionality.name}
+              {countries.map((nationality) => (
+                <option key={nationality.id} value={nationality.id}>
+                  {nationality.name}
                 </option>
               ))}
             </Form.Select>
           </label>
           <label>
             País de residencia:
-            <Form.Select value={filters.country} onChange={(e) => handleFilterChange(e, 'country')}>
+            <Form.Select onChange={(e) => handleFilterChange(e, 'country')}>
               <option value="">Todos</option>
               {countries.map((country) => (
                 <option key={country.id} value={country.id}>
@@ -140,44 +124,39 @@ function UsersForms() {
           </label>
           <button onClick={resetFilters}>Reestablecer Filtros</button>
         </div>
-        {usersData.map((user, index) => (
-          <div key={user.id} className={`user-container ${index % 2 === 0 ? 'even' : 'odd'}`}>
+      {usersData.map((post, index) => (
+          <div key={post.id} className={`user-container ${index % 2 === 0 ? 'even' : 'odd'}`}>
             <ul className='unorderListUsers' type="none">
-              <li className='usersList'>{user.name}
-                <div className="user-detail">
-                  <strong>Asunto:</strong> {user.subject}
-                </div>
-                <div className="user-detail">
-                  <strong>Profesión:</strong> {user.profession}
-                </div>
-                <div className="user-detail">
-                  <strong>Nacionalidad:</strong> {user.nacionality}
-                </div>
-                <div className="user-detail">
-                  <strong>País de residencia:</strong> {user.country}
-                </div>
-                <div className="user-detail">
-                  <strong>Email:</strong> {user.email}
-                </div>
-                <div className="user-detail">
-                  <strong>Fecha:</strong> {new Date(user.date.seconds * 1000).toLocaleDateString()}
-                </div>
-                <div className="user-detail">
-                  <Link to={`/descripcion/${user.id}`}>
-                    <strong className='dscription'>Descripción</strong>
-                  </Link>
-                </div>
-              </li>
+                <li className='usersList'>{post.name}
+                  <div className="user-detail">
+                    <strong>Asunto:</strong> {post.subject}
+                  </div>
+                  <div className="user-detail">
+                    <strong>Profesión:</strong> {post.profession}
+                  </div>
+                  <div className="user-detail">
+                    <strong>Nacionalidad:</strong> {post.nacionality}
+                  </div>
+                  <div className="user-detail">
+                    <strong>País de residencia:</strong> {post.country}
+                  </div>
+                  <div className="user-detail">
+                    <strong>Email:</strong> {post.email}
+                  </div>
+                  <div className="user-detail">
+                    <strong>Fecha:</strong> {post.date}
+                  </div>
+                  <div className="user-detail">
+                    <Link to={`/descripcion/${post.id}`}>
+                      <strong className='dscription'>Descripción</strong>
+                    </Link>
+                  </div>
+                </li>
             </ul>
           </div>
         ))}
       </section>
-      <Pagination
-        totalItems={totalUsersCount}
-        itemsPerPage={pageSize}
-        currentPage={currentPage}
-        onPageChange={onPageChange}
-      />
+      <Pagination totalItems={usersData.length} itemsPerPage={pageSize} onPageChange={onPageChange} />
     </section>
   );
 }
