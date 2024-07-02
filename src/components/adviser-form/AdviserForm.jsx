@@ -266,8 +266,7 @@ function AdviserForm() {
 
       <Accordion className="inputInfoAdviser">
         <Accordion.Item eventKey="0">
-          <Accordion.Header className="optionalSection">Cuéntanos de ti (Opcional)</Accordion.Header>
-          <Accordion.Body>
+          <div className="optionalSection">Cuéntanos de ti (Opcional)</div>
             <Form.Group className="inputInfoAdviser" controlId="controlHasEmigrated">
               <Form.Label className="optionalLabel">¿Has emigrado anteriormente?</Form.Label>
               <Form.Select
@@ -369,7 +368,7 @@ function AdviserForm() {
                 <option value="Todas las anteriores">Todas las anteriores</option>
               </Form.Select>
             </Form.Group>
-          </Accordion.Body>
+          
         </Accordion.Item>
       </Accordion>
 

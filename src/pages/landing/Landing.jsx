@@ -9,8 +9,10 @@ import AdviserForm from "../../components/adviser-form/AdviserForm"
 import BtnStartBlue from "../../components/btn-start-Blue/BtnStartBlue"
 import ScrollToTop from "../../components/scrollToTop/ScrollToTop"
 import NewsMedia from "../../components/news-media/NewsMedia"
+import LandingImg from "../../assets/img/Landing-img.jpeg"
 import { Link } from "react-router-dom"
 import "animate.css"
+
 
 function scrollToForm() {
     const formSection = document.getElementById('adviser-form-landing');
@@ -26,15 +28,7 @@ function Landing() {
     
     <section className="form_landing">
         <div className="frame-youtube">
-            <iframe
-            width="100%"
-            height="700vh"
-            src={`https://www.youtube.com/embed/I_xoQ3T-FoM`}
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            ></iframe>
+            <img src={LandingImg} className="pinedaImage" alt="Pineda-Paberater" />
         </div>
         <div className="adviser-form-landing" id="adviser-form-landing">
             <div className="section-assignment">

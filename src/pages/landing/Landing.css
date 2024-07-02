@@ -52,6 +52,10 @@ html{
     margin: 0;
 }
 
+.pinedaImage{
+    width: 100%;
+}
+
 .landing-contact{
     display: flex;
     flex-direction: column;
