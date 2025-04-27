@@ -10,7 +10,7 @@ import ScrollToTop from "../../components/scrollToTop/ScrollToTop";
 import NewsMedia from "../../components/news-media/NewsMedia";
 import LandingImg from "../../assets/img/Landing-img.jpeg";
 import { Link } from "react-router-dom";
-import IconPhone2 from "../../assets/icons/Iconphone3.svg";
+//import IconPhone2 from "../../assets/icons/Iconphone3.svg";
 
 import "animate.css";
 
@@ -92,11 +92,11 @@ function Landing() {
                     </div>
                     <h2 className="title_landing-contact">¿HABLAMOS?</h2>
                     <div className="phone_landing">
-                        <img
+                        {/*   <img
                             src={IconPhone2}
                             alt="phone icon"
                             className="phone_icon"
-                        />
+                        /> */}
                         <a className="phoneNumber" href="tel:+4915780633091">
                             +49 157 806 33091
                         </a>
