@@ -1,0 +1,17 @@
+export const termsAndConditionsRoute = `/terms-and-conditions`;
+export const landingRoute = "/landing";
+export const contactRoute = "/contact";
+export const impressumRoute = "/impressum";
+export const agbRoute = "/agb";
+export const datenschutzRoute = "/datenschutz";
+export const cookiePolicyRoute = "/cookie-policy";
+export const aboutRoute = "/about";
+export const successStoriesRoute = "/success-stories";
+export const blogRoute = "/blog";
+export const homologationsRoute = "/homologations";
+export const recognitionRoute = "/recognition";
+export const engineersRecognitionRoute = "/engineeers-recognition";
+export const swornTranslationsRoute = "/official-translations";
+export const thankYouRoute = "/thank-you";
+export const signupRoute = "/newpaberater";
+export const loginRoute = "/hipaberater";

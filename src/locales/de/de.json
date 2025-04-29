@@ -1,0 +1,520 @@
+{
+    "translation": {
+        "general": {
+            "seeInstagramVideoButton": "Video ansehen",
+            "faqSectionTitle": "Häufig gestellte Fragen",
+            "callToActionBanner1": {
+                "title": "Dein Titel anerkennen lassen\n in Deutschland",
+                "subtitle": "ES IST MÖGLICH",
+                "button": "STARTEN WIR?"
+            },
+            "callToActionBanner2": {
+                "title": "In Deutschland als Fachkraft leben und arbeiten\n ist mit PABerater möglich!",
+                "button": "KONTAKTIEREN"
+            },
+            "address": "PABerater GmbH, \n Waltersdorfer Ch 203, \n 12355 Berlin, Deutschland"
+        },
+        "homePage": {
+            "seoTite": "home seo title",
+            "seoDescription": "home seo description",
+            "advisoryButton": "Beratung anfordern",
+            "faqTitle": "Sicher hast du viele Fragen, und wir sind bereit, sie alle zu beantworten",
+            "faqSubtitle": "Antwort in 24 Stunden",
+            "titles": {
+                "title1": "Wir beraten",
+                "title2": "Fachkräfte",
+                "title3": "die",
+                "title4": "auswandern",
+                "title5": "nach",
+                "title6": "Deutschland",
+                "whatWeDo": "Was machen wir?",
+                "section1": "Wir beraten",
+                "section2": "Wir begleiten",
+                "section3": "Wir verwalten",
+                "questionsTitle": "Sicher hast du viele Fragen, und wir sind bereit, sie alle zu beantworten"
+            },
+            "content": {
+                "content1": "Spanischsprachige Fachkräfte beim Einstieg in den deutschen Arbeitsmarkt, indem wir Dienstleistungen im Zusammenhang mit ihrer akademischen Anerkennung in Deutschland anbieten.",
+                "content2": "Schritt für Schritt, vor und während des Prozesses der Anerkennung oder Homologation ihrer beruflichen Titel.",
+                "content3": "ALLES. Bei PABerater kennen wir den Prozess, weil wir ihn selbst durchlaufen haben, und deshalb ist es unsere Mission, dir alle Informationen auf eine zugängliche und leicht verständliche Weise zur Verfügung zu stellen.",
+                "questionsSubtitle": "Antwort in 24 Stunden"
+            },
+            "talentBannerText": "Du bringst das Talent mit, \n wir kümmern uns um den Rest."
+        },
+        "data": "Welche Dienstleistungen bieten wir an?",
+        "engineeringRecognitionPage": {
+            "seoTite": "engineering recognition title",
+            "seoDescription": "engineering recognition description",
+            "callToActionTitle": "Deinen Titel anerkennen lassen\n in Deutschland",
+            "callToActionSubtitle": "ES IST MÖGLICH!",
+            "successCasesTitle": "Erfolgsgeschichten:",
+            "successCasesSubtitle": "Hier teilen wir einige unserer vielen Erfolgsgeschichten mit dir:",
+            "contactCallToActionButton": "KONTAKTIEREN",
+            "contactCallToActionText": "In Deutschland als Fachkraft leben und arbeiten ist mit PABerater möglich",
+            "callToActionButton": "STARTEN WIR?",
+            "title": "Anerkennung von\n Ingenieuren",
+            "bannerTitle": "Berufliche Anerkennung für Ingenieure.",
+            "bannerText": "Ingenieure in Deutschland können in einer Vielzahl von Sektoren arbeiten, z. B. in der Planung und technischen Kontrolle der Produktion, Qualitätskontrolle, Design oder im Bau von Geräten und Modellen. Mit guter Ausbildung und Erfahrung können sie sogar Führungspositionen erreichen."
+        },
+        "landingPage": {
+            "firstStepsText1BoldText": "Der",
+            "firstStepsText1": "<1>Der </1> erste Schritt in Richtung <2>deines beruflichen Wachstums</2> <3>in</3> Deutschland <4>ist nur 30 Minuten entfernt</4>",
+            "firstStepsText2": "deiner beruflichen Weiterentwicklung",
+            "firstStepsText3BoldText": "in",
+            "firstStepsText3": "<1>{{boldText}}</1> Deutschland",
+            "firstStepsText4": "ist nur 30 Minuten entfernt",
+            "title": "Wir weisen dir einen persönlichen Berater zu!",
+            "seoTitle": "Agb page seo title",
+            "seoDescription": "agb seo description",
+            "phone": "+49 157 806 33091",
+            "contactSection": {
+                "title1": "Der erste Schritt zu deiner beruflichen Weiterentwicklung\n in Deutschland ist nur 30 Minuten entfernt",
+                "title2": "Wir beantworten alle deine Fragen",
+                "title3": "Ein agiler, transparenter und vertrauenswürdiger Prozess",
+                "title4": "Möglichkeiten entsprechend\n deinem beruflichen Profil",
+                "text": "WOLLEN WIR SPRECHEN?",
+                "subtitle": "Du bringst das Talent mit, \n wir kümmern uns um den Rest"
+            },
+            "paymentSection": {
+                "subtitle": "Starte deinen Prozess und zahle in bequemen Raten",
+                "title": "Zahlungsmethoden",
+                "choosePlanTitle": "Wähle den für dich idealen Plan.",
+                "button": "Ich möchte mehr erfahren!",
+                "text1": "Starte deinen Prozess und zahle 50% nach fünfzehn Tagen. Bezahle den Rest zwei Monate später.",
+                "offerAmount": "100€",
+                "text2": "Schnellzahlung. Zahlung auf einmal und du erhältst einen Rabatt von<1> {{amount}}<1/>"
+            }
+        },
+        "signupPage": {
+            "emailLabel": "E-Mail",
+            "nameLabel": "Name und Nachname",
+            "passwordLabel": "Passwort",
+            "button": "Registrieren",
+            "link1": "Hast du bereits ein Konto? ",
+            "link2": "Einloggen? ",
+            "uknownError": "Unbekannter Fehler. Bitte versuche es erneut",
+            "emailInUse": "Die E-Mail-Adresse wird bereits verwendet",
+            "weakPassword": "Das Passwort muss mindestens 6 Zeichen lang sein",
+            "success": "Erfolgreiche Registrierung. Willkommen!"
+        },
+        "loginPage": {
+            "emailLabel": "E-Mail",
+            "loginButton": "Anmelden",
+            "passwordLabel": "Passwort",
+            "loginWithGoogle": "Mit Google anmelden",
+            "forgotPasswordLabel": "Passwort vergessen?",
+            "userNotFound": "Benutzerdaten nicht gefunden. Bitte versuche es erneut.",
+            "loginFailed": "Anmeldung fehlgeschlagen. Bitte überprüfen Sie Ihre Anmeldedaten und versuchen Sie es erneut.",
+            "tooManyTries": "Zu viele Versuche. Bitte versuche es später erneut.",
+            "invalidPassword": "E-Mail oder Passwort ist falsch. Überprüfen Sie Ihre Anmeldedaten.",
+            "invalidEmail": "Ungültige E-Mail-Adresse. Überprüfen Sie Ihre E-Mail-Adresse.",
+            "seoTitle": "Login-Seite SEO Titel",
+            "seoDescription": "Login-Seite SEO Beschreibung",
+            "noEmail": "Bitte geben Sie Ihre E-Mail-Adresse ein",
+            "resetPasswordMessage": "Eine Nachricht zum Zurücksetzen des Passworts wurde an Ihre E-Mail-Adresse gesendet."
+        },
+        "successStoriesPage": {
+            "seoTitle": "Erfolgsgeschichten Seite SEO Titel",
+            "seoDescription": "Erfolgsgeschichten Seite Beschreibung",
+            "title": "Erfolgsgeschichten",
+            "text": "Unsere Klienten hatten die Gelegenheit, ihre Erfahrungen zu teilen, die positiven Ergebnisse hervorzuheben, die sie erzielt haben, und den Einfluss, den unsere Zusammenarbeit auf ihre Entwicklung hatte. Ihre Geschichten sind ein klarer Beweis dafür, wie wir sie bei ihrem Wachstum unterstützt und gemeinsam die gesetzten Ziele erreicht haben."
+        },
+        "errorPage": {
+            "title": "404 Nicht gefunden",
+            "text": "Die Seite, die Sie suchen, existiert nicht.",
+            "button": "Zurück zur Startseite"
+        },
+        "recognitionPage": {
+            "seoTitle": "Anerkennungsseite SEO Titel",
+            "seoDescription": "Anerkennungsseite Beschreibung",
+            "regulatedProfessionsBanner": {
+                "title": "Regulierte Berufe",
+                "text": "Für regulierte Berufe ist der akademische Titel besonders geschützt. Wenn Sie einen regulierten Beruf studiert haben, müssen Sie eine Anerkennung in Deutschland beantragen, um in Ihrem Beruf arbeiten zu können. Zu den regulierten Berufen in Deutschland gehören unter anderem Ärzte und das gesamte Gesundheitswesen, Lehrer und andere.\n\nWas passiert, wenn Ihre Qualifikation nicht vollständig anerkannt wird?\n\nIn diesem Fall wird die zuständige Behörde eine Ausgleichsmaßnahme festlegen, mit der Sie die grundlegenden Unterschiede ausgleichen können. Wenn Sie die Ausgleichsmaßnahme erfolgreich abschließen, wird die Gleichwertigkeit erklärt.",
+                "title2": "Nicht regulierte Berufe",
+                "text2": "Wenn Sie in einem Land außerhalb der Europäischen Union einen nicht regulierten Beruf studiert haben, ist für die Beantragung eines Arbeitsvisums in Deutschland oder eines Visums zur Arbeitssuche die Anerkennung Ihrer akademischen Qualifikationen in Deutschland erforderlich."
+            },
+            "title": "Anerkennung von Berufsabschlüssen",
+            "banner": {
+                "title": "Anerkennung von Berufsabschlüssen in Deutschland",
+                "subtitle": "Wenn Sie einen Universitätsabschluss von 4 bis 5 Jahren gemacht haben und Ihre Studien in Deutschland anerkennen lassen möchten, können Sie sich bei uns beraten lassen, um Ihren Antrag bei der zuständigen Behörde entsprechend Ihrem Beruf einzureichen."
+            },
+            "callToAction": {
+                "title": "Lassen Sie Ihren Abschluss in Deutschland anerkennen",
+                "subtitle": "ES IST MÖGLICH!",
+                "button": "LASS UNS ANFANGEN!"
+            },
+            "faq": {
+                "question1": "Was ist eine offizielle Anerkennung?",
+                "answer1": "Die Anerkennung Ihrer beruflichen Qualifikationen bedeutet, dass Ihre ausländischen Qualifikationen mit einem deutschen Beruf vergleichbar sind. Zum Beispiel, wenn Sie eine Ausbildung als Elektroniktechniker haben, sind Ihre Fähigkeiten und das erworbene Wissen mit denen vergleichbar, die den Titel 'Elektrotechniker' in Deutschland erhalten.",
+                "question2": "Was ist eine offizielle Anerkennung?",
+                "answer2": "Die Anerkennung Ihrer beruflichen Qualifikationen bedeutet, dass Ihre ausländischen Qualifikationen mit einem deutschen Beruf vergleichbar sind. Zum Beispiel, wenn Sie eine Ausbildung als Elektroniktechniker haben, sind Ihre Fähigkeiten und das erworbene Wissen mit denen vergleichbar, die den Titel 'Elektrotechniker' in Deutschland erhalten.",
+                "question3": "Was ist eine offizielle Anerkennung?",
+                "answer3": "Die Anerkennung Ihrer beruflichen Qualifikationen bedeutet, dass Ihre ausländischen Qualifikationen mit einem deutschen Beruf vergleichbar sind. Zum Beispiel, wenn Sie eine Ausbildung als Elektroniktechniker haben, sind Ihre Fähigkeiten und das erworbene Wissen mit denen vergleichbar, die den Titel 'Elektrotechniker' in Deutschland erhalten."
+            }
+        },
+        "translationsPage": {
+            "seoDescription": "Übersetzungsseite SEO Beschreibung",
+            "seoTitle": "Übersetzungsseite SEO Titel",
+            "pageTitle": "Beglaubigte Übersetzungen",
+            "bannerTitle": "Übersetzungen",
+            "bannerText": "Lassen Sie Ihre Dokumente von zertifizierten Übersetzern in Deutschland ins Deutsche übersetzen.",
+            "swornTranslationsTitle": "Beglaubigte Übersetzungen",
+            "swornTranslationsText": "Bei PABerater garantieren wir Ihnen einen professionellen Übersetzungsservice, der für seine Qualität anerkannt ist. Dieser Service wird von unseren offiziellen und vereidigten Übersetzern in Deutschland angeboten, die sich durch ihr Wissen, ihre Kompetenz und ihre Produktivität auszeichnen.\n\nWenn Sie Ihr Anerkennungsverfahren bei uns durchführen,",
+            "swornTranslationsBoldText": "erhalten Sie 30% Rabatt auf die Gesamtkosten Ihrer Übersetzungen.",
+            "cvTranslationsTitle": "CV-Übersetzungen",
+            "cvTranslationsText": "Die Einreichung einer vollständigen Bewerbungsmappe ist entscheidend, um in Deutschland einen guten Job zu finden, einschließlich eines Bewerbungsschreibens und des Lebenslaufs. Dank unserer Erfahrung wissen wir, wie man Ihren Lebenslauf und Ihr Bewerbungsschreiben so gestaltet, dass es die Aufmerksamkeit Ihres zukünftigen Arbeitgebers auf sich zieht. Wir zeigen Ihnen, wie Sie Ihre Bewerbungen einreichen und so Ihre Chancen erhöhen."
+        },
+        "thankYouPage": {
+            "seoDescription": "Kontaktseite SEO Beschreibung",
+            "seoTitle": "Kontaktseite SEO Titel",
+            "title": "Danke!",
+            "subtitle": "Wir haben Ihre Anfrage erhalten.",
+            "button": "Zurück zur Startseite!"
+        },
+        "whoWeArePage": {
+            "seoDescription": "Wer wir sind Seite SEO Beschreibung",
+            "seoTitle": "Wer wir sind Seite SEO Titel",
+            "historySection": {
+                "title": "Unsere Geschichte",
+                "fullCompanyName": "PABerater UG.",
+                "companyName": "PABerater GmbH",
+                "foundersName": "Jorge Joel Pineda Arcia",
+                "paragraph1": "Rechtsanwalt, Absolvent der Universidad Gran Mariscal de Ayacucho in Venezuela, lebte 2015 die Erfahrung der Migration und der Anerkennung seiner akademischen Qualifikationen in Deutschland. 2019 hatte er die Idee, einen Beratungsservice für beruflich qualifizierte Migranten anzubieten und gründete das Unternehmen.",
+                "paragraph2": "Aufgrund des stetigen Wachstums der Industrie in Deutschland und der zunehmenden Zahl offener Stellen im Ingenieurwesen fokussierte sich das Unternehmen zunächst auf diesen Industriebereich, arbeitet nun aber mit Kunden aus allen beruflichen Bereichen: Ärzte, Psychologen, Ingenieure.\nDas Unternehmen wächst kontinuierlich und dank der harten Arbeit und Hingabe ist es heute",
+                "paragraph3": "war ursprünglich auf diesen Industriesektor ausgerichtet und arbeitet jetzt mit Kunden aus allen Berufsbereichen: Ärzte, Psychopädagogen, Ingenieure. \nDas Unternehmen wächst kontinuierlich und dank des Engagements und der Hingabe ist es jetzt ",
+                "companyNameRegular": " PABerater"
+            },
+            "title": "Über uns",
+            "subtitle": "Wir sind ein privates Beratungsunternehmen mit Sitz in Deutschland. Wir haben uns darauf spezialisiert, qualifizierte Fachkräfte bei der Integration in den deutschen Arbeitsmarkt zu beraten und bieten Dienstleistungen im Zusammenhang mit der akademischen Anerkennung in Deutschland sowie Unterstützung bei der Jobsuche an.\nWir bieten einen umfassenden Service für Spanischsprachige.",
+            "banner": {
+                "title": "Wenn ich es konnte, kannst du es auch",
+                "subtitle": "PABerater",
+                "text": "Der ideale Partner für dein neues Leben in Deutschland"
+            }
+        },
+        "contactPage": {
+            "seoDescription": "Kontaktseite SEO Beschreibung",
+            "seoTitle": "Kontaktseite SEO Titel",
+            "title": "Kontakt",
+            "phone": "+49 157 806 33091",
+            "email": "info@paberarter.de",
+            "location": "Waltersdorfer Ch 20312355\n Berlin, Deutschland",
+            "contactForm": {
+                "title": "Sie haben sicherlich viele Fragen und wir sind bereit, sie alle zu beantworten",
+                "subtitle": "Antwort innerhalb von 24 Stunden",
+                "confirmEmailLabel": "E-Mail bestätigen *",
+                "emailLabel": "E-Mail *",
+                "requiredFieldsEmptyError": "Bitte füllen Sie alle Pflichtfelder aus.",
+                "emailsDontMatchError": "Die E-Mails stimmen nicht überein",
+                "nameLabel": "Vollständiger Name",
+                "selectCarreerLabel": "Wählen Sie Ihren Beruf",
+                "architectsLabel": "Architekt",
+                "medicsLabel": "Ärzte und Gesundheitsberufe",
+                "joinMailingListLabel": "Ich möchte den PABerater-Newsletter abonnieren",
+                "termsAndConditionsTitle": "*Ich habe die",
+                "termsAndConditions1": "*Ich habe die",
+                "termsAndConditionsText": " allgemeinen Geschäftsbedingungen gelesen und akzeptiere sie",
+                "formSubjectLabel": "Schreiben Sie hier Ihre Anfrage",
+                "engineersLabel": "Ingenieure",
+                "accountingLabel": "Verwaltung",
+                "others": "Andere Berufe",
+                "button": "Vereinbaren Sie meinen Termin"
+            }
+        },
+        "termsAndConditionsPage": {
+            "seoTitle": "AGB Seite SEO Titel",
+            "seoDescription": "AGB Seite SEO Beschreibung"
+        },
+        "homologationPage": {
+            "seoDescription": "Anerkennung SEO Beschreibung",
+            "seoTitle": "Anerkennungsseite SEO Titel",
+            "pageTitle": "Anerkennung",
+            "pageSubtitle": "von Medizintiteln",
+            "pageText": "In Deutschland als Gesundheitsfachkraft zu arbeiten bringt Ihnen große Vorteile: attraktive Gehälter, Sicherheit und Stabilität für Sie und Ihre Familie sowie die Möglichkeit eines stetigen beruflichen Wachstums. Ärzte, Spezialisten und Einrichtungen mit modernster Technologie machen das deutsche Gesundheitssystem zu einem der besten der Welt, und Sie können ein Teil davon werden. Da die Medizin ein staatlich regulierter Beruf ist, müssen Sie Ihre Qualifikationen anerkennen lassen, um in Deutschland arbeiten zu können. Wir begleiten Sie bei jedem Schritt und übernehmen die Formalitäten, damit Sie die staatliche Erlaubnis erhalten, Ihren Beruf auszuüben und Ihre Ziele zu erreichen, um einen Arbeitsplatz in Deutschland zu finden. Was die Sprache betrifft, so können Sie sie parallel während des Anerkennungsverfahrens mit uns lernen, bis Sie ein B2-Niveau erreichen, während wir uns um die Dokumentation und Bürokratie in Deutschland kümmern. Bevor Sie Ihr Gepäck packen, bereiten wir Ihre Papiere vor, damit Sie mit Vertrauen und festen Schritten in Ihre Zukunft gehen.",
+            "banner": {
+                "title": "Anerkennung des Medizintitels in Deutschland",
+                "text": "Der Motor Europas sucht derzeit dringend Mediziner und bietet durchschnittliche Monatsgehälter von 6.500 Euro für Allgemeinmediziner und bis zu 12.000 Euro je nach Fachgebiet."
+            },
+            "clients": {
+                "client1": {
+                    "title": "Darling Gonzáles, venezolanische Ärztin in Deutschland",
+                    "text": "Sie hat den Anerkennungsprozess ihres Universitätsabschlusses mit PABerater gestartet und steht kurz vor dem Abschluss.",
+                    "video": "https://www.youtube.com/embed/UGLXVXbxNXY"
+                }
+            },
+            "services": {
+                "title": "Unser Beratungsservice umfasst",
+                "subtitle": "Verlassen Sie sich auf unsere Beratung während des gesamten Prozesses.",
+                "service1": "Bewertung der beruflichen Situation in einem Erstgespräch. Wir berücksichtigen Ihren beruflichen Ansatz, um Ihre Anerkennung vorzubereiten, klären Ihre Fragen zum Prozess und zu den Arbeitsmöglichkeiten und senden Ihnen eine Liste aller erforderlichen Dokumente.",
+                "service2": "Wir sammeln und prüfen Ihre Unterlagen, bevor wir sie bei der zuständigen deutschen Behörde einreichen.",
+                "service3": "Beglaubigte Übersetzungen: Wir arbeiten mit vereidigten Übersetzern, um die Dokumente zu übersetzen, die dies erfordern. Die Kosten für beglaubigte Übersetzungen hängen von der Anzahl der zu übersetzenden Dokumente ab.",
+                "service4": "Übersetzung Ihres Lebenslaufs, Anpassung an ein deutsches Format und Erstellung Ihrer vollständigen Bewerbungsmappe. Mit Ihrem professionellen Profil können Sie erfolgreich auf dem deutschen Arbeitsmarkt starten."
+            },
+            "faqQuestion1": "Was ist eine offizielle Anerkennung?",
+            "faqAnswer1": "Die Anerkennung Ihrer beruflichen Qualifikationen bedeutet, dass Ihre ausländischen Qualifikationen mit einem deutschen Beruf vergleichbar sind. Zum Beispiel, wenn Sie eine Ausbildung als Elektroniktechniker haben, sind Ihre Fähigkeiten und das erworbene Wissen mit denen vergleichbar, die den Titel 'Elektrotechniker' in Deutschland erhalten.",
+            "faqQuestion2": "Was sind regulierte Berufe?",
+            "faqAnswer2": "Auch als reglementierte Berufe bezeichnet, bei denen Fachkräfte bestimmte spezifische oder technische Qualifikationen benötigen, um ihren Beruf in Deutschland auszuüben. Zum Beispiel Ärzte, Lehrer oder Architekten. Wenn Sie eine teilweise Anerkennung Ihrer Qualifikationen erhalten, aber technische, praktische und sprachliche Defizite ausgleichen müssen, um Ihre Anerkennung zu erhalten, können Sie ein Aufenthaltsvisum beantragen, um Ihre Anerkennung im Rahmen einer Qualifizierungsmaßnahme (Qualifizierungsmaßnahme) abzuschließen. In der Regel benötigen Sie ein Deutsch-Niveau von A2 und müssen in der Lage sein, Ihren Aufenthalt in Deutschland zu finanzieren.",
+            "faqQuestion3": "Gibt es ein Höchstalter für die Arbeit in Deutschland?",
+            "faqAnswer3": "Das Alter stellt kein Problem dar, es gibt keine Altersgrenze."
+        },
+        "sections": {
+            "footer": {
+                "cookiesText": "Die Rolle von PABerater GmbH besteht darin, als Kommunikationsbrücke zwischen unseren Kunden und den Institutionen zu fungieren und ihre Anfragen so zu übersetzen, dass sie in der deutschen Sprache verstanden werden können. \n \n PABerater GmbH leistet selber keine Rechtsberatung.Bitte berücksichtigen Sie, dass es sich bei der sachverständigen Durchsicht Ihrer Studien- und Arbeitsunterlagen nicht um ein Rechtsgutachten oder eine Rechtsberatung im Sinne des Rechtsdienstleistungsgesetzes handelt. Eine juristische Aufarbeitung und Einordnung unter Anwendung der Rechtsnormen ggf. unter Verwendung dieser Auswertung ist nur durch einen zugelassenen Rechtsanwalt zulässig. Wir stellen Ihnen gerne einen Kontakt her. <br /> <br /> PABerater GmbH no presta asesoramiento jurídico por sí misma.Tenga en cuenta que la revisión pericial de sus documentos de estudio y de trabajo no es un dictamen jurídico ni un asesoramiento legal en el sentido de la Ley de Servicios Jurídicos. Una revisión y clasificación legal utilizando las normas legales, en caso de que sea necesario utilizar esta evaluación, sólo está permitida por un abogado autorizado. Estaremos encantados de ponerle en contacto con un abogado.",
+                "cookiePolicy": "Políticas de cookies(UE)",
+                "impressum": "Impressum",
+                "agb": "AGB",
+                "datenschutz": "Datenschutz",
+                "address": "PABerater GmbH, \n Waltersdorfer Ch 203, \n 12355 Berlin, Alemania",
+                "copyright": "© 2023 PABerater GmbH. All Rights Reserved."
+            },
+            "recognizeTitleCallToAction": {
+                "title": "Anerkennung Ihres Titels \n in Deutschland",
+                "subtitle": "ES IST MÖGLICH!",
+                "button": "WOLLEN WIR BEGINNEN?"
+            },
+            "translationServices": {
+                "title": "Unser Übersetzungsservice umfasst",
+                "item1": "Übersetzung Ihres Lebenslaufs und Bewerbungsschreibens ins Deutsche.",
+                "item2": "Erstellung Ihrer vollständigen Bewerbungsmappe.",
+                "item3": "Beratung bei der Jobsuche.",
+                "text": "Dieser Service ist inbegriffen, wenn Sie Ihren Anerkennungsprozess mit uns durchführen. \nWir konzentrieren uns auf die Übersetzung Ihres Lebenslaufs und Bewerbungsschreibens sowie die Erstellung Ihres professionellen Profils, damit Sie sich erfolgreich auf Stellenangebote im Land bewerben können."
+            },
+            "startYourProfessionalLifeBanner": {
+                "button": "WOLLEN WIR BEGINNEN?",
+                "boldTitle": "PABerater,",
+                "title": "Ihr idealer Partner, um Ihr Berufsleben zu transformieren."
+            },
+            "successStories": {
+                "story1": {
+                    "title": "Reinaldo Díaz Lugo, Venezolanischer Informatikingenieur in Deutschland.",
+                    "text": "Er und seine Frau haben den Anerkennungsprozess mit PABerater durchlaufen, und in diesem Interview erzählt er uns, wie der Migrationsprozess verlief, wie das Leben in Deutschland ist und was ihm an seiner Arbeit am meisten auffällt.",
+                    "video": "https://www.youtube.com/embed/VDkrGDumcCw"
+                },
+                "story2": {
+                    "title": "Verónica Anzola, Venezolanische Ärztin, die bereits in Deutschland ist.",
+                    "text": "Zusammen mit ihrem Ehemann Reinaldo, einem Informatikingenieur, und ihrem Haustier Simón haben sie beide ihren Anerkennungsprozess mit PABerater durchgeführt. In diesem ersten Video erzählt Verónica, wie sie den gesamten Migrationsprozess erlebt hat, was die Unterschiede zu Lateinamerika sind und wie sie sich in Deutschland fühlt.",
+                    "video": "https://www.youtube.com/embed/4zUybTbOs4A"
+                },
+                "story3": {
+                    "title": "Eugenio Etcheverry, \nArgentinischer Elektromechanikingenieur in Deutschland",
+                    "text": "Er hat mit PABerater den Anerkennungsprozess seines Universitätsabschlusses sowie alle nachfolgenden Schritte durchgeführt und genießt nun das Leben in Deutschland, arbeitet in seinem Beruf und lebt mit seiner Familie dort. \n",
+                    "video": "https://www.youtube.com/embed/VELeEFp3Tj8"
+                },
+                "story4": {
+                    "title": "Familie Oviedo Quevedo, \nMaschinenbauingenieur in Deutschland",
+                    "text": "Die Familie Oviedo Quevedo kommt aus Venezuela und lebt bereits in Deutschland mit PABerater. Sie luden uns ein, ihr schönes Zuhause in der Region Bayern zu besuchen, wo Mario als Maschinenbauingenieur mit einem ausgezeichneten Gehalt arbeitet und den Traum von ihm und seiner Familie erfüllt hat.",
+                    "video": "https://www.youtube.com/embed/BUNz04l4dHg"
+                },
+                "story5": {
+                    "title": "Darling Gonzáles, Venezolanische Ärztin in Deutschland",
+                    "text": "Sie hat den Anerkennungsprozess ihres Universitätsabschlusses mit PABerater gestartet und steht kurz vor dem Abschluss.",
+                    "video": "https://www.youtube.com/embed/UGLXVXbxNXY"
+                },
+                "story6": {
+                    "title": "Luis González, Elektriker.",
+                    "text": "Er hat PABerater auf Empfehlung eines Freundes kennengelernt, begann einen Prozess mit uns und hat nicht nur seinen Titel anerkennen lassen, sondern ist bereits in Deutschland!",
+                    "instagramUrl": "https://www.instagram.com/reel/CkL-gBKjHFw/?utm_source=ig_web_copy_link"
+                },
+                "story7": {
+                    "title": "Andres Astor, Telekommunikationsingenieur",
+                    "text": "Andrés Ernesto Astor Villegas ist Venezolaner, Telekommunikationsingenieur und hat seinen Titel erfolgreich mit PABerater anerkennen lassen.",
+                    "instagramUrl": "https://www.instagram.com/reel/ClmaJo5DG2s/?utm_source=ig_web_copy_link"
+                },
+                "story8": {
+                    "title": "Eber León, Elektroingenieur",
+                    "text": "Eber Leon Contreras wurde in Venezuela geboren und studierte dort, ist Elektroingenieur und lebt jetzt in Deutschland, um seinen Traum zu verwirklichen und in der wirtschaftlichen Macht Europas zu arbeiten.",
+                    "instagramUrl": "https://www.instagram.com/reel/CkwMYQtDHpL/?utm_source=ig_web_copy_link"
+                },
+                "story9": {
+                    "title": "German Bravo, Hochschulabschluss in Erziehungswissenschaften",
+                    "text": "Bravo kommt aus Bogotá, Kolumbien, und hat zwanzig Jahre Erfahrung als Lehrer für klassische Philologie und Spanisch. In Berlin, wo er bereits lebt, sprach er mit PABerater über die Erfahrung der Migration und unsere Beratung.",
+                    "instagramUrl": "https://www.instagram.com/reel/Cpn226Jj2yo/?utm_source=ig_web_copy_link"
+                }
+            },
+            "adviseForm": {
+                "fullNamePlaceholder": "Vollständiger Name *",
+                "nationalityLabel": "Nationalität",
+                "emailAddressPlaceholder": "E-Mail *",
+                "residenceCountryLabel": "Wohnsitzland",
+                "confirmEmailPlaceholder": "E-Mail bestätigen *",
+                "professionLabel": "Wählen Sie Ihren Beruf",
+                "doctorAndHealthProfessionals": "Ärzte und Gesundheitsberufe",
+                "engineersLabel": "Ingenieure",
+                "architectsLabel": "Architekt",
+                "administrationLabel": "Verwaltung",
+                "otherProfessions": "Andere Berufe",
+                "optionalSection": "Erzählen Sie uns von sich (Optional)",
+                "haveYouEmigratedLabel": "Sind Sie bereits ausgewandert?",
+                "selectAnOption": "Wählen Sie eine Option",
+                "plannedMoveDateLabel": "Geplantes Umzugsdatum nach Deutschland",
+                "inTheNext6Months": "In den nächsten 6 Monaten",
+                "inTheNext9Months": "In den nächsten 9 Monaten",
+                "in1Year": "In 1 Jahr",
+                "in2Years": "In 2 Jahren",
+                "yes": "Ja",
+                "hasEnoughFundsLabel": "Haben Sie mindestens 500 USD zur Verfügung, um zu beginnen?",
+                "hasUniversityDegreeLabel": "Haben Sie einen Hochschulabschluss?",
+                "userHasNoFundsMessage": "Sie benötigen mindestens 500 USD, um Ihren Einwanderungsprozess zu beginnen.",
+                "userHasNoUniversityDegreeMessage": "Sie benötigen einen Hochschulabschluss, um Ihren Einwanderungsprozess zu beginnen.",
+                "no": "Nein",
+                "maritalStatusAndFamilyLabel": "Familienstand und Familienstatus",
+                "single": "Ledig",
+                "married": "Verheiratet",
+                "withChildren": "Mit Kindern",
+                "phoneLabel": "Telefon",
+                "other": "Sonstiges",
+                "germanLevelLabel": "Deutschkenntnisse",
+                "basic": "Grundkenntnisse",
+                "intermediate": "Mittelstufe",
+                "advanced": "Fortgeschritten",
+                "englishLevelLabel": "Englischkenntnisse",
+                "estimatedCostLabel": "Wie viel schätzen Sie, würde es kosten, ein neues Leben in Deutschland zu beginnen?",
+                "lessThan5000EUR": "Weniger als 5.000 EUR",
+                "between5000And10000EUR": "Zwischen 5.000 und 10.000 EUR",
+                "between10000And20000EUR": "Zwischen 10.000 und 20.000 EUR",
+                "moreThan20000EUR": "Mehr als 20.000 EUR",
+                "motivationLabel": "Was würde Sie motivieren, ein neues Leben in Deutschland zu beginnen?",
+                "betterJobOpportunities": "Bessere Arbeits- und Gehaltsmöglichkeiten",
+                "qualityOfLifeAndSocialBenefits": "Lebensqualität und soziale Leistungen für mich und meine Familie",
+                "professionalDevelopment": "Berufliche Entwicklung und Erwerb neuer Fähigkeiten",
+                "internationalExperience": "Internationale Erfahrung und persönliches Wachstum",
+                "allOfTheAbove": "Alle oben genannten",
+                "placeholderDescription": "Beschreiben Sie kurz Ihren Fall und nennen Sie Ihren Beruf",
+                "checkboxSubscribe": "Ich möchte den PABerater-Newsletter abonnieren.",
+                "termsAndConditions1": "*Ich habe die ",
+                "termsAndConditions": "Allgemeinen Geschäftsbedingungen gelesen und akzeptiere sie",
+                "buttonScheduleAppointment": "TERMIN VEREINBAREN",
+                "missingFieldsError": "Bitte füllen Sie alle Pflichtfelder aus."
+            },
+            "faq": {
+                "title": "Häufig gestellte Fragen",
+                "question1": "Was ist die offizielle Anerkennung?",
+                "answer1": "Die Anerkennung Ihrer beruflichen Qualifikationen bedeutet, dass Ihre ausländischen Qualifikationen mit einem deutschen Beruf vergleichbar sind. Wenn Sie beispielsweise als Elektroniker tätig sind, werden Ihre erworbenen Fähigkeiten und Kenntnisse mit denen verglichen, die den Titel Elektrotechniker in Deutschland erlangen.",
+
+                "question2": "Was sind reglementierte Berufe?",
+                "answer2": "Diese werden auch als reglementierte Berufe bezeichnet, bei denen Fachleute bestimmte spezifische oder technische Qualifikationen nachweisen müssen, um den Beruf in Deutschland auszuüben. Zum Beispiel Ärzte, Lehrer oder Architekten. Wenn Sie eine teilweise Anerkennung Ihrer Qualifikationen erhalten, aber technische, praktische und sprachliche Mängel ausgleichen müssen, um die vollständige Anerkennung zu erreichen, können Sie ein Visum zur Weiterbildung im Rahmen einer Qualifizierungsmaßnahme beantragen, die in der Regel ein Deutsch-Niveau von mindestens A2 sowie die Fähigkeit zur Finanzierung Ihres Aufenthalts in Deutschland erfordert.",
+
+                "question3": "Gibt es ein Alterslimit für die Arbeit in Deutschland?",
+                "answer3": "Das Alter spielt keine Rolle; es gibt keine Altersgrenze."
+            },
+            "callToActionBanner2": {
+                "title": "Leben und Arbeiten als Fachkraft in Deutschland\nist mit PABerater möglich!",
+                "button": "KONTAKT"
+            },
+
+            "callToActionPartnerBanner": {
+                "title": "Leben und Arbeiten als Fachkraft in Deutschland\nist mit PABerater möglich!",
+                "button": "LOS GEHT'S?"
+            },
+
+            "servicesBanner": {
+                "title": "Unser Beratungsservice\nbeinhaltet",
+                "subtitle": "Verlassen Sie sich auf unsere Beratung während des gesamten Prozesses.",
+                "service1BoldText": "Erstgespräch",
+                "service1": "Bewertung der Situation des Fachkräften in einer <1>{{boldText}}</1>. \nWir berücksichtigen Ihren beruflichen Fokus für den Anerkennungsprozess, klären Ihre Zweifel zum Prozess und zu Jobmöglichkeiten und senden Ihnen eine Liste aller notwendigen Dokumente.",
+                "service2BoldText": "Wir sammeln und prüfen Ihre Dokumente",
+                "service2": "<1>{{boldText}}</1> bevor wir sie der zuständigen deutschen Behörde für den Anerkennungsprozess vorlegen.",
+                "service3BoldText": "Beglaubigte Übersetzungen:",
+                "service3": "<1>{{boldText}}</1> Wir arbeiten mit beglaubigten Übersetzern, die die erforderlichen Dokumente übersetzen. Die Kosten für beglaubigte Übersetzungen hängen von der Anzahl der zu übersetzenden Dokumente ab.",
+                "service4BoldText": "Übersetzung Ihres Lebenslaufs",
+                "service4": "<1>{{boldText}}</1>, Anpassung an ein deutsches Format und Erstellung Ihrer kompletten Bewerbungsunterlagen. Mit Ihrem beruflichen Profil werden Sie erfolgreich in den deutschen Arbeitsmarkt eintreten können."
+            },
+
+            "homeJumbotron": {
+                "text1": "Leben & Arbeiten",
+                "text2": "in Deutschland",
+                "text3": "ist möglich",
+                "text0": "Wir beraten\n<1>{{text1}}</1>\n<4> die</4> <2>{{text2}}</2>\n <4>um</4> <3>{{text3}}</3>",
+                "text": "Wir beraten <1>{{text1}}</1><4> die</4> <2>{{text2}}</2><4> um</4> <3>{{text3}}</3>"
+            },
+
+            "callToActionTransformBanner": {
+                "boldText": "PABerater",
+                "text": "Ihr idealer Partner, um Ihr Berufsleben zu transformieren.",
+                "button": "LOS GEHT'S?"
+            },
+            "instagramFeed": {
+                "title": "PABerater Updates"
+            },
+
+            "joinUpSection": {
+                "titleText1": "+100 Latinos",
+                "titleText2": "sind gewachsen",
+                "titleText3": "beruflich",
+                "title": "Treten Sie <1>{{title1}}</1> bei, die <1>{{title2}}</1><1>{{title3}}</1> \n  durch PABerater",
+                "subtitle": "Sollen wir anfangen, Ihre Zukunft in Deutschland zu planen?",
+                "peopleHelpedAmount": "+800",
+                "peopleHelpedSubtitle": "Latinos geholfen",
+                "homologatedTitlesAmount": "700",
+                "homologatedTitlesSubtitle": "Anerkannte Titel",
+                "countriesAmount": "12",
+                "countriesSubtitle": "Herkunftsländer",
+                "professionsAmount": "+20",
+                "professionsSubtitle": "Förderte Berufe"
+            },
+
+            "newsMediaSection": {
+                "title": "Einige Interviews",
+                "linkText": "Vollen Artikel lesen",
+                "image1": "https://paberater.de/assets/news1-IGyCH0Lg.png",
+                "image2": "https://paberater.de/src/assets/img/news2.png",
+                "link1": "https://www.elnacional.com/empresas-productos/paberater-el-emprendimiento-de-raices-venezolanas-que-brinda-oportunidades-a-hispanohablantes-en-alemania/",
+                "link2": "https://noticias.perfil.com/noticias/empresas-y-protagonistas/oportunidades-laborales-para-medicos-en-alemania-un-mercado-en-expansion-brand.phtml"
+            },
+
+            "servicesOffered": {
+                "title": "Welche Dienstleistungen bieten wir an?",
+                "text1": "Anerkennung für medizinische Fachkräfte",
+                "text2": "Berufliche Anerkennung",
+                "text3": "Anerkennung für Ingenieure",
+                "text4": "Beglaubigte Übersetzungen",
+                "bannerButton": "Termin vereinbaren",
+                "bannerText": "Wir haben einen Koffer voller Möglichkeiten für Ihr berufliches Wachstum.",
+                "bannerTitle": "Bei PABerater"
+            },
+
+            "commentsCarousel": {
+                "title": "Sie vertrauten uns",
+                "item1": {
+                    "name": "Frida Abril Pinto",
+                    "text": "Ich bin dem PABerater-Team sehr dankbar. Ich komme aus Peru und konnte dank des Teams schnell meine deutsche Aufenthaltserlaubnis erhalten. Sehr nett, sie haben keine falschen Erwartungen geweckt, die Gespräche waren immer sehr direkt, und ich habe mich immer wohlgefühlt. Vielen Dank."
+                },
+                "item2": {
+                    "name": "Yuly Cáceres Abril",
+                    "text": "Wenn es 10 Sterne gäbe, würde ich ihnen alle geben. Jorge und sein Team haben mir bei etwas geholfen, was ich für unmöglich hielt: der Erlangung der Aufenthaltserlaubnis für meine Mutter. Ich bin super froh, dieses Team kontaktiert zu haben, sie haben immer meine Fragen beantwortet und mich während des gesamten Prozesses von Anfang bis Ende begleitet 🙏🏾 Und nicht nur das, Jorge antwortet immer auf zusätzliche Fragen, das beste Team, PABerater ohne Zweifel, möge Gott euch segnen 🤗"
+                },
+                "item3": {
+                    "name": "Karen Varela",
+                    "text": "Sie haben mich schnell und aufmerksam behandelt. Ich kann sie nur empfehlen und danke für die bereitgestellten Informationen. Ehrlich gesagt, mitten in all der deutschen Bürokratie und dem Gefühl, nur eine Zahl zu sein, habe ich mich hier endlich gehört gefühlt. Einen herzlichen Gruß und danke für die Ratschläge."
+                }
+            },
+
+            "whatWeDo": {
+                "title": "Was tun wir?",
+                "item1Title": "Wir beraten",
+                "item1Text": "spanische Fachkräfte beim Einstieg in den deutschen Arbeitsmarkt, indem wir Dienstleistungen zur Anerkennung ihrer akademischen Abschlüsse hier in Deutschland anbieten.",
+                "item2Title": "Wir begleiten",
+                "item2Text": "schrittweise, vor und während des Prozesses der Homologation oder Anerkennung ihrer beruflichen Titel.",
+                "item3Title": "Wir managen",
+                "item3Text": "ALLES. Bei PABerater kennen wir den Prozess, weil wir ihn selbst durchlaufen haben, und deshalb ist es unsere Mission, Ihnen mit allen Informationen auf eine zugängliche und leicht verständliche Weise zu helfen."
+            },
+
+            "navbar": {
+                "button": "Ich möchte mehr erfahren",
+                "menu": "Menü",
+                "languageSelectorText": "Sprache",
+                "routeNames": {
+                    "officialTranslations": "Beglaubigte Übersetzungen",
+                    "engineeringRecognition": "Ingenieuranerkennung",
+                    "recognition": "Berufliche Anerkennung",
+                    "homologations": "Medizinische Titelanerkennung",
+                    "contact": "Kontakt",
+                    "blog": "Blog",
+                    "successStories": "Erfolgsgeschichten",
+                    "services": "Dienstleistungen",
+                    "about": "Über uns"
+                }
+            }
+        }
+    }
+}

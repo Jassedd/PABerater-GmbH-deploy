@@ -1,47 +1,55 @@
-html{
+html {
     padding: 0;
     margin: 0;
 }
-  h1, h2, h5 {
-    font-family: 'DM Serif Display', serif;
-  }
-  
-  p, h3 {
-    font-family: 'Jost', sans-serif;
-  }
+h1,
+h2,
+h5 {
+    font-family: "DM Serif Display", serif;
+}
 
+p,
+h3 {
+    font-family: "Jost", sans-serif;
+}
 
-.first-stape{
+.landing-video {
+    width: 100%;
+    height: 100%;
+}
+.first-stape {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #C8A75A;
+    background-color: #c8a75a;
     padding: 1rem;
 }
 
-.form_landing{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.form_landing {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
 }
 
-.first-title-landing, .second-title-landing, .second-text-landing{
-    color:#25357a;
+.first-title-landing,
+.second-title-landing,
+.second-text-landing {
+    color: #25357a;
     font-size: 1.8rem;
 }
 
-.first-text-landing, .article-span{
-    color:#E9EAF1;
+.first-text-landing,
+.article-span {
+    color: #e9eaf1;
     font-size: 1.5rem;
 }
 
-.second-text-landing{
+.second-text-landing {
     text-align: center;
     font-size: 2.3rem;
 }
 
-.section-assignment{
+.section-assignment {
     background-color: #25357a;
     color: white;
     height: 15vh;
@@ -52,94 +60,93 @@ html{
     margin: 0;
 }
 
-.pinedaImage{
+.pinedaImage {
     width: 100%;
 }
 
-.landing-contact{
+.landing-contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #25357a;
-    color: #E9EAF1;
+    color: #e9eaf1;
 }
 
-.title_landing-contact{
+.title_landing-contact {
     font-size: 2.3rem;
     padding-top: 4%;
 }
 
-.phone_landing{
+.phone_landing {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 90%;
-    color:#C8A75A;
+    color: #c8a75a;
 }
 
-.phone_icon{
- width: 1.5rem;
+.phone_icon {
+    width: 1.5rem;
 }
 
-.phoneNumber{
+.phoneNumber {
     font-size: 1.5rem;
     font-weight: 600;
     padding: 1%;
 }
-.phoneNumber:hover{
-    color:#C8A75A !important;
+.phoneNumber:hover {
+    color: #c8a75a !important;
 }
 
-
-.Figure-text-landing{
+.Figure-text-landing {
     display: flex;
     justify-content: center;
     text-align: center;
     font-size: 1.2rem;
-    color:#C8A75A;
+    color: #c8a75a;
     padding-bottom: 6%;
 }
 
-.talent{
-    background-color: #C8A75A;
+.talent {
+    background-color: #c8a75a;
     height: 60vh;
     margin: 0;
 }
 
-.figureAdvisory{
+.figureAdvisory {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #E9EAF1;
+    background-color: #e9eaf1;
     width: 40vh;
     height: 50vh;
     margin-top: 10%;
     border-radius: 0 15vh 0 0;
 }
 
-.text_first-stape{
-    color: #E9EAF1;
+.text_first-stape {
+    color: #e9eaf1;
 }
 
-.jorge-5{
+.jorge-5 {
     margin-top: 1.7rem;
-    width:45vh;
+    width: 45vh;
 }
 
-.arowsImg{
-    background-color: #C8A75A;
+.arowsImg {
+    background-color: #c8a75a;
 }
 
-.phoneContact{
+.phoneContact {
     background-color: #25357a;
 }
 
-.steps-title{
+.steps-title {
     display: none;
 }
 
-.steps-landing{
+.steps-landing {
     width: 100vw;
     padding: 2rem 0;
     display: flex;
@@ -149,60 +156,57 @@ html{
     font-weight: 800;
 }
 
-.landing-map{
+.landing-map {
     width: 70vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color:#C8A75A;
+    color: #c8a75a;
     margin-top: 4%;
-
 }
 
-.arrow{
-    width: 5rem;;
+.arrow {
+    width: 5rem;
     margin: 1rem;
 }
 
-.text-landing-map1{
+.text-landing-map1 {
     margin-top: 0.5rem;
     text-align: start;
 }
-.text-landing-map2{
+.text-landing-map2 {
     margin-top: 0.5rem;
     text-align: end;
 }
-.text-landing-map3{
+.text-landing-map3 {
     text-align: start;
     margin-top: 4%;
 }
 
-.road-map{
-    background-color: #C8A75A;
-    
+.road-map {
+    background-color: #c8a75a;
 }
 
-.arowsImg{
-    background-color: #E9EAF1;
+.arowsImg {
+    background-color: #e9eaf1;
 }
 
-.time-landing{
+.time-landing {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #E9EAF1;
-
+    background-color: #e9eaf1;
 }
 
-.btn-time-btn{
+.btn-time-btn {
     padding: 6%;
-    background-color:#25357a;
+    background-color: #25357a;
     border: 0;
     width: 30vh;
     height: 7vh;
     border-radius: 10px;
-    color:#C8A75A;
+    color: #c8a75a;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -213,17 +217,17 @@ html{
 }
 
 .btn-time :hover {
-    background-color: #C8A75A;
+    background-color: #c8a75a;
     color: #25357a;
 }
 
-.btn-start-landing{
-    background-color:#25357a;
+.btn-start-landing {
+    background-color: #25357a;
     border: 0;
     width: 30vh;
     height: 7vh;
     border-radius: 10px;
-    color:#C8A75A;
+    color: #c8a75a;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -231,14 +235,14 @@ html{
     font-size: 1.2rem;
     margin-top: 8%;
     margin-bottom: 12%;
-    }
+}
 
-    .btn-start-landing:hover{
-        background-color:#C8A75A;
-        color:#25357a;
-    }
-    
-    .btn-arrow{
+.btn-start-landing:hover {
+    background-color: #c8a75a;
+    color: #25357a;
+}
+
+.btn-arrow {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -247,110 +251,116 @@ html{
     height: 4vh;
     border-radius: 10vh 10vh 10vh 10vh;
     border: 0;
-    color: #C8A75A;
-    }
+    color: #c8a75a;
+}
 
-
-.pay-landing{
+.pay-landing {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: #25357a;
-    background-color: #E9EAF1;
-    padding: 5vh 5vh 0 ;
+    background-color: #e9eaf1;
+    padding: 5vh 5vh 0;
 }
 
-.span-landing{
+.span-landing {
     font-weight: bolder;
 }
 
-.pay-title{
-    color: #C8A75A;
+.pay-title {
+    color: #c8a75a;
     font-size: 2.3rem;
     padding-bottom: 4%;
 }
 
-@media (width >= 380px){
-    .jorge-5{
+@media (width >= 380px) {
+    .jorge-5 {
         width: 45.5vh;
     }
-    .figure{
+    .figure {
         width: 50vh;
         margin-top: -4vh;
     }
-    .Figure-text-landing{
+    .Figure-text-landing {
         width: 50vh;
     }
 }
 
+@media (width <= 820px) {
+    .form_landing {
+        grid-template-columns: 1fr;
+    }
+}
 
-@media (width >= 750px){
-
-    .first-stape{
+@media (width >= 750px) {
+    .first-stape {
         width: 100%;
         display: flex;
         flex-direction: column;
-        background-color: #C8A75A;
+        background-color: #c8a75a;
     }
-    .section-assignment p{
+    .section-assignment p {
         font-size: 2rem;
     }
-    .section-assignment{
+    .section-assignment {
         width: 100%;
     }
-    .first-title-landing, .second-title-landing, .second-text-landing{
+    .first-title-landing,
+    .second-title-landing,
+    .second-text-landing {
         font-size: 2.2rem;
     }
-    .first-text-landing, .article-span{
+    .first-text-landing,
+    .article-span {
         font-size: 2.2rem !important;
     }
 
-    .landing-contact{
+    .landing-contact {
         font-size: 2rem;
         width: 100vw;
     }
 
-    .title_landing-contact{
+    .title_landing-contact {
         font-size: 2.5rem;
         margin-left: 3rem;
         padding-top: 4%;
     }
 
-    .phone_landing{
+    .phone_landing {
         margin-left: 2rem;
     }
 
-    .phone_icon{
+    .phone_icon {
         width: 3rem;
     }
 
-    .phoneNumber{
+    .phoneNumber {
         font-size: 2rem;
         padding-left: 2%;
     }
 
-    .talent{
+    .talent {
         height: 80vh;
     }
 
-    .phoneContact{
+    .phoneContact {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .jorge-5{
+    .jorge-5 {
         width: 45vh;
         margin-top: 2.5rem;
     }
 
-    .figureAdvisory{
+    .figureAdvisory {
         height: 50vh;
         width: 45vh;
         margin-left: 8%;
     }
 
-    .Figure-text-landing{
+    .Figure-text-landing {
         width: 60vh;
         display: flex;
         align-items: center;
@@ -361,222 +371,213 @@ html{
         padding: 2%;
     }
 
-
-    .steps-landing{
-        padding:3rem 0;
+    .steps-landing {
+        padding: 3rem 0;
         margin-top: -2%;
     }
 
-    .landing-map{
+    .landing-map {
         max-width: 75vw;
-        font-weight:bolder;
+        font-weight: bolder;
         font-size: 1.5rem;
     }
 
-    .arrow{
+    .arrow {
         width: 15vw;
     }
 
-    .img_time{
+    .img_time {
         width: 70vw;
     }
-    .btn-time-btn{
+    .btn-time-btn {
         width: 40vh;
         height: 8vh;
         border-radius: 10px;
         font-size: 1.5rem;
     }
 
-    .pay-title{
+    .pay-title {
         font-size: 3rem;
     }
-    .adviser-form-landing{
+    .adviser-form-landing {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #E9EAF1;
+        background-color: #e9eaf1;
     }
 }
 
+@media (width >= 1100px) {
+    .form_landing {
+        /* display: flex;
+        flex-direction: row;
+        justify-content: center; */
+        background-color: #e9eaf1;
+    }
+    .adviser-form-landing {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .frame-youtube iframe {
+        height: 93vh;
+    }
 
-@media (width >= 1100px){
+    .section-assignment {
+        width: 50vw;
+        height: 8vh;
+    }
 
-.form_landing{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #E9EAF1;
+    .first-stape {
+        display: none;
+    }
 
-}
-.adviser-form-landing{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .jorge-5 {
+        width: 50vh;
+        margin-top: 2.6rem;
+    }
+    .figureAdvisory {
+        margin-top: 4rem;
+        height: 55vh;
+    }
 
-.frame-youtube iframe{
-    height:93vh;
-}
+    .title_landing-contact {
+        font-size: 2.5rem;
+    }
 
-.section-assignment{
-    width: 50vw;
-    height: 8vh;
-}
-
-.first-stape{
-    display: none;
-}
-
-.jorge-5{
-    width: 50vh;
-    margin-top: 2.6rem;
-}
-.figureAdvisory{
-    margin-top: 4rem;
-    height: 55vh;
-}
-
-.title_landing-contact{
-    font-size: 2.5rem;
-}
-
-.talent{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50vh;
-    height: 60vh;
-    padding-top: 0;
-    background-color: #C8A75A;
-}
-
-.figure{
-    width: 30vw;
-    margin-left: 0;
-    margin-top: 0;
-}
-
-.phoneContact{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-bottom: 3%;
-}
-.landing-contact{
-    font-size: 2rem;
-    width: 52.8%;
-}
-.Figure-text-landing{
-display: none;
-}
-
-.phone_landing{
-    margin-left: 3rem;
-}
-
-.text-landing{
-    font-size: 1.4rem;
-}
-
-.arowsImg{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.time_landing{
-    width: 50%;
-}
-.img_time{
-    width: 60vh;
-
-}
-
-.pay-landing{
-    padding: 0 45px;
-    line-height: 1.5rem;
-    width: 60%;
-}
-
-.btn-time-btn{
-    width: 15vW;
-    height: 8vh;
-    border-radius: 10px;
-    font-size: 1.5rem;
-}
-
-.steps-title{
-    width: 100%;
-    font-size: 2rem;
-    text-align: center;
-    color: #25357a;
-    background-color: #C8A75A;
-}
-
-.steps-landing{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.landing-map{
-    width: 40vw;
-    font-size: 1.5rem;
-}
-
-.pinedaFooter{
-    width: 100%;
-}
-.cookiesFooter{
-    width: 100%;
-}
-.contact_footer{
-    width: 100%;
-}
-.frame-youtube{
-    width: 100%;
-}
-.navbarHome .navbar .navbar-expand-lg .navbar-light{
-    width: 100%;
-}
-.btn-start{
-    margin:50px;
-}
-
-.figure{
-    width: 60vh;
-}
-.Figure-text-landing{
-    width: 60vh;
-}
-
-}
-
-@media (width >= 1500px){
-
-    .arowsImg{
+    .talent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
+        width: 50vh;
+        height: 60vh;
+        padding-top: 0;
+        background-color: #c8a75a;
     }
-    .img_time{
+
+    .figure {
+        width: 30vw;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .phoneContact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 3%;
+    }
+    .landing-contact {
+        font-size: 2rem;
+        width: 52.8%;
+    }
+    .Figure-text-landing {
+        display: none;
+    }
+
+    .phone_landing {
+        margin-left: 3rem;
+    }
+
+    .text-landing {
+        font-size: 1.4rem;
+    }
+
+    .arowsImg {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .time_landing {
+        width: 50%;
+    }
+    .img_time {
         width: 60vh;
     }
 
-    .jorge-5{
+    .pay-landing {
+        padding: 0 45px;
+        line-height: 1.5rem;
+        width: 60%;
+    }
+
+    .btn-time-btn {
+        width: 15vw;
+        height: 8vh;
+        border-radius: 10px;
+        font-size: 1.5rem;
+    }
+
+    .steps-title {
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+        color: #25357a;
+        background-color: #c8a75a;
+    }
+
+    .steps-landing {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .landing-map {
+        width: 40vw;
+        font-size: 1.5rem;
+    }
+
+    .pinedaFooter {
+        width: 100%;
+    }
+    .cookiesFooter {
+        width: 100%;
+    }
+    .contact_footer {
+        width: 100%;
+    }
+    .frame-youtube {
+        width: 100%;
+    }
+    .navbarHome .navbar .navbar-expand-lg .navbar-light {
+        width: 100%;
+    }
+    .btn-start {
+        margin: 50px;
+    }
+
+    .figure {
+        width: 60vh;
+    }
+    .Figure-text-landing {
+        width: 60vh;
+    }
+}
+
+@media (width >= 1500px) {
+    .arowsImg {
+        justify-content: center;
+    }
+    .img_time {
+        width: 60vh;
+    }
+
+    .jorge-5 {
         width: 50vh;
         margin-top: 3rem;
     }
 
-    .title_landing-contact{
+    .title_landing-contact {
         margin-left: 6rem;
     }
-    .phone_landing{
+    .phone_landing {
         margin-left: 4rem;
-
     }
 
-    .pay-landing{
+    .pay-landing {
         width: 75%;
     }
 }

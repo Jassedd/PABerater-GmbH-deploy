@@ -1,0 +1,562 @@
+{
+    "translation": {
+        "general": {
+            "seeInstagramVideoButton": "Ver video",
+            "faqSectionTitle": "Preguntas Frecuentes",
+            "callToActionBanner1": {
+                "title": "Homologar tu título \n en Alemania",
+                "subtitle": "¡ES POSIBLE",
+                "button": "¿COMENZAMOS?"
+            },
+            "callToActionBanner2": {
+                "title": "¡Vivir y trabajar como profesional en Alemania \n es posible de la mano de PABerater!",
+                "button": "CONTACTAR"
+            },
+            "address": "PABerater GmbH, \n Waltersdorfer Ch 203, \n 12355 Berlin, Alemania"
+        },
+        "homePage": {
+            "seoTite": "home seo title",
+            "seoDescription": "home seo description",
+
+            "advisoryButton": "Solicitar asesoría",
+            "faqTitle": "De seguro tienes mucha dudas y nosotros estamos dispuestos a responderlas todas",
+            "faqSubtitle": "respuesta en 24 horas",
+            "titles": {
+                "title1": "Asesoramos",
+                "title2": "a",
+                "title3": "profesionales",
+                "title4": "que",
+                "title5": "desean",
+                "title6": "emigrar",
+                "title7": "a",
+                "title8": "Alemania",
+                "whatWeDo": "¿Qué Hacemos?",
+                "section1": "Asesoramos",
+                "section2": "Acompañamos",
+                "section3": "Gestionamos",
+                "questionsTitle": "De seguro tienes mucha dudas y nosotros estamos dispuestos a responderlas todas"
+            },
+            "content": {
+                "content1": "a profesionales hispanohablantes a ingresar al mercado laboral alemán prestando servicios relacionados con su reconocimientos académico aquí en Alemania.",
+                "content2": "paso a paso, antes y durante el proceso de la homologación o reconocimiento de sus títulos profesionales.",
+                "content3": "TODO. En PABerater somos conocedores del proceso porque pasamos por ello y por eso nuestra misión es ayudarte proporcionándote toda la información de una manera accesible y fácil de entender.",
+                "questionsSubtitle": "respuesta en 24 horas"
+            },
+            "talentBannerText": "  Tu pones el talento, \n nosotros nos encargamos de lo demás."
+        },
+        "data": "¿Qué Servicios Ofrecemos 2?",
+        "engineeringRecognitionPage": {
+            "seoTite": "engineering  recognition title",
+            "seoDescription": "engineering  recognition description",
+            "callToActionTitle": "Reconocer tu título \n en Alemania",
+            "callToActionSubtitle": "ES POSIBLE!",
+            "successCasesTitle": "Casos de éxito:",
+            "successCasesSubtitle": "Acá compartimos con usted alguno de nuestros muchos casos de éxitos:",
+            "contactCallToActionButton": "CONTACTAR",
+            "contactCallToActionText": "¡Vivir y trabajar como profesional en Alemania es posible de la mano de PABerater",
+            "callToActionButton": "¿COMENZAMOS?",
+            "title": "Reconocimiento de\n Ingenieros",
+            "bannerTitle": "Reconocimiento profesional de ingenieros.",
+            "bannerText": "Los ingenieros en Alemania pueden trabajar en una amplia variedad de sectores, como por ejemplo en la planificación y el control técnico de la producción, el control de la calidad, el diseño o en la construcción de equipos y modelos e, incluso, con una buena formación y experiencia, alcanzar puestos directivos."
+        },
+        "cookiesPage": {
+            "seoTite": "cookie seo title",
+            "seoDescription": "cookie seo description",
+            "cookieItem1Title": "Wistia - Estadísticas, Marketings",
+            "cookieItem1Text": "Uso:  \nUsamos Wistia para mostrar video.  Leer más  \nCompartir datos:  \nPara más información, por favor, lee la política de privacidad de Wistia.  \nEstadísticas:  \nwistia-video-progress-* persistente Almacenar si el usuario ha visto contenido incrustado  \nMarketing:  \nwistia persistente Guardar acciones hechas por usuarios en el sitio web",
+            "cookieItem2Title": "Google reCAPTCHA - Funcional, Marketing",
+            "cookieItem2Text": "Usamos Google reCAPTCHA para prevención de spam. Leer más  \nCompartir datos:  \nPara más información, por favor, lee la política de privacidad de Google reCAPTCHA.  \nfuncional  \n_grecaptcha  \nMarketing:  \nrc::c- sesión rc::b- sesión rc::a- persistente",
+
+            "cookieItem3Title": "Google Adsense - Marketing",
+            "cookieItem3Text": "Uso Usamos Google Adsense para mostrar anuncios. Leer más  \nCompartir datos Para más información, por favor, lee la política de privacidad de Google Adsense.  \nMarketing:  \n_gcl_au persistente-Almacenar y realizar un seguimiento de las conversiones  \ngoogle_adsense_settings persistente-Habilitar la publicación de anuncios o retargeting",
+
+            "cookieItem4Title": "Hotjar - Estadísticas, Funcional",
+            "cookieItem4Text": "Uso Usamos Hotjar para mapas con zonas calientes y grabación de pantalla.Leer más  \nCompartir datos Para más información, por favor,lee la política de privacidad de Hotjar.  \n_hjSessionUser_* 1 año-Almacenar un ID de usuario único  \n_hjAbsoluteSessionInProgress sesión-Guardar las visitas únicas a la tienda  \n_hjIncludedInSessionSample_*-30 minutos  \nFuncional:  \n_hjSession_* sesión-Proporcionar funcionalidad entre páginas",
+
+            "cookieItem5Title": "Google Analytics - Estadísticas",
+            "cookieItem5Text": "Uso  \nUsamos Google Analytics para estadísticas del sitio web. Leer más  \nCompartir datos  \nPara más información, por favor, lee la política de privacidad de Google Analytics.  \n_ga 2 años-Contar y rastrear páginas vistas  \n_ga_* 1 año-Contar y rastrear páginas vistas",
+            "cookieItem6Title": "Varios - Propósito pendiente de investigación",
+            "cookieItem6Text": "Uso  \nCompartir datos El intercambio de datos está pendiente de investigación  \nPropósito pendiente de investigación  \nNombre lastExternalReferrer  \nNombre lastExternalReferrerTime  \nNombre _fbp  \nNombre cookieyes-consent  \nNombre _gid  \nNombre cmplz_policy_id Caducidad 365 días  \nNombre cmplz_consented_services Caducidad 365 días  \nNombre cmplz_marketing Caducidad 365 días  \nNombre cmplz_statistics Caducidad 365 días  \nNombre cmplz_preferences Caducidad 365 días  \nNombre cmplz_functional Caducidad 365 días  \nNombre cmplz_banner-status Caducidad 365 días  \nNombre hjActiveViewportIds Caducidad  \nNombre hjViewportId Caducidad  \nNombre _hjRecordingEnabled Caducidad",
+
+            "section1": "# Política de Cookies <br/>\n\nEsta política de cookies fue actualizada por última vez el octubre 25, 2023 y se aplica a los ciudadanos y residentes legales permanentes del Espacio Económico Europeo y Suiza.  <br/> \n\n  \n\n## 1. Introducción  <br/>\n\nNuestra web, https://paberater.de (en adelante: «la web») utiliza cookies y otras tecnologías relacionadas (para mayor comodidad, todas las tecnologías se denominan «cookies»). Las cookies también son colocadas por terceros a los que hemos contratado. En el siguiente documento te informamos sobre el uso de cookies en nuestra web. <br/> \n\n  \n\n## 2. ¿Qué son las cookies?  <br/> \n\nUna cookie es un pequeño archivo que se envía junto con las páginas de esta web y que tu navegador almacena en el disco duro de su ordenador u otro dispositivo. La información almacenada puede ser devuelta a nuestros servidores o a los servidores de terceros apropiados durante una visita posterior. <br/> \n\n  \n\n## 3. ¿Qué son los scripts?  <br/> \n\nUn script es un fragmento de código de programa que se utiliza para hacer que nuestra web funcione correctamente y de forma interactiva. Este código se ejecuta en nuestro servidor o en tu dispositivo.  <br/> \n\n  \n\n## 4. ¿Qué es una baliza web? <br/> \n\n  \n\nUna baliza web (o una etiqueta de píxel) es una pequeña e invisible pieza de texto o imagen en una web que se utiliza para monitorear el tráfico en una web. Para ello, se almacenan varios datos sobre usted mediante estas balizas web. <br/> \n\n  \n\n## 5. Cookies  <br/> \n\n### 5.1 Cookies técnicas o funcionales  <br/> \n\nAlgunas cookies aseguran que ciertas partes de la web funcionen correctamente y que tus preferencias de usuario sigan recordándose. Al colocar cookies funcionales, te facilitamos la visita a nuestra web. De esta manera, no necesitas introducir repetidamente la misma información cuando visitas nuestra web y, por ejemplo, los artículos permanecen en tu cesta de la compra hasta que hayas pagado. Podemos colocar estas cookies sin tu consentimiento. <br/> \n\n### 5.2 Cookies de estadísticas  <br/> \n\nUtilizamos cookies estadísticas para optimizar la experiencia de la web para nuestros usuarios. Con estas cookies estadísticas obtenemos información sobre el uso de nuestra web. Te pedimos tu permiso para colocar cookies de estadísticas. <br/> \n\n### 5.3 Cookies de marketing/seguimiento  <br/> \n\nLas cookies de marketing/seguimiento son cookies, o cualquier otra forma de almacenamiento local, usadas para crear perfiles de usuario para mostrar publicidad o para hacer el seguimiento del usuario en esta web o en varias webs con fines de marketing similares. <br/> \n\n### 5.4 Redes sociales  <br/> \n\nEn nuestra web hemos incluido contenido para promover páginas web (p.ej.: «Me gusta», «Pinear») o compartir (p.ej.: «tuitear») en redes sociales. Este contenido está incrustado con código derivado de terceros y guarda cookies. Este contenido podría procesar cierta información para anuncios personalizados. Por favor lea la política de privacidad de estas redes sociales (que puede cambiar frecuentemente) para saber que hacen con sus datos (personales) que procesan usando estas cookies. Los datos que reciben son anonimizados lo máximo posible.",
+
+            "section2": "## 7. Consentimiento <br/> \n\nCuando visites nuestra web por primera vez, te mostraremos una ventana emergente con una explicación sobre las cookies. Tan pronto como hagas clic en «Guardar preferencias», aceptas que usemos las categorías de cookies y plugins que has seleccionado en la ventana emergente, tal y como se describe en esta política de cookies. Puedes desactivar el uso de cookies a través de tu navegador, pero, por favor, ten en cuenta que nuestra web puede dejar de funcionar correctamente.<br/> \n\n### 7.1 Gestiona tus ajustes de consentimiento <br/> \n\nFuncional - Siempre activo <br/> \n\nEstadísticas - Estadísticas <br/> \n\nMarketing - Marketing <br/> \n\n  \n\n## 8. Activación/desactivación y borrado de cookies <br/> \n\nPuedes utilizar tu navegador de Internet para eliminar las cookies de forma automática o manual. También puedes especificar que ciertas cookies no pueden ser colocadas. Otra opción es cambiar los ajustes de tu navegador de Internet para que recibas un mensaje cada vez que se coloca una cookie. Para obtener más información sobre estas opciones, consulta las instrucciones de la sección «Ayuda» de tu navegador. <br/> \n\nTen en cuenta que nuestra web puede no funcionar correctamente si todas las cookies están desactivadas. Si borras las cookies de tu navegador, se volverán a colocar después de tu consentimiento cuando vuelvas a visitar nuestras webs. <br/> \n\n  \n\n## 9. Tus derechos con respecto a los datos personales <br/> \n\nTienes los siguientes derechos con respecto a tus datos personales: <br/> \n\n*   Tiene derecho a saber por qué se necesitan tus datos personales, qué sucederá con ellos y durante cuánto tiempo se conservarán.\n*   Derecho de acceso: tienes derecho a acceder a tus datos personales que conocemos. <br/> \n*   Derecho de rectificación: tienes derecho a completar, rectificar, borrar o bloquear tus datos personales cuando lo desees.<br/> \n*   Si nos das tu consentimiento para procesar tus datos, tienes derecho a revocar dicho consentimiento y a que se eliminen tus datos personales. <br/> \n*   Derecho de cesión de tus datos: tienes derecho a solicitar todos tus datos personales al responsable del tratamiento y a transferirlos íntegramente a otro responsable del tratamiento.\n*   Derecho de oposición: puedes oponerte al tratamiento de tus datos. Nosotros cumplimos con esto, a menos que existan motivos justificados para el procesamiento.\n\nPara ejercer estos derechos, por favor, contacta con nosotros. Por favor, consulta los detalles de contacto en la parte inferior de esta política de cookies. Si tienes alguna queja sobre cómo gestionamos tus datos, nos gustaría que nos la hicieras saber, pero también tienes derecho a enviar una queja a la autoridad supervisora (la autoridad de protección de datos). <br/> \n\n  \n\n## 10. Datos de contacto\n\nPara preguntas y/o comentarios sobre nuestra política de cookies y esta declaración, por favor, contacta con nosotros usando los siguientes datos de contacto: <br/> \n\nPABerater GmbH  \nWaltersdorfer Ch 203, 12355 Berlin  \nAlemania  \nWeb: [https://paberater.de](https://paberater.de)  \nCorreo electrónico: [info@paberater.de](mailto:info@paberterde)  \n Número de teléfono: +49 15780633091\n\nEsta política de cookies se ha sincronizado con cookiedatabase.org el octubre 25, 20"
+        },
+
+        "impressumPage": {
+            "seoDescription": "Homologación seo description",
+            "seoTitle": "Homologación Page seo title",
+            "content": "# Impressum<br />   \n ## Angaben gemäß § 5 TMG <br />\n\n### PABerater GmbH <br />\nWaltersdorfer Chaussee 203 12355 Berlin  \nHandelsregister: HRB 233076 B Registergericht: Amtsgericht Charlottenburg <br /> \n\n  <br /> \n\n### Vertreten durch: <br /> \n\nJorge Joel Pineda Arcia <br />\n\n <br /> \n\n### Vorsitzender des Aufsichtsrats: <br /> \n\nPABerater GmbH <br />\n\n  <br /> \n\n### Kontakt \n\nTelefon: 015780633091  \nTelefax: +49 (0) 123 44 55 99   \nE-Mail: [info@paberater.de](info@paberater.de)<br /> \n\n  \n\n### Steuernummer: <br />\n\n29/464/30320 <br />\n\n <br /> \n\n## EU-Streitschlichtung  <br /> \n\n Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: [https://ec.europa.eu/consumers/odr/](https://ec.europa.eu/consumers/odr/) Unsere E-Mail-Adresse finden Sie oben im Impressum. <br /> \n\n  <br /> \n\n## Verbraucherstreitbeilegung/Universalschlichtungsstelle <br /> \n\nWir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen. \n\nQuelle: [eRecht24](https://www.e-recht24.de/)"
+        },
+        "datenschutzPage": {
+            "seoTite": "cookie seo title",
+            "seoDescription": "cookie seo description",
+            "content": "# Datenschutzerklärung\n\nWir bedanken uns für Ihr Interesse an unserem Onlineauftritt. Für uns ist der Schutz Ihrer personenbezogenen Daten sehr wichtig. Daher möchten wir Sie an dieser Stelle über den Datenschutz und den Umgang mit personenbezogenen Daten auf unserer Internetseite www.pabetarer.de informieren.\n\n  \n\n## Bitte lesen Sie diese Datenschutzerklärung sorgfältig und aufmerksam durch.\n\nDiese Datenschutzerklärung gilt für die Erhebung, Verarbeitung und Speicherung (im Folgenden Verarbeitung genannt) von personenbezogenen Daten im Rahmen Ihres Besuchs unserer Internetplattform www.paberater.de (im Folgenden Website genannt).\n\n  \n\n### 1.Diensteanbieter und verantwortliche Stelle\n\nDiensteanbieter und verantwortliche Stelle für diese Website ist die PABerater GmbH, Waltersdorfer Chaussee 203, 12355 Berlin. Die PABerater GmbH (im Folgenden PABerater, wir genannt) beachtet alle anwendbaren Datenschutzgesetze und ist darüber hinaus bestrebt, den Datenschutz stetig zu verbessern. Sie können diese Erklärung über Ihren Browser speichern und ausdrucken.\n\n  \n\n### 2.Gegenstand des Datenschutzes\n\nGegenstand des Datenschutzes sind personenbezogene Daten nach Art. 4 Nr. 1 Datenschutz-Grundverordnung EU (DS-GVO). Dies sind Einzelangaben über persönliche oder sachliche Verhältnisse einer bestimmten oder bestimmbaren natürlichen Person. Darunter fallen alle Angaben, die einen Rückschluss auf eine identifizierte oder identifizierbare Person zulassen, etwa dessen Name, Adresse oder seine Kontaktdaten (z.B. Telefonnummer, Post- und E-Mail-Adresse). Auch IP-Adressen sind personenbezogene Daten in diesem Sinne.\n\n  \n\n### 3.Zweckgebundene Datenverwendung\n\nWir beachten den Grundsatz der zweckgebundenen Verwendung von personenbezogenen Daten und verarbeiten Ihre personenbezogenen Daten nur für die Zwecke, für die Sie uns diese mitgeteilt bzw. freigegeben haben. Eine Weitergabe Ihrer personenbezogenen Daten an Dritte erfolgt ohne Ihre ausdrückliche Zustimmung nicht, sofern dies nicht zur Erbringung der Dienstleistung oder zur Vertragsdurchführung notwendig ist. Auch die Übermittlung an auskunftsberechtigte staatliche Institutionen und Behörden erfolgt nur im Rahmen der gesetzlichen Auskunftspflichten oder wenn wir durch eine gerichtliche Entscheidung zur Auskunft verpflichtet werden. In unserem Unternehmen legen wir großen Wert auf den Datenschutz. Alle unsere Mitarbeiter und die von uns beauftragten Dienstleistungsunternehmen sind von uns zur Verschwiegenheit und zur Einhaltung der datenschutzrechtlichen Bestimmungen verpflichtet worden.\n\n  \n\n### 4.Verarbeiten personenbezogener Daten\n\nPABERATER verarbeitet personenbezogene Daten generell nur, soweit die DS-GVO oder eine andere Rechtsvorschrift dies erlaubt oder anordnet oder Sie als Nutzer oder Besucher unserer Website zugestimmt haben, Art. 6 Abs. 1 S. 1 lit. a oder die Erhebung dieser Daten für die Erfüllung eines Vertrages mit Ihnen notwendig ist, Art. 6 Abs. 1 S. 1 lit. b. Als Nutzer unserer Website werden von Ihnen folgende Daten verarbeitet: Kontaktdaten wie Vorname, Name, Telefon-/Mobiltelefonnummer, E-Mail-Adresse, Rechnungsadresse, Beruf. Diese Angaben sind notwendig, um die von uns zur Verfügung gestellten Leistungen richtig nutzen zu können. Die Angaben werden über ein Kontaktformular erhoben. Die Erhebung dieser Daten dient der Umsetzung der originären Funktion des Webangebots von PABERATER. Die Rechtfertigung ergibt sich aus Art. 6 Abs. 1 Satz 1 lit. a und b DSGVO. Darüber hinaus bieten wir einen Newsletter an. Für den Versand des Newsletters verarbeiten wir ihre E-Mail-Adresse. Der Newsletter muss auf unserer Website ausdrücklich abonniert werden. Sie können den Newsletter jederzeit widerrufen. Die Rechtfertigung ergibt sich aus Art. 6 Abs. 1 Satz 1 lit. b DSGVO aufgrund einer ausdrücklich von Ihnen erteilten Einwilligung.\n\n  \n\n### 5.Datenerhebung und -verwendung zur Bereitstellung und Nutzung der Website\n\nPABERATER erhebt und verwendet personenbezogene Daten im Zusammenhang mit der Bereitstellung dieser Website nur, soweit die DS-GVO oder eine andere Rechtsvorschrift es erlaubt oder der Nutzer zugestimmt hat. Beim Aufrufen unserer Website werden durch den auf Ihrem Endgerät zum Einsatz kommenden Browser automatisch Informationen an den Server unserer Website gesendet. Diese Informationen werden temporär in einem sog. Logfile gespeichert. Folgende Informationen werden dabei ohne Ihr Zutun erfasst und bis zur automatisierten Löschung gespeichert:\n\n  \n\n*   IP-Adresse des anfragenden Rechners,\n*   Datum und Uhrzeit des Zugriffs,\n*   Name und URL der abgerufenen Datei,\n*   Website, von der der Zugriff erfolgt (Referrer-URL),\n*   verwendeter Browser und ggf. das Betriebssystem Ihres Rechners sowie der Name Ihres Access-Providers.\n*   Längen- und Breitengrad Ihres Standorts\n\nDie genannten Daten werden durch uns zu folgenden Zwecken verarbeitet:\n\n*   Gewährleistung eines reibungslosen Verbindungsaufbaus der Website,\n*   Gewährleistung einer komfortablen Nutzung unserer Website,\n*   Auswertung der Systemsicherheit und -stabilität sowie\n*   zu weiteren administrativen Zwecken.\n\nDie Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 S. 1 lit. b und f DSGVO. Unser berechtigtes Interesse folgt aus oben aufgelisteten Zwecken zur Datenerhebung. In keinem Fall verwenden wir die erhobenen Daten zu dem Zweck, Rückschlüsse auf Ihre Person zu ziehen. Darüber hinaus setzen wir beim Besuch unserer Website Cookies sowie Analysedienste ein. Nähere Erläuterungen dazu erhalten Sie unter den Ziff. 6 und 7 dieser Datenschutzerklärung.\n\n  \n\n### 6.Umfang und Zweck der Datenerhebung und -verwendung für sonstige Zwecke\n\nPNeben den unter Nr. 4 und 5 dieser Erklärung aufgeführten Nutzungen Ihrer personenbezogenen Daten können Ihre Daten unter bestimmten, sogleich näher erläuterten Voraussetzungen genutzt werden:\n\n  \n\n*   a) Übermittlung Ihrer Daten innerhalb des Unternehmens\n\nUm Ihnen im Rahmen unserer angebotenen Dienstleistungen einen möglichst umfangreichen Service bieten zu können, werden von Ihnen folgende Daten innerhalb des Unternehmens verarbeitet: Kontaktdaten wie Vorname, Name, Adresse, Telefon-/Mobiltelefonnummer, E-Mail-Adresse.\n\n*   b) Übermittlung Ihrer Daten an Dritte\n\nSoweit dies erforderlich ist, geben wir personenbezogene Daten an Unternehmen, die wir im Zusammenhang mit der Datenverarbeitung einsetzen, sogenannte Auftragsverarbeiter, unter Beachtung der datenschutzrechtlichen Anforderungen weiter. Darüber hinaus findet eine Übermittlung Ihrer persönlichen Daten an Dritte zu anderen als den im Folgenden aufgeführten Zwecken nicht statt. Wir geben Ihre persönlichen Daten nur an Dritte weiter, wenn:\n\n*   Sie Ihre nach Art. 6 Abs. 1 S. 1 lit. a DSGVO ausdrückliche Einwilligung dazu erteilt haben,\n*   die Weitergabe nach Art. 6 Abs. 1 S. 1 lit. f DSGVO zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist und kein Grund zur Annahme besteht, dass Sie ein überwiegendes schutzwürdiges Interesse an der Nichtweitergabe Ihrer Daten haben,\n*   für den Fall, dass für die Weitergabe nach Art. 6 Abs. 1 S. 1 lit. c DSGVO eine gesetzliche Verpflichtung besteht, sowie\n*   dies gesetzlich zulässig und nach Art. 6 Abs. 1 S. 1 lit. b DSGVO für die Abwicklung von Vertragsverhältnissen mit Ihnen erforderlich ist.\n\n### 7.Verwendung von Cookies/social media/Plugins\n\nPABERATER setzt auf seiner Seite Cookies ein. Hierbei handelt es sich um kleine Dateien, die Ihr Browser automatisch erstellt und die auf Ihrem Endgerät (Laptop, Tablet, Smartphone o.ä.) gespeichert werden, wenn Sie unsere Seite besuchen. Cookies richten auf Ihrem Endgerät keinen Schaden an, enthalten keine Viren, Trojaner oder sonstige Schadsoftware. In dem Cookie werden Informationen abgelegt, die sich jeweils im Zusammenhang mit dem spezifisch eingesetzten Endgerät ergeben. Dies bedeutet jedoch nicht, dass wir dadurch unmittelbar Kenntnis von Ihrer Identität erhalten. Der Einsatz von Cookies dient einerseits dazu, die Nutzung unseres Angebots für Sie angenehmer zu gestalten. So setzen wir sogenannte Session-Cookies ein, um zu erkennen, dass Sie einzelne Seiten unserer Website bereits besucht haben. Diese werden nach Verlassen unserer Seite automatisch gelöscht. Darüber hinaus setzen wir ebenfalls zur Optimierung der Benutzerfreundlichkeit temporäre Cookies ein, die für einen bestimmten festgelegten Zeitraum auf Ihrem Endgerät gespeichert werden. Besuchen Sie unsere Seite erneut, um unsere Dienste in Anspruch zu nehmen, wird automatisch erkannt, dass Sie bereits bei uns waren und welche Eingaben und Einstellungen sie getätigt haben, um diese nicht noch einmal eingeben zu müssen. Zum anderen setzten wir Cookies ein, um die Nutzung unserer Website statistisch zu erfassen und zum Zwecke der Optimierung unseres Angebotes für Sie auszuwerten (siehe Ziff. 5). Diese Cookies ermöglichen es uns, bei einem erneuten Besuch unserer Seite automatisch zu erkennen, dass Sie bereits bei uns waren. Diese Cookies werden nach einer jeweils definierten Zeit automatisch gelöscht. Die durch Cookies verarbeiteten Daten sind für die genannten Zwecke zur Wahrung unserer berechtigten Interessen sowie der Dritter nach Art. 6 Abs. 1 S. 1 lit. f DSGVO erforderlich. Die meisten Browser akzeptieren Cookies automatisch. Sie können Ihren Browser jedoch so konfigurieren, dass keine Cookies auf Ihrem Computer gespeichert werden oder stets ein Hinweis erscheint, bevor ein neues Cookie angelegt wird. Die vollständige Deaktivierung von Cookies kann jedoch dazu führen, dass Sie nicht alle Funktionen unserer Website nutzen können.\n\n  \n\n*   a) Vermeidung von Cookies/Allgemeines Widerspruchsrecht\n\nUnabhängig von der Art des verwendeten Cookies haben Sie stets die Wahl zu entscheiden, ob Sie Cookies akzeptieren wollen oder nicht. Sie können Ihren Browser so einstellen, dass Sie benachrichtigt werden, wenn Sie ein Cookie erhalten oder Sie können Ihr bestehendes gesetzliches Widerspruchsrecht gegen die Verwendung von Cookies stets dadurch ausüben, dass Sie Cookies in den Browsereinstellungen ablehnen. Die Einzelheiten hierzu entnehmen Sie bitte der Hilfe-Funktion Ihres Internetbrowsers. Hiervon unberührt bleibt – soweit nachfolgend näher beschrieben – die Möglichkeit, der Verwendung bestimmter Cookies gesondert zu widersprechen. Wenn Sie keine Cookies akzeptieren, können Sie möglicherweise nicht die vollständige Bandbreite der Websiten-Funktionen nutzen. Folgende Arten von Cookies kommen auf unseren Websiten zum Einsatz:\n\n*   b) Session Cookies\n\nPABERATER verwendet zur Verbesserung der Darstellung und der Navigation sog. Session-Cookies. Diese verlieren nach dem Verlassen unserer Websiten ihre Gültigkeit. Weitere Informationen über Cookies, Flash Cookies und andere Tools gibt es auf den folgenden Websites:\n\n*   [https://allaboutcookies.org/](https://allaboutcookies.org/)\n*   [https://youronlinechoices.eu/](https://youronlinechoices.eu/)\n*   [http://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html](http://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html)\n*   Ein Video über Cookies:\n    \n     [https://www.google.co.uk/goodtoknow/data-on-the-web/cookies](https://www.google.co.uk/goodtoknow/data-on-the-web/cookies)\n\n  \n\n## Cookie-Funktionen\n\n  \n\n### Analytics und Research:\n\nPABERATER verwendet Google Analytics, um Informationen darüber zu erfassen, wie Besucher die Website nutzen. Wir verwenden diese Informationen, um Berichte zusammenzustellen und unsere Seite zu verbessern. Cookies erfassen diese Informationen in anonymisierter Form, einschließlich der Anzahl an Besuchern auf der Website, wo diese Besucher herkommen und die Seite, die sie besucht haben. Weitere Informationen über die Google-Datenschutzrichtlinien finden Sie hier: [http://www.google.com/intl/en/policies/](http://www.google.com/intl/en/policies/)\n\n  \n\n### Authentifizierung:\n\nDiese Cookies helfen uns dabei Mitglieder zu identifizieren, so dass Sie, wenn Sie eingeloggt sind, alle PABERATER-Funktionen und Angebote nutzen können, zum Beispiel Fotos hochladen, chatten, PABERATER auf ihren Standort ausrichten und Ihre Sprache einstellen. Außerdem geben diese Cookies Auskunft darüber, wer sie zu PABERATER eingeladen hat.\n\n  \n\n### Sicherheit und Seiten-Integrität:\n\nWir nutzen Cookies und andere Tools wie CAPTCHA, um PABERATER für unsere Mitglieder sicherer zu machen. Diese Cookies schützen unsere Mitglieder vor Spam und Betrug, indem sie ihre persönlichen Daten sichern, wenn sie bei PABERATER beispielsweise PABERATER Premium erwerben. Von Zeit zu Zeit verwenden wir auch Persistent Cookies, die dabei helfen, sicherzustellen, dass sich dasselbe Gerät in den richtigen Account einloggt. Diese Cookies haben außerdem eine Anti-Spam-Funktionen und können dazu beitragen, Phishing, Scammer und unerwünschte Login-Versuche zu verhindern. PABERATER verwendet Digicert zur Zertifizierung seiner Websiteninhalte. Nähere Informationen zur privacy policy finden Sie hier: [https://www.digicert.com/digicert-privacy-policy/](https://www.digicert.com/digicert-privacy-policy/)\n\n  \n\n### Social Media:\n\n  \n\nWir verwenden Cookies außerdem, um Verlinkungen zu anderen sozialen Netzwerken herzustellen, um Plugins und Videomaterial anzubieten, und um es einfacher zu machen, Inhalte mit PABERATER und anderen Netzwerken zu teilen. Es kann vorkommen, dass von Ihnen ausgewählte Funktionen Drittanbietern die Erlaubnis geben, Cookies auf deinem Computer zu hinterlassen. Damit geht die Verantwortung für deine Daten an den Drittanbieter über, der diese Cookies auf deinem Gerät hinterlässt. PABERATER empfiehlt Ihnen, die jeweiligen Datenschutzrichtlichtlinien der Anbieter aufmerksam zu lesen. Die folgenden Anbieter hinterlassen Cookies auf Ihren Geräten, wenn Sie PABERATER nutzt:\n\n  \n\n*   [Twitter, https://twitter.com/privacy](Twitter, https://twitter.com/privacy)\n*   [acebook, https://en-gb.facebook.com/policy.php](acebook, https://en-gb.facebook.com/policy.php)\n*   [YouTube, http://www.google.co.uk/intl/en/policies/privacy/](YouTube, http://www.google.co.uk/intl/en/policies/privacy/)\n*   [Google Maps, http://www.google.co.uk/intl/en/policies/privacy/](Google Maps, http://www.google.co.uk/intl/en/policies/privacy/)\n*   [Instagram, https://help.instagram.com/285881641526716](Instagram, https://help.instagram.com/285881641526716)\n*   [Pinterest, https://policy.pinterest.com/de/privacy-policy](Pinterest, https://policy.pinterest.com/de/privacy-policy)\n*   [LinkedIn,https://www.linkedin.com/legal/privacy-policy?trk=uno-reg-guest-home-privacy-policy](LinkedIn,https://www.linkedin.com/legal/privacy-policy?trk=uno-reg-guest-home-privacy-policy)\n*   [Yandex, https://yandex.com/legal/privacy/](Yandex, https://yandex.com/legal/privacy/)\n\n### Leistung:\n\nWir benötigen bestimmte Cookies und andere Tools, um sicherzustellen, dass unsere Mitglieder die bestmögliche PABERATER-Erfahrung haben. Zum Beispiel können wir so die Navigation auf der Website verbessern und dafür sorgen, dass Seiten schneller laden und reagieren.\n\n  \n\n### Gezielte Werbung\n\nVon Zeit zu Zeit führen wir Werbekampagnen mithilfe von DoubleClick, einem Google-Unternehmen, durch, das auch Cookies setzt. Mehr Informationen über die Cookies-Richtlinien und Cookie-Verwaltung von DoubleClick finden Sie hier: https://policies.google.com/technologies/ads. Ebenso werden Newsletter über Mail-gun an interessierte Nutzer versandt. Die Richtlinien von Mail-gun finden Sie hier: https://www.mailgun.com/privacy-policy/ Die Aufnahme in den Newsletter-Verteiler erfolgt nach vorheriger Zustimmung. Die Zustimmung zum Erhalt kann jederzeit widerrufen werden.\n\n  \n\n*   c) Einbindung von sozialen Medien/Drittanbietern\n\nPABERATER verwendet zur Verbesserung der Darstellung und der Navigation sog. Session-Cookies. Diese verlieren nach dem Verlassen unserer Websiten ihre Gültigkeit. Weitere Informationen über Cookies, Flash Cookies und andere Tools gibt es auf den folgenden Websites:\n\n  \n\n### 8. Auskunft, Datenberichtigung, -löschung oder -sperrung\n\nSie können von PABERATER als verantwortliche Stelle jederzeit Auskunft über die ggf. über Sie gespeicherten Daten, den Zweck der Speicherung und deren Herkunft verlangen. Darüber hinaus bestehen nach Maßgabe der gesetzlichen Bestimmungen Rechte auf die Berichtigung, Sperrung und Löschung Ihrer personenbezogenen Daten. Entsprechende Anliegen richten Sie bitte per E-Mail an: info@paberater.de\n\n  \n\nIm Einzelnen haben Sie folgende Rechte\n\n  \n\n*   gemäß Art. 15 DSGVO Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten zu verlangen. Insbesondere können Sie Auskunft über die Verarbeitungszwecke, die Kategorie der personenbezogenen Daten, die Kategorien von Empfängern, gegenüber denen Ihre Daten offengelegt wurden oder werden, die geplante Speicherdauer, das Bestehen eines Rechts auf Berichtigung, Löschung, Einschränkung der Verarbeitung oder Widerspruch, das Bestehen eines Beschwerderechts, die Herkunft ihrer Daten, sofern diese nicht bei uns erhoben wurden, sowie über das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling und ggf. aussagekräftigen Informationen zu deren Einzelheiten verlangen; Mitglieder in bestimmten Gerichtsbarkeiten können, in Übereinstimmung mit geltendem Recht, von ihrem Recht Gebrauch machen, ihre persönlichen Daten abzurufen , indem sie eine Kopie ihrer bei uns vorliegenden Daten anfordern (Die erste Kopie pro Anfrage ist kostenlos. Für jede weitere Kopie wird eine kleine Aufwandsentschädigung berechnet). Senden Sie eine solche Anfrage bitte schriftlich an die oben genannte Kontaktadresse unseres Datenschutzverantwortlichen (Datenschutzbeauftragten).\n*   gemäß Art. 16 DSGVO unverzüglich die Berichtigung unrichtiger oder Vervollständigung Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen;\n*   gemäß Art. 17 DSGVO die Löschung Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen, soweit nicht die Verarbeitung zur Ausübung des Rechts auf freie Meinungsäußerung und Information, zur Erfüllung einer rechtlichen Verpflichtung, aus Gründen des öffentlichen Interesses oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist;\n*   gemäß Art. 18 DSGVO die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen, soweit die Richtigkeit der Daten von Ihnen bestritten wird, die Verarbeitung unrechtmäßig ist, Sie aber deren Löschung ablehnen und wir die Daten nicht mehr benötigen, Sie jedoch diese zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigen oder Sie gemäß Art. 21 DSGVO Widerspruch gegen die Verarbeitung eingelegt haben;\n*   gemäß Art. 20 DSGVO Ihre personenbezogenen Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesebaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen;\n*   gemäß Art. 7 Abs. 3 DSGVO Ihre einmal erteilte Einwilligung jederzeit gegenüber uns zu widerrufen. Dies hat zur Folge, dass wir die Datenverarbeitung, die auf dieser Einwilligung beruhte, für die Zukunft nicht mehr fortführen dürfen und\n*   gemäß Art. 77 DSGVO sich bei einer Aufsichtsbehörde zu beschweren. In der Regel können Sie sich hierfür an die Aufsichtsbehörde Ihres üblichen Aufenthaltsortes oder Arbeitsplatzes oder unseres Kanzleisitzes wenden.\n\n### 9. Widerspruchsrecht\n\nSofern Ihre personenbezogenen Daten auf Grundlage von berechtigten Interessen gemäß Art. 6 Abs. 1 S. 1 lit. f DSGVO verarbeitet werden, haben Sie das Recht, gemäß Art. 21 DSGVO Widerspruch gegen die Verarbeitung Ihrer personenbezogenen Daten einzulegen, soweit dafür Gründe vorliegen, die sich aus Ihrer besonderen Situation ergeben oder sich der Widerspruch gegen Direktwerbung richtet. Im letzteren Fall haben Sie ein generelles Widerspruchsrecht, das ohne Angabe einer besonderen Situation von uns umgesetzt wird. Möchten Sie von Ihrem Widerrufs- oder Widerspruchsrecht Gebrauch machen, genügt eine E-Mail. Entsprechende Anliegen richten Sie bitte per E-Mail an: info@paberater.de\n\n  \n\n### 10. Betrieblicher Datenschutzbeauftragter\n\nFür allgemeine Fragen, Beanstandungen oder Anregungen zum Datenschutz von PABERATER kontaktieren Sie uns bitte per E-Mail: info@paberater.de\n\n  \n\n### 11. Aktualität und Änderung dieser Datenschutzerklärung\n\nDiese Datenschutzerklärung ist aktuell gültig und hat den Stand März 2022. Durch die Weiterentwicklung unserer Website und Angebote darüber oder aufgrund geänderter gesetzlicher beziehungsweise behördlicher Vorgaben kann es notwendig werden, diese Datenschutzerklärung zu ändern. Die jeweils aktuelle Datenschutzerklärung kann jederzeit auf der Website unter https://paberater.de/datenschutz/ von Ihnen abgerufen und ausgedruckt werden."
+        },
+        "landingPage": {
+            "firstStepsText1BoldText": "El",
+            "firstStepsText13": "<1>{{boldText}}</1> primer paso hacia <2>{{text2}} </2 <3>{{text3}} </3> {{text4}} <4> </4>",
+            "firstStepsText1": "<1>El </1> primer paso hacia <2> tu crecimiento profesional</2> <3>en</3> Alemania <4>está solo a 30min</4>",
+            "firstStepsText2": "tu crecimiento profesional",
+            "firstStepsText3BoldText": "en",
+            "firstStepsText3": "<1>{{boldText}}</1> Alemania",
+            "firstStepsText4": "está solo a 30min",
+            "title": "¡Te asignaremos un asesor personalizado!",
+            "seoTitle": "Agb page seo title",
+            "seoDescription": "agb seo description",
+            "phone": "+49 157 806 33091",
+            "contactSection": {
+                "title1": "El primer paso hacia tu crecimiento profesional\n en Alemania, está a solo 30 min",
+                "title2": "Responderemos todas tus dudas",
+                "title3": "Proceso ágil, transparente y confiable",
+                "title4": "Oportunidades acorde\n a tu perfil profesional",
+                "text": "¿HABLAMOS?",
+                "subtitle": "Tu pones el talento, \n  nosotros nos encargamos de lo demás"
+            },
+            "paymentSection": {
+                "subtitle": "Comienza tu proceso y paga en cómodas facilidades",
+                "title": "Medios de pago",
+                "choosePlanTitle": "Elige el plan ideal para ti.",
+                "button": "¡Quiero saber más!",
+                "text1": "Inicia tu proceso y paga el 50% a los quince días. Liquida 2 meses después.",
+                "offerAmount": "100€",
+                "text2": "Pronto pago. Pago en una exhibición y te descontamos<1> {{amount}}<1/>"
+            }
+        },
+        "signupPage": {
+            "emailLabel": "Correo electrónico",
+            "nameLabel": "Nombre y Apellidos",
+            "passwordLabel": "Contraseña",
+            "button": "Registrarme",
+            "link1": "¿Ya tienes una cuenta? ",
+            "link2": "Inicia Sesión? ",
+            "uknownError": "Error desconocido. Por favor, inténtelo de nuevo",
+            "emailInUse": "El correo electrónico ya está en uso",
+            "weakPassword": "La contraseña debe tener al menos 6 caracteres",
+            "success": "Registro exitoso. ¡Bienvenido!"
+        },
+        "loginPage": {
+            "emailLabel": "Correo electrónico",
+            "loginButton": "Iniciar sesión",
+            "passwordLabel": "Contraseña",
+            "loginWithGoogle": "Iniciar sesión con Google",
+            "forgotPasswordLabel": "¿Olvidaste tu contraseña?",
+            "userNotFound": "Datos de usuario no encontrados. Por favor, inténtelo de nuevo",
+            "loginFailed": "Inicio de sesión fallido. Por favor, verifique sus credenciales e inténtelo de nuevo",
+            "tooManyTries": "Demasiados intentos. Inténtelo de nuevo más tarde.",
+            "invalidPassword": "Correo o contraseña incorrecta. Verifique sus credenciales",
+            "invalidEmail": "Correo electrónico inválido. Verifique su dirección de correo",
+            "seoTitle": "login page seo title",
+            "seoDescription": "login seo description",
+            "noEmail": "Por favor ingresa tu correo electrónico",
+            "resetPasswordMessage": "Se ha enviado un mensaje a tu correo electrónico para cambiar la contraseña"
+        },
+        "agbPage": {
+            "seoTitle": "Agb page seo title",
+            "seoDescription": "agb seo description",
+            "content": "# Allgemeine Verkaufsbedingungen <br/> \n\n## Geltungsbereich <br/> \n\nDiese Geschäftsbedingungen gelten für alle Käufe bei PABerater GmbH [Link auf „Impressum»], die von Privatkunden getätigt werden. Privatkunden in diesem Sinne sind Personen mit Wohnsitz und Lieferadresse in der Bundesrepublik Deutschland, soweit die von ihnen bestellten Waren weder ihrer gewerblichen noch ihrer selbstständigen beruflichen Tätigkeit zugerechnet werden können. Geschäftskunden werden gebeten, Bestellungen auf den über den Geschäftskunden-Login erreichbaren Bestellseiten zu tätigen. <br/> \n\n  \n\n## Vertragsabschluss <br/> \n\nDie Präsentation unserer Waren und der Einräumung der Möglichkeit zur Bestellung stellt unsererseits ein konkretes Angebot zum Abschluss eines Kaufvertrages dar. Durch Ihre Bestellung nehmen Sie das Angebot an und der Kaufvertrag ist zustande gekommen. Hierüber erhalten Sie eine Bestellbestätigung per E-Mail an die von Ihnen angegebene E-Mail-Adresse. <br/> \n\n  \n\n## Preise und Versandkosten <br/> \n\nDie ausgezeichneten Preise sind Endpreise inkl. Umsatzsteuer. Es gilt der Betrag, der jeweils zum Zeitpunkt der verbindlichen Bestellung ausgewiesen ist. Hinzu kommen Versandkosten, die von der Versandart und der Größe und dem Gewicht der von Ihnen bestellten Ware(n) abhängig sind. Über die Einzelheiten können Sie sich unter informieren. Die regelmäßigen Kosten der Rücksendung, die im Falle einer Rückgabe der Ware durch Sie in Ausübung Ihres Widerrufsrechts entstehen, tragen wir. Bei Ausübung Ihres Widerrufsrechts erstatten wir Ihnen auch die Versandkosten zurück. <br/> \n\n  \n\n## Zahlung <br/> \n\n Die Bezahlung erfolgt bei Lieferung mittels\n\n*   Kreditkarte\n*   Lastschrift\n*   Vorkasse\n*   Rechnung\n\n## Zahlungsverzug\n\nKommen Sie in Zahlungsverzug, so ist PABerater GmbH berechtigt, Verzugszinsen in Höhe von 5 Prozentpunkten über dem von der Deutschen Bundesbank für den Zeitpunkt der Bestellung bekannt gegebenen Basiszinssatz p.a. zu fordern. Falls PABerater GmbH ein höherer Verzugsschaden nachweisbar entstanden ist, ist PABerater GmbH berechtigt, diesen geltend zu machen. <br/> \n ## Zurückbehaltungsrecht\n\nZur Ausübung eines Zurückbehaltungsrechts ist der Kunde nur insoweit befugt, als sein Gegenanspruch auf demselben Vertragsverhältnis beruht.  <br/> \n\n  \n\n## Lieferung \n*   Die Lieferung erfolgt an die vom Kunden angegebene Lieferanschrift, innerhalb von Deutschland\n*   Macht höhere Gewalt (Naturkatastrophen, Krieg, Bürgerkrieg, Terroranschlag) die Lieferung oder eine sonstige Leistung dauerhaft unmöglich, ist eine Leistungspflicht von PABerater GmbH ausgeschlossen. Bereits gezahlte Beträge werden von PABerater GmbH unverzüglich erstattet.\n*   PABerater GmbH kann außerdem die Leistung verweigern, soweit diese einen Aufwand erfordert, der unter Beachtung des Inhalts des Kaufvertrages und der Gebote von Treu und Glauben in einem groben Missverhältnis zu dem Interesse des Kunden an der Erfüllung des Kaufvertrages steht. Bereits gezahlte Beträge werden von PABerater GmbH unverzüglich erstattet.\n*   Sperrgut (Pakete mit einem größeren Volumen als 1 qm) werden in der Regel per Spedition geliefert. PABerater GmbH weist ausdrücklich darauf hin, dass diese Ware nicht ins Haus getragen wird.\n\n  \n\n## Günstige Versandart bei Rücksendung\n\n*   (1) Bitte verwenden Sie bei der Rücksendung der Ware und des Zubehörs nach Möglichkeit die Originalverpackung, auch wenn diese durch eine Öffnung zur Funktionsprüfung beschädigt sein sollte.\n*   (2) Bitte verwenden Sie zur Rücksendung den der Warenlieferung beigefügten, vollständig frankierten und adressierten Rücksendeaufkleber. Es handelt sich dabei um die einfachste und kostengünstigste Versandmöglichkeit. Sie trifft keine Verpflichtung zur Verwendung dieses Rücksendeverfahrens. Wenn Sie allerdings eine unnötig teure Versandart wählen, können Sie unter Umständen verpflichtet sein, die gegenüber einer günstigen Versandart erhöhten Kosten an uns zu zahlen.\n\n  \n\n## Günstige Versandart bei Rücksendung\n\n(1) Ein bereits bei der Lieferung mangelhaftes Produkt (Gewährleistungsfall) wird PABerater GmbH nach Wahl des Kunden auf Kosten von PABerater GmbH durch ein mangelfreies ersetzen oder fachgerecht reparieren lassen (Nacherfüllung). Der Kunde wird darauf hingewiesen, dass kein Gewährleistungsfall vorliegt, wenn das Produkt bei Gefahrübergang die vereinbarte Beschaffenheit hatte. Ein Gewährleistungsfall liegt insbesondere in folgenden Fällen nicht vor: <br/> \n\n  \n\n1.a) bei Schäden, die beim Kunden durch Missbrauch oder unsachgemäßen Gebrauch entstanden sind, 1.b) bei Schäden, die dadurch entstanden sind, dass die Produkte beim Kunden schädlichen äußeren Einflüssen ausgesetzt worden sind (insbesondere extremen Temperaturen, Feuchtigkeit, außergewöhnlicher physikalischer oder elektrischer Beanspruchung, Spannungsschwankungen, Blitzschlag, statischer Elektrizität, Feuer).  <br/> \n\n  \n\n(2) PABerater GmbH leistet ferner keine Gewähr für einen Fehler, der durch unsachgemäße Reparatur durch einen nicht vom Hersteller autorisierten Servicepartner entstanden ist.  <br/> \n\n  \n\n(3) Erfordert die vom Kunden gewünschte Art der Nacherfüllung (Ersatzlieferung oder Reparatur) einen Aufwand, der in Anbetracht des Produktpreises unter Beachtung des Vertragsinhaltes und der Gebote von Treu und Glauben in einem groben Missverhältnis zu dem Leistungsinteresse des Kunden steht – wobei insbesondere der Wert des Kaufgegenstandes im mangelfreien Zustand, die Bedeutung des Mangels und die Frage zu berücksichtigen sind, ob auf die andere Art der Nacherfüllung ohne erhebliche Nachteile für den Kunden zurückgegriffen werden kann – beschränkt sich der Anspruch des Kunden auf die jeweils andere Art der Nacherfüllung. Das Recht von PABerater GmbH, auch diese andere Art der Nacherfüllung unter der vorgenannten Voraussetzung zu verweigern, bleibt unberührt.  <br/> \n\n  \n\n(4) Sowohl für den Fall der Reparatur als auch für den Fall der Ersatzlieferung ist der Kunde verpflichtet, das Produkt auf Kosten von PABerater GmbH unter Angabe der Auftragsnummer an die von ihr angegebene Rücksendeadresse einzusenden. Vor der Einsendung hat der Kunde von ihm eingefügte Gegenstände aus dem Produkt zu entfernen. PABerater GmbH ist nicht verpflichtet, das Produkt auf den Einbau solcher Gegenstände zu untersuchen. Für den Verlust solcher Gegenstände haftet PABerater GmbH nicht, es sei denn, es war bei Rücknahme des Produktes für PABerater GmbH ohne Weiteres erkennbar, dass ein solcher Gegenstand in das Produkt eingefügt worden ist (in diesem Fall informiert PABerater GmbH den Kunden und hält den Gegenstand für den Kunden zur Abholung bereit; der Kunde trägt die dabei entstehenden Kosten). Der Kunde hat zudem, bevor er ein Produkt zur Reparatur oder zum Austausch einsendet, gegebenenfalls separate Sicherungskopien der auf dem Produkt befindlichen Systemsoftware, der Anwendungen und aller Daten auf einem separaten Datenträger zu erstellen und alle Passwörter zu deaktivieren. Eine Haftung für Datenverlust wird nicht übernommen. Ebenso obliegt es dem Kunden, nachdem ihm das reparierte Produkt oder das Ersatzprodukt zurückgesandt worden ist, die Software und Daten zu installieren und die Passwörter zu reaktivieren.  <br/> \n\n  \n\n(5) Sendet der Kunde die Ware ein, um ein Austauschprodukt zu bekommen, richtet sich die Rückgewähr des mangelhaften Produktes nach folgender Maßgabe: Sofern der Kunde die Ware zwischen Lieferung und Rücksendung in mangelfreiem Zustand benutzen konnte, hat dieser den Wert der von ihm gezogenen Nutzungen zu erstatten. Für einen nicht durch den Mangel eingetretenen Untergang oder die weitere Verschlechterung der Ware sowie für die nicht durch den Mangel eingetretene Unmöglichkeit der Herausgabe der Ware im Zeitraum zwischen Lieferung der Ware und Rücksendung der Ware hat der Kunde Wertersatz zu leisten. Der Kunde hat keinen Wertersatz für die durch den bestimmungsgemäßen Gebrauch der Ware entstandene Verschlechterung der Ware zu leisten. Die Pflicht zum Wertersatz entfällt für die Rücksendung eines mangelhaften Produktes im Gewährleistungsfall ferner,  <br/> \n\n  \n\n1.a) wenn sich der zum Rücktritt berechtigende Mangel erst während der Verarbeitung oder Umgestaltung gezeigt hat,  <br/> \n1.b) wenn PABerater GmbH die Verschlechterung oder den Untergang zu vertreten hat oder der Schaden auch bei PABerater GmbH eingetreten wäre, <br/>  \n1.c) wenn die Verschlechterung oder der Untergang beim Kunden eingetreten ist, obwohl dieser diejenige Sorgfalt beachtet hat, die er in eigenen Angelegenheiten anzuwenden pflegt.  <br/> \n\n  \n\n(6) Die Schadensersatzpflicht des Kunden bei einer vom Kunden zu vertretenden Verletzung der Rücksendungspflicht richtet sich nach Maßgabe der gesetzlichen Bestimmungen.  <br/> \n\n  \n\n(7) Der Kunde kann nach seiner Wahl vom Vertrag zurücktreten oder den Kaufpreis mindern, wenn die Reparatur oder Ersatzlieferung innerhalb einer angemessenen Frist nicht zu einem vertragsgerechten Zustand des Produktes geführt hat. <br/> \n\n  \n\n(8) Darüber hinaus können auch Ansprüche gegen den Hersteller im Rahmen einer von diesem eingeräumten Garantie bestehen, die sich nach den entsprechenden Garantiebedingungen richten.  <br/> \n\n  \n\n(9) Die gesetzliche Gewährleistung von PABerater GmbH endet zwei Jahre ab Lieferung der Ware. Die Frist beginnt mit dem Erhalt der Ware.  <br/> \n\n  \n\n## Anwendbares Recht  <br/> \n\n  \n\nDer zwischen Ihnen und PABerater GmbH abgeschlossene Vertrag unterliegt ausschließlich dem Recht der Bundesrepublik Deutschland unter ausdrücklichem Ausschluss des UN-Kaufrechts. Unberührt davon bleiben die zwingenden Bestimmungen des Staates, in dem Sie Ihren gewöhnlichen Aufenthalt haben. <br/> \n\n  \n\n## Gerichtsstand  <br/> \n\n  \n\nSofern Sie entgegen Ihren Angaben bei der Bestellung keinen Wohnsitz in der Bundesrepublik Deutschland haben oder nach Vertragsabschluss Ihren Wohnsitz ins Ausland verlegen oder Ihr Wohnsitz zum Zeitpunkt der Klageerhebung nicht bekannt ist, ist Gerichtsstand für alle Streitigkeiten aus und im Zusammenhang mit dem Vertragsverhältnis [Sitz des Betreibers des Online-Shops].  <br/> \n\n  \n\n## Streitbeilegung <br/> \n\n Allgemeine Informationspflichten zur alternativen Streitbeilegung nach Art. 14 Abs. 1 ODR-VO und § 36 VSBG (Verbraucherstreitbeilegungsgesetz): Die europäische Kommission stellt eine Plattform zur Online-Streitbelegung (OS) zur Verfügung, die Sie unter dieser Adresse finden: http://ec.europa.eu/consumers/odr/ . Zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle sind wir nicht verpflichtet und auch nicht bereit.  <br/> \n\n## Schlussbestimmungen  <br/> \n\n(1) Sollten einzelne Bestimmungen dieses Vertrages ganz oder teilweise unwirksam oder nichtig sein oder werden, so wird dadurch die Wirksamkeit des Vertrages im Übrigen nicht berührt, insoweit ein Vertragspartner hierdurch nicht unangemessen benachteiligt wird.  <br/> \n\n  \n\n(2) Änderungen oder Ergänzungen dieses Vertrages bedürfen der Schriftform."
+        },
+        "successStoriesPage": {
+            "seoTitle": "recognitions page seo title",
+            "seoDescription": "recognitions page description",
+            "title": "Casos de éxito",
+            "text": "Nuestros asesorados han tenido la oportunidad de contar sus vivencias, destacando los resultados positivos obtenidos y el impacto que ha tenido nuestra colaboración en su desarrollo. Sus historias son una prueba fehaciente de cómo hemos logrado acompañarlos en su crecimiento y alcanzar juntos los objetivos planteados."
+        },
+        "errorPage": {
+            "title": "404 Not Found",
+            "text": "La página que estás buscando no existe",
+            "button": "Volver al Inicio"
+        },
+        "recognitionPage": {
+            "seoTitle": "recognitions page seo title",
+            "seoDescription": "recognitions page description",
+            "regulatedProfessionsBanner": {
+                "title": "Profesiones reguladas",
+                "text": "Para las profesiones reguladas, el título profesional está especialmente protegido. Si usted estudió una profesión regulada necesitará realizar su homologación en Alemania para poder ejercer su profesión. Las profesiones reguladas en Alemania son, entre otras, médicos y todo el sector sanitario, maestros, entre otros. \n \n¿Qué pasa si su cualificación no es reconocida en su totalidad? \n \nEn este caso el organismo competente establecerá una medida compensatoria con la que podrá compensar las diferencias fundamentales. Si usted completa con éxito la medida compensatoria, se declarará la equivalencia.",
+                "title2": "Profesiones no reguladas",
+                "text2": "Si usted estudió en un país no miembro de la Unión Europea una profesión no regulada, un requisito para la solicitud de una visa de empleo en Alemania o una visa de búsqueda de empleo es el reconocimiento de sus cualificaciones académicas en Alemania."
+            },
+            "title": " Reconocimiento de títulos \n profesionales",
+            "banner": {
+                "title": "Reconocimiento de títulos profesionales en Alemania",
+                "subtitle": "Si ha estudiado una profesión universitaria de entre 4 y 5 años y quiere reconocer sus estudios universitarios en Alemania, puede asesorarse con nosotros para presentar su solicitud ante el organismo competente según su profesión."
+            },
+            "callToAction": {
+                "title": "Reconocer tu título \n en Alemania",
+                "subtitle": "¡ES POSIBLE!",
+                "button": "¿COMENZAMOS?"
+            },
+            "faq": {
+                "question1": "¿Qué es un reconocimiento oficial?",
+                "answer1": "El reconocimiento de sus cualificaciones profesionales significa que sus calificaciones extranjeras son comparables con una profesión alemana. Por ejemplo, si usted tiene una carrera como técnico en electrónica, sus capacidades y conocimiento adquiridos serán comparables con los que obtienen el título de Elektrotechniker en Alemania.",
+                "question2": "¿Qué es un reconocimiento oficial?",
+                "answer2": "El reconocimiento de sus cualificaciones profesionales significa que sus calificaciones extranjeras son comparables con una profesión alemana. Por ejemplo, si usted tiene una carrera como técnico en electrónica, sus capacidades y conocimiento adquiridos serán comparables con los que obtienen el título de Elektrotechniker en Alemania.",
+                "question3": "¿Qué es un reconocimiento oficial?",
+                "answer3": "El reconocimiento de sus cualificaciones profesionales significa que sus calificaciones extranjeras son comparables con una profesión alemana. Por ejemplo, si usted tiene una carrera como técnico en electrónica, sus capacidades y conocimiento adquiridos serán comparables con los que obtienen el título de Elektrotechniker en Alemania."
+            }
+        },
+        "translationsPage": {
+            "seoDescription": "translations page seo description",
+            "seoTitle": "translations page seo title",
+            "pageTitle": "Traducciones oficiales",
+            "bannerTitle": "Traducciones",
+            "bannerText": "Obtenga sus documentos traducidos al Alemán por traductores certificados en Alemania.",
+            "swornTranslationsTitle": "Traducciones Juradas",
+            "swornTranslationsText": "En PABerater le garantizamos un servicio de traducción profesional reconocido por su calidad. Este servicio es proporcionado por nuestros traductores oficiales y jurados en Alemania, quienes se caracterizan por su conocimiento y competencia, así como por su productividad. \n \nAl realizar su proceso de reconocimiento profesional con nosotros,",
+            "swornTranslationsBoldText": "recibe un 30% de descuento en el costo total de sus traducciones.",
+            "cvTranslationsTitle": "Traducciones de CV",
+            "cvTranslationsText": "Presentar una carpeta de solicitud de empleo completa es fundamental para conseguir un buen empleo en Alemania, esto incluye una carta de presentación además del currículo vitae. Gracias a nuestra experiencia sabemos potenciar su currículo y carta de presentación para llamar la atención de su futuro empleador. Le indicamos cómo realizar tus postulaciones de empleo y de esta manera incrementar sus oportunidades."
+        },
+        "thankYouPage": {
+            "seoDescription": "contactPage seo description",
+            "seoTitle": "contact Page seo title",
+            "title": "¡Gracias!",
+            "subtitle": "Hemos recibido tu solicitud.",
+            "button": "Volver al Inicio!"
+        },
+        "whoWeArePage": {
+            "seoDescription": "whoWeArePage seo description",
+            "seoTitle": "whoWeArePage seo title",
+            "historySection": {
+                "title": "Nuestra Historia",
+                "fullCompanyName": "PABerater UG.",
+                "companyName": "PABerater GmbH",
+                "foundersName": "Jorge Joel Pineda Arcia",
+                "paragraph1": "abogado egresado de la Universidad Gran Mariscal de Ayacucho en Venezuela, en el año 2015 vivió la experiencia\n de emigrar y realizar su reconocimiento académico en Alemania y en 2019 tuvo la idea de prestar el servicio de asesoría para inmigrantes profesionales por lo que fundó la empresa ",
+                "paragraph2": "Debido al constante crecimiento de la industria en Alemania y al creciente número de plazas vacantes en el sector de la ingeniería, la empresa ",
+                "paragraph3": "estaba enfocada en este sector industrial y ahora trabajamos con clientes en todos los ámbitos profesionales: médicos, psicopedagogos, ingenieros. \nLa empresa se encuentra en continuo crecimiento y gracias al esfuerzo y dedicación es ahora ",
+                "companyNameRegular": "PABerater"
+            },
+            "title": "Somos",
+            "subtitle": "Una empresa de asesoría privada con sede en Alemania, nos especializamos en asesorar a profesionales cualificados para su ingreso al mercado laboral alemán y en la prestación de servicios relacionados con su reconocimiento académico en Alemania y asesoría para la búsqueda de empleo. \nOfrecemos un servicio integral para hispanohablantes.",
+            "banner": {
+                "title": "Si yo pude, tú también puedes",
+                "subtitle": "PABerater",
+                "text": "El compañero ideal para tu nueva vida en Alemania"
+            }
+        },
+
+        "contactPage": {
+            "seoDescription": "contactPage seo description",
+            "seoTitle": "contact Page seo title",
+            "title": "Contacto",
+            "phone": "+49 157 806 33091",
+            "email": "info@paberarter.de",
+            "location": "Waltersdorfer Ch 20312355\n Berlin, Alemania",
+            "contactForm": {
+                "title": "De seguro tienes mucha dudas y nosotros estamos dispuestos a responderlas todas",
+                "subtitle": "respuesta en 24 horas",
+                "confirmEmailLabel": "Confirmar correo electrónico *",
+                "emailLabel": "Correo electrónico *",
+                "requiredFieldsEmptyError": "Por favor completa todos los campos obligatorios.",
+                "emailsDontMatchError": "Los correos electrónicos no coinciden",
+                "nameLabel": "Nombre completo",
+                "selectCarreerLabel": "Seleccione su profesión",
+                "architectsLabel": "Arquitecto",
+                "medicsLabel": "Médicos y profesionales de salud",
+                "joinMailingListLabel": "Me gustaría suscribirme al listado de PABerater",
+                "termsAndConditionsTitle": "*He leído y acepto los",
+                "termsAndConditions1": "*He leído y acepto los",
+                "termsAndConditionsText": " términos y condiciones",
+                "formSubjectLabel": "Escriba aquí su consulta",
+                "engineersLabel": "Ingenieros",
+                "accountingLabel": "Administración",
+                "others": "Otras profesiones",
+
+                "button": "Agendar mi cita"
+            }
+        },
+        "termsAndConditionsPage": {
+            "seoTitle": "terms and conditions page seo title",
+            "seoDescription": "terms and conditions page seo title"
+        },
+        "homologationPage": {
+            "seoDescription": "Homologación seo description",
+            "seoTitle": "Homologación Page seo title",
+            "pageTitle": "Homologación",
+            "pageSubtitle": "de títulos de medicina",
+            "pageText": "Trabajar como profesional de la salud en Alemania te traerá grandes recompensas: atractivos salarios, seguridad y estabilidad para ti y tu familia, y la posibilidad de un constante crecimiento profesional. Los/as médicos/as, los/as especialistas y las instalaciones con tecnología de punta convierten el sistema de salud alemán en uno de los mejores sistemas sanitarios del mundo y tú puedes formar parte de él. Al ser la medicina una profesión regulada por el Estado alemán es necesario tener el reconocimiento de tu carrera para poder ejercerla dentro del país. Nosotros te orientamos en cada paso y hacemos las gestiones para que obtengas la autorización estatal para que puedas ejercer tu profesión y lograr tu meta de obtener un puesto de trabajo en Alemania. En cuanto al idioma, lo puedes aprender en paralelo mientras realizas el proceso de homologación con nosotros hasta alcanzar un nivel B2 de alemán, en tanto nosotros nos ocupamos de la documentación y burocracia en Alemania. Antes de que armes tu equipaje nosotros preparamos tus papeles, así viajas con confianza y pasos firmes hacia tu futuro.",
+            "banner": {
+                "title": "Homologación título de medicina en Alemania",
+                "text": "Actualmente, el motor de Europa está buscando urgentemente profesionales de la medicina y ofrece salarios mensuales promedio de 6,500 euros para médicos/as generales y hasta 12,000 euros dependiendo de la especialidad."
+            },
+            "clients": {
+                "client1": {
+                    "title": "Darling Gonzáles médica venezolana en Alemania",
+                    "text": "Inició el trámite de reconocimiento de su título universitario con PABerater y está a punto de finalizarlo.",
+                    "video": "https://www.youtube.com/embed/UGLXVXbxNXY"
+                }
+            },
+            "services": {
+                "title": "Nuestro Servicio de asesoría incluye",
+                "subtitle": "Cuente con nuestra asesoría durante todo el proceso.",
+                "service1": "Valoración de la situación del profesional en entrevista inicial. Tomaremos en cuenta su enfoque profesional para realizar su homologación y le aclararemos sus dudas sobre el proceso y oportunidades laborales y le enviaremos una lista de todos los documentos necesarios.",
+                "service2": "Recolectamos y revisamos sus documentos antes de ser interpuestos ante la autoridad alemana encargada de su proceso de reconocimiento.",
+                "service3": "Traducciones Juradas: contamos con traductores jurados para traducir los documentos que así lo requieran. Los costes para las traducciones juradas dependen de la cantidad de documentos a traducir.",
+                "service4": "Traducción de su currículo vitae, adaptación a un formato alemán y creación de su carpeta de solicitud completa. Con su perfil profesional podrá ingresar de manera exitosa al mercado laboral alemán."
+            },
+            "faqQuestion1": "¿Qué es un reconocimiento oficial?",
+            "faqAnswer1": "El reconocimiento de sus cualificaciones profesionales significa que sus calificaciones extranjeras son comparables con una profesión alemana. Por ejemplo, si usted tiene una carrera como técnico en electrónica, sus capacidades y conocimiento adquiridos serán comparables con los que obtienen el título de Elektrotechniker en Alemania.",
+
+            "faqQuestion2": "¿Qué son las profesiones reguladas?",
+            "faqAnswer2": "Son También llamadas profesiones reglamentadas, donde los profesionales deben tener cierto tipo de cualificaciones específicas o técnicas, para ejercer la profesión en Alemania. Por ejemplo, Médicos, Maestros o Arquitectos. Si usted obtiene un reconocimiento parcial de sus calificaciones, pero debe compensar las deficiencias técnicas, prácticas y lingüísticas para alcanzar su Aprobación, entonces puede solicitar un Permiso de residencia para el culminar su reconocimiento, como parte de una medida de calificación o Qualifizierungsmaßnahme, para ello necesita un conocimiento de alemán por lo general de A2 y poder financiar su estadía en Alemania.",
+
+            "faqQuestion3": "¿Existe algún límite de edad para trabajar en Alemania",
+            "faqAnswer3": "La edad no es un problema, no existe límite de edad."
+        },
+        "sections": {
+            "footer": {
+                "cookiesText": "Die Rolle von PABerater GmbH besteht darin, als Kommunikationsbrücke zwischen unseren Kunden und den Institutionen zu fungieren und ihre Anfragen so zu übersetzen, dass sie in der deutschen Sprache verstanden werden können. \n \n PABerater GmbH leistet selber keine Rechtsberatung.Bitte berücksichtigen Sie, dass es sich bei der sachverständigen Durchsicht Ihrer Studien- und Arbeitsunterlagen nicht um ein Rechtsgutachten oder eine Rechtsberatung im Sinne des Rechtsdienstleistungsgesetzes handelt. Eine juristische Aufarbeitung und Einordnung unter Anwendung der Rechtsnormen ggf. unter Verwendung dieser Auswertung ist nur durch einen zugelassenen Rechtsanwalt zulässig. Wir stellen Ihnen gerne einen Kontakt her. <br /> <br /> PABerater GmbH no presta asesoramiento jurídico por sí misma.Tenga en cuenta que la revisión pericial de sus documentos de estudio y de trabajo no es un dictamen jurídico ni un asesoramiento legal en el sentido de la Ley de Servicios Jurídicos. Una revisión y clasificación legal utilizando las normas legales, en caso de que sea necesario utilizar esta evaluación, sólo está permitida por un abogado autorizado. Estaremos encantados de ponerle en contacto con un abogado.",
+                "cookiePolicy": "Políticas de cookies(UE)",
+                "impressum": "Impressum",
+                "agb": "AGB",
+                "datenschutz": "Datenschutz",
+                "address": "PABerater GmbH, \n Waltersdorfer Ch 203, \n 12355 Berlin, Alemania",
+                "copyright": "© 2023 PABerater GmbH. All Rights Reserved."
+            },
+            "recognizeTitleCallToAction": {
+                "title": "Reconocer tu título \n en Alemania",
+                "subtitle": "¡ES POSIBLE!",
+                "button": "¿COMENZAMOS?"
+            },
+            "translationServices": {
+                "title": "Nuestro Servicio de traducción incluye",
+                "item1": "Traducción de su currículo y carta de presentación al alemán.",
+                "item2": "Elaboración de su carpeta de solicitud completa.",
+                "item3": "Asesoría en su búsqueda de empleo.",
+                "text": "Este servicio está incluido cuando realiza su proceso de reconocimiento profesional con nosotros. \nNos enfocamos en traducir su currículo y carta de presentación; así como elaborar su perfil profesional para que pueda postularse con éxito a ofertas de trabajo en el país."
+            },
+            "startYourProfessionalLifeBanner": {
+                "button": " ¿COMENZAMOS?",
+                "boldTitle": "PABerater,",
+                "title": "tu compañero ideal para transformar tu vida profesional."
+            },
+            "successStories": {
+                "story1": {
+                    "title": "Reinaldo Díaz Lugo, Ingeniero Informático venezolano en Alemania.",
+                    "text": "Ambos realizaron el trámite de homologación profesional con PABerater, y en esta entrevista él nos cuenta cómo fue le proceso de migración, cómo es vivir en Alemania y lo que más le llamó la atención de su trabajo.",
+                    "video": "https://www.youtube.com/embed/VDkrGDumcCw"
+                },
+
+                "story2": {
+                    "title": "Verónica Anzola , Médica venezolana que ya está en Alemania.",
+                    "text": "Junto a su esposo Reinaldo, Ingeniero Informático, y la mascota de ambos, Simón. Los dos realizaron su trámite de reconocimiento profesional con PABerater. En este primer video, Verónica nos cuenta cómo vivió ella todo el proceso de migración, las diferencias con Latinoamérica y cómo se siente en Alemania.",
+                    "video": "https://www.youtube.com/embed/4zUybTbOs4A"
+                },
+
+                "story3": {
+                    "title": "Eugenio Etcheverry, \ningeniero electromecánico argentino en Alemania",
+                    "text": "Realizó con PABerater el trámite de reconocimiento de su título universitario, así como todos los trámites posteriores, por lo que ya disfruta de estar en Alemania trabajando en su profesión y junto a su familia. \n",
+                    "video": "https://www.youtube.com/embed/VELeEFp3Tj8"
+                },
+                "story4": {
+                    "title": "Familia Oviedo Quevedo,\nIngeniero Mecánico en Alemania",
+                    "text": "La familia Oviedo Quevedo es de Venezuela y ya está en Alemania de la mano de PABerater. Nos invitaron a conocer su hermosa casa en la región de Baviera, donde Mario trabaja como Ingeniero Mecánico, con un excelente sueldo y la tranquilidad de haber cumplido su sueño y el de toda su familia.",
+                    "video": "https://www.youtube.com/embed/BUNz04l4dHg"
+                },
+                "story5": {
+                    "title": "Darling Gonzáles médica venezolana en Alemania",
+                    "text": "Inició el trámite de reconocimiento de su título universitario con PABerater y está a punto de finalizarlo.",
+                    "video": "https://www.youtube.com/embed/UGLXVXbxNXY"
+                },
+                "story6": {
+                    "title": "Luis González, Técnico electricista.",
+                    "text": "Conoció a PABerater por recomendación de un amigo, inició un proceso con nosotros y no solo ya tiene su título homologado, sino que ¡ya está en Alemania!.",
+                    "instagramUrl": "https://www.instagram.com/reel/CkL-gBKjHFw/?utm_source=ig_web_copy_link"
+                },
+                "story7": {
+                    "title": "Andres Astor, Ingeniero en telecomunicaciones",
+                    "text": "Andrés Ernesto Astor Villegas es venezolano, Ingeniero en Telecomunicaciones y ya homologó su título de manera exitosa con PABerater ",
+                    "instagramUrl": "https://www.instagram.com/reel/ClmaJo5DG2s/?utm_source=ig_web_copy_link"
+                },
+                "story8": {
+                    "title": "Eber León, Ingeniero electricista",
+                    "text": "Eber Leon Contreras nació y estudió en Venezuela, es Ingeniero Electricista y ya se encuentra en Alemania listo para cumplir el sueño de trabajar en la potencia económica de Europa.",
+                    "instagramUrl": "https://www.instagram.com/reel/CkwMYQtDHpL/?utm_source=ig_web_copy_link"
+                },
+                "story9": {
+                    "title": "German Bravo, Licenciado en Educación",
+                    "text": "Bravo es de Bogotá, Colombia, con veinte años de experiencia como profesor de filología clásica y español. En Berlín, donde ya está viviendo, habló con PABerater sobre la experiencia de migrar y de nuestra asesoría.",
+                    "instagramUrl": "https://www.instagram.com/reel/Cpn226Jj2yo/?utm_source=ig_web_copy_link"
+                }
+            },
+            "adviseForm": {
+                "fullNamePlaceholder": "Nombre completo *",
+                "nationalityLabel": "Nacionalidad",
+                "emailAddressPlaceholder": "Correo electrónico *",
+                "residenceCountryLabel": "País de residencia",
+                "confirmEmailPlaceholder": "Confirmar correo electrónico *",
+                "professionLabel": "Seleccione su profesión",
+                "doctorAndHealthProfessionals": "Médicos y profesionales de salud",
+                "engineersLabel": "Ingenieros",
+                "architectsLabel": "Arquitecto",
+                "administrationLabel": "Administración",
+                "otherProfessions": "Otras profesiones",
+                "optionalSection": "Cuéntanos de ti (Opcional)",
+                "haveYouEmigratedLabel": "¿Has emigrado anteriormente?",
+                "selectAnOption": "Seleccione una opción",
+                "plannedMoveDateLabel": "Fecha prevista para mudarse a Alemania",
+                "inTheNext6Months": "En los próximos 6 meses",
+                "inTheNext9Months": "En los próximos 9 meses",
+                "in1Year": "En 1 año",
+                "in2Years": "En 2 años",
+                "yes": "Sí",
+                "hasEnoughFundsLabel": "¿Tienes disponibilidad económica de al menos 500 USD para comenzar?",
+                "hasUniversityDegreeLabel": "¿Tienes título universitario?",
+                "userHasNoFundsMessage": "Necesita al menos 500$ para comenzar su proceso de inmigración",
+                "userHasNoUniversityDegreeMessage": "Necesita un titulo universitario para comenzar su proceso de inmigración",
+                "no": "No",
+                "maritalStatusAndFamilyLabel": "Estado civil y familiar",
+                "single": "Soltero/a",
+                "married": "Casado/a",
+                "withChildren": "Con hijos",
+                "phoneLabel": "Teléfono",
+                "other": "Otro",
+                "germanLevelLabel": "Nivel de dominio en Alemán",
+                "basic": "Básico",
+                "intermediate": "Intermedio",
+                "advanced": "Avanzado",
+                "englishLevelLabel": "Nivel de dominio en Inglés",
+                "estimatedCostLabel": "¿Cuánto estimas que costaría comenzar una nueva vida en Alemania?",
+                "lessThan5000EUR": "Menos de 5,000 EUR",
+                "between5000And10000EUR": "Entre 5,000 y 10,000 EUR",
+                "between10000And20000EUR": "Entre 10,000 y 20,000 EUR",
+                "moreThan20000EUR": "Más de 20,000 EUR",
+                "motivationLabel": "¿Qué te motivaría a iniciar una nueva vida en Alemania?",
+                "betterJobOpportunities": "Mejores oportunidades laborales y salariales",
+                "qualityOfLifeAndSocialBenefits": "Calidad de vida y beneficios sociales para mí y mi familia",
+                "professionalDevelopment": "Desarrollo profesional y adquisición de nuevas habilidades",
+                "internationalExperience": "Experiencia internacional y crecimiento personal",
+                "allOfTheAbove": "Todas las anteriores",
+                "placeholderDescription": "Describa su caso brevemente y mencione su profesión",
+                "checkboxSubscribe": "Me gustaría suscribirme al listado de PABerater.",
+                "termsAndConditions1": "*He leído y acepto los ",
+                "termsAndConditions": "términos y condiciones",
+                "buttonScheduleAppointment": "AGENDAR CITA",
+                "missingFieldsError": "Por favor completa todos los campos obligatorios"
+            },
+            "faq": {
+                "title": "Preguntas Frecuentes",
+                "question1": "¿Qué es un reconocimiento oficial?",
+                "answer1": "El reconocimiento de sus cualificaciones profesionales significa que sus calificaciones extranjeras son comparables con una profesión alemana. Por ejemplo, si usted tiene una carrera como técnico en electrónica, sus capacidades y conocimiento adquiridos serán comparables con los que obtienen el título de Elektrotechniker en Alemania.",
+
+                "question2": "¿Qué son las profesiones reguladas?",
+                "answer2": "Son También llamadas profesiones reglamentadas, donde los profesionales deben tener cierto tipo de cualificaciones específicas o técnicas, para ejercer la profesión en Alemania. Por ejemplo, Médicos, Maestros o Arquitectos. Si usted obtiene un reconocimiento parcial de sus calificaciones, pero debe compensar las deficiencias técnicas, prácticas y lingüísticas para alcanzar su Aprobación, entonces puede solicitar un Permiso de residencia para el culminar su reconocimiento, como parte de una medida de calificación o Qualifizierungsmaßnahme, para ello necesita un conocimiento de alemán por lo general de A2 y poder financiar su estadía en Alemania.",
+
+                "question3": "¿Existe algún límite de edad para trabajar en Alemania",
+                "answer3": "La edad no es un problema, no existe límite de edad."
+            },
+            "callToActionBanner2": {
+                "title": "¡Vivir y trabajar como profesional en Alemania\nes posible de la mano de PABerater!",
+                "button": "CONTACTAR"
+            },
+
+            "callToActionPartnerBanner": {
+                "title": "¡Vivir y trabajar como profesional en Alemania\n es posible de la mano de PABerater!",
+                "button": "¿COMENZAMOS?"
+            },
+
+            "servicesBanner": {
+                "title": "Nuestro Servicio\n de asesoría incluye",
+                "subtitle": "Cuente con nuestra asesoría durante todo el proceso.",
+                "service1BoldText": "entrevista inicial",
+                "service1": "Valoración de la situación del profesional en una <1> {{boldText}}</1>. \nTomaremos en cuenta su enfoque profesional para realizar su homologación y le aclararemos sus dudas sobre el proceso y oportunidades laborales y le enviaremos una lista de todos los documentos necesarios.",
+                "service2BoldText": "Recolectamos y revisamos sus documentos",
+                "service2": "<1>{{boldText}}</1> antes de ser interpuestos ante la autoridad alemana encargada de su proceso de reconocimiento.",
+                "service3BoldText": "Traducciones Juradas:",
+                "service3": "<1>{{boldText}}</1> contamos con traductores jurados para traducir los documentos que así lo requieran. Los costes para las traducciones juradas dependen de la cantidad de documentos a traducir.",
+                "service4BoldText": "Traducción de su currículo vitae",
+                "service4": "<1>{{boldText}}</1>, adaptación a un formato alemán y creación de su carpeta de solicitud completa. Con su perfil profesional podrá ingresar de manera exitosa al mercado laboral alemán."
+            },
+            "homeJumbotron": {
+                "text1": "Vivir y trabajar ",
+                "text2": "en Alemania ",
+                "text3": "es posible",
+                "text0": "Asesoramos\na <1>{{text1}}</1>\n<4> \nque</4> <2>{{text2}}</2>\n <4>\na</4> <3>{{text3}}</3>",
+                "text": " <1>{{text1}}</1><br/> <2>{{text2}}</2><br/> <3>{{text3}}</3>"
+            },
+            "callToActionTransformBanner": {
+                "boldText": "PABerater",
+                "text": " tu compañero ideal para transformar tu vida profesional.",
+                "button": " ¿COMENZAMOS?"
+            },
+            "instagramFeed": {
+                "title": "PABerater al día"
+            },
+            "joinUpSection": {
+                "titleText1": "+100 latinos",
+                "titleText2": "han crecido",
+                "titleText3": "profesionalmente",
+
+                "title": "Únete a<1> {{title1}} </1>que <1>{{title2}}</1><1> {{title3}} </1> \n  a través de PABerater",
+                "subtitle": "  ¿Empezamos a planificar tu futuro en Alemania?",
+                "peopleHelpedAmount": "+800",
+                "peopleHelpedSubtitle": "latinos beneficiados",
+                "homologatedTitlesAmount": "700",
+                "homologatedTitlesSubtitle": "títulos homologados",
+                "countriesAmount": "12",
+                "countriesSubtitle": "países de procedencia",
+                "professionsAmount": "+20",
+                "professionsSubtitle": "profesiones impulsadas"
+            },
+            "newsMediaSection": {
+                "title": "Algunas entrevistas",
+                "linkText": "Leer artículo completo",
+                "image1": "https://paberater.de/assets/news1-IGyCH0Lg.png",
+                "image2": "https://paberater.de/src/assets/img/news2.png",
+                "link1": "https://www.elnacional.com/empresas-productos/paberater-el-emprendimiento-de-raices-venezolanas-que-brinda-oportunidades-a-hispanohablantes-en-alemania/",
+                "link2": "https://noticias.perfil.com/noticias/empresas-y-protagonistas/oportunidades-laborales-para-medicos-en-alemania-un-mercado-en-expansion-brand.phtml"
+            },
+            "servicesOffered": {
+                "title": "¿Qué Servicios Ofrecemos?",
+                "text1": "Homologaciones profesionales médicas",
+                "text2": "Reconocimiento profesional",
+                "text3": "Reconocimiento de Ingenieros",
+                "text4": "Traducciones juradas",
+                "bannerButton": "Agendar cita",
+                "bannerText": "tenemos una maleta de posibilidades para tu crecimiento profesional.",
+                "bannerTitle": "En PABerater"
+            },
+            "commentsCarousel": {
+                "title": "Ellos confiaron en nosotros",
+                "item1": {
+                    "name": "Frida Abril Pinto",
+                    "text": "Estoy agradecida con el equipo PABerater, soy Peruana y he podido obtener mi residencia Alemana rápidamente gracias al equipo. Muy amables, no crean falsas expectativas, las conversaciones siempre fueron muy directas y siempre me sentí cómoda. Muchas gracias."
+                },
+                "item2": {
+                    "name": "Yuly Cáceres Abril",
+                    "text": "Si hubieran 10 estrellas las pondría, Jorge y su equipo me ayudaron con algo que creí imposible, residencia para mi mamá. Estoy súper feliz de haber contactado con este equipo, siempre respondieron mis dudas y me acompañaron con el proceso de principio a fin 🙏🏾 Y no solo eso Jorge siempre me responde dudas adicionales, el mejor equipo PABerater sin duda, que Diosito los bendiga 🤗"
+                },
+                "item3": {
+                    "name": "Karen Varela",
+                    "text": "Me trataron de manera rápida y atenta. Los recomiendo y agradezco por la información brindada. La verdad que en el medio de toda la burocracia alemana y sentirme como un número más. Aquí finalmente me sentí escuchada. Les mando un abrazo y gracias por los consejos brindados"
+                }
+            },
+            "whatWeDo": {
+                "title": "What Do We Do?",
+                "item1Title": "We Advise",
+                "item1Text": "Spanish-speaking professionals on entering the German labor market by providing services related to their academic recognition here in Germany.",
+                "item2Title": "We Accompany",
+                "item2Text": "step by step, before and during the process of homologation or recognition of their professional titles.",
+                "item3Title": "We Manage",
+                "item3Text": "EVERYTHING. At PABerater we are knowledgeable about the process because we went through it and that is why our mission is to help you by providing you with all the information in an accessible and easy to understand way."
+            },
+            "navbar": {
+                "button": "Quiero saber más",
+                "menu": "Menú",
+                "languageSelectorText": "Idioma",
+                "routeNames": {
+                    "officialTranslations": "Traducciones juradas",
+                    "engineeringRecognition": "Reconocimiento de Ingenieros",
+                    "recognition": "Reconocimiento profesional",
+                    "homologations": "Homologación de títulos de medicina",
+                    "contact": "Contacto",
+                    "blog": "Blog",
+                    "successStories": "Casos de éxito",
+                    "services": "Servicios",
+                    "about": "Somos"
+                }
+            }
+        }
+    }
+}

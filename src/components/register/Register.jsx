@@ -4,111 +4,139 @@ import { useState } from "react";
 import { useAuth } from "../../authContext/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
 import { doc, setDoc } from "firebase/firestore";
-import { getAuth, createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
+import {
+    getAuth,
+    createUserWithEmailAndPassword,
+    updateProfile,
+} from "firebase/auth";
 import { db } from "../../../firebase/firebase";
-import "./Register.css"
-
 import "./Register.css";
 
+import "./Register.css";
+import { Alert } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
+import getLanguageLink from "../../helpers/getLanguageLink";
+import { loginRoute } from "../../constants/routeNames";
+
 export function Register() {
-  const [user, setUser] = useState({
-    email: "",
-    password: "",
-    username: "",
-    type: "user",
-  });
-  const navigate = useNavigate();
-  const { signup } = useAuth();
-  const [error, setError] = useState();
+    const { t, i18n } = useTranslation();
 
-  const handleChange = ({ target: { name, value } }) =>
-    setUser({ ...user, [name]: value });
+    const [user, setUser] = useState({
+        email: "",
+        password: "",
+        username: "",
+        type: "user",
+    });
+    const navigate = useNavigate();
+    const { signup } = useAuth();
+    const [error, setError] = useState();
+    const emailLabel = t("signupPage.emailLabel");
+    const nameLabel = t("signupPage.nameLabel");
+    const passwordLabel = t("signupPage.passwordLabel");
+    const button = t("signupPage.button");
+    const link1 = t("signupPage.link1");
+    const link2 = t("signupPage.link2");
+    const uknownError = t("signupPage.uknownError");
+    const weakPassword = t("signupPage.weakPassword");
+    const success = t("signupPage.success");
+    const emailInUse = t("signupPage.emailInUse");
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setError("");
+    const fullLoginRoute = getLanguageLink(loginRoute, i18n);
+    const handleChange = ({ target: { name, value } }) =>
+        setUser({ ...user, [name]: value });
 
-    try {
-      const auth = getAuth();
-      const authUserCredential = await createUserWithEmailAndPassword(auth, user.email, user.password);
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setError("");
 
-      const authUser = authUserCredential.user;
+        try {
+            const auth = getAuth();
+            const authUserCredential = await createUserWithEmailAndPassword(
+                auth,
+                user.email,
+                user.password
+            );
 
-      await updateProfile(authUser, {
-        displayName: user.username,
-      });
+            const authUser = authUserCredential.user;
 
-      await setDoc(doc(db, "users", authUser.uid), {
-        email: user.email,
-        username: user.username,
-        type: user.type,
-      });
+            await updateProfile(authUser, {
+                displayName: user.username,
+            });
 
-      alert("Registro exitoso. ¡Bienvenido!", {
-        autoClose: 2000,
-        onClose: () => navigate("/login"),
-      });
-    } catch (error) {
-      console.error(error.code);
+            await setDoc(doc(db, "users", authUser.uid), {
+                email: user.email,
+                username: user.username,
+                type: user.type,
+            });
 
-      if (error.code === "auth/weak-password") {
-        setError("La contraseña debe tener al menos 6 caracteres");
-      } else if (error.code === "auth/email-already-in-use") {
-        setError("El correo electrónico ya está en uso");
-      } else {
-        setError("Error desconocido. Por favor, inténtelo de nuevo.");
-      }
-    }
-  };
+            alert(success, {
+                autoClose: 2000,
+                onClose: () => navigate(fullLoginRoute),
+            });
+        } catch (error) {
+            console.error(error.code);
 
-  return (
-    <div className="d-flex justify-content-center register_container" style={{ height: "70vh" }}>
-      <div style={{ width: "19rem" }}>
-        {error && <Alert variant="danger">{error}</Alert>}
-        <Form
-          className="registerForm"
-          onSubmit={handleSubmit}
-          style={{
-            padding: "20px",
-            borderRadius: "10px",
-          }}
+            if (error.code === "auth/weak-password") {
+                setError(weakPassword);
+            } else if (error.code === "auth/email-already-in-use") {
+                setError(emailInUse);
+            } else {
+                setError(uknownError);
+            }
+        }
+    };
+
+    return (
+        <div
+            className="d-flex justify-content-center register_container"
+            style={{ height: "70vh" }}
         >
-          <Form.Group className="mb-3" controlId="formBasicUsername">
-            <Form.Label>Nombre y Apellidos</Form.Label>
-            <Form.Control
-              type="text"
-              placeholder="Nombre y Apellidos"
-              name="username"
-              onChange={handleChange}
-            />
-          </Form.Group>
-          <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label>Correo electrónico</Form.Label>
-            <Form.Control
-              type="email"
-              placeholder="Correo electrónico"
-              name="email"
-              onChange={handleChange}
-            />
-          </Form.Group>
-          <Form.Group className="mb-3" controlId="formBasicPassword">
-            <Form.Label>Contraseña</Form.Label>
-            <Form.Control
-              type="password"
-              placeholder="Contraseña"
-              name="password"
-              onChange={handleChange}
-            />
-          </Form.Group>
-          <p>
-            ¿Ya tienes una cuenta? <Link to="/login">Inicia Sesión</Link>
-          </p>
-          <Button variant="danger" type="submit">
-            Registrarme
-          </Button>
-        </Form>
-      </div>
-    </div>
-  );
+            <div style={{ width: "19rem" }}>
+                {error && <Alert variant="danger">{error}</Alert>}
+                <Form
+                    className="registerForm"
+                    onSubmit={handleSubmit}
+                    style={{
+                        padding: "20px",
+                        borderRadius: "10px",
+                    }}
+                >
+                    <Form.Group className="mb-3" controlId="formBasicUsername">
+                        <Form.Label>{nameLabel}</Form.Label>
+                        <Form.Control
+                            type="text"
+                            placeholder={nameLabel}
+                            name="username"
+                            onChange={handleChange}
+                        />
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Label>{emailLabel}</Form.Label>
+                        <Form.Control
+                            type="email"
+                            placeholder={emailLabel}
+                            name="email"
+                            onChange={handleChange}
+                        />
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="formBasicPassword">
+                        <Form.Label>{passwordLabel}</Form.Label>
+                        <Form.Control
+                            type="password"
+                            placeholder={passwordLabel}
+                            name="password"
+                            onChange={handleChange}
+                        />
+                    </Form.Group>
+                    <p>
+                        {link1} <Link to={fullLoginRoute}>{link2}</Link>
+                    </p>
+                    <Button variant="danger" type="submit">
+                        {button}
+                    </Button>
+                </Form>
+            </div>
+        </div>
+    );
 }
 export default Register;

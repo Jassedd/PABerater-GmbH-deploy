@@ -1,66 +1,64 @@
-h1, h2 {
-    font-family: 'DM Serif Display', serif;
+h1,
+h2 {
+    font-family: "DM Serif Display", serif;
 }
 
-p, h3 {
-    font-family: 'Jost', sans-serif;
+p,
+h3 {
+    font-family: "Jost", sans-serif;
 }
 
-
-.img-service{
+.img-service {
     border-radius: 0 15vh 0 0;
     width: 90vw;
     margin-bottom: 2vh;
-    object-fit: cover; 
+    object-fit: cover;
     object-position: center;
 }
 
-.section-services{
+.section-services {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.title-services{
+.title-services {
     text-align: center;
-    color: #C8A75A;
+    color: #c8a75a;
     margin-top: 5vh;
     width: 100%;
     font-size: 2.2rem;
 }
 
-
-.titleService{
+.titleService {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:90%;
+    width: 90%;
     padding-left: 1em;
 }
 
-.servicesArticle{
+.servicesArticle {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 6vh 0 6vh 0;
 }
 
-.serviceName{
+.serviceName {
     width: 80%;
     font-size: 1.7rem;
     color: #25357a;
 }
 
-.btn-circle{
+.btn-circle {
     width: 20%;
     align-self: center;
     padding-left: 1em;
 }
 
-
-
-.btn-arrow-service{
+.btn-arrow-service {
     border-radius: 5vh 5vh 5vh 5vh;
     border: 0;
     width: 7vh;
@@ -70,121 +68,116 @@ p, h3 {
     justify-content: center;
 }
 
-.JorgeSection{
-    background-color: #E9EAF1;
+.JorgeSection {
+    background-color: #e9eaf1;
     width: 100%;
     display: flex;
-    margin-bottom: 5vh;
+    /*   margin-bottom: 5vh; */
     align-items: center;
     justify-content: center;
 }
 
-.jorgeSection_name{
+.jorgeSection_name {
     color: #25357a;
 }
 
-.jorgeSection_text{
+.jorgeSection_text {
     color: #25357a;
     padding: 3%;
 }
 
-.Jorge-4{
+.Jorge-4 {
     width: 48vw;
     padding-top: 4%;
 }
 
-.JorgeArt{
+.JorgeArt {
     margin-top: 2vh;
 }
 
-.btn-bookApoinment{
+.btn-bookApoinment {
     background-color: #25357a;
-    color:#C8A75A;
+    color: #c8a75a;
     border: 0;
     width: 20vh;
     height: 5vh;
-    border-radius: 10px;   
-    font-size: 1rem; 
+    border-radius: 10px;
+    font-size: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 .btn-bookApoinment:hover {
-    background-color:#C8A75A;
-    color:#25357a;
+    background-color: #c8a75a;
+    color: #25357a;
 }
 
-.arrow-btn-service{
+.arrow-btn-service {
     width: 1rem;
 }
 
-
-@media (width >= 750px){
-    .img-service{
+@media (width >= 750px) {
+    .img-service {
         border-radius: 0 20vh 0 0;
         width: 60vh;
         height: 55vh;
     }
-    .title-services{
+    .title-services {
         font-size: 3rem;
         text-align: center;
     }
-    .titleService{
+    .titleService {
         width: 60vh;
-   }
+    }
 
-    .serviceName{
+    .serviceName {
         font-size: 2.2rem;
     }
-    .JorgeSection{
+    .JorgeSection {
         width: 100%;
-        margin-bottom: 5vh;
-        padding-top:3vh;
+        /*   margin-bottom: 5vh; */
+        padding-top: 3vh;
     }
-    .Jorge-4{
+    .Jorge-4 {
         width: 35vh;
         margin-left: 4%;
-
     }
-    .JorgeArt{
+    .JorgeArt {
         margin-right: 8%;
         margin-left: 4%;
     }
-    .jorgeSection_name{
+    .jorgeSection_name {
         color: #25357a;
         font-size: 3rem;
     }
 
-    .jorgeSection_text{
+    .jorgeSection_text {
         color: #25357a;
         font-size: 1.7rem;
     }
 
-    .btn-bookApoinment{
-        color:#C8A75A;
+    .btn-bookApoinment {
+        color: #c8a75a;
         background-color: #25357a;
         width: 30vw;
         height: 6vh;
         font-size: 1.5rem;
         border-radius: 10px;
         margin-top: 2vh;
-
     }
-
 }
-@media (width>=900px){
+@media (width>=900px) {
     .servicesArticle {
         flex-basis: 50%;
-      }
+    }
 }
 
 @media (width>=1100px) {
-
-    .title-services{
+    .title-services {
         font-size: 3rem;
         text-align: center;
     }
-    .allServices{
+    .allServices {
         display: flex;
         flex-wrap: wrap;
         align-items: left;
@@ -193,20 +186,20 @@ p, h3 {
         padding: 3em;
     }
 
-    .img-service{
+    .img-service {
         width: 40vh;
     }
-    .servicesArticle{
+    .servicesArticle {
         width: 40vh;
     }
-    .serviceName{
+    .serviceName {
         width: 40vh;
     }
-    .titleService{
+    .titleService {
         width: 40vh;
     }
 
-    .btn-bookApoinment{
+    .btn-bookApoinment {
         width: 25vh;
         height: 6vh;
         font-size: 1.5rem;
@@ -214,28 +207,23 @@ p, h3 {
     }
 }
 
-
-@media (width>=1300px){
-    .title-services{
+@media (width>=1300px) {
+    .title-services {
         font-size: 3rem;
         text-align: center;
     }
-    .servicesArticle{
+    .servicesArticle {
         width: 40vh;
         flex-basis: auto;
     }
-    
 }
 
-
-@media (width>=2000px){
-    .title-services{
+@media (width>=2000px) {
+    .title-services {
         font-size: 4rem;
         text-align: center;
     }
-    .allServices{
+    .allServices {
         padding: 1em;
     }
-    
 }
-

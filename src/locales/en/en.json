@@ -1,0 +1,537 @@
+{
+    "translation": {
+        "general": {
+            "seeInstagramVideoButton": "View video",
+            "faqSectionTitle": "Frequently Asked Questions",
+            "callToActionBanner1": {
+                "title": "Homologate your title\nin Germany",
+                "subtitle": "IT'S POSSIBLE",
+                "button": "SHALL WE START?"
+            },
+            "callToActionBanner2": {
+                "title": "Living and working as a professional in Germany\nis possible with PABerater!",
+                "button": "CONTACT"
+            },
+            "address": "PABerater GmbH, \n Waltersdorfer Ch 203, \n 12355 Berlin, Germany"
+        },
+        "homePage": {
+            "seoTite": "home seo title",
+            "seoDescription": "home seo description",
+
+            "advisoryButton": "Request advice",
+            "faqTitle": "You probably have many questions, and we are ready to answer them all",
+            "faqSubtitle": "response within 24 hours",
+            "titles": {
+                "title1": "We advise",
+                "title2": "on",
+                "title3": "professionals",
+                "title4": "who",
+                "title5": "want",
+                "title6": "to emigrate",
+                "title7": "to",
+                "title8": "Germany",
+                "whatWeDo": "What Do We Do?",
+                "section1": "We advise",
+                "section2": "We accompany",
+                "section3": "We manage",
+                "questionsTitle": "You probably have many questions, and we are ready to answer them all"
+            },
+            "content": {
+                "content1": "Spanish-speaking professionals entering the German labor market by providing services related to the recognition of their academic qualifications here in Germany.",
+                "content2": "Step by step, before and during the process of degree homologation or recognition.",
+                "content3": "EVERYTHING. At PABerater, we know the process because we went through it, and that is why our mission is to help you by providing all the information in an accessible and easy-to-understand way.",
+                "questionsSubtitle": "response within 24 hours"
+            },
+            "talentBannerText": "You bring the talent, \n we take care of the rest."
+        },
+
+        "data": "¿Qué Servicios Ofrecemos 2?",
+        "engineeringRecognitionPage": {
+            "seoTite": "engineering recognition title",
+            "seoDescription": "engineering recognition description",
+            "callToActionTitle": "Validate your degree \n in Germany",
+            "callToActionSubtitle": "IT IS POSSIBLE!",
+            "successCasesTitle": "Success cases:",
+            "successCasesSubtitle": "Here we share with you some of our many success stories:",
+            "contactCallToActionButton": "CONTACT",
+            "contactCallToActionText": "Living and working as a professional in Germany is possible with PABerater",
+            "callToActionButton": "SHALL WE START?",
+            "title": "Engineers' \n Recognition",
+            "bannerTitle": "Professional recognition of engineers.",
+            "bannerText": "Engineers in Germany can work in a wide variety of sectors, such as in planning and technical control of production, quality control, design, or in the construction of equipment and models. With good training and experience, they can even reach managerial positions."
+        },
+
+        "landingPage": {
+            "firstStepsText1BoldText": "The",
+            "firstStepsText1": "<1>The </1> first step towards <2> your professional growth</2> <3>in</3> Germany <4>is just 30 minutes away</4>",
+            "firstStepsText2": "your professional growth",
+            "firstStepsText3BoldText": "in",
+            "firstStepsText3": "<1>{{boldText}}</1> Germany",
+            "firstStepsText4": "is only 30 minutes away",
+            "title": "We will assign you a personal advisor!",
+            "seoTitle": " page seo title",
+            "seoDescription": "seo description",
+            "phone": "+49 157 806 33091",
+            "contactSection": {
+                "title1": "The first step towards your professional growth\n in Germany is only 30 minutes away",
+                "title2": "We will answer all your questions",
+                "title3": "Agile, transparent, and reliable process",
+                "title4": "Opportunities tailored\n to your professional profile",
+                "text": "SHALL WE TALK?",
+                "subtitle": "You bring the talent, \n we take care of the rest"
+            },
+            "paymentSection": {
+                "subtitle": "Start your process and pay in comfortable installments",
+                "title": "Payment methods",
+                "choosePlanTitle": "Choose the ideal plan for you.",
+                "button": "I want to know more!",
+                "text1": "Start your process and pay 50% in fifteen days. Settle 2 months later.",
+                "offerAmount": "100€",
+                "text2": "Early payment. Pay in one installment and get a discount of <1> {{amount}}<1/>"
+            }
+        },
+        "signupPage": {
+            "emailLabel": "Email",
+            "nameLabel": "Full Name",
+            "passwordLabel": "Password",
+            "button": "Sign Up",
+            "link1": "Already have an account? ",
+            "link2": "Log In? ",
+            "uknownError": "Unknown error. Please try again",
+            "emailInUse": "The email is already in use",
+            "weakPassword": "The password must be at least 6 characters long",
+            "success": "Registration successful. Welcome!"
+        },
+        "loginPage": {
+            "emailLabel": "Email",
+            "loginButton": "Log In",
+            "passwordLabel": "Password",
+            "loginWithGoogle": "Log In with Google",
+            "forgotPasswordLabel": "Forgot your password?",
+            "userNotFound": "User data not found. Please try again",
+            "loginFailed": "Login failed. Please check your credentials and try again",
+            "tooManyTries": "Too many attempts. Please try again later.",
+            "invalidPassword": "Incorrect email or password. Please check your credentials",
+            "invalidEmail": "Invalid email. Please check your email address",
+            "seoTitle": "login page seo title",
+            "seoDescription": "login seo description",
+            "noEmail": "Please enter your email",
+            "resetPasswordMessage": "A message has been sent to your email to change your password"
+        },
+
+        "successStoriesPage": {
+            "seoTitle": "recognitions page seo title",
+            "seoDescription": "recognitions page description",
+            "title": "Success Stories",
+            "text": "Our clients have had the opportunity to share their experiences, highlighting the positive results achieved and the impact our collaboration has had on their development. Their stories are clear evidence of how we have supported them in their growth and reached the goals together."
+        },
+
+        "errorPage": {
+            "title": "404 Not Found",
+            "text": "The page you're looking for does not exist",
+            "button": "Go Back to Home"
+        },
+        "recognitionPage": {
+            "seoTitle": "recognitions page seo title",
+            "seoDescription": "recognitions page description",
+            "regulatedProfessionsBanner": {
+                "title": "Regulated Professions",
+                "text": "For regulated professions, the professional qualification is particularly protected. If you studied a regulated profession, you will need to have it recognized in Germany to practice your profession. Regulated professions in Germany include, among others, doctors and the entire healthcare sector, teachers, and more. \n\nWhat happens if your qualification is not fully recognized? \n\nIn this case, the competent authority will establish a compensatory measure with which you can compensate for the fundamental differences. If you successfully complete the compensatory measure, equivalency will be declared.",
+                "title2": "Non-Regulated Professions",
+                "text2": "If you studied a non-regulated profession in a non-EU country, a requirement for applying for an employment visa in Germany or a job-seeking visa is the recognition of your academic qualifications in Germany."
+            },
+            "title": "Recognition of \n Professional Qualifications",
+            "banner": {
+                "title": "Recognition of Professional Qualifications in Germany",
+                "subtitle": "If you have studied a university profession for 4 to 5 years and want to have your university studies recognized in Germany, you can consult with us to submit your application to the competent authority based on your profession."
+            },
+            "callToAction": {
+                "title": "Validate your degree \n in Germany",
+                "subtitle": "IT IS POSSIBLE!",
+                "button": "SHALL WE START?"
+            },
+            "faq": {
+                "question1": "What is official recognition?",
+                "answer1": "The recognition of your professional qualifications means that your foreign qualifications are comparable to a German profession. For example, if you have a career as an electronics technician, your skills and knowledge acquired will be comparable to those who obtain the title of Elektrotechniker in Germany.",
+                "question2": "What is official recognition?",
+                "answer2": "The recognition of your professional qualifications means that your foreign qualifications are comparable to a German profession. For example, if you have a career as an electronics technician, your skills and knowledge acquired will be comparable to those who obtain the title of Elektrotechniker in Germany.",
+                "question3": "What is official recognition?",
+                "answer3": "The recognition of your professional qualifications means that your foreign qualifications are comparable to a German profession. For example, if you have a career as an electronics technician, your skills and knowledge acquired will be comparable to those who obtain the title of Elektrotechniker in Germany."
+            }
+        },
+
+        "translationsPage": {
+            "seoDescription": "translations page seo description",
+            "seoTitle": "translations page seo title",
+            "pageTitle": "Official Translations",
+            "bannerTitle": "Translations",
+            "bannerText": "Get your documents translated into German by certified translators in Germany.",
+            "swornTranslationsTitle": "Sworn Translations",
+            "swornTranslationsText": "At PABerater, we guarantee a professional translation service recognized for its quality. This service is provided by our official and sworn translators in Germany, who are known for their knowledge, competence, and productivity. \n\nWhen you go through your professional recognition process with us,",
+            "swornTranslationsBoldText": "you receive a 30% discount on the total cost of your translations.",
+            "cvTranslationsTitle": "CV Translations",
+            "cvTranslationsText": "Submitting a complete job application folder is crucial to securing a good job in Germany, which includes a cover letter in addition to the CV. Thanks to our experience, we know how to enhance your CV and cover letter to catch the attention of your future employer. We will guide you on how to make your job applications and thus increase your opportunities."
+        },
+        "thankYouPage": {
+            "seoDescription": "contactPage seo description",
+            "seoTitle": "contact Page seo title",
+            "title": "Thank You!",
+            "subtitle": "We have received your request.",
+            "button": "Go Back to Home!"
+        },
+        "whoWeArePage": {
+            "seoDescription": "whoWeArePage seo description",
+            "seoTitle": "whoWeArePage seo title",
+            "historySection": {
+                "title": "Our History",
+                "fullCompanyName": "PABerater UG.",
+                "companyName": "PABerater GmbH",
+                "foundersName": "Jorge Joel Pineda Arcia",
+                "paragraph1": "A lawyer graduated from Gran Mariscal de Ayacucho University in Venezuela, in 2015 he experienced\n emigrating and having his academic recognition in Germany, and in 2019 he came up with the idea of offering advisory services for professional immigrants, which led him to found the company ",
+                "paragraph2": "Due to the constant growth of the industry in Germany and the increasing number of vacancies in the engineering sector, the company ",
+                "paragraph3": "was initially focused on this industrial sector and now we work with clients in all professional fields: doctors, psychopedagogists, engineers. \nThe company is continuously growing and thanks to the effort and dedication, it is now ",
+                "companyNameRegular": "PABerater"
+            },
+            "title": "We are",
+            "subtitle": "A private advisory company based in Germany, specializing in advising qualified professionals to enter the German labor market and providing services related to their academic recognition in Germany, as well as job search advice. \nWe offer comprehensive services for Spanish speakers.",
+            "banner": {
+                "title": "If I could, you can too",
+                "subtitle": "PABerater",
+                "text": "The ideal partner for your new life in Germany"
+            }
+        },
+        "contactPage": {
+            "seoDescription": "contactPage seo description",
+            "seoTitle": "contact Page seo title",
+            "title": "Contact",
+            "phone": "+49 157 806 33091",
+            "email": "info@paberarter.de",
+            "location": "Waltersdorfer Ch 20312355\n Berlin, Germany",
+            "contactForm": {
+                "title": "You probably have many questions, and we are willing to answer them all",
+                "subtitle": "response in 24 hours",
+                "confirmEmailLabel": "Confirm email *",
+                "emailLabel": "Email *",
+                "requiredFieldsEmptyError": "Please complete all mandatory fields.",
+                "emailsDontMatchError": "The emails do not match",
+                "nameLabel": "Full name",
+                "selectCarreerLabel": "Select your profession",
+                "architectsLabel": "Architect",
+                "medicsLabel": "Doctors and healthcare professionals",
+                "joinMailingListLabel": "I would like to subscribe to PABerater's mailing list",
+                "termsAndConditionsTitle": "*I have read and accept the",
+                "termsAndConditions1": "*I have read and accept the",
+                "termsAndConditionsText": " terms and conditions",
+                "formSubjectLabel": "Write your inquiry here",
+                "engineersLabel": "Engineers",
+                "accountingLabel": "Accounting",
+                "others": "Other professions",
+                "button": "Schedule my appointment"
+            }
+        },
+        "termsAndConditionsPage": {
+            "seoTitle": "terms and conditions page seo title",
+            "seoDescription": "terms and conditions page seo title"
+        },
+        "homologationPage": {
+            "seoDescription": "Homologation seo description",
+            "seoTitle": "Homologation Page seo title",
+            "pageTitle": "Homologation",
+            "pageSubtitle": "of medical degrees",
+            "pageText": "Working as a healthcare professional in Germany will bring great rewards: attractive salaries, security, and stability for you and your family, as well as the possibility of continuous professional growth. Doctors, specialists, and cutting-edge facilities make the German healthcare system one of the best in the world, and you can be part of it. Since medicine is a regulated profession in Germany, it is necessary to have your degree recognized to practice it within the country. We guide you every step of the way and handle the paperwork so you can obtain the state authorization to practice and achieve your goal of getting a job in Germany. As for the language, you can learn it alongside the homologation process with us until you reach a B2 level in German, while we take care of the documentation and bureaucracy in Germany. Before you pack your bags, we prepare your paperwork so you can travel with confidence and firm steps towards your future.",
+            "banner": {
+                "title": "Medical degree homologation in Germany",
+                "text": "Currently, Europe's engine is urgently looking for medical professionals and offers average monthly salaries of 6,500 euros for general practitioners and up to 12,000 euros depending on the specialty."
+            },
+            "clients": {
+                "client1": {
+                    "title": "Darling Gonzáles, Venezuelan doctor in Germany",
+                    "text": "She started the process of recognizing her university degree with PABerater and is about to finish it.",
+                    "video": "https://www.youtube.com/embed/UGLXVXbxNXY"
+                }
+            },
+            "services": {
+                "title": "Our advisory service includes",
+                "subtitle": "Count on our guidance throughout the entire process.",
+                "service1": "Evaluation of the professional's situation in the initial interview. We will take your professional focus into account to carry out your homologation, clarify your doubts about the process and job opportunities, and send you a list of all the necessary documents.",
+                "service2": "We collect and review your documents before submitting them to the German authority responsible for your recognition process.",
+                "service3": "Sworn translations: We have sworn translators to translate the documents that require it. The costs for sworn translations depend on the number of documents to be translated.",
+                "service4": "Translation of your CV, adaptation to a German format, and creation of your complete application folder. With your professional profile, you can successfully enter the German labor market."
+            },
+            "faqQuestion1": "What is an official recognition?",
+            "faqAnswer1": "The recognition of your professional qualifications means that your foreign qualifications are comparable to a German profession. For example, if you have a degree as an electronics technician, your skills and knowledge will be comparable to those of someone with the title Elektrotechniker in Germany.",
+            "faqQuestion2": "What are regulated professions?",
+            "faqAnswer2": "Also known as regulated professions, where professionals must have certain specific or technical qualifications to practice in Germany. For example, doctors, teachers, or architects. If you obtain a partial recognition of your qualifications but need to compensate for technical, practical, and language deficiencies to achieve your approval, you can apply for a residence permit to complete your recognition as part of a qualification measure (Qualifizierungsmaßnahme). For this, you generally need A2-level German and the ability to finance your stay in Germany.",
+            "faqQuestion3": "Is there an age limit to work in Germany?",
+            "faqAnswer3": "Age is not a problem; there is no age limit."
+        },
+        "sections": {
+            "footer": {
+                "cookiesText": "Die Rolle von PABerater GmbH besteht darin, als Kommunikationsbrücke zwischen unseren Kunden und den Institutionen zu fungieren und ihre Anfragen so zu übersetzen, dass sie in der deutschen Sprache verstanden werden können. \n \n PABerater GmbH leistet selber keine Rechtsberatung.Bitte berücksichtigen Sie, dass es sich bei der sachverständigen Durchsicht Ihrer Studien- und Arbeitsunterlagen nicht um ein Rechtsgutachten oder eine Rechtsberatung im Sinne des Rechtsdienstleistungsgesetzes handelt. Eine juristische Aufarbeitung und Einordnung unter Anwendung der Rechtsnormen ggf. unter Verwendung dieser Auswertung ist nur durch einen zugelassenen Rechtsanwalt zulässig. Wir stellen Ihnen gerne einen Kontakt her. <br /> <br /> PABerater GmbH no presta asesoramiento jurídico por sí misma.Tenga en cuenta que la revisión pericial de sus documentos de estudio y de trabajo no es un dictamen jurídico ni un asesoramiento legal en el sentido de la Ley de Servicios Jurídicos. Una revisión y clasificación legal utilizando las normas legales, en caso de que sea necesario utilizar esta evaluación, sólo está permitida por un abogado autorizado. Estaremos encantados de ponerle en contacto con un abogado.",
+                "cookiePolicy": "Políticas de cookies(UE)",
+                "impressum": "Impressum",
+                "agb": "AGB",
+                "datenschutz": "Datenschutz",
+                "address": "PABerater GmbH, \n Waltersdorfer Ch 203, \n 12355 Berlin, Alemania",
+                "copyright": "© 2023 PABerater GmbH. All Rights Reserved."
+            },
+            "recognizeTitleCallToAction": {
+                "title": "Recognize your degree \n in Germany",
+                "subtitle": "IT'S POSSIBLE!",
+                "button": "Shall we begin?"
+            },
+            "translationServices": {
+                "title": "Our Translation Service Includes",
+                "item1": "Translation of your CV and cover letter into German.",
+                "item2": "Creation of your complete application folder.",
+                "item3": "Guidance in your job search.",
+                "text": "This service is included when you go through your professional recognition process with us. \nWe focus on translating your CV and cover letter, as well as preparing your professional profile so that you can successfully apply for job offers in the country."
+            },
+            "startYourProfessionalLifeBanner": {
+                "button": "Shall we begin?",
+                "boldTitle": "PABerater,",
+                "title": "your ideal partner to transform your professional life."
+            },
+            "successStories": {
+                "story1": {
+                    "title": "Reinaldo Díaz Lugo, Venezuelan Computer Engineer in Germany.",
+                    "text": "Both completed the professional recognition process with PABerater, and in this interview, he shares how the migration process went, what it's like living in Germany, and what impressed him the most about his job.",
+                    "video": "https://www.youtube.com/embed/VDkrGDumcCw"
+                },
+
+                "story2": {
+                    "title": "Verónica Anzola, Venezuelan Doctor now in Germany.",
+                    "text": "Along with her husband Reinaldo, Computer Engineer, and their pet, Simón. Both went through the professional recognition process with PABerater. In this first video, Verónica shares her migration experience, the differences with Latin America, and how she feels in Germany.",
+                    "video": "https://www.youtube.com/embed/4zUybTbOs4A"
+                },
+
+                "story3": {
+                    "title": "Eugenio Etcheverry, Argentine Electromechanical Engineer in Germany.",
+                    "text": "He completed the recognition of his university degree and all subsequent procedures with PABerater, so he is now enjoying life in Germany working in his profession alongside his family.",
+                    "video": "https://www.youtube.com/embed/VELeEFp3Tj8"
+                },
+
+                "story4": {
+                    "title": "Oviedo Quevedo Family, Mechanical Engineer in Germany.",
+                    "text": "The Oviedo Quevedo family is from Venezuela and is now in Germany with the help of PABerater. They invited us to visit their beautiful home in Bavaria, where Mario works as a Mechanical Engineer, earning an excellent salary and enjoying the peace of mind of having fulfilled his dream and that of his entire family.",
+                    "video": "https://www.youtube.com/embed/BUNz04l4dHg"
+                },
+
+                "story5": {
+                    "title": "Darling Gonzáles, Venezuelan Doctor in Germany.",
+                    "text": "She started the process of recognizing her university degree with PABerater and is about to finalize it.",
+                    "video": "https://www.youtube.com/embed/UGLXVXbxNXY"
+                },
+
+                "story6": {
+                    "title": "Luis González, Electrician Technician.",
+                    "text": "He discovered PABerater through a friend's recommendation, started the process with us, and not only has his title been recognized but he's also already in Germany!",
+                    "instagramUrl": "https://www.instagram.com/reel/CkL-gBKjHFw/?utm_source=ig_web_copy_link"
+                },
+
+                "story7": {
+                    "title": "Andrés Astor, Telecommunications Engineer.",
+                    "text": "Andrés Ernesto Astor Villegas is Venezuelan, a Telecommunications Engineer, and he has successfully recognized his degree with PABerater.",
+                    "instagramUrl": "https://www.instagram.com/reel/ClmaJo5DG2s/?utm_source=ig_web_copy_link"
+                },
+
+                "story8": {
+                    "title": "Eber León, Electrical Engineer.",
+                    "text": "Eber Leon Contreras was born and studied in Venezuela, is an Electrical Engineer, and is now in Germany ready to fulfill his dream of working in Europe's economic powerhouse.",
+                    "instagramUrl": "https://www.instagram.com/reel/CkwMYQtDHpL/?utm_source=ig_web_copy_link"
+                },
+
+                "story9": {
+                    "title": "German Bravo, Bachelor's in Education.",
+                    "text": "Bravo is from Bogotá, Colombia, with twenty years of experience as a professor of classical philology and Spanish. In Berlin, where he is already living, he spoke with PABerater about his migration experience and our guidance.",
+                    "instagramUrl": "https://www.instagram.com/reel/Cpn226Jj2yo/?utm_source=ig_web_copy_link"
+                }
+            },
+
+            "adviseForm": {
+                "fullNamePlaceholder": "Full Name *",
+                "nationalityLabel": "Nationality",
+                "emailAddressPlaceholder": "Email Address *",
+                "residenceCountryLabel": "Country of Residence",
+                "confirmEmailPlaceholder": "Confirm Email *",
+                "professionLabel": "Select Your Profession",
+                "doctorAndHealthProfessionals": "Doctors and Health Professionals",
+                "engineersLabel": "Engineers",
+                "architectsLabel": "Architect",
+                "administrationLabel": "Administration",
+                "otherProfessions": "Other Professions",
+                "optionalSection": "Tell Us About Yourself (Optional)",
+                "haveYouEmigratedLabel": "Have You Emigrated Before?",
+                "selectAnOption": "Select an Option",
+                "plannedMoveDateLabel": "Planned Move Date to Germany",
+                "inTheNext6Months": "In the Next 6 Months",
+                "inTheNext9Months": "In the Next 9 Months",
+                "in1Year": "In 1 Year",
+                "in2Years": "In 2 Years",
+                "yes": "Yes",
+                "hasEnoughFundsLabel": "Do You Have at Least 500 USD Available to Start?",
+                "hasUniversityDegreeLabel": "Do You Have a University Degree?",
+                "userHasNoFundsMessage": "You need at least 500 USD to start your immigration process",
+                "userHasNoUniversityDegreeMessage": "You need a university degree to start your immigration process",
+                "no": "No",
+                "maritalStatusAndFamilyLabel": "Marital and Family Status",
+                "single": "Single",
+                "married": "Married",
+                "withChildren": "With Children",
+                "phoneLabel": "Phone",
+                "other": "Other",
+                "germanLevelLabel": "German Proficiency Level",
+                "basic": "Basic",
+                "intermediate": "Intermediate",
+                "advanced": "Advanced",
+                "englishLevelLabel": "English Proficiency Level",
+                "estimatedCostLabel": "How Much Do You Estimate It Will Cost to Start a New Life in Germany?",
+                "lessThan5000EUR": "Less Than 5,000 EUR",
+                "between5000And10000EUR": "Between 5,000 and 10,000 EUR",
+                "between10000And20000EUR": "Between 10,000 and 20,000 EUR",
+                "moreThan20000EUR": "More Than 20,000 EUR",
+                "motivationLabel": "What Would Motivate You to Start a New Life in Germany?",
+                "betterJobOpportunities": "Better Job and Salary Opportunities",
+                "qualityOfLifeAndSocialBenefits": "Quality of Life and Social Benefits for Me and My Family",
+                "professionalDevelopment": "Professional Development and Acquisition of New Skills",
+                "internationalExperience": "International Experience and Personal Growth",
+                "allOfTheAbove": "All of the Above",
+                "placeholderDescription": "Briefly describe your case and mention your profession",
+                "checkboxSubscribe": "I would like to subscribe to the PABerater mailing list.",
+                "termsAndConditions1": "*I have read and agree to the ",
+                "termsAndConditions": "terms and conditions",
+                "buttonScheduleAppointment": "SCHEDULE APPOINTMENT",
+                "missingFieldsError": "Please complete all required fields"
+            },
+
+            "faq": {
+                "title": "Frequently Asked Questions",
+                "question1": "What is official recognition?",
+                "answer1": "The recognition of your professional qualifications means that your foreign qualifications are comparable to a German profession. For example, if you have a degree as an electronics technician, your skills and knowledge will be comparable to those who obtain the Elektrotechniker title in Germany.",
+
+                "question2": "What are regulated professions?",
+                "answer2": "These are also called regulated professions, where professionals must have certain specific or technical qualifications to practice the profession in Germany. For example, Doctors, Teachers, or Architects. If you receive partial recognition of your qualifications but must compensate for technical, practical, and language deficiencies to reach full approval, you can apply for a residence permit to complete your recognition as part of a qualification measure (Qualifizierungsmaßnahme). To do this, you generally need an A2 level of German and the ability to finance your stay in Germany.",
+
+                "question3": "Is there an age limit to work in Germany?",
+                "answer3": "Age is not an issue, there is no age limit."
+            },
+
+            "callToActionBanner2": {
+                "title": "Living and working as a professional in Germany is possible with PABerater!",
+                "button": "CONTACT"
+            },
+
+            "callToActionPartnerBanner": {
+                "title": "¡Vivir y trabajar como profesional en Alemania\n es posible de la mano de PABerater!",
+                "button": "¿COMENZAMOS?"
+            },
+
+            "servicesBanner": {
+                "title": "Our advisory service includes",
+                "subtitle": "Count on our guidance throughout the entire process.",
+                "service1BoldText": "initial interview",
+                "service1": "Assessment of the professional's situation in an <1>{{boldText}}</1>. \nWe will take into account your professional focus to carry out your recognition process and clarify any doubts regarding the process and job opportunities, and we will send you a list of all the necessary documents.",
+                "service2BoldText": "We collect and review your documents",
+                "service2": "<1>{{boldText}}</1> before being submitted to the German authority in charge of your recognition process.",
+                "service3BoldText": "Sworn Translations:",
+                "service3": "<1>{{boldText}}</1> we have sworn translators to translate documents that require it. The costs for sworn translations depend on the number of documents to be translated.",
+                "service4BoldText": "Translation of your CV",
+                "service4": "<1>{{boldText}}</1>, adaptation to a German format, and creation of your complete application file. With your professional profile, you will successfully enter the German job market."
+            },
+
+            "homeJumbotron": {
+                "text1": "Living & working",
+                "text2": "in Germany",
+                "text3": "is possible",
+                "text0": "We advise <1>{{text1}}</1>\n<4> \nwho</4> <2>{{text2}}</2>\n <4>to</4> <3>{{text3}}</3>",
+                "text": " <1>{{text1}}</1><br/> <2>{{text2}}</2><br/> <3>{{text3}}</3>"
+            },
+            "callToActionTransformBanner": {
+                "boldText": "PABerater",
+                "text": " your ideal companion to transform your professional life.",
+                "button": " Shall we begin?"
+            },
+
+            "instagramFeed": {
+                "title": "PABerater up to date"
+            },
+
+            "joinUpSection": {
+                "titleText1": "+100 Latinos",
+                "titleText2": "have grown",
+                "titleText3": "professionally",
+
+                "title": "Join <1>{{title1}}</1> who <1>{{title2}}</1><1>{{title3}}</1> \n through PABerater",
+                "subtitle": " Shall we start planning your future in Germany?",
+                "peopleHelpedAmount": "+800",
+                "peopleHelpedSubtitle": "Latinos helped",
+                "homologatedTitlesAmount": "700",
+                "homologatedTitlesSubtitle": "titles homologated",
+                "countriesAmount": "12",
+                "countriesSubtitle": "countries of origin",
+                "professionsAmount": "+20",
+                "professionsSubtitle": "professions promoted"
+            },
+
+            "newsMediaSection": {
+                "title": "Some Interviews",
+                "linkText": "Read full article",
+                "image1": "https://paberater.de/assets/news1-IGyCH0Lg.png",
+                "image2": "https://paberater.de/src/assets/img/news2.png",
+                "link1": "https://www.elnacional.com/empresas-productos/paberater-el-emprendimiento-de-raices-venezolanas-que-brinda-oportunidades-a-hispanohablantes-en-alemania/",
+                "link2": "https://noticias.perfil.com/noticias/empresas-y-protagonistas/oportunidades-laborales-para-medicos-en-alemania-un-mercado-en-expansion-brand.phtml"
+            },
+
+            "servicesOffered": {
+                "title": "What Services Do We Offer?",
+                "text1": "Medical professional homologations",
+                "text2": "Professional recognition",
+                "text3": "Engineer recognition",
+                "text4": "Certified translations",
+                "bannerButton": "Schedule appointment",
+                "bannerText": "We have a suitcase of possibilities for your professional growth.",
+                "bannerTitle": "At PABerater"
+            },
+            "commentsCarousel": {
+                "title": "They trusted us",
+                "item1": {
+                    "name": "Frida Abril Pinto",
+                    "text": "I am grateful to the PABerater team. I am Peruvian and I was able to obtain my German residency quickly thanks to the team. Very kind, they don't create false expectations, the conversations were always very direct, and I always felt comfortable. Thank you very much."
+                },
+                "item2": {
+                    "name": "Yuly Cáceres Abril",
+                    "text": "If there were 10 stars, I would give them all. Jorge and his team helped me with something I thought was impossible, residency for my mom. I am super happy to have contacted this team, they always answered my questions and accompanied me through the process from start to finish 🙏🏾 And not only that, Jorge always answers my additional questions, the best PABerater team without a doubt, may God bless you 🤗"
+                },
+                "item3": {
+                    "name": "Karen Varela",
+                    "text": "I was treated quickly and attentively. I recommend them and am grateful for the information provided. The truth is that in the middle of all the German bureaucracy and feeling like just another number, here I finally felt heard. Sending a hug and thanks for the advice given."
+                }
+            },
+            "whatWeDo": {
+                "title": "What Do We Do?",
+                "item1Title": "We Advise",
+                "item1Text": "Spanish-speaking professionals on entering the German labor market by providing services related to their academic recognition here in Germany.",
+                "item2Title": "We Accompany",
+                "item2Text": "step by step, before and during the process of homologation or recognition of their professional titles.",
+                "item3Title": "We Manage",
+                "item3Text": "EVERYTHING. At PABerater we are knowledgeable about the process because we went through it and that is why our mission is to help you by providing you with all the information in an accessible and easy-to-understand way."
+            },
+            "navbar": {
+                "button": "I want to know more",
+                "menu": "Menu",
+                "languageSelectorText": "Language",
+                "routeNames": {
+                    "officialTranslations": "Certified Translations",
+                    "engineeringRecognition": "Engineer Recognition",
+                    "recognition": "Professional Recognition",
+                    "homologations": "Medical Title Homologations",
+                    "contact": "Contact",
+                    "blog": "Blog",
+                    "successStories": "Success Stories",
+                    "services": "Services",
+                    "about": "About Us"
+                }
+            }
+        }
+    }
+}

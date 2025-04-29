@@ -1,0 +1,526 @@
+{
+    "translation": {
+        "general": {
+            "seeInstagramVideoButton": "Ver vídeo",
+            "faqSectionTitle": "Perguntas Frequentes",
+            "callToActionBanner1": {
+                "title": "Homologar seu título \n na Alemanha",
+                "subtitle": "É POSSÍVEL",
+                "button": "VAMOS COMEÇAR?"
+            },
+            "callToActionBanner2": {
+                "title": "Viver e trabalhar como profissional na Alemanha\né possível com a PABerater!",
+                "button": "CONTATAR"
+            },
+            "address": "PABerater GmbH, \n Waltersdorfer Ch 203, \n 12355 Berlim, Alemanha"
+        },
+        "homePage": {
+            "seoTite": "título SEO da página inicial",
+            "seoDescription": "descrição SEO da página inicial",
+
+            "advisoryButton": "Solicitar assessoria",
+            "faqTitle": "Com certeza você tem muitas dúvidas e estamos prontos para respondê-las todas",
+            "faqSubtitle": "resposta em 24 horas",
+            "titles": {
+                "title1": "Assessoria para",
+                "title2": "a",
+                "title3": "profissionais",
+                "title4": "que",
+                "title5": "desejam",
+                "title6": "emigrar",
+                "title7": "para",
+                "title8": "Alemanha",
+                "whatWeDo": "O que fazemos?",
+                "section1": "Assessoria",
+                "section2": "Acompanhamento",
+                "section3": "Gestão",
+                "questionsTitle": "Com certeza você tem muitas dúvidas e estamos prontos para respondê-las todas"
+            },
+            "content": {
+                "content1": "profissionais hispanofalantes a entrarem no mercado de trabalho alemão, oferecendo serviços relacionados ao reconhecimento acadêmico aqui na Alemanha.",
+                "content2": "passo a passo, antes e durante o processo de homologação ou reconhecimento de seus títulos profissionais.",
+                "content3": "TUDO. Na PABerater, conhecemos o processo porque passamos por ele e por isso nossa missão é te ajudar fornecendo todas as informações de maneira acessível e fácil de entender.",
+                "questionsSubtitle": "resposta em 24 horas"
+            },
+            "talentBannerText": "Você traz o talento, \n nós cuidamos do resto."
+        },
+
+        "engineeringRecognitionPage": {
+            "seoTite": "título de reconhecimento de engenharia",
+            "seoDescription": "descrição de reconhecimento de engenharia",
+            "callToActionTitle": "Reconhecer seu título \n na Alemanha",
+            "callToActionSubtitle": "É POSSÍVEL!",
+            "successCasesTitle": "Casos de sucesso:",
+            "successCasesSubtitle": "Aqui compartilhamos com você alguns de nossos muitos casos de sucesso:",
+            "contactCallToActionButton": "CONTATAR",
+            "contactCallToActionText": "Viver e trabalhar como profissional na Alemanha é possível com a ajuda da PABerater",
+            "callToActionButton": "VAMOS COMEÇAR?",
+            "title": "Reconhecimento de\n Engenheiros",
+            "bannerTitle": "Reconhecimento profissional de engenheiros.",
+            "bannerText": "Os engenheiros na Alemanha podem trabalhar em uma ampla variedade de setores, como por exemplo, no planejamento e controle técnico da produção, controle de qualidade, design ou na construção de equipamentos e modelos e, até mesmo, com uma boa formação e experiência, alcançar cargos de liderança."
+        },
+
+        "landingPage": {
+            "firstStepsText1BoldText": "O",
+            "firstStepsText1": "<1>O </1> primeiro passo em direção ao <2>seu crescimento profissional</2> <3>na</3> Alemanha <4>está a apenas 30 minutos</4>",
+            "firstStepsText2": "seu crescimento profissional",
+            "firstStepsText3BoldText": "na",
+            "firstStepsText3": "<1>{{boldText}}</1> Alemanha",
+            "firstStepsText4": "está a apenas 30min",
+            "title": "Nós lhe atribuiremos um assessor personalizado!",
+            "seoTitle": "Título SEO da página AGB",
+            "seoDescription": "Descrição SEO da AGB",
+            "phone": "+49 157 806 33091",
+            "contactSection": {
+                "title1": "O primeiro passo para seu crescimento profissional\n na Alemanha, está a apenas 30 minutos",
+                "title2": "Responderemos todas as suas dúvidas",
+                "title3": "Processo ágil, transparente e confiável",
+                "title4": "Oportunidades de acordo\n com seu perfil profissional",
+                "text": "VAMOS CONVERSAR?",
+                "subtitle": "Você coloca o talento, \n nós cuidamos do resto"
+            },
+            "paymentSection": {
+                "subtitle": "Comece seu processo e pague em facilidades confortáveis",
+                "title": "Métodos de pagamento",
+                "choosePlanTitle": "Escolha o plano ideal para você.",
+                "button": "Quero saber mais!",
+                "text1": "Inicie seu processo e pague 50% após quinze dias. Liquide 2 meses depois.",
+                "offerAmount": "100€",
+                "text2": "Pagamento antecipado. Pague à vista e lhe damos um desconto de <1>{{amount}}<1/>"
+            }
+        },
+        "signupPage": {
+            "emailLabel": "Email",
+            "nameLabel": "Nome e Sobrenome",
+            "passwordLabel": "Senha",
+            "button": "Cadastrar",
+            "link1": "Já tem uma conta?",
+            "link2": "Fazer login?",
+            "uknownError": "Erro desconhecido. Por favor, tente novamente",
+            "emailInUse": "O email já está em uso",
+            "weakPassword": "A senha deve ter pelo menos 6 caracteres",
+            "success": "Cadastro bem-sucedido. Bem-vindo!"
+        },
+        "loginPage": {
+            "emailLabel": "Email",
+            "loginButton": "Entrar",
+            "passwordLabel": "Senha",
+            "loginWithGoogle": "Entrar com Google",
+            "forgotPasswordLabel": "Esqueceu sua senha?",
+            "userNotFound": "Dados do usuário não encontrados. Por favor, tente novamente",
+            "loginFailed": "Falha no login. Por favor, verifique suas credenciais e tente novamente",
+            "tooManyTries": "Muitas tentativas. Tente novamente mais tarde.",
+            "invalidPassword": "Email ou senha incorretos. Verifique suas credenciais",
+            "invalidEmail": "Email inválido. Verifique o endereço de email",
+            "seoTitle": "Título SEO da página de login",
+            "seoDescription": "Descrição SEO de login",
+            "noEmail": "Por favor, insira seu email",
+            "resetPasswordMessage": "Foi enviado um e-mail para alterar sua senha"
+        },
+
+        "successStoriesPage": {
+            "seoTitle": "Título SEO da página de reconhecimentos",
+            "seoDescription": "Descrição SEO da página de reconhecimentos",
+            "title": "Casos de sucesso",
+            "text": "Nossos assessorados tiveram a oportunidade de contar suas experiências, destacando os resultados positivos obtidos e o impacto que nossa colaboração teve no seu desenvolvimento. Suas histórias são uma prova concreta de como conseguimos acompanhá-los em seu crescimento e alcançar juntos os objetivos propostos."
+        },
+        "errorPage": {
+            "title": "404 Não Encontrado",
+            "text": "A página que você está procurando não existe",
+            "button": "Voltar para a página inicial"
+        },
+        "recognitionPage": {
+            "seoTitle": "título seo página de reconhecimentos",
+            "seoDescription": "descrição seo página de reconhecimentos",
+            "regulatedProfessionsBanner": {
+                "title": "Profissões regulamentadas",
+                "text": "Para as profissões regulamentadas, o título profissional é especialmente protegido. Se você estudou uma profissão regulamentada, precisará fazer a homologação na Alemanha para poder exercer sua profissão. As profissões regulamentadas na Alemanha incluem, entre outras, médicos e todo o setor de saúde, professores, entre outros. \n \nO que acontece se sua qualificação não for totalmente reconhecida? \n \nNeste caso, o órgão competente estabelecerá uma medida compensatória com a qual você poderá compensar as diferenças essenciais. Se você completar com sucesso a medida compensatória, a equivalência será declarada.",
+                "title2": "Profissões não regulamentadas",
+                "text2": "Se você estudou uma profissão não regulamentada em um país não pertencente à União Europeia, um requisito para a solicitação de um visto de trabalho ou visto de procura de emprego na Alemanha é o reconhecimento de suas qualificações acadêmicas na Alemanha."
+            },
+            "title": "Reconhecimento de títulos \n profissionais",
+            "banner": {
+                "title": "Reconhecimento de títulos profissionais na Alemanha",
+                "subtitle": "Se você estudou uma profissão universitária de 4 a 5 anos e quer reconhecer seus estudos universitários na Alemanha, pode contar com nossa assessoria para apresentar sua solicitação ao órgão competente de acordo com sua profissão."
+            },
+            "callToAction": {
+                "title": "Reconhecer seu título \n na Alemanha",
+                "subtitle": "É POSSÍVEL!",
+                "button": "VAMOS COMEÇAR?"
+            },
+            "faq": {
+                "question1": "O que é um reconhecimento oficial?",
+                "answer1": "O reconhecimento das suas qualificações profissionais significa que suas qualificações estrangeiras são comparáveis com uma profissão alemã. Por exemplo, se você tem uma carreira como técnico em eletrônica, suas habilidades e conhecimentos adquiridos serão comparáveis com os que obtêm o título de Elektrotechniker na Alemanha.",
+                "question2": "O que é um reconhecimento oficial?",
+                "answer2": "O reconhecimento das suas qualificações profissionais significa que suas qualificações estrangeiras são comparáveis com uma profissão alemã. Por exemplo, se você tem uma carreira como técnico em eletrônica, suas habilidades e conhecimentos adquiridos serão comparáveis com os que obtêm o título de Elektrotechniker na Alemanha.",
+                "question3": "O que é um reconhecimento oficial?",
+                "answer3": "O reconhecimento das suas qualificações profissionais significa que suas qualificações estrangeiras são comparáveis com uma profissão alemã. Por exemplo, se você tem uma carreira como técnico em eletrônica, suas habilidades e conhecimentos adquiridos serão comparáveis com os que obtêm o título de Elektrotechniker na Alemanha."
+            }
+        },
+        "translationsPage": {
+            "seoDescription": "descrição seo página de traduções",
+            "seoTitle": "título seo página de traduções",
+            "pageTitle": "Traduções oficiais",
+            "bannerTitle": "Traduções",
+            "bannerText": "Obtenha seus documentos traduzidos para o Alemão por tradutores certificados na Alemanha.",
+            "swornTranslationsTitle": "Traduções Juramentadas",
+            "swornTranslationsText": "Na PABerater, garantimos um serviço de tradução profissional reconhecido pela sua qualidade. Este serviço é fornecido por nossos tradutores oficiais e juramentados na Alemanha, que se destacam pelo seu conhecimento e competência, bem como pela sua produtividade. \n \nAo realizar o seu processo de reconhecimento profissional conosco,",
+            "swornTranslationsBoldText": "você recebe um desconto de 30% no custo total das suas traduções.",
+            "cvTranslationsTitle": "Traduções de CV",
+            "cvTranslationsText": "Apresentar um portfólio de candidatura completo é fundamental para conseguir um bom emprego na Alemanha, isso inclui uma carta de apresentação além do currículo vitae. Graças à nossa experiência, sabemos como potencializar seu currículo e carta de apresentação para chamar a atenção do seu futuro empregador. Indicamos como fazer suas candidaturas de emprego e, assim, aumentar suas oportunidades."
+        },
+        "thankYouPage": {
+            "seoDescription": "descrição seo página de contato",
+            "seoTitle": "título seo página de contato",
+            "title": "Obrigado!",
+            "subtitle": "Recebemos sua solicitação.",
+            "button": "Voltar para o Início!"
+        },
+        "whoWeArePage": {
+            "seoDescription": "descrição seo quem somos",
+            "seoTitle": "título seo quem somos",
+            "historySection": {
+                "title": "Nossa História",
+                "fullCompanyName": "PABerater UG.",
+                "companyName": "PABerater GmbH",
+                "foundersName": "Jorge Joel Pineda Arcia",
+                "paragraph1": "Advogado formado pela Universidade Gran Mariscal de Ayacucho na Venezuela, em 2015 viveu a experiência de emigrar e realizar seu reconhecimento acadêmico na Alemanha e, em 2019, teve a ideia de prestar serviços de consultoria para imigrantes profissionais, fundando a empresa ",
+                "paragraph2": "Devido ao crescimento constante da indústria na Alemanha e ao crescente número de vagas no setor de engenharia, a empresa ",
+                "paragraph3": "estava focada nesse setor industrial, e agora trabalhamos com clientes em todos os campos profissionais: médicos, psicopedagogos, engenheiros. \nA empresa está em constante crescimento e, graças ao esforço e dedicação, agora é ",
+                "companyNameRegular": "PABerater"
+            },
+            "title": "Quem Somos",
+            "subtitle": "Somos uma empresa de consultoria privada com sede na Alemanha, especializada em assessorar profissionais qualificados para sua entrada no mercado de trabalho alemão e em serviços relacionados ao seu reconhecimento acadêmico na Alemanha, além de consultoria para busca de emprego. \nOferecemos um serviço completo para hispanofalantes.",
+            "banner": {
+                "title": "Se eu consegui, você também consegue",
+                "subtitle": "PABerater",
+                "text": "O parceiro ideal para sua nova vida na Alemanha"
+            }
+        },
+        "contactPage": {
+            "seoDescription": "descrição seo página de contato",
+            "seoTitle": "título seo página de contato",
+            "title": "Contato",
+            "phone": "+49 157 806 33091",
+            "email": "info@paberarter.de",
+            "location": "Waltersdorfer Ch 20312355\n Berlim, Alemanha",
+            "contactForm": {
+                "title": "Com certeza você tem muitas dúvidas e nós estamos dispostos a respondê-las todas",
+                "subtitle": "resposta em 24 horas",
+                "confirmEmailLabel": "Confirmar e-mail *",
+                "emailLabel": "E-mail *",
+                "requiredFieldsEmptyError": "Por favor, preencha todos os campos obrigatórios.",
+                "emailsDontMatchError": "Os e-mails não coincidem",
+                "nameLabel": "Nome completo",
+                "selectCarreerLabel": "Selecione sua profissão",
+                "architectsLabel": "Arquiteto",
+                "medicsLabel": "Médicos e profissionais da saúde",
+                "joinMailingListLabel": "Gostaria de me inscrever na lista de e-mails do PABerater",
+                "termsAndConditionsTitle": "*Eu li e aceito os",
+                "termsAndConditions1": "*Eu li e aceito os",
+                "termsAndConditionsText": " termos e condições",
+                "formSubjectLabel": "Escreva aqui sua consulta",
+                "engineersLabel": "Engenheiros",
+                "accountingLabel": "Administração",
+                "others": "Outras profissões",
+                "button": "Agendar minha consulta"
+            }
+        },
+        "termsAndConditionsPage": {
+            "seoTitle": "título seo página de termos e condições",
+            "seoDescription": "descrição seo página de termos e condições"
+        },
+        "homologationPage": {
+            "seoDescription": "Descrição SEO Homologação",
+            "seoTitle": "Página SEO Homologação",
+            "pageTitle": "Homologação",
+            "pageSubtitle": "de títulos de medicina",
+            "pageText": "Trabalhar como profissional da saúde na Alemanha trará grandes recompensas: salários atrativos, segurança e estabilidade para você e sua família, além da possibilidade de um crescimento profissional constante. Médicos, especialistas e instalações com tecnologia de ponta tornam o sistema de saúde alemão um dos melhores do mundo e você pode fazer parte dele. Como a medicina é uma profissão regulada pelo Estado alemão, é necessário o reconhecimento do seu diploma para poder exercê-la no país. Nós orientamos você em cada passo e fazemos os trâmites para que você obtenha a autorização estatal para exercer sua profissão e alcançar seu objetivo de conseguir um emprego na Alemanha. Quanto ao idioma, você pode aprender paralelamente enquanto realiza o processo de homologação conosco até atingir o nível B2 de alemão, enquanto nós cuidamos da documentação e burocracia na Alemanha. Antes de fazer as malas, nós preparamos seus papéis, assim você viaja com confiança e passos firmes para o seu futuro.",
+            "banner": {
+                "title": "Homologação do título de medicina na Alemanha",
+                "text": "Atualmente, o motor da Europa está buscando urgentemente profissionais da medicina e oferece salários mensais médios de 6.500 euros para médicos gerais e até 12.000 euros dependendo da especialidade."
+            },
+            "clients": {
+                "client1": {
+                    "title": "Darling Gonzáles, médica venezuelana na Alemanha",
+                    "text": "Iniciou o processo de reconhecimento do seu diploma universitário com a PABerater e está prestes a finalizá-lo.",
+                    "video": "https://www.youtube.com/embed/UGLXVXbxNXY"
+                }
+            },
+            "services": {
+                "title": "Nosso serviço de assessoria inclui",
+                "subtitle": "Conte com nossa assessoria durante todo o processo.",
+                "service1": "Avaliação da situação do profissional em entrevista inicial. Levaremos em consideração seu enfoque profissional para realizar sua homologação, esclarecendo suas dúvidas sobre o processo e as oportunidades de emprego, enviando uma lista de todos os documentos necessários.",
+                "service2": "Coletamos e revisamos seus documentos antes de serem apresentados à autoridade alemã responsável pelo seu processo de reconhecimento.",
+                "service3": "Traduções juramentadas: contamos com tradutores juramentados para traduzir os documentos que exigirem. Os custos para traduções juramentadas dependem da quantidade de documentos a serem traduzidos.",
+                "service4": "Tradução do seu currículo, adaptação para o formato alemão e criação do seu portfólio de solicitação completo. Com seu perfil profissional, você poderá ingressar com sucesso no mercado de trabalho alemão."
+            },
+            "faqQuestion1": "O que é um reconhecimento oficial?",
+            "faqAnswer1": "O reconhecimento de suas qualificações profissionais significa que suas qualificações estrangeiras são comparáveis com uma profissão alemã. Por exemplo, se você tem uma carreira como técnico em eletrônica, suas capacidades e conhecimentos adquiridos serão comparáveis com os de quem possui o título de Elektrotechniker na Alemanha.",
+
+            "faqQuestion2": "O que são as profissões reguladas?",
+            "faqAnswer2": "São também chamadas de profissões regulamentadas, onde os profissionais precisam ter um tipo específico de qualificação técnica para exercer a profissão na Alemanha. Por exemplo, médicos, professores ou arquitetos. Se você obtiver um reconhecimento parcial de suas qualificações, mas precisar compensar deficiências técnicas, práticas e linguísticas para atingir sua aprovação, poderá solicitar um visto de residência para concluir o reconhecimento como parte de uma medida de qualificação ou Qualifizierungsmaßnahme. Para isso, é necessário um conhecimento de alemão geralmente de nível A2 e ser capaz de financiar sua estadia na Alemanha.",
+
+            "faqQuestion3": "Existe um limite de idade para trabalhar na Alemanha?",
+            "faqAnswer3": "A idade não é um problema, não existe limite de idade."
+        },
+        "sections": {
+            "footer": {
+                "cookiesText": "Die Rolle von PABerater GmbH besteht darin, als Kommunikationsbrücke zwischen unseren Kunden und den Institutionen zu fungieren und ihre Anfragen so zu übersetzen, dass sie in der deutschen Sprache verstanden werden können. \n \n PABerater GmbH leistet selber keine Rechtsberatung.Bitte berücksichtigen Sie, dass es sich bei der sachverständigen Durchsicht Ihrer Studien- und Arbeitsunterlagen nicht um ein Rechtsgutachten oder eine Rechtsberatung im Sinne des Rechtsdienstleistungsgesetzes handelt. Eine juristische Aufarbeitung und Einordnung unter Anwendung der Rechtsnormen ggf. unter Verwendung dieser Auswertung ist nur durch einen zugelassenen Rechtsanwalt zulässig. Wir stellen Ihnen gerne einen Kontakt her. <br /> <br /> PABerater GmbH no presta asesoramiento jurídico por sí misma.Tenga en cuenta que la revisión pericial de sus documentos de estudio y de trabajo no es un dictamen jurídico ni un asesoramiento legal en el sentido de la Ley de Servicios Jurídicos. Una revisión y clasificación legal utilizando las normas legales, en caso de que sea necesario utilizar esta evaluación, sólo está permitida por un abogado autorizado. Estaremos encantados de ponerle en contacto con un abogado.",
+                "cookiePolicy": "Políticas de cookies(UE)",
+                "impressum": "Impressum",
+                "agb": "AGB",
+                "datenschutz": "Datenschutz",
+                "address": "PABerater GmbH, \n Waltersdorfer Ch 203, \n 12355 Berlin, Alemania",
+                "copyright": "© 2023 PABerater GmbH. All Rights Reserved."
+            },
+            "recognizeTitleCallToAction": {
+                "title": "Reconheça seu diploma \n na Alemanha",
+                "subtitle": "É POSSÍVEL!",
+                "button": "VAMOS COMEÇAR?"
+            },
+            "translationServices": {
+                "title": "Nosso serviço de tradução inclui",
+                "item1": "Tradução do seu currículo e carta de apresentação para o alemão.",
+                "item2": "Elaboração do seu portfólio de solicitação completo.",
+                "item3": "Assessoria na sua busca de emprego.",
+                "text": "Este serviço está incluído quando você realiza seu processo de reconhecimento profissional conosco. \nFocamos na tradução do seu currículo e carta de apresentação, bem como na elaboração do seu perfil profissional para que você possa se candidatar com sucesso às ofertas de trabalho no país."
+            },
+            "startYourProfessionalLifeBanner": {
+                "button": " VAMOS COMEÇAR?",
+                "boldTitle": "PABerater,",
+                "title": "seu parceiro ideal para transformar sua vida profissional."
+            },
+            "successStories": {
+                "story1": {
+                    "title": "Reinaldo Díaz Lugo, Engenheiro de Informática venezuelano na Alemanha.",
+                    "text": "Ambos realizaram o processo de homologação profissional com a PABerater, e nesta entrevista ele nos conta como foi o processo de migração, como é viver na Alemanha e o que mais lhe chamou a atenção no trabalho.",
+                    "video": "https://www.youtube.com/embed/VDkrGDumcCw"
+                },
+
+                "story2": {
+                    "title": "Verónica Anzola, Médica venezuelana que já está na Alemanha.",
+                    "text": "Junto com seu marido Reinaldo, Engenheiro de Informática, e o mascote deles, Simón. Ambos realizaram o processo de reconhecimento profissional com a PABerater. Neste primeiro vídeo, Verónica nos conta como ela viveu todo o processo de migração, as diferenças com a América Latina e como se sente na Alemanha.",
+                    "video": "https://www.youtube.com/embed/4zUybTbOs4A"
+                },
+
+                "story3": {
+                    "title": "Eugenio Etcheverry, Engenheiro Eletromecânico argentino na Alemanha",
+                    "text": "Realizou com a PABerater o processo de reconhecimento de seu título universitário, bem como todos os trâmites subsequentes, por isso já está aproveitando sua estadia na Alemanha trabalhando em sua profissão e ao lado de sua família.",
+                    "video": "https://www.youtube.com/embed/VELeEFp3Tj8"
+                },
+                "story4": {
+                    "title": "Família Oviedo Quevedo, Engenheiro Mecânico na Alemanha",
+                    "text": "A família Oviedo Quevedo é da Venezuela e já está na Alemanha com a ajuda da PABerater. Eles nos convidaram para conhecer sua linda casa na região da Baviera, onde Mario trabalha como Engenheiro Mecânico, com um excelente salário e a tranquilidade de ter realizado o sonho dele e de toda sua família.",
+                    "video": "https://www.youtube.com/embed/BUNz04l4dHg"
+                },
+                "story5": {
+                    "title": "Darling Gonzáles, médica venezuelana na Alemanha",
+                    "text": "Iniciou o processo de reconhecimento de seu título universitário com a PABerater e está prestes a finalizá-lo.",
+                    "video": "https://www.youtube.com/embed/UGLXVXbxNXY"
+                },
+                "story6": {
+                    "title": "Luis González, Técnico eletricista.",
+                    "text": "Conheceu a PABerater por recomendação de um amigo, iniciou o processo conosco e não só já tem seu título homologado, como já está na Alemanha!",
+                    "instagramUrl": "https://www.instagram.com/reel/CkL-gBKjHFw/?utm_source=ig_web_copy_link"
+                },
+                "story7": {
+                    "title": "Andres Astor, Engenheiro em telecomunicações",
+                    "text": "Andrés Ernesto Astor Villegas é venezuelano, Engenheiro em Telecomunicações e já homologou seu título com sucesso com a PABerater.",
+                    "instagramUrl": "https://www.instagram.com/reel/ClmaJo5DG2s/?utm_source=ig_web_copy_link"
+                },
+                "story8": {
+                    "title": "Eber León, Engenheiro eletricista",
+                    "text": "Eber Leon Contreras nasceu e estudou na Venezuela, é Engenheiro Eletricista e já está na Alemanha pronto para realizar o sonho de trabalhar na potência econômica da Europa.",
+                    "instagramUrl": "https://www.instagram.com/reel/CkwMYQtDHpL/?utm_source=ig_web_copy_link"
+                },
+                "story9": {
+                    "title": "German Bravo, Licenciado em Educação",
+                    "text": "Bravo é de Bogotá, Colômbia, com vinte anos de experiência como professor de filologia clássica e espanhol. Em Berlim, onde já está morando, ele falou com a PABerater sobre a experiência de migrar e sobre nossa assessoria.",
+                    "instagramUrl": "https://www.instagram.com/reel/Cpn226Jj2yo/?utm_source=ig_web_copy_link"
+                }
+            },
+            "adviseForm": {
+                "fullNamePlaceholder": "Nome completo *",
+                "nationalityLabel": "Nacionalidade",
+                "emailAddressPlaceholder": "E-mail *",
+                "residenceCountryLabel": "País de residência",
+                "confirmEmailPlaceholder": "Confirmar e-mail *",
+                "professionLabel": "Selecione sua profissão",
+                "doctorAndHealthProfessionals": "Médicos e profissionais de saúde",
+                "engineersLabel": "Engenheiros",
+                "architectsLabel": "Arquitetos",
+                "administrationLabel": "Administração",
+                "otherProfessions": "Outras profissões",
+                "optionalSection": "Conte-nos sobre você (Opcional)",
+                "haveYouEmigratedLabel": "Você já emigrou anteriormente?",
+                "selectAnOption": "Selecione uma opção",
+                "plannedMoveDateLabel": "Data prevista para mudança para a Alemanha",
+                "inTheNext6Months": "Nos próximos 6 meses",
+                "inTheNext9Months": "Nos próximos 9 meses",
+                "in1Year": "Em 1 ano",
+                "in2Years": "Em 2 anos",
+                "yes": "Sim",
+                "hasEnoughFundsLabel": "Você tem pelo menos 500 USD disponíveis para começar?",
+                "hasUniversityDegreeLabel": "Você tem diploma universitário?",
+                "userHasNoFundsMessage": "É necessário ter pelo menos 500$ para começar seu processo de imigração",
+                "userHasNoUniversityDegreeMessage": "É necessário ter um diploma universitário para começar seu processo de imigração",
+                "no": "Não",
+                "maritalStatusAndFamilyLabel": "Estado civil e familiar",
+                "single": "Solteiro/a",
+                "married": "Casado/a",
+                "withChildren": "Com filhos",
+                "phoneLabel": "Telefone",
+                "other": "Outro",
+                "germanLevelLabel": "Nível de domínio de Alemão",
+                "basic": "Básico",
+                "intermediate": "Intermediário",
+                "advanced": "Avançado",
+                "englishLevelLabel": "Nível de domínio de Inglês",
+                "estimatedCostLabel": "Quanto você estima que custaria começar uma nova vida na Alemanha?",
+                "lessThan5000EUR": "Menos de 5.000 EUR",
+                "between5000And10000EUR": "Entre 5.000 e 10.000 EUR",
+                "between10000And20000EUR": "Entre 10.000 e 20.000 EUR",
+                "moreThan20000EUR": "Mais de 20.000 EUR",
+                "motivationLabel": "O que te motivaria a iniciar uma nova vida na Alemanha?",
+                "betterJobOpportunities": "Melhores oportunidades de trabalho e salários",
+                "qualityOfLifeAndSocialBenefits": "Qualidade de vida e benefícios sociais para mim e minha família",
+                "professionalDevelopment": "Desenvolvimento profissional e aquisição de novas habilidades",
+                "internationalExperience": "Experiência internacional e crescimento pessoal",
+                "allOfTheAbove": "Todas as anteriores",
+                "placeholderDescription": "Descreva brevemente seu caso e mencione sua profissão",
+                "checkboxSubscribe": "Gostaria de me inscrever na lista da PABerater.",
+                "termsAndConditions1": "*Li e aceito os ",
+                "termsAndConditions": "termos e condições",
+                "buttonScheduleAppointment": "AGENDAR CONSULTA",
+                "missingFieldsError": "Por favor, preencha todos os campos obrigatórios"
+            },
+            "faq": {
+                "title": "Perguntas Frequentes",
+                "question1": "O que é o reconhecimento oficial?",
+                "answer1": "O reconhecimento das suas qualificações profissionais significa que as suas qualificações estrangeiras são comparáveis a uma profissão alemã. Por exemplo, se você tem uma carreira como técnico em eletrônica, suas capacidades e conhecimentos adquiridos serão comparáveis aos obtidos pelo título de Elektrotechniker na Alemanha.",
+
+                "question2": "O que são as profissões regulamentadas?",
+                "answer2": "São também chamadas profissões regulamentadas, onde os profissionais precisam ter certos tipos de qualificações específicas ou técnicas para exercer a profissão na Alemanha. Por exemplo, Médicos, Professores ou Arquitetos. Se você obtiver um reconhecimento parcial de suas qualificações, mas precisar compensar deficiências técnicas, práticas e linguísticas para alcançar a aprovação, então você pode solicitar uma autorização de residência para concluir seu reconhecimento, como parte de uma medida de qualificação (Qualifizierungsmaßnahme), para a qual geralmente é necessário ter um conhecimento de alemão de pelo menos A2 e poder financiar sua estadia na Alemanha.",
+
+                "question3": "Existe um limite de idade para trabalhar na Alemanha?",
+                "answer3": "A idade não é um problema, não existe limite de idade."
+            },
+            "callToActionBanner2": {
+                "title": "Viver e trabalhar como profissional na Alemanha\né possível com a ajuda da PABerater!",
+                "button": "CONTACTAR"
+            },
+
+            "callToActionPartnerBanner": {
+                "title": "Viver e trabalhar como profissional na Alemanha\né possível com a ajuda da PABerater!",
+                "button": "COMEÇAMOS?"
+            },
+
+            "servicesBanner": {
+                "title": "Nosso serviço\n de assessoria inclui",
+                "subtitle": "Conte com nossa assessoria durante todo o processo.",
+                "service1BoldText": "entrevista inicial",
+                "service1": "Avaliação da situação do profissional em uma <1> {{boldText}}</1>. \nLevaremos em consideração seu foco profissional para realizar sua homologação, esclareceremos suas dúvidas sobre o processo e oportunidades de trabalho e enviaremos uma lista de todos os documentos necessários.",
+                "service2BoldText": "Coletamos e revisamos seus documentos",
+                "service2": "<1>{{boldText}}</1> antes de serem submetidos à autoridade alemã responsável pelo seu processo de reconhecimento.",
+                "service3BoldText": "Traduções Juramentadas:",
+                "service3": "<1>{{boldText}}</1> contamos com tradutores juramentados para traduzir os documentos que assim necessitarem. Os custos das traduções juramentadas dependem da quantidade de documentos a serem traduzidos.",
+                "service4BoldText": "Tradução do seu currículo vitae",
+                "service4": "<1>{{boldText}}</1>, adaptação para o formato alemão e criação do seu dossiê completo de solicitação. Com o seu perfil profissional, você poderá ingressar de forma bem-sucedida no mercado de trabalho alemão."
+            },
+            "homeJumbotron": {
+                "text1": "profissionais",
+                "text2": "desejam emigrar",
+                "text3": "Alemanha",
+                "text0": "Aconselhamos\na <1>{{text1}}</1>\n<4> \nque</4> <2>{{text2}}</2>\n <4>para</4> <3>{{text3}}</3>",
+                "text": "Aconselhamos a <1>{{text1}}</1><4> que</4> <2>{{text2}}</2><4> para</4> <3>{{text3}}</3>"
+            },
+
+            "callToActionTransformBanner": {
+                "boldText": "PABerater",
+                "text": " seu parceiro ideal para transformar sua vida profissional.",
+                "button": "COMEÇAMOS?"
+            },
+
+            "instagramFeed": {
+                "title": "PABerater em dia"
+            },
+            "joinUpSection": {
+                "titleText1": "+100 latinos",
+                "titleText2": "cresceram",
+                "titleText3": "profissionalmente",
+
+                "title": "Junte-se a <1>{{title1}}</1> que <1>{{title2}}</1><1>{{title3}}</1> \n através do PABerater",
+                "subtitle": "Vamos começar a planejar o seu futuro na Alemanha?",
+                "peopleHelpedAmount": "+800",
+                "peopleHelpedSubtitle": "latinos beneficiados",
+                "homologatedTitlesAmount": "700",
+                "homologatedTitlesSubtitle": "títulos homologados",
+                "countriesAmount": "12",
+                "countriesSubtitle": "países de origem",
+                "professionsAmount": "+20",
+                "professionsSubtitle": "profissões impulsionadas"
+            },
+
+            "newsMediaSection": {
+                "title": "Algumas entrevistas",
+                "linkText": "Leia o artigo completo",
+                "image1": "https://paberater.de/assets/news1-IGyCH0Lg.png",
+                "image2": "https://paberater.de/src/assets/img/news2.png",
+                "link1": "https://www.elnacional.com/empresas-productos/paberater-el-emprendimiento-de-raices-venezolanas-que-brinda-oportunidades-a-hispanohablantes-en-alemania/",
+                "link2": "https://noticias.perfil.com/noticias/empresas-y-protagonistas/oportunidades-laborales-para-medicos-en-alemania-un-mercado-en-expansion-brand.phtml"
+            },
+
+            "servicesOffered": {
+                "title": "Quais serviços oferecemos?",
+                "text1": "Homologação de títulos médicos",
+                "text2": "Reconhecimento profissional",
+                "text3": "Reconhecimento de Engenheiros",
+                "text4": "Traduções juramentadas",
+                "bannerButton": "Agendar consulta",
+                "bannerText": "temos uma gama de possibilidades para o seu crescimento profissional.",
+                "bannerTitle": "No PABerater"
+            },
+            "commentsCarousel": {
+                "title": "Eles confiaram em nós",
+                "item1": {
+                    "name": "Frida Abril Pinto",
+                    "text": "Estou grata à equipe PABerater, sou peruana e consegui obter minha residência alemã rapidamente graças à equipe. Muito atenciosos, não criam falsas expectativas, as conversas sempre foram muito diretas e sempre me senti confortável. Muito obrigada."
+                },
+                "item2": {
+                    "name": "Yuly Cáceres Abril",
+                    "text": "Se existissem 10 estrelas, eu colocaria. Jorge e sua equipe me ajudaram com algo que achei impossível, residência para minha mãe. Estou super feliz por ter entrado em contato com essa equipe, sempre responderam minhas dúvidas e me acompanharam durante todo o processo, do começo ao fim 🙏🏾 E não só isso, Jorge sempre responde dúvidas adicionais, a melhor equipe PABerater sem dúvida, que Deus abençoe vocês 🤗"
+                },
+                "item3": {
+                    "name": "Karen Varela",
+                    "text": "Fui atendida de forma rápida e atenciosa. Recomendo e agradeço pelas informações fornecidas. A verdade é que, no meio de toda a burocracia alemã e de me sentir como um número, aqui finalmente me senti ouvida. Envio um abraço e agradeço pelos conselhos oferecidos."
+                }
+            },
+            "whatWeDo": {
+                "title": "O que fazemos?",
+                "item1Title": "Nós orientamos",
+                "item1Text": "Profissionais de língua espanhola sobre como entrar no mercado de trabalho alemão, oferecendo serviços relacionados ao reconhecimento acadêmico na Alemanha.",
+                "item2Title": "Nós acompanhamos",
+                "item2Text": "Passo a passo, antes e durante o processo de homologação ou reconhecimento de seus títulos profissionais.",
+                "item3Title": "Nós gerenciamos",
+                "item3Text": "TUDO. No PABerater, conhecemos o processo porque passamos por ele, e por isso nossa missão é ajudá-lo fornecendo todas as informações de forma acessível e fácil de entender."
+            },
+            "navbar": {
+                "button": "Quero saber mais",
+                "menu": "Menu",
+                "languageSelectorText": "Idioma",
+                "routeNames": {
+                    "officialTranslations": "Traduções juramentadas",
+                    "engineeringRecognition": "Reconhecimento de Engenheiros",
+                    "recognition": "Reconhecimento profissional",
+                    "homologations": "Homologação de títulos médicos",
+                    "contact": "Contato",
+                    "blog": "Blog",
+                    "successStories": "Casos de sucesso",
+                    "services": "Serviços",
+                    "about": "Sobre nós"
+                }
+            }
+        }
+    }
+}
